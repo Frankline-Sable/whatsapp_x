@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.wds.components.banners.WDSBannerCompact xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/no_participant" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str144f" app:attr009a="1"/>
+<com.gbwhatsapp.wds.components.banners.WDSBannerCompact android:id="@id/no_participant" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str144f" app:attr009a="warningStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.WaFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/invite_layout" android:background="@drawable/link_preview_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" app:attr09a6="?attr/attr00ee">
-    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <include layout="@layout/layout0283"/>
-        <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/style05b3" android:layout_gravity="left" android:id="@+id/message_text" android:paddingLeft="@dimen/dimen033f" android:paddingTop="2dp" android:paddingRight="@dimen/dimen033f" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<com.gbwhatsapp.WaFrameLayout android:id="@id/invite_layout" android:background="@drawable/link_preview_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/balloon_incoming_frame" whatsapp:attr09a6="?attr00ee"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/layout0283" />
+        <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/style05b3" android:layout_gravity="left" android:id="@id/message_text" android:paddingLeft="@dimen/dimen033f" android:paddingTop="2.0dip" android:paddingRight="@dimen/dimen033f" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </LinearLayout>
 </com.gbwhatsapp.WaFrameLayout>

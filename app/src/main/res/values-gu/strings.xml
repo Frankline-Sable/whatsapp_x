@@ -27,7 +27,7 @@
     <string name="str25d5">ક્વેરી સબમિટ કરો</string>
     <string name="str25d6">વૉઇસ શોધ</string>
     <string name="str25d9">સંકુચિત કરો</string>
-    <string name="str25db">સભ્ય તરીકે, તમે આ કોમ્યુનિટીમાં ગ્રૂપને જોઈ શકો છો અને તેમાં જોડાઈ શકો છો અને એડમિન દ્વારા કરવામાં આવતી ઘોષણાઓથી અપડેટ રહી શકો છો. &lt;a href=\"%s\"&gt;વધુ જાણો&lt;/a&gt;</string>
+    <string name="str25db">સભ્ય તરીકે, તમે આ કોમ્યુનિટીમાં ગ્રૂપને જોઈ શકો છો અને તેમાં જોડાઈ શકો છો અને એડમિન દ્વારા કરવામાં આવતી ઘોષણાઓથી અપડેટ રહી શકો છો. &lt;a href=\"%s\">વધુ જાણો&lt;/a></string>
     <string name="str25dc">કોમ્યુનિટીમાં તમારું સ્વાગત છે!</string>
     <string name="str25df">ઓકે</string>
     <string name="str25e0">એકાઉન્ટ સ્વિચ કરી શકાયા નહિ. પછી ફરી પ્રયત્ન કરો.</string>
@@ -67,12 +67,12 @@
     <string name="str262c">હવે %s તમને મેસેજ કે કૉલ કરી શકશે નહિ.</string>
     <string name="str262d">બિઝનેસનો પ્રકાર</string>
     <string name="str262e">બિઝનેસની વિગતો</string>
-    <string name="str2636">લોકો માટે તમારા લોકેશનનું અનુમાન લગાવવાનું વધુ મુશ્કેલ કરવા માટે, આ ડિવાઇસમાંથી કરવામાં આવતા કૉલને સુરક્ષિત રીતે WhatsAppના સર્વરમાંથી રિલે કરવામાં આવશે. આનાથી કૉલની ગુણવત્તા ઓછી થશે. &lt;a href=call_relaying_help&gt;વધુ જાણો&lt;/a&gt;</string>
+    <string name="str2636">લોકો માટે તમારા લોકેશનનું અનુમાન લગાવવાનું વધુ મુશ્કેલ કરવા માટે, આ ડિવાઇસમાંથી કરવામાં આવતા કૉલને સુરક્ષિત રીતે WhatsAppના સર્વરમાંથી રિલે કરવામાં આવશે. આનાથી કૉલની ગુણવત્તા ઓછી થશે. &lt;a href=call_relaying_help>વધુ જાણો&lt;/a></string>
     <string name="str2637">કૉલમાં IP એડ્રેસને સુરક્ષિત કરો</string>
     <string name="str2638">કૉલ</string>
     <string name="str2639">‎%s માટે કૉલ કરવા માટેનો શોર્ટકટ ઉમેરો.</string>
     <string name="str263a">કૉલ કરવા માટેનો શોર્ટકટ</string>
-    <string name="str263b">કૉલ પર તમારા અવતાર જેવી કેમેરા ઇફેક્ટ વાપરો. &lt;a href=\"%s\"&gt;વધુ જાણો&lt;/a&gt;</string>
+    <string name="str263b">કૉલ પર તમારા અવતાર જેવી કેમેરા ઇફેક્ટ વાપરો. &lt;a href=\"%s\">વધુ જાણો&lt;/a></string>
     <string name="str263c">કેમેરા ઇફેક્ટ</string>
     <string name="str263d">WhatsApp કેમેરા</string>
     <string name="str263e">રદ કરો</string>
@@ -144,7 +144,7 @@
     <string name="str26a1">તમે આના માટે મેન્ડેટ સંબંધિત વ્યવહાર કરી રહ્યા છો %1$s</string>
     <string name="str26a2">તમે આના માટે મેન્ડેટ બનાવી રહ્યા છો %1$s</string>
     <string name="str26a3">તમે અના માટે મેન્ડેટમાં સુધારો કરી રહ્યા છો %1$s</string>
-    <string name="str26a4">તમે આના માટેના મેન્ડેટને સ્થગિત કરી રહ્યા છો  %1$s </string>
+    <string name="str26a4">"તમે આના માટેના મેન્ડેટને સ્થગિત કરી રહ્યા છો  %1$s "</string>
     <string name="str26a5">તમે આના માટે મેન્ડેટની નોંધણી કરાવી રહ્યા છો %1$s</string>
     <string name="str26a6">તમે આના માટેનું મેન્ડેટ રદ કરી રહ્યા છો %1$s</string>
     <string name="str26a7">તમે આના માટેનું મેન્ડેટ સ્થગિત કરવાનું રદ કરી રહ્યા છો %1$s</string>
@@ -173,7 +173,7 @@
     <string name="str26fd">ખૂબ વધારે પ્રયત્નો કર્યા. કૃપા કરીને પછીથી ફરી પ્રયાસ કરો.</string>
     <string name="str26fe">કોઈ ફિંગરપ્રિન્ટની નોંધણી કરવામાં આવી નથી.</string>
     <string name="str26ff">ફિંગરપ્રિન્ટ ચકાસવાની પ્રક્રિયા વપરાશકર્તાએ રદ કરી.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;વધુ જાણો&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">વધુ જાણો&lt;/a></string>
     <string name="str2701">મોટું</string>
     <string name="str2702">મધ્યમ</string>
     <string name="str2703">નાનું</string>
@@ -237,7 +237,7 @@
     <string name="str27c5">વર્ષની પસંદગી પર સ્વિચ કરવા માટે ટૅપ કરો</string>
     <string name="str27d0">મ્યૂટ કરેલી અપડેટ</string>
     <string name="str27d1">મારો QR કોડ</string>
-    <string name="str27e2">નવું ગ્રૂપ બનાવો છો? &lt;font color=#%s&gt;&lt;b&gt;કેવી રીતે બનાવવું, તે જુઓ&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">નવું ગ્રૂપ બનાવો છો? &lt;font color=#%s>&lt;b>કેવી રીતે બનાવવું, તે જુઓ&lt;/b>&lt;/font></string>
     <string name="str27e5">1 દિવસ</string>
     <string name="str27e6">ડિફોલ્ટ ઍપ સેટિંગ (%s)</string>
     <string name="str27e7">1 મહિનો</string>
@@ -347,7 +347,7 @@
     <string name="str288c">સેટિંગના કોઈ પરિણામો મળ્યા નહિ</string>
     <string name="str288d">સ્ટોરેજ અને ડેટા વપરાશ</string>
     <string name="str288e">સેટિંગ્સ પર જાઓ</string>
-    <string name="str2891">અજાણ્યા સભ્યોના કૉલ મ્યૂટ કરવામાં આવશે. તેમ છતાં, તેઓને કૉલ ટેબ અને તમારા નોટિફિકેશનમાં બતાવવામાં આવશે. &lt;a href=calling_privacy_help&gt;વધુ જાણો&lt;/a&gt;</string>
+    <string name="str2891">અજાણ્યા સભ્યોના કૉલ મ્યૂટ કરવામાં આવશે. તેમ છતાં, તેઓને કૉલ ટેબ અને તમારા નોટિફિકેશનમાં બતાવવામાં આવશે. &lt;a href=calling_privacy_help>વધુ જાણો&lt;/a></string>
     <string name="str2892">અજાણ્યા કૉલરને મ્યૂટ કરો</string>
     <string name="str2893">છોડી દો</string>
     <string name="str2895">તારીખ પ્રમાણે વર્ગીકરણ</string>

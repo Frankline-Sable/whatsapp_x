@@ -57,9 +57,9 @@
     <integer name="integer0036">120</integer>
     <integer name="integer0037">100</integer>
     <integer name="fragment_slide_animation_duration_ms">150</integer>
-    <integer name="integer0039">@integer/integer0020</integer>
-    <integer name="integer003a">@integer/integer0026</integer>
-    <integer name="integer003b">@integer/integer0026</integer>
+    <item type="integer" name="integer0039">@integer/integer0020</item>
+    <item type="integer" name="integer003a">@integer/integer0026</item>
+    <item type="integer" name="integer003b">@integer/integer0026</item>
     <integer name="integer003c">16</integer>
     <integer name="integer003d">32</integer>
     <integer name="integer003e">32</integer>

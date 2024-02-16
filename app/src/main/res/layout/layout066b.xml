@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/payment_shimmer" android:layout_width="match_parent" android:layout_height="@dimen/dimen09b5" style="@style/style02a9">
-        <View android:background="@drawable/payment_loading_box" android:layout_width="match_parent" android:layout_height="match_parent"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/payment_shimmer" android:layout_width="fill_parent" android:layout_height="@dimen/dimen09b5" style="@style/style02a9">
+        <View android:background="@drawable/payment_loading_box" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     </com.facebook.shimmer.ShimmerFrameLayout>
-    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/payment_loading_error" android:background="@drawable/payment_loading_error_box" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen09b5">
-        <com.gbwhatsapp.WaTextView android:textSize="12sp" android:textColor="?attr/attr06ad" android:textColorHighlight="?attr/attr06ac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str162d" android:maxLines="4" app:attr043c="sans-serif"/>
-        <com.gbwhatsapp.WaTextView android:textSize="12sp" android:textColor="?attr/attr06ad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str16b9" android:maxLines="4" app:attr043c="sans-serif"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@id/payment_loading_error" android:background="@drawable/payment_loading_error_box" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen09b5">
+        <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="?attr06ad" android:textColorHighlight="?attr06ac" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str162d" android:maxLines="4" app:attr043c="sans-serif" />
+        <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="?attr06ad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str16b9" android:maxLines="4" app:attr043c="sans-serif" />
     </LinearLayout>
 </merge>

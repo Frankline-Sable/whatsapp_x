@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/material_timepicker_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
-    <androidx.constraintlayout.helper.widget.Flow android:orientation="vertical" android:id="@+id/material_clock_display_and_toggle" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="20dp" app:attr01df="material_clock_display,material_clock_period_toggle" app:attr0436="@dimen/dimen07f8" app:attr0517="0" app:attr0530="0" app:attr0534="0"/>
-    <include android:id="@+id/material_clock_display" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/layout054f"/>
-    <include android:id="@+id/material_clock_period_toggle" android:layout_width="0dp" android:layout_height="wrap_content" layout="@layout/layout0552"/>
-    <com.google.android.material.timepicker.ClockFaceView android:id="@+id/material_clock_face" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen0220" app:attr052f="@+id/material_clock_display_and_toggle" app:attr0534="0"/>
+<merge android:id="@id/material_timepicker_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.helper.widget.Flow android:orientation="vertical" android:id="@id/material_clock_display_and_toggle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" app:attr01df="material_clock_display,material_clock_period_toggle" app:attr0436="@dimen/dimen07f8" app:attr0517="parent" app:attr0530="parent" app:attr0534="parent" />
+    <include android:id="@id/material_clock_display" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/layout054f" />
+    <include android:id="@id/material_clock_period_toggle" android:layout_width="0.0dip" android:layout_height="wrap_content" layout="@layout/layout0552" />
+    <com.google.android.material.timepicker.ClockFaceView android:id="@id/material_clock_face" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen0220" app:attr052f="@id/material_clock_display_and_toggle" app:attr0534="parent" />
 </merge>

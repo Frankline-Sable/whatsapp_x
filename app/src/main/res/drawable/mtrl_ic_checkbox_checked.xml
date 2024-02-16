@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="32dp" android:width="32dp" android:viewportWidth="32" android:viewportHeight="32">
+<vector android:height="32.0dip" android:width="32.0dip" android:viewportWidth="32.0" android:viewportHeight="32.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <group>
-        <path android:fillColor="@android:color/black" android:pathData="@string/str279a"/>
+        <path android:fillColor="@android:color/black" android:pathData="@string/str279a" />
     </group>
-    <group android:name="@string/str2798" android:pivotX="16" android:pivotY="16">
-        <path android:name="@string/str2799" android:fillColor="@android:color/black" android:pathData="@string/str2797"/>
+    <group android:name="@string/str2798" android:pivotX="16.0" android:pivotY="16.0">
+        <path android:name="@string/str2799" android:fillColor="@android:color/black" android:pathData="@string/str2797" />
     </group>
 </vector>

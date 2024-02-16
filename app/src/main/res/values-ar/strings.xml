@@ -55,11 +55,11 @@
     <string name="acj_cons_actionbar_sum">تغيير لون البار العلوي في الشاشة الرئيسية</string>
     <string name="acj_cons_nav_sum">تغيير لون البار السفلي في الشاشة الرئيسية</string>
     <string name="acj_cons_stat_sum">تغيير لون شريط الإشعارات (العلوي ) في الشاشة الرئيسية</string>
-    <string name="acj_cp_actionbar_sum">تغيير لون البار العلوي في شاشة اختيار جهات الاتصال </string>
+    <string name="acj_cp_actionbar_sum">"تغيير لون البار العلوي في شاشة اختيار جهات الاتصال "</string>
     <string name="acj_cp_nav_sum">تغيير لون البار السفلي في شاشة اختيار جهات الاتصال</string>
-    <string name="acj_cp_stat_sum">تغيير لون شريط الإشعارات ( العلوي ) في شاشة اختيار جهات الاتصال </string>
-    <string name="acj_fab_bg">لون خلفية الزر العائم </string>
-    <string name="acj_fab_bg_anim_sum">تعيين موقع  بدء الرسوم المتحركة للزر العائم </string>
+    <string name="acj_cp_stat_sum">"تغيير لون شريط الإشعارات ( العلوي ) في شاشة اختيار جهات الاتصال "</string>
+    <string name="acj_fab_bg">"لون خلفية الزر العائم "</string>
+    <string name="acj_fab_bg_anim_sum">"تعيين موقع  بدء الرسوم المتحركة للزر العائم "</string>
     <string name="acj_fab_bg_anim_tut">هذا رابط فيديو على اليوتيوب يشرح طريقة ضبط موقع الرسوم المتحركة للزر العائم</string>
     <string name="acj_fab_bg_pos">موقع بدء الرسوم المتحركة للزر العائم</string>
     <string name="acj_fab_bg_sum">تغيير لون خلفية الزر العائم</string>
@@ -87,7 +87,7 @@
     <string name="acjcons">الشاشة الرئيسية</string>
     <string name="acjconssum">إعداد الثيم في الشاشة الرئيسية</string>
     <string name="acjcontacts">شاشة قائمة الأسماء</string>
-    <string name="acjcontactssum">اعداد الثيم في شاشة اختيار جهات الاتصال </string>
+    <string name="acjcontactssum">"اعداد الثيم في شاشة اختيار جهات الاتصال "</string>
     <string name="acjfabsum">إعداد ثيم الزر العائم</string>
     <string name="acjfabtab">الزر العائم</string>
     <string name="acjicons">الأيقونات</string>
@@ -99,7 +99,7 @@
     <string name="acjpass">قفل الواتساب</string>
     <string name="acjpasssum">تعيين كلمة مرور ( نمط ) ل WhatsApp</string>
     <string name="acjreset">إعادة تعيين</string>
-    <string name="acjresetsum">إعادة تعيين جميع إعدادات WhatsApp الى الافتراضية </string>
+    <string name="acjresetsum">"إعادة تعيين جميع إعدادات WhatsApp الى الافتراضية "</string>
     <string name="acjrestart">اعادة تشغيل واتساب</string>
     <string name="acjrestartsum">سوف يتم إعادة تشغيل WhatsApp لحفظ التغييرات</string>
     <string name="acjunisum">تعيين اللون الأساسي ل WhatsApp</string>
@@ -177,18 +177,21 @@
     <string name="disable_dttl">تعطيل التفاعل عند الضغط مرتين</string>
     <string name="disablestatus">تعطيل الحالة تحت الاسم في الشاشة الرئيسية</string>
     <string name="disablestatusSum">حذف الحالة من تحت الاسم في الشاشة الرئيسية</string>
-    <string name="donateMe">هل ترى هذا التطبيق مفيد?\10ادعم تطويره بدعم المطور!</string>
+    <string name="donateMe">"هل ترى هذا التطبيق مفيد?
+ادعم تطويره بدعم المطور!"</string>
     <string name="choose_from_themes">اختر الثيم</string>
     <string name="enter_name_for_theme">أدخل اسم للموضوع الخاص بك:</string>
     <string name="select_file">حدد الملف</string>
     <string name="choose_a_lock">اختر القفل:</string>
-    <string name="donations__description">هل ترى هذا التطبيق مفيد?\10ادعم تطويره بدعم المطور!</string>
+    <string name="donations__description">"هل ترى هذا التطبيق مفيد?
+ادعم تطويره بدعم المطور!"</string>
     <string name="donations__google_android_market">عبر جوجل بلاي ستور</string>
     <string name="donations__google_android_market_description">تبرع للمطور عبر البلاي ستور</string>
     <string name="donations__google_android_market_donate_button">تبرع!</string>
     <string name="donations__paypal">PayPal</string>
     <string name="donations__paypal_description">تبرع عبر الباي بال، بعملتك والمبلغ الذي تريده</string>
-    <string name="donations__thanks_dialog">شكرا للدعم!\10اقدر دعمكم كي يستمر يوواتساب!</string>
+    <string name="donations__thanks_dialog">"شكرا للدعم!
+اقدر دعمكم كي يستمر يوواتساب!"</string>
     <string name="donations__thanks_dialog_title">شكرا!</string>
     <string name="edit_history">سجل التعديلات</string>
     <string name="elapsedT">الوقت المفصل</string>
@@ -210,7 +213,7 @@
     <string name="first_message">الرساله الأولى</string>
     <string name="frequently_contacted">ماتم الإتصال به بكثرة</string>
     <string name="frequently_contacted_sum">إخفاء من تم الاتصال به بشكل متكرر من قسم إعادة التوجيه</string>
-    <string name="ghost_mode">وضع الشبح��</string>
+    <string name="ghost_mode">وضع الشبح👻</string>
     <string name="go_to_first_msg">الذهاب لأول رسالة</string>
     <string name="group_participant_pic">صورة المستلمين</string>
     <string name="group_participant_pic_summary">عرض صور الأشخاص في المجموعة في كل الرسائل</string>
@@ -326,8 +329,6 @@
     <string name="pic_location">مكان صورة الشخص</string>
     <string name="pic_locationS">اختر اذا اردت أن تظهر الصوره بجانب الفقاعه الأولى أو الأخيره</string>
     <string name="preview_failed">فشل العرض</string>
-    <string name="privacy_everyone">الجميع</string>
-    <string name="privacy_nobody">لا أحد</string>
     <string name="privacy_switch">الخصوصية فقط</string>
     <string name="profile_name">اسم البروفايل:</string>
     <string name="quoteBackColor">خلفية الرسالة المقتبسة</string>
@@ -344,7 +345,7 @@
     <string name="repetition_4">شهري</string>
     <string name="repetition_5">سنوي</string>
     <string name="resetPrivacyonly">ابقاء الثيم الحالي؟</string>
-    <string name="resetPrivacyonlyS">\'ابقاء\': ابقاء الثيم الحال \'اعادة\': اعادة الثيم الى الواتساب الافتراضي</string>
+    <string name="resetPrivacyonlyS">"'ابقاء': ابقاء الثيم الحال 'اعادة': اعادة الثيم الى الواتساب الافتراضي"</string>
     <string name="resetThemes">اعادة الضبط</string>
     <string name="resetThemesSum">اعادة الضبط الى الخيارات الافتراضية لواتساب</string>
     <string name="reset_themes_confirma">هل أنت متأكد أنك تريد إعادة ضبط الثيم الى الافتراضي؟</string>
@@ -355,8 +356,6 @@
     <string name="saveTheme">حفظ الثيم</string>
     <string name="saveThemeS">يحفط الثيم وكل لاعدادات في (/Download/GBThemes)</string>
     <string name="schedule_title_activity_edit">تحرير الرسالة</string>
-    <string name="select_contacts">اختر جهات الاتصال</string>
-    <string name="select_status_recipients_black_list">جهات الاتصال الخاصة بي باستثناء ...</string>
     <string name="selected_tabPagerTitle">كلمه الدردشات/الحاله/المكالمات المحدده</string>
     <string name="selected_tabPagerTitleS">اختر لون كلمه الدردشات/الحاله/المكالمات المحدده</string>
     <string name="showAirplaneMode">اظهار ايقونه وضع الطيران (DND)</string>
@@ -416,7 +415,6 @@
     <string name="voicechanger_sound_slowmotion">بطيء</string>
     <string name="voicechanger_sound_teenager">مراهق</string>
     <string name="voicechanger_sound_underwater">تحت الماء</string>
-    <string name="voip_not_allowed_never">لا يمكن لـ %s تلقي مكالمات واتساب.</string>
     <string name="wa_moved">تم نسخ بيانات WhatsApp بنجاح, يمكنك الآن إكمال الخطوات!</string>
     <string name="whocancall">من يستطيع الاتصال بي؟</string>
     <string name="wmavno">1</string>
@@ -434,7 +432,7 @@
     <string name="yoAudioEars">لا تسمح لأجهزة الاستشعار بتوقيف الرسائل الصوتية</string>
     <string name="yoAudioEarsSum">منع الموسيقى من إيقاف صوت التنبيهات</string>
     <string name="yoAudioSensor">عدم توقيف الصوت</string>
-    <string name="yoAudioSensorSum">مُفَعَّل افتراضيًّا ، إلغي تحديده لإيقافه </string>
+    <string name="yoAudioSensorSum">"مُفَعَّل افتراضيًّا ، إلغي تحديده لإيقافه "</string>
     <string name="yoBackup">نسخة احتياطية لبيانات WhatsApp</string>
     <string name="yoBackupDone">انتهى النسخ الاحتياطي بنجاح !</string>
     <string name="yoBackupFail">لم تنجح عملية النسخ الاحتياطي !</string>
@@ -446,14 +444,14 @@
     <string name="yoBlueOnReplyS">عند الرد على الشخص، يرى انك قرأت الرساله في نفس الوقت</string>
     <string name="yoBottombar">بار سفلي</string>
     <string name="yoCallBtn">إخفاء زر الاتصال</string>
-    <string name="yoCallBtnSum">إخفاء أيقونة الاتصال من الشريط العلوي في شاشة المحادثات </string>
+    <string name="yoCallBtnSum">"إخفاء أيقونة الاتصال من الشريط العلوي في شاشة المحادثات "</string>
     <string name="yoColors">الألوان</string>
     <string name="yoContactNameC">لون الأسماء</string>
     <string name="yoContactNameCS">اختر لون الاسماء في الشاشه الرئيسيه</string>
     <string name="yoContactStatus">حذف حالة الشخص</string>
     <string name="yoContactStatusSum">اخفاء حالة الشخص من اسفل الشريط العلوي في شاشة المحادثة</string>
     <string name="yoCopy">تم نسخ النص</string>
-    <string name="yoDeveloped">طُوِّر بواسطة </string>
+    <string name="yoDeveloped">"طُوِّر بواسطة "</string>
     <string name="yoDisableAudioHeads">تعطيل الاشعار عند تشغيل رسالة صوتية</string>
     <string name="yoDisableAudioHeadsS">يحذف الاشعار الثابت الذي يظهر عند تشغيل اي تسجيل صوتي</string>
     <string name="yoDisableBCounter">تعطيل عداد الايقونه</string>
@@ -495,7 +493,7 @@
     <string name="yoHideReceiptSumB">استخدم هذا الخيار على مسؤوليتك ! يمكن أن لا تصلك الرسائل أو أن تصلك متأخرة</string>
     <string name="yoHideReceiptSumC">استخدم هذا الخيار على مسؤوليتك ! حيث أن الرسائل يمكن أن تصلك متأخرة ( ستسلم الرسائل متأخرًا )</string>
     <string name="yoHideReceiptSumG">استخدم هذا الخيار على مسؤوليتك ! يمكن أن لا تصلك الرسائل أو أن تصلك متأخرة</string>
-    <string name="yoHideRecord">إخفاء تسجيل الصوت ... </string>
+    <string name="yoHideRecord">"إخفاء تسجيل الصوت ... "</string>
     <string name="yoHideRecordSum">لا تخبر المرسِل بأنك تسجِّل رسالة صوتية</string>
     <string name="yoHideSeen">إخفاء ( آخر ظهور )</string>
     <string name="yoHideSeenSum">رجاءً ، أعد تشغيل تطبيق WhatsApp لحفظ التغييرات</string>
@@ -503,7 +501,12 @@
     <string name="yoHideStatusViewSum">لا تخبر الشخص انك شاهدت الستوري/الستاتس الخاص به</string>
     <string name="yoHomeUIStyle">ستايل بار التنقل</string>
     <string name="yoHow">فعل رقمك عن طريق الرسائل القصيرة SMS ، أو إذا كان لديك نسخة احتياطية من WhatsApp فيمكنك استعادتها</string>
-    <string name="yoHowMove">مرحبا بك في WhatsApp\10إذا كنت تريد تفعيل رقم الواتس اب القديم واستعادة محادثاتك اتبع الخطوات التالية:\101. إذهب إلى WhatsApp&gt;الإعدادات&gt;إعدادات المحادثة اضغط \'نسخة احتياطية\'\102. قم بإزالة WhatsApp\103. عد إلى WhatsApp واضغط \'نسخ بيانات WhatsApp\' وثم تحقق من رقمك\10أو قم بالتحقق من الرقم الجديد فورا</string>
+    <string name="yoHowMove">"مرحبا بك في WhatsApp
+إذا كنت تريد تفعيل رقم الواتس اب القديم واستعادة محادثاتك اتبع الخطوات التالية:
+1. إذهب إلى WhatsApp>الإعدادات>إعدادات المحادثة اضغط 'نسخة احتياطية'
+2. قم بإزالة WhatsApp
+3. عد إلى WhatsApp واضغط 'نسخ بيانات WhatsApp' وثم تحقق من رقمك
+أو قم بالتحقق من الرقم الجديد فورا"</string>
     <string name="yoHyperLinksColor">لون الرابط</string>
     <string name="yoHyperLinksColorSum">تغيير لون الرابط داخل فقاعات المحادثه</string>
     <string name="yoImg">تعديلات الصور/الفيديو</string>
@@ -577,7 +580,7 @@
     <string name="yo_Report">تبليغ عن خطأ</string>
     <string name="yo_UDownload">فتح</string>
     <string name="yo_UpInfo">بحث اذا كان هناك نسخة جديدة من WhatsApp</string>
-    <string name="yo_UpToDate">إصدارك الحالي مُحَدث بالفعل ... لا يوجد تحديثات متوفرة </string>
+    <string name="yo_UpToDate">"إصدارك الحالي مُحَدث بالفعل ... لا يوجد تحديثات متوفرة "</string>
     <string name="yo_activate">تفعيل</string>
     <string name="yo_airplane_mode_warning">أثناء تشغيل وضع الطائرة ، لن تتمكن من إرسال / استقبال الرسائل.</string>
     <string name="yo_all">الكل</string>
@@ -612,7 +615,8 @@
     <string name="yoversion" />
     <string name="yowaUpdate">التحديثات</string>
     <string name="yowa_widget">الويدجت</string>
-    <string name="follow_us_on_telegram">تابعونا على تيليجرام\10@AlexMods_Official</string>
+    <string name="follow_us_on_telegram">"تابعونا على تيليجرام
+@AlexMods_Official"</string>
     <string name="incorrect">غير صحيح</string>
     <string name="alex_CancelButton">إلغاء</string>
     <string name="alex_UpdateButton">تحديث الان</string>
@@ -648,7 +652,7 @@
     <string name="str25d5">إرسال طلب البحث</string>
     <string name="str25d6">بحث صوتي</string>
     <string name="str25d9">تصغير</string>
-    <string name="str25db">‏بصفتك عضوًا، يمكنك رؤية المجموعات في هذا المجتمع والانضمام إليها والبقاء على اطلاع بإعلامات المشرف. &lt;a href=\"%s\"&gt;معرفة المزيد&lt;/a&gt;</string>
+    <string name="str25db">‏بصفتك عضوًا، يمكنك رؤية المجموعات في هذا المجتمع والانضمام إليها والبقاء على اطلاع بإعلامات المشرف. &lt;a href=\"%s\">معرفة المزيد&lt;/a></string>
     <string name="str25dc">‏مرحبًا بك في المجتمع!</string>
     <string name="str25df">‏موافق</string>
     <string name="str25e0">‏تعذّر تبديل الحسابات. الرجاء إعادة المحاولة لاحقًا.</string>
@@ -680,12 +684,12 @@
     <string name="str262c">‏لن تتمكن جهة الاتصال %s من مراسلتك أو الاتصال بك بعد الآن.</string>
     <string name="str262d">‏نوع النشاط التجاري</string>
     <string name="str262e">‏معلومات مفصّلة عن النشاط التجاري</string>
-    <string name="str2636">‏لزيادة صعوبة اكتشاف موقعك، ستُنقل المكالمات من هذا الجهاز عبر خوادم واتساب بشكل آمن. وسيؤدي ذلك إلى تقليل جودة المكالمات. &lt;a href=call_relaying_help&gt;معرفة المزيد&lt;/a&gt;</string>
+    <string name="str2636">‏لزيادة صعوبة اكتشاف موقعك، ستُنقل المكالمات من هذا الجهاز عبر خوادم واتساب بشكل آمن. وسيؤدي ذلك إلى تقليل جودة المكالمات. &lt;a href=call_relaying_help>معرفة المزيد&lt;/a></string>
     <string name="str2637">‏حماية عنوان IP خلال المكالمات</string>
     <string name="str2638">‏المكالمات</string>
     <string name="str2639">‏أضف اختصار اتصال لـ %s.</string>
     <string name="str263a">‏اختصار خاص بالاتصال</string>
-    <string name="str263b">‏استخدم تأثيرات الكاميرا مثل الأفاتار خلال المكالمات. &lt;a href=\"%s\"&gt;معرفة المزيد&lt;/a&gt;</string>
+    <string name="str263b">‏استخدم تأثيرات الكاميرا مثل الأفاتار خلال المكالمات. &lt;a href=\"%s\">معرفة المزيد&lt;/a></string>
     <string name="str263c">‏تأثيرات الكاميرا</string>
     <string name="str263d">‏كاميرا واتساب</string>
     <string name="str263e">‏إلغاء</string>
@@ -762,7 +766,7 @@
     <string name="str26fd">تم إجراء محاولات كثيرة جدًا. يُرجى المحاولة مرة أخرى لاحقًا.</string>
     <string name="str26fe">ليست هناك بصمات إصبع مسجَّلة.</string>
     <string name="str26ff">تم إلغاء تشغيل بصمة الإصبع بواسطة المستخدم.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;معرفة المزيد&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">معرفة المزيد&lt;/a></string>
     <string name="str2701">‏كبير</string>
     <string name="str2702">‏متوسط</string>
     <string name="str2703">‏صغير</string>
@@ -819,7 +823,7 @@
     <string name="str27c4">التبديل إلى وضع \"إدخال النص\"</string>
     <string name="str27c5">انقر للتبديل إلى اختيار عام</string>
     <string name="str27d0">‏الحالات غير الهامة</string>
-    <string name="str27e2">‏إنشاء مجموعة جديدة؟ &lt;font color=#%s&gt;&lt;b&gt;تعرف على طريقة القيام بذلك&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">‏إنشاء مجموعة جديدة؟ &lt;font color=#%s>&lt;b>تعرف على طريقة القيام بذلك&lt;/b>&lt;/font></string>
     <string name="str27e5">‏يوم واحد</string>
     <string name="str27e6">‏إعدادات التطبيق الافتراضية (%s)</string>
     <string name="str27e7">‏شهر واحد</string>
@@ -916,7 +920,7 @@
     <string name="str288b">‏الملف الشخصي</string>
     <string name="str288c">‏لم يتم العثور على نتائج في صفحة الإعدادات</string>
     <string name="str288d">‏استخدام التخزين والبيانات</string>
-    <string name="str2891">‏سيتم إسكات المكالمات الواردة من أرقام غير معروفة، ولكن سيستمر ظهور هذه المكالمات في شاشة مكالماتك وإشعاراتك. &lt;a href=calling_privacy_help&gt;معرفة المزيد&lt;/a&gt;</string>
+    <string name="str2891">‏سيتم إسكات المكالمات الواردة من أرقام غير معروفة، ولكن سيستمر ظهور هذه المكالمات في شاشة مكالماتك وإشعاراتك. &lt;a href=calling_privacy_help>معرفة المزيد&lt;/a></string>
     <string name="str2892">‏إسكات المتصلين المجهولين</string>
     <string name="str2893">‏تخطي</string>
     <string name="str2895">‏الترتيب بحسب التاريخ</string>
@@ -951,4 +955,9 @@
     <string name="str28dc">‏مشفرة تمامًا بين الطرفين</string>
     <string name="str28dd">‏انضمام</string>
     <string name="str28ec">‏يُعد هذا الموقع الإلكتروني محميًا بواسطة بروتوكول الأمان HTTPS الخاص بالمعايير المتبعة في هذا المجال.</string>
+    <string name="voip_not_allowed_never">لا يمكن لـ %s تلقي مكالمات واتساب.</string>
+    <string name="privacy_everyone">الجميع</string>
+    <string name="privacy_nobody">لا أحد</string>
+    <string name="select_contacts">اختر جهات الاتصال</string>
+    <string name="select_status_recipients_black_list">جهات الاتصال الخاصة بي باستثناء ...</string>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.WaTextView android:id="@+id/no_statuses_text_view" android:paddingLeft="@dimen/dimen0bc4" android:paddingTop="@dimen/dimen00e1" android:paddingRight="@dimen/dimen0bc4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/str1425" android:paddingStart="@dimen/dimen0bc4" android:paddingEnd="@dimen/dimen0bc4" style="@style/style03e7"/>
-    <com.gbwhatsapp.collections.ObservableRecyclerView android:id="@+id/muted_statuses_list" android:paddingTop="@dimen/dimen0bc3" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:id="@id/no_statuses_text_view" android:paddingLeft="@dimen/dimen0bc4" android:paddingTop="@dimen/dimen00e1" android:paddingRight="@dimen/dimen0bc4" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/str1425" android:paddingStart="@dimen/dimen0bc4" android:paddingEnd="@dimen/dimen0bc4" style="@style/style03e7" />
+    <com.gbwhatsapp.collections.ObservableRecyclerView android:id="@id/muted_statuses_list" android:paddingTop="@dimen/dimen0bc3" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </FrameLayout>

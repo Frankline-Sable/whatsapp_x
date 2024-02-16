@@ -1,55 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/business_details_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.InfoCard android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" style="@style/style023d">
-        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen05f4" android:textColor="?attr/attr01ec" android:ellipsize="end" android:gravity="center" android:id="@+id/business_title" android:paddingLeft="@dimen/dimen05f8" android:paddingRight="@dimen/dimen05f8" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen05f3" android:textColor="@color/color01f9" android:ellipsize="end" android:gravity="center" android:id="@+id/business_subtitle" android:paddingLeft="@dimen/dimen05f8" android:paddingRight="@dimen/dimen05f8" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-        <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color01f9" android:ellipsize="end" android:gravity="center" android:id="@+id/custom_url" android:paddingLeft="@dimen/dimen05f8" android:paddingRight="@dimen/dimen05f8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-        <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color067e" android:gravity="center" android:id="@+id/business_categories" android:paddingLeft="@dimen/dimen05f8" android:paddingTop="@dimen/dimen0123" android:paddingRight="@dimen/dimen05f8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color067e" android:gravity="center" android:id="@+id/business_hours_status" android:paddingLeft="@dimen/dimen05f8" android:paddingTop="@dimen/dimen0123" android:paddingRight="@dimen/dimen05f8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color067e" android:layout_gravity="center_horizontal" android:id="@+id/responsiveness_signal" android:paddingLeft="@dimen/dimen05f8" android:paddingTop="@dimen/dimen0bbc" android:paddingRight="@dimen/dimen05f8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str02d3" android:drawableLeft="@drawable/msg_status_client" android:drawablePadding="4dp" android:drawableStart="@drawable/msg_status_client" app:attr0288="?attr/attr06f7"/>
-        <include layout="@layout/layout010d"/>
-        <View style="@style/style016d"/>
-        <LinearLayout android:orientation="horizontal" android:id="@+id/business_verification_status" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen05f8" android:paddingTop="@dimen/dimen0123" android:paddingRight="@dimen/dimen05f8" android:paddingBottom="@dimen/dimen0123" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen05f7" android:layout_marginEnd="@dimen/dimen05f7">
-            <com.gbwhatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/color067e" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/business_verification_status_text" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str0476" android:layout_weight="1" android:layout_marginEnd="@dimen/dimen0bc2"/>
-            <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/business_verification_status_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_info" android:contentDescription="@string/str0462" app:attr0906="?attr/attr06f7"/>
+<LinearLayout android:orientation="vertical" android:id="@id/business_details_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.InfoCard android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr049e="?attr06f8" style="@style/style023d">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen05f4" android:textColor="?attr01ec" android:ellipsize="end" android:gravity="center" android:id="@id/business_title" android:paddingLeft="@dimen/dimen05f8" android:paddingRight="@dimen/dimen05f8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen05f3" android:textColor="@color/color01f9" android:ellipsize="end" android:gravity="center" android:id="@id/business_subtitle" android:paddingLeft="@dimen/dimen05f8" android:paddingRight="@dimen/dimen05f8" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/color01f9" android:ellipsize="end" android:gravity="center" android:id="@id/custom_url" android:paddingLeft="@dimen/dimen05f8" android:paddingRight="@dimen/dimen05f8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/color067e" android:gravity="center" android:id="@id/business_categories" android:paddingLeft="@dimen/dimen05f8" android:paddingTop="@dimen/dimen0123" android:paddingRight="@dimen/dimen05f8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/color067e" android:gravity="center" android:id="@id/business_hours_status" android:paddingLeft="@dimen/dimen05f8" android:paddingTop="@dimen/dimen0123" android:paddingRight="@dimen/dimen05f8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/color067e" android:layout_gravity="center_horizontal" android:id="@id/responsiveness_signal" android:paddingLeft="@dimen/dimen05f8" android:paddingTop="@dimen/dimen0bbc" android:paddingRight="@dimen/dimen05f8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str02d3" android:drawableLeft="@drawable/msg_status_client" android:drawablePadding="4.0dip" android:drawableStart="@drawable/msg_status_client" app:attr0288="?attr06f7" />
+        <include layout="@layout/layout010d" />
+        <View style="@style/style016d" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/business_verification_status" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen05f8" android:paddingTop="@dimen/dimen0123" android:paddingRight="@dimen/dimen05f8" android:paddingBottom="@dimen/dimen0123" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen05f7" android:layout_marginEnd="@dimen/dimen05f7">
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:textColor="@color/color067e" android:layout_gravity="center|left" android:id="@id/business_verification_status_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/str0476" android:layout_weight="1.0" android:layout_marginEnd="@dimen/dimen0bc2" />
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/business_verification_status_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_info" android:contentDescription="@string/str0462" app:attr0906="?attr06f7" />
         </LinearLayout>
-        <ViewStub android:id="@+id/business_bot3p_info_card" android:layout="@layout/layout0100" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <ViewStub android:id="@+id/business_third_party_bot_description_card_stub" android:layout="@layout/layout0132" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@id/business_bot3p_info_card" android:layout="@layout/layout0100" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ViewStub android:id="@id/business_third_party_bot_description_card_stub" android:layout="@layout/layout0132" android:layout_width="fill_parent" android:layout_height="wrap_content" />
     </com.gbwhatsapp.InfoCard>
-    <ViewStub android:id="@+id/business_bot_description_card" android:layout="@layout/layout0104" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-    <ViewStub android:id="@+id/business_bot_commands_card_stub" android:layout="@layout/layout0103" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-    <com.gbwhatsapp.InfoCard android:id="@+id/syncing_from_fb_page_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" style="@style/style023c">
-        <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-            <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:src="@drawable/ic_settings_fb" app:attr0906="@color/color0ac8"/>
-            <com.gbwhatsapp.WaTextView android:textSize="17sp" android:textColor="?attr/attr057d" android:gravity="top" android:id="@+id/syncing_from_fb_page_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0428"/>
-        </LinearLayout>
-    </com.gbwhatsapp.InfoCard>
-    <include layout="@layout/layout07ec"/>
-    <com.gbwhatsapp.InfoCard android:id="@+id/business_catalog_shop_info_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" style="@style/style023c">
-        <com.gbwhatsapp.biz.catalog.view.CatalogMediaCard android:id="@+id/business_catalog_media_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr018f="true"/>
-        <include layout="@layout/layout00cf"/>
-    </com.gbwhatsapp.InfoCard>
-    <include layout="@layout/layout07b6"/>
-    <com.gbwhatsapp.InfoCard android:id="@+id/business_profile_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" style="@style/style023c">
-        <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@+id/business_description" android:visibility="gone" style="@style/style015b"/>
-        <ViewStub android:id="@+id/business_profile_extra_fields_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <View android:id="@+id/other_business_details_separator" android:visibility="gone" style="@style/style0221"/>
-        <ViewStub android:id="@+id/other_business_details_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@+id/blank_business_details_text" android:paddingLeft="@dimen/dimen0113" android:paddingRight="@dimen/dimen0113" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0114" android:singleLine="false" style="@style/style0260"/>
-    </com.gbwhatsapp.InfoCard>
-    <include layout="@layout/layout057d"/>
-    <com.gbwhatsapp.biz.linkedaccounts.LinkedAccountsMediaCard android:id="@+id/business_fb_media_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" app:attr05e5="@string/str26ed" style="@style/style023c"/>
-    <com.gbwhatsapp.InfoCard android:id="@+id/connected_accounts_trust_signals" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" style="@style/style023c">
-        <com.gbwhatsapp.biz.profile.TrustSignalItem android:id="@+id/trust_signal_item_fb" android:background="?android:attr/selectableItemBackground" android:padding="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:attr0009="0" app:attr04ca="false"/>
-        <View android:id="@+id/trust_signals_separator" android:visibility="gone" style="@style/style0221"/>
-        <com.gbwhatsapp.biz.profile.TrustSignalItem android:id="@+id/trust_signal_item_ig" android:background="?android:attr/selectableItemBackground" android:padding="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:attr0009="1" app:attr04ca="false"/>
-    </com.gbwhatsapp.InfoCard>
-    <com.gbwhatsapp.biz.linkedaccounts.LinkedAccountsMediaCard android:id="@+id/business_ig_media_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" app:attr05e5="@string/str2724" style="@style/style023c"/>
-    <com.gbwhatsapp.InfoCard android:id="@+id/add_business_to_contact" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" style="@style/style023c">
-        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/dimen05f8" android:paddingRight="@dimen/dimen05f8" android:layout_width="match_parent" android:layout_height="@dimen/dimen0066">
-            <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:src="@drawable/ic_action_add_person" app:attr0906="?attr/attr01e2"/>
-            <com.gbwhatsapp.WaTextView android:textSize="17sp" android:textColor="?attr/attr057d" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str00ff"/>
+    <ViewStub android:id="@id/business_bot_description_card" android:layout="@layout/layout0104" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/business_bot_commands_card_stub" android:layout="@layout/layout0103" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.InfoCard android:id="@id/syncing_from_fb_page_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr049e="?attr06f8" style="@style/style023c">
+        <LinearLayout android:layout_gravity="top" android:orientation="horizontal" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/ic_settings_fb" app:attr0906="@color/color0ac8" />
+            <com.gbwhatsapp.WaTextView android:textSize="17.0sp" android:textColor="?attr057d" android:gravity="top" android:id="@id/syncing_from_fb_page_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str0428" />
         </LinearLayout>
     </com.gbwhatsapp.InfoCard>
-    <include layout="@layout/layout0105"/>
+    <include layout="@layout/layout07ec" />
+    <com.gbwhatsapp.InfoCard android:id="@id/business_catalog_shop_info_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr049e="?attr06f8" style="@style/style023c">
+        <com.gbwhatsapp.biz.catalog.view.CatalogMediaCard android:id="@id/business_catalog_media_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr018f="true" />
+        <include layout="@layout/layout00cf" />
+    </com.gbwhatsapp.InfoCard>
+    <include layout="@layout/layout07b6" />
+    <com.gbwhatsapp.InfoCard android:id="@id/business_profile_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr049e="?attr06f8" style="@style/style023c">
+        <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/business_description" android:visibility="gone" style="@style/style015b" />
+        <ViewStub android:id="@id/business_profile_extra_fields_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <View android:id="@id/other_business_details_separator" android:visibility="gone" style="@style/style0221" />
+        <ViewStub android:id="@id/other_business_details_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/blank_business_details_text" android:paddingLeft="@dimen/dimen0113" android:paddingRight="@dimen/dimen0113" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0114" android:singleLine="false" style="@style/style0260" />
+    </com.gbwhatsapp.InfoCard>
+    <include layout="@layout/layout057d" />
+    <com.gbwhatsapp.biz.linkedaccounts.LinkedAccountsMediaCard android:id="@id/business_fb_media_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr049e="?attr06f8" app:attr05e5="@string/str26ed" style="@style/style023c" />
+    <com.gbwhatsapp.InfoCard android:id="@id/connected_accounts_trust_signals" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr049e="?attr06f8" style="@style/style023c">
+        <com.gbwhatsapp.biz.profile.TrustSignalItem android:id="@id/trust_signal_item_fb" android:background="?android:selectableItemBackground" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:attr0009="facebook" app:attr04ca="false" />
+        <View android:id="@id/trust_signals_separator" android:visibility="gone" style="@style/style0221" />
+        <com.gbwhatsapp.biz.profile.TrustSignalItem android:id="@id/trust_signal_item_ig" android:background="?android:selectableItemBackground" android:padding="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:attr0009="instagram" app:attr04ca="false" />
+    </com.gbwhatsapp.InfoCard>
+    <com.gbwhatsapp.biz.linkedaccounts.LinkedAccountsMediaCard android:id="@id/business_ig_media_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr049e="?attr06f8" app:attr05e5="@string/str2724" style="@style/style023c" />
+    <com.gbwhatsapp.InfoCard android:id="@id/add_business_to_contact" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr049e="?attr06f8" style="@style/style023c">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/dimen05f8" android:paddingRight="@dimen/dimen05f8" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0066">
+            <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:src="@drawable/ic_action_add_person" app:attr0906="?attr01e2" />
+            <com.gbwhatsapp.WaTextView android:textSize="17.0sp" android:textColor="?attr057d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str00ff" />
+        </LinearLayout>
+    </com.gbwhatsapp.InfoCard>
+    <include layout="@layout/layout0105" />
 </LinearLayout>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/rootView" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.videoplayback.ExoPlayerErrorFrame android:id="@+id/exoplayer_error_elements" android:layout_width="match_parent" android:layout_height="match_parent"/>
-    <com.gbwhatsapp.videoplayback.ExoPlaybackControlView android:id="@+id/controlView" android:layout_width="match_parent" android:layout_height="match_parent"/>
-    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@color/color0d0f" android:layout_width="match_parent" android:layout_height="@dimen/dimen0066" app:attr0923="1">
-        <com.gbwhatsapp.WaImageButton android:layout_gravity="end" android:id="@+id/captions_button" android:background="@color/color0b5a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vec_ic_caption_disabled" android:layout_marginEnd="16dp"/>
+<FrameLayout android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.videoplayback.ExoPlayerErrorFrame android:id="@id/exoplayer_error_elements" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.videoplayback.ExoPlaybackControlView android:id="@id/controlView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/color0d0f" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0066" app:attr0923="bidi">
+        <com.gbwhatsapp.WaImageButton android:layout_gravity="end" android:id="@id/captions_button" android:background="@color/color0b5a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vec_ic_caption_disabled" android:layout_marginEnd="16.0dip" />
     </androidx.appcompat.widget.Toolbar>
 </FrameLayout>

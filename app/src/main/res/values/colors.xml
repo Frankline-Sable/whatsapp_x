@@ -24,7 +24,7 @@
     <color name="abc_decor_view_status_guard">#ff000000</color>
     <color name="tag_unhandled_key_event_manager">@color/color09f7</color>
     <color name="tag_unhandled_key_listeners">@color/color0d74</color>
-    <color name="text">0</color>
+    <color name="text">@null</color>
     <color name="text2">@color/italic</color>
     <color name="time">@color/color0d06</color>
     <color name="title">#ff008069</color>
@@ -70,7 +70,7 @@
     <color name="color005d">@color/color0d00</color>
     <color name="color005e">@color/color09f6</color>
     <color name="color005f">@color/color0282</color>
-    <color name="color0060">0</color>
+    <color name="color0060">@null</color>
     <color name="color0061">@color/color0a73</color>
     <color name="color0062">@color/color0d81</color>
     <color name="color0063">#ff03988c</color>
@@ -112,7 +112,7 @@
     <color name="color008f">@android:color/white</color>
     <color name="color0090">@color/color084b</color>
     <color name="color0091">@color/color0848</color>
-    <color name="color0092">0</color>
+    <color name="color0092">@null</color>
     <color name="color0095">@color/color0a44</color>
     <color name="color0096">@color/color0a73</color>
     <color name="color0097">@color/color09f0</color>
@@ -147,7 +147,7 @@
     <color name="color00b6">@color/color0d2a</color>
     <color name="color00b7">@color/color0d27</color>
     <color name="color00b8">@color/color0db2</color>
-    <color name="color00b9">?attr/attr04b1</color>
+    <color name="color00b9">?attr04b1</color>
     <color name="color00bb">#1e000000</color>
     <color name="action_mode">@color/primary_dark</color>
     <color name="color00bd">@color/color09f0</color>
@@ -188,7 +188,7 @@
     <color name="color00e1">#4d000000</color>
     <color name="color00e2">@color/color0c4d</color>
     <color name="color00e3">#0f000000</color>
-    <color name="albumDownloadButtonTint">0</color>
+    <color name="albumDownloadButtonTint">@null</color>
     <color name="color00e5">#3306cf9c</color>
     <color name="color00e6">@color/color0dcd</color>
     <color name="album_progress_determinate">@color/accent</color>
@@ -287,7 +287,7 @@
     <color name="color0144">@color/color0d0d</color>
     <color name="color0145">#99ffffff</color>
     <color name="color0146">@color/color0d00</color>
-    <color name="color0147">0</color>
+    <color name="color0147">@null</color>
     <color name="color0148">@color/color063d</color>
     <color name="attachmentContactBackgroundTop">#ff0190cf</color>
     <color name="attachmentDocumentBackgroundBottom">@color/wds_purple_400</color>
@@ -370,7 +370,7 @@
     <color name="color0197">#ffffffff</color>
     <color name="color0198">@color/color063d</color>
     <color name="color0199">@color/color09f6</color>
-    <color name="attachmentPickerBackgroundTint">0</color>
+    <color name="attachmentPickerBackgroundTint">@null</color>
     <color name="attachmentPickerText">@color/secondary_text</color>
     <color name="color019c">@color/color0d05</color>
     <color name="color019d">@color/color0d2c</color>
@@ -450,7 +450,7 @@
     <color name="color01e7">#ff217cef</color>
     <color name="color01e8">#ff8696a0</color>
     <color name="avatar_broadcast_large">#ff5b7c8c</color>
-    <color name="color01ea">0</color>
+    <color name="color01ea">@null</color>
     <color name="avatar_contact_large">#ff73bfb8</color>
     <color name="color01ec">@color/color0a73</color>
     <color name="color01ed">@color/color09f7</color>
@@ -464,7 +464,7 @@
     <color name="background_material_light">@color/material_grey_50</color>
     <color name="color01f6">@color/color0db2</color>
     <color name="color01f7">@color/color0a73</color>
-    <color name="background_panel_tint">0</color>
+    <color name="background_panel_tint">@null</color>
     <color name="color01f9">@color/color0a73</color>
     <color name="color01fa">@color/color09f7</color>
     <color name="color01fb">@color/color09f0</color>
@@ -591,7 +591,7 @@
     <color name="color027b">#ff323232</color>
     <color name="banner_info_icon_tint">@color/wds_emerald_600</color>
     <color name="color027d">#ff26323d</color>
-    <color name="bingLogoTint">0</color>
+    <color name="bingLogoTint">@null</color>
     <color name="biometric_error_color">#ffff5722</color>
     <color name="biz_cat_icon_tint">@color/white</color>
     <color name="biz_dot_divider">@color/black_alpha_54</color>
@@ -786,7 +786,7 @@
     <color name="call_video_overlay">@color/wds_cool_gray_alpha_40</color>
     <color name="calling_icon_color">@color/palettePrimary</color>
     <color name="camera_thumb">@color/wds_cool_gray_alpha_30</color>
-    <color name="capturePreviewCaptionInputBackground">0</color>
+    <color name="capturePreviewCaptionInputBackground">@null</color>
     <color name="capturePreviewCaptionInputIconTint">@color/icon_secondary</color>
     <color name="card_art_default_label_color">#ff9e9e9e</color>
     <color name="cardview_dark_background">#ff424242</color>
@@ -907,7 +907,7 @@
     <color name="consumer_directory_banner_sub_title">@color/list_item_sub_title_v2</color>
     <color name="consumer_directory_banner_title">@color/list_item_title</color>
     <color name="contactInfoAddBusinessToContact">@color/primary</color>
-    <color name="contactInfoBusinessProfileIconTint">0</color>
+    <color name="contactInfoBusinessProfileIconTint">@null</color>
     <color name="contactInfoBusinessProfileVerificationIconTint">@color/icon_primary</color>
     <color name="contactInfoFooterUnblock">@color/secondary_text</color>
     <color name="contactInfoFooterUnblockV2">@color/primary_text</color>
@@ -918,7 +918,7 @@
     <color name="contactPickerRecipients">@color/white</color>
     <color name="contactPickerRecipientsBarBackground">@color/white</color>
     <color name="contactPickerStatusPrivacyHintText">@color/white</color>
-    <color name="contactPickerStatusPrivacyHintTint">0</color>
+    <color name="contactPickerStatusPrivacyHintTint">@null</color>
     <color name="contactStatusThumbnailRingBackground">@color/white</color>
     <color name="contact_phone_type">@color/secondary_text</color>
     <color name="contact_qr_card_background">@color/primary_surface</color>
@@ -1073,7 +1073,7 @@
     <color name="fabSecondaryBackground">@color/wds_cool_gray_100</color>
     <color name="fabSecondaryContent">@color/wds_cool_gray_600</color>
     <color name="fabSecondaryRipple">@color/wds_white_alpha_20</color>
-    <color name="fastScrollDateBackgroundTint">0</color>
+    <color name="fastScrollDateBackgroundTint">@null</color>
     <color name="fastScrollDateText">@color/secondary_text</color>
     <color name="fb_pay_header">#f00b1820</color>
     <color name="fb_pay_header_font_color">@color/payments_header_font_color</color>
@@ -1129,7 +1129,7 @@
     <color name="googleDriveErrorIconTint">@color/wds_yellow_300</color>
     <color name="googleDriveErrorText">@color/primary_text</color>
     <color name="googleDriveMediaPlaceholderIconBackgroundColor">@color/icon_primary</color>
-    <color name="googleDriveMediaPlaceholderIconTint">0</color>
+    <color name="googleDriveMediaPlaceholderIconTint">@null</color>
     <color name="googleDriveRestoreAnimationErrorIconTint">@color/red</color>
     <color name="googleDriveRestoreAnimationSuccessIconTint">@color/transparent</color>
     <color name="gray_40">@color/wds_cool_gray_alpha_20</color>
@@ -1281,7 +1281,7 @@
     <color name="list_section_divider_v2">@color/divider_gray</color>
     <color name="list_section_title">@color/secondary_text</color>
     <color name="list_section_title_v2">@color/secondary_text</color>
-    <color name="liveLocationIconActiveTint">0</color>
+    <color name="liveLocationIconActiveTint">@null</color>
     <color name="live_location_bubble_me_text">@color/primary_text</color>
     <color name="live_location_bubble_unknown_text">@color/secondary_text</color>
     <color name="live_location_comment_counter">@color/secondary_text</color>
@@ -1292,7 +1292,7 @@
     <color name="live_location_duration_gray">@color/wds_cool_gray_100</color>
     <color name="live_location_expired_background">@color/wds_cool_gray_alpha_05</color>
     <color name="live_location_expired_text">@color/secondary_text</color>
-    <color name="live_location_live_location_marker_background_tint">0</color>
+    <color name="live_location_live_location_marker_background_tint">@null</color>
     <color name="live_location_live_location_marker_border">@color/white</color>
     <color name="live_location_live_location_marker_glow">#4c25d366</color>
     <color name="live_location_no_avatar_overlay">@color/wds_cool_gray_alpha_10</color>
@@ -1303,7 +1303,7 @@
     <color name="live_location_stop_sharing_red">@color/red</color>
     <color name="load_upi_number_icon">#ff80878e</color>
     <color name="load_upi_number_icon_background">#fff3f5f6</color>
-    <color name="location_bubble_background">0</color>
+    <color name="location_bubble_background">@null</color>
     <color name="location_bubble_text">@color/secondary_text</color>
     <color name="location_bubble_title">@color/primary</color>
     <color name="location_option_icon_color">@color/settings_icon</color>
@@ -1325,7 +1325,7 @@
     <color name="material_grey_900">#ff212121</color>
     <color name="mediaAudioHeadsetTint">@color/wds_cool_gray_300</color>
     <color name="mediaCardChevronTint">@color/icon_secondary</color>
-    <color name="mediaGalleryRippleColor">0</color>
+    <color name="mediaGalleryRippleColor">@null</color>
     <color name="mediaGalleryTabActive">@color/primary_text</color>
     <color name="mediaGalleryTabInactive">@color/secondary_text</color>
     <color name="mediaTimeSeparatorText">@color/secondary_text</color>
@@ -1347,7 +1347,7 @@
     <color name="mention_primary_text_color_dark_theme">@color/paletteOnSurfacePrimary</color>
     <color name="mention_pushname_dark_theme">@color/paletteOnSurfaceSecondary</color>
     <color name="messageBroadcastColor">@color/icon_secondary</color>
-    <color name="messageDetailBackgroundTint">0</color>
+    <color name="messageDetailBackgroundTint">@null</color>
     <color name="messageStarAnimationColor">@color/transparent</color>
     <color name="messageStarColor">@color/icon_secondary</color>
     <color name="message_balloon_mint_text">@color/black_alpha_54</color>
@@ -1396,7 +1396,7 @@
     <color name="color05c0">@color/color0cfd</color>
     <color name="color05c1">@color/color0d04</color>
     <color name="mtrl_textinput_default_box_stroke_color">#6b000000</color>
-    <color name="color05c7">0</color>
+    <color name="color05c7">@null</color>
     <color name="color05c8">@color/color0a44</color>
     <color name="color05c9">@color/color0b5a</color>
     <color name="mtrl_textinput_disabled_color">#1f000000</color>
@@ -1507,7 +1507,7 @@
     <color name="color0637">@color/color09f0</color>
     <color name="color0638">@color/color0d00</color>
     <color name="color0639">@color/color0638</color>
-    <color name="navigationBar">0</color>
+    <color name="navigationBar">@null</color>
     <color name="color063b">@color/color0d0d</color>
     <color name="color063c">@color/color09f0</color>
     <color name="color063d">@color/color0d02</color>
@@ -1592,7 +1592,7 @@
     <color name="color068f">@color/color0cfd</color>
     <color name="color0690">@color/color0d0a</color>
     <color name="color0691">@color/color0a73</color>
-    <color name="color0692">0</color>
+    <color name="color0692">@null</color>
     <color name="color0693">@color/color0db2</color>
     <color name="color0694">#4c25d366</color>
     <color name="color0695">@color/color0d0b</color>
@@ -1603,7 +1603,7 @@
     <color name="color069a">@color/color0a44</color>
     <color name="color069b">#ff80878e</color>
     <color name="color069c">#fff3f5f6</color>
-    <color name="color069d">0</color>
+    <color name="color069d">@null</color>
     <color name="color069e">@color/color0a73</color>
     <color name="novi_payments_Powered_by_Novi_text_color">@color/payments_status_gray</color>
     <color name="color06a0">@color/color0ac8</color>
@@ -1651,7 +1651,7 @@
     <color name="ob_action_bar_icon">#8c000000</color>
     <color name="ob_status_bar">#33000000</color>
     <color name="off_white">#fff3f3f3</color>
-    <color name="on_surface_drawable_tint">0</color>
+    <color name="on_surface_drawable_tint">@null</color>
     <color name="order_completed_status_list_item_color">@color/wds_emerald_500</color>
     <color name="order_completed_status_pill_color">@color/white</color>
     <color name="order_details_background_color">@color/wds_cool_gray_50</color>
@@ -1673,7 +1673,7 @@
     <color name="color0736">#ff1c1b1f</color>
     <color name="outdatedAppBannerBackground">@color/wds_yellow_400</color>
     <color name="color0738">#ff313033</color>
-    <color name="outdatedAppBannerCloseIconTint">0</color>
+    <color name="outdatedAppBannerCloseIconTint">@null</color>
     <color name="outdatedAppBannerText">@color/primary_text</color>
     <color name="pageIndicatorInactive">#ffececec</color>
     <color name="pageIndicatorSelected">#ff6dbca5</color>
@@ -1805,9 +1805,9 @@
     <color name="paletteSurface_4dp">#ff233138</color>
     <color name="paletteSurface_8dp">#ff26353d</color>
     <color name="paletteSurface_dark">@color/wds_cool_gray_900</color>
-    <color name="panelPopupBotTint">0</color>
-    <color name="panelPopupTopTint">0</color>
-    <color name="panelStatusDetailsTopTint">0</color>
+    <color name="panelPopupBotTint">@null</color>
+    <color name="panelPopupTopTint">@null</color>
+    <color name="panelStatusDetailsTopTint">@null</color>
     <color name="participantFallbackColor">@color/wds_cool_gray_alpha_60</color>
     <color name="participant_count_circle">@color/wds_cool_gray_200</color>
     <color name="patina">@color/primary_light</color>
@@ -1909,7 +1909,7 @@
     <color name="color0882">@color/color0d0a</color>
     <color name="color0883">@color/color0d01</color>
     <color name="color0884">@color/color063d</color>
-    <color name="color0885">0</color>
+    <color name="color0885">@null</color>
     <color name="color0886">@color/color09f7</color>
     <color name="color0887">@color/color0a73</color>
     <color name="color0888">@color/color0a73</color>
@@ -1940,7 +1940,7 @@
     <color name="primaryButtonDisabledColor">@color/btn_disabled</color>
     <color name="color08a2">@color/color063d</color>
     <color name="color08a3">@color/color063d</color>
-    <color name="color08a4">0</color>
+    <color name="color08a4">@null</color>
     <color name="color08a5">@color/color00d1</color>
     <color name="color08a6">@color/color0d00</color>
     <color name="color08a7">@color/color0a73</color>
@@ -1971,7 +1971,7 @@
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="color08ee">@color/color028a</color>
     <color name="color08ef">@color/color0d07</color>
-    <color name="color08f0">0</color>
+    <color name="color08f0">@null</color>
     <color name="color08f1">#ff9ea3a7</color>
     <color name="color08f2">#ff64d775</color>
     <color name="color08f3">#ffd63749</color>
@@ -2022,7 +2022,7 @@
     <color name="primary_notification">@color/wds_emerald_600</color>
     <color name="color0921">#8c000000</color>
     <color name="color0922">#33000000</color>
-    <color name="color0923">0</color>
+    <color name="color0923">@null</color>
     <color name="primary_psy">@android:color/transparent</color>
     <color name="color0925">@color/color0db2</color>
     <color name="color0926">@color/color0d03</color>
@@ -2082,9 +2082,9 @@
     <color name="color095d">#ff233138</color>
     <color name="color095e">#ff26353d</color>
     <color name="color095f">@color/color0d09</color>
-    <color name="color0961">0</color>
-    <color name="color0962">0</color>
-    <color name="color0963">0</color>
+    <color name="color0961">@null</color>
+    <color name="color0962">@null</color>
+    <color name="color0963">@null</color>
     <color name="color0964">@color/color0d0a</color>
     <color name="color0965">@color/color0d10</color>
     <color name="color0966">@color/color0d00</color>
@@ -2142,7 +2142,7 @@
     <color name="color099a">@color/color0db2</color>
     <color name="color099b">@color/color0db2</color>
     <color name="quantity_selector_icon">@color/wds_cool_gray_600</color>
-    <color name="quickActionIconTint">0</color>
+    <color name="quickActionIconTint">@null</color>
     <color name="quickContactDirectionButtonBackground">@color/dimmed_background</color>
     <color name="color099f">@color/color0a73</color>
     <color name="color09a0">@color/color0a73</color>
@@ -2264,7 +2264,7 @@
     <color name="color0a17">@color/color0d03</color>
     <color name="color0a18">@color/color0cfd</color>
     <color name="color0a19">@color/color0d05</color>
-    <color name="color0a1a">0</color>
+    <color name="color0a1a">@null</color>
     <color name="red_button_text">@color/red</color>
     <color name="color0a1c">@color/color0d0c</color>
     <color name="color0a1d">@color/color0d0d</color>
@@ -2331,7 +2331,7 @@
     <color name="color0a5a">@color/color0d12</color>
     <color name="screen_title_text">@color/white</color>
     <color name="color0a5c">@color/color09f6</color>
-    <color name="searchBackTint">0</color>
+    <color name="searchBackTint">@null</color>
     <color name="color0a5e">@color/color00c1</color>
     <color name="color0a5f">@color/color0cfd</color>
     <color name="color0a60">@color/color0d04</color>
@@ -2525,7 +2525,7 @@
     <color name="color0b45">#6600a884</color>
     <color name="color0b46">#66ff0000</color>
     <color name="selection_check_background">@color/icon_primary</color>
-    <color name="color0b48">0</color>
+    <color name="color0b48">@null</color>
     <color name="color0b49">@color/color0d06</color>
     <color name="color0b4a">@color/color0db2</color>
     <color name="color0b4b">@color/color0a73</color>
@@ -2557,13 +2557,13 @@
     <color name="color0b67">@color/color00c1</color>
     <color name="color0b68">@color/color0d09</color>
     <color name="color0b6a">@color/color02c1</color>
-    <color name="color0b6b">0</color>
+    <color name="color0b6b">@null</color>
     <color name="color0b6d">@color/color0d9b</color>
     <color name="color0b6e">@color/color0208</color>
     <color name="color0b6f">@color/color0d2c</color>
     <color name="color0b70">@color/color0208</color>
     <color name="color0b72">@color/color063d</color>
-    <color name="color0b73">0</color>
+    <color name="color0b73">@null</color>
     <color name="color0b74">@color/color0a73</color>
     <color name="color0b76">@color/color0d03</color>
     <color name="color0b77">@color/color0d04</color>
@@ -2590,7 +2590,7 @@
     <color name="color0b97">@color/color0d0d</color>
     <color name="color0b98">#ff565656</color>
     <color name="color0b99">@color/color09db</color>
-    <color name="color0b9a">0</color>
+    <color name="color0b9a">@null</color>
     <color name="color0b9b">@color/color0d02</color>
     <color name="color0b9c">@color/italic</color>
     <color name="color0b9d">@color/color063d</color>
@@ -3001,7 +3001,7 @@
     <color name="thumbnail_selected_background_new">#6600a884</color>
     <color name="thumbnail_selected_background_on_delete">#66ff0000</color>
     <color name="thumbnail_selected_stroke">#ff00cbde</color>
-    <color name="tint_attribution_logo_settings">0</color>
+    <color name="tint_attribution_logo_settings">@null</color>
     <color name="toast_background">@color/wds_cool_gray_700</color>
     <color name="toast_text">@color/white</color>
     <color name="tombstone_text_color">@color/secondary_text</color>
@@ -3066,7 +3066,7 @@
     <color name="color0d84">#ff046a62</color>
     <color name="color0d85">#ff074d4a</color>
     <color name="color0d86">#ffdff6f5</color>
-    <color name="unreadConversationDividerBackgroundTint">0</color>
+    <color name="unreadConversationDividerBackgroundTint">@null</color>
     <color name="color0d88">#ff2c373d</color>
     <color name="color0d89">#00000000</color>
     <color name="unreadConversationDividerText">@color/primary_text</color>
@@ -3076,7 +3076,7 @@
     <color name="unread_indicator">@color/conversationUnseenBadge</color>
     <color name="unread_indicator_text">@color/conversationUnseenBadgeText</color>
     <color name="unsupportedMessageIconBackground">@color/icon_secondary</color>
-    <color name="unsupportedMessageIconTint">0</color>
+    <color name="unsupportedMessageIconTint">@null</color>
     <color name="unsupportedMessageText">@color/secondary_text</color>
     <color name="unsupportedMessageTextHighlight">@color/primary_light</color>
     <color name="color0d94">#fff7f5f3</color>
@@ -3156,7 +3156,7 @@
     <color name="video_preview_timeline_background">@color/wds_cool_gray_alpha_30</color>
     <color name="video_status_background">#99565656</color>
     <color name="video_stream_error_background">@color/popup_dim</color>
-    <color name="viewGroupInviteExpirationIconTint">0</color>
+    <color name="viewGroupInviteExpirationIconTint">@null</color>
     <color name="view_once_media_green">@color/accent</color>
     <color name="view_once_media_type">@color/icon_secondary</color>
     <color name="view_once_viewed">@color/icon_secondary</color>

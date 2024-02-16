@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/map_container" android:background="@drawable/bg_map_entrypoint" android:layout_width="match_parent" android:layout_height="146dp" android:layout_marginLeft="@dimen/dimen0a54" android:layout_marginTop="@dimen/dimen0a54" android:layout_marginRight="@dimen/dimen0a54" android:layout_marginBottom="@dimen/dimen0a58" app:attr0124="8dp" app:attr0125="0dp">
-    <FrameLayout android:id="@+id/map_preview" android:layout_width="match_parent" android:layout_height="match_parent"/>
-    <com.gbwhatsapp.WaFrameLayout android:id="@+id/border" android:background="@drawable/bg_map_entrypoint" android:layout_width="match_parent" android:layout_height="match_parent"/>
+<androidx.cardview.widget.CardView android:id="@id/map_container" android:background="@drawable/bg_map_entrypoint" android:layout_width="fill_parent" android:layout_height="146.0dip" android:layout_marginLeft="@dimen/dimen0a54" android:layout_marginTop="@dimen/dimen0a54" android:layout_marginRight="@dimen/dimen0a54" android:layout_marginBottom="@dimen/dimen0a58" app:attr0124="8.0dip" app:attr0125="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/map_preview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.WaFrameLayout android:id="@id/border" android:background="@drawable/bg_map_entrypoint" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </androidx.cardview.widget.CardView>

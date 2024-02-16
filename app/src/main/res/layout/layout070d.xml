@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.biz.catalog.view.AspectRatioFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0060="@dimen/dimen0a3a">
-    <androidx.recyclerview.widget.RecyclerView android:id="@+id/product_detail_image_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
-    <com.gbwhatsapp.biz.catalog.view.CarouselScrollbarView android:layout_gravity="bottom" android:id="@+id/scrollbar" android:layout_width="match_parent" android:layout_height="@dimen/dimen0a47" android:layout_margin="@dimen/dimen0a48"/>
+<com.gbwhatsapp.biz.catalog.view.AspectRatioFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0060="@dimen/dimen0a3a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/product_detail_image_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.gbwhatsapp.biz.catalog.view.CarouselScrollbarView android:layout_gravity="bottom" android:id="@id/scrollbar" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0a47" android:layout_margin="@dimen/dimen0a48" />
 </com.gbwhatsapp.biz.catalog.view.AspectRatioFrameLayout>

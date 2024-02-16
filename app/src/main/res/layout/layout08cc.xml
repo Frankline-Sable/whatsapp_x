@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/profile_avatar" android:layout_width="@dimen/dimen0c0a" android:layout_height="@dimen/dimen0c0a" android:scaleType="centerCrop"/>
-    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/mic_overlay" android:background="@drawable/mic_background_incoming_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0c09" android:src="@drawable/mic_played" android:scaleType="fitCenter" app:attr0906="@color/color0db2"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/profile_avatar" android:layout_width="@dimen/dimen0c0a" android:layout_height="@dimen/dimen0c0a" android:scaleType="centerCrop" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/mic_overlay" android:background="@drawable/mic_background_incoming_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0c09" android:src="@drawable/mic_played" android:scaleType="fitCenter" whatsapp:attr0906="@color/color0db2" />
 </merge>

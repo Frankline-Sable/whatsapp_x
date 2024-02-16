@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="dimen028a">64dp</dimen>
-    <dimen name="dimen0291">300dp</dimen>
-    <dimen name="dimen0292">128dp</dimen>
+    <dimen name="dimen028a">64.0dip</dimen>
+    <dimen name="dimen0291">300.0dip</dimen>
+    <dimen name="dimen0292">128.0dip</dimen>
 </resources>

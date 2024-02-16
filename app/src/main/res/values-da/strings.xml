@@ -23,7 +23,7 @@
     <string name="str25d5">Indsend forespørgsel</string>
     <string name="str25d6">Talesøgning</string>
     <string name="str25d9">Skjul</string>
-    <string name="str25db">Som medlem kan du se og blive medlem af grupper i dette fællesskab og holde dig opdateret med administratormeddelelser. &lt;a href=\"%s\"&gt;Læs mere&lt;/a&gt;</string>
+    <string name="str25db">Som medlem kan du se og blive medlem af grupper i dette fællesskab og holde dig opdateret med administratormeddelelser. &lt;a href=\"%s\">Læs mere&lt;/a></string>
     <string name="str25dc">Velkommen til fællesskabet!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Kontoen unne ikke skiftes. Prøv igen senere.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s vil ikke længere kunne sende dig beskeder eller ringe til dig.</string>
     <string name="str262d">Virksomhedstype</string>
     <string name="str262e">Virksomhedsdetaljer</string>
-    <string name="str2636">For at gøre det sværere for folk at udlede din lokation formidles opkald på denne enhed sikkert via WhatsApps servere. Dette reducerer opkaldskvaliteten. &lt;a href=call_relaying_help&gt;Læs mere&lt;/a&gt;</string>
+    <string name="str2636">For at gøre det sværere for folk at udlede din lokation formidles opkald på denne enhed sikkert via WhatsApps servere. Dette reducerer opkaldskvaliteten. &lt;a href=call_relaying_help>Læs mere&lt;/a></string>
     <string name="str2637">Beskyt IP-adressen ved opkald</string>
     <string name="str2638">Opkald</string>
     <string name="str2639">Tilføj en opkaldsgenvej for %s.</string>
     <string name="str263a">Opkaldsgenvej</string>
-    <string name="str263b">Brug kameraeffekter som f.eks. din avatar i opkald. &lt;a href=\"%s\"&gt;Læs mere&lt;/a&gt;</string>
+    <string name="str263b">Brug kameraeffekter som f.eks. din avatar i opkald. &lt;a href=\"%s\">Læs mere&lt;/a></string>
     <string name="str263c">Kameraeffekter</string>
     <string name="str263d">WhatsApp-kamera</string>
     <string name="str263e">Annuller</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Der var for mange forsøg Prøv igen senere.</string>
     <string name="str26fe">Der er ikke registreret nogen fingeraftryk.</string>
     <string name="str26ff">Fingeraftrykshandlingen blev annulleret af brugeren.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Læs mere&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Læs mere&lt;/a></string>
     <string name="str2701">Stor</string>
     <string name="str2702">Mellem</string>
     <string name="str2703">Lille</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Skift til input-tilstand for tekst</string>
     <string name="str27c5">Tryk for at gå til valg af år</string>
     <string name="str27d0">Opdateringer på lydløs</string>
-    <string name="str27e2">Vil du gerne oprette en ny gruppe? &lt;font color=#%s&gt;&lt;b&gt;Se hvordan&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Vil du gerne oprette en ny gruppe? &lt;font color=#%s>&lt;b>Se hvordan&lt;/b>&lt;/font></string>
     <string name="str27e5">1 dag</string>
     <string name="str27e6">Standardindstilling for app (%s)</string>
     <string name="str27e7">1 måned</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Der blev ikke fundet nogen resultater i indstillingerne</string>
     <string name="str288d">Lager- og databrug</string>
-    <string name="str2891">Opkald fra ukendte numre sættes på lydløs. De vises stadigvæk på opkaldsfanen og i dine notifikationer. &lt;a href=calling_privacy_help&gt;Læs mere&lt;/a&gt;</string>
+    <string name="str2891">Opkald fra ukendte numre sættes på lydløs. De vises stadigvæk på opkaldsfanen og i dine notifikationer. &lt;a href=calling_privacy_help>Læs mere&lt;/a></string>
     <string name="str2892">Sæt ukendte opkaldere på lydløs</string>
     <string name="str2893">Spring over</string>
     <string name="str2895">Sortér efter dato</string>

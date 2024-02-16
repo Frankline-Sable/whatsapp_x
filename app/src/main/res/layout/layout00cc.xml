@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textAppearance="@style/style017f" android:id="@+id/clear_chip" android:layout_width="wrap_content" android:layout_height="32dp" app:attr0161="@color/color00b1" app:attr0163="@dimen/dimen0c49" app:attr0170="@dimen/dimen0c49"/>
+<com.google.android.material.chip.Chip android:textAppearance="@style/style017f" android:id="@id/clear_chip" android:layout_width="wrap_content" android:layout_height="32.0dip" app:attr0161="@color/color00b1" app:attr0163="@dimen/dimen0c49" app:attr0170="@dimen/dimen0c49"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

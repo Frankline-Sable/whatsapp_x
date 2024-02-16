@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="112dp" android:paddingTop="56dp" android:paddingRight="28dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/attr01e8" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="right" android:id="@+id/hint" android:background="@drawable/ic_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1f51" app:attr008e="?attr/attr01e9"/>
+<FrameLayout android:paddingLeft="112.0dip" android:paddingTop="56.0dip" android:paddingRight="28.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?attr01e8" android:gravity="center|left" android:layout_gravity="right" android:id="@id/hint" android:background="@drawable/ic_hint" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1f51" app:attr008e="?attr01e9" />
 </FrameLayout>

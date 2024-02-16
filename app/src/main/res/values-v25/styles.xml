@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="style02ae">
-    </style>
-    <style name="style02af">
-    </style>
-    <style name="style02b9">
-    </style>
-    <style name="style02ba">
-    </style>
+    <style name="style02ae" parent="@style/style02b9" />
+    <style name="style02af" parent="@style/style02ba" />
+    <style name="style02b9" parent="@android:style/Theme.Material.NoActionBar" />
+    <style name="style02ba" parent="@android:style/Theme.Material.Light.NoActionBar" />
 </resources>

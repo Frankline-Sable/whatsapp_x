@@ -23,7 +23,7 @@
     <string name="str25d5">Lähetä kysely</string>
     <string name="str25d6">Puhehaku</string>
     <string name="str25d9">Tiivistä</string>
-    <string name="str25db">Kun olet jäsen, voit nähdä yhteisön ryhmät ja liittyä niihin sekä saada ylläpitäjän ilmoituksia. &lt;a href=\"%s\"&gt;Lue lisää&lt;/a&gt;</string>
+    <string name="str25db">Kun olet jäsen, voit nähdä yhteisön ryhmät ja liittyä niihin sekä saada ylläpitäjän ilmoituksia. &lt;a href=\"%s\">Lue lisää&lt;/a></string>
     <string name="str25dc">Tervetuloa yhteisöön!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Tilejä ei voitu vaihtaa. Yritä myöhemmin uudelleen.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s ei voi enää soittaa tai lähettää viestejä sinulle.</string>
     <string name="str262d">Yritysmuoto</string>
     <string name="str262e">Yrityksen tiedot</string>
-    <string name="str2636">Tämän laitteen puhelut välitetään turvallisesti WhatsApp-palvelimien kautta, jotta ihmisten olisi vaikeampi päätellä sijaintiasi. Tämä heikentää puhelujen laatua. &lt;a href=call_relaying_help&gt;Lisätietoja&lt;/a&gt;</string>
+    <string name="str2636">Tämän laitteen puhelut välitetään turvallisesti WhatsApp-palvelimien kautta, jotta ihmisten olisi vaikeampi päätellä sijaintiasi. Tämä heikentää puhelujen laatua. &lt;a href=call_relaying_help>Lisätietoja&lt;/a></string>
     <string name="str2637">Suojaa puhelujen IP-osoite</string>
     <string name="str2638">Puhelut</string>
     <string name="str2639">Lisää soittamisen pikakuvake henkilölle %s.</string>
     <string name="str263a">Soittamisen pikakuvake</string>
-    <string name="str263b">Käytä puheluissa kameratehosteita, kuten avatariasi. &lt;a href=\"%s\"&gt;Lisätietoja&lt;/a&gt;</string>
+    <string name="str263b">Käytä puheluissa kameratehosteita, kuten avatariasi. &lt;a href=\"%s\">Lisätietoja&lt;/a></string>
     <string name="str263c">Kameratehosteet</string>
     <string name="str263d">WhatsApp-kamera</string>
     <string name="str263e">Peruuta</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Liian monta epäonnistunutta yritystä. Yritä myöhemmin uudelleen.</string>
     <string name="str26fe">Sormenjälkiä ei ole lisätty.</string>
     <string name="str26ff">Käyttäjä peruutti sormenjälkitoiminnon.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Lue lisätietoja&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Lue lisätietoja&lt;/a></string>
     <string name="str2701">Suuri</string>
     <string name="str2702">Normaali</string>
     <string name="str2703">Pieni</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Valitse syöttötavaksi teksti</string>
     <string name="str27c5">Siirry vuoden valintaan napauttamalla</string>
     <string name="str27d0">Mykistetyt päivitykset</string>
-    <string name="str27e2">Haluatko luoda uuden ryhmän? &lt;font color=#%s&gt;&lt;b&gt;Katso ohjeet&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Haluatko luoda uuden ryhmän? &lt;font color=#%s>&lt;b>Katso ohjeet&lt;/b>&lt;/font></string>
     <string name="str27e5">1 päivä</string>
     <string name="str27e6">Sovelluksen oletusarvoinen asetus (%s)</string>
     <string name="str27e7">1 kuukausi</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profiili</string>
     <string name="str288c">Asetuksista ei löytynyt tuloksia</string>
     <string name="str288d">Tallennustila ja datan käyttö</string>
-    <string name="str2891">Tuntemattomista numeroista tulevat puhelut hiljennetään. Ne näkyvät edelleen Puhelut-välilehdellä ja ilmoituksissa. &lt;a href=calling_privacy_help&gt;Lisätietoja&lt;/a&gt;</string>
+    <string name="str2891">Tuntemattomista numeroista tulevat puhelut hiljennetään. Ne näkyvät edelleen Puhelut-välilehdellä ja ilmoituksissa. &lt;a href=calling_privacy_help>Lisätietoja&lt;/a></string>
     <string name="str2892">Hiljennä tuntemattomat soittajat</string>
     <string name="str2893">Ohita</string>
     <string name="str2895">Järjestä: päivämäärä</string>

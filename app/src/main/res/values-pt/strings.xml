@@ -23,7 +23,7 @@
     <string name="str25d5">Enviar consulta</string>
     <string name="str25d6">Pesquisa por voz</string>
     <string name="str25d9">Recolher</string>
-    <string name="str25db">Como membro desta comunidade, pode ver e juntar-se aos grupos que fazem parte dela. Graças aos comunicados dos administradores, pode também manter-se sempre a par das novidades.&lt;a href=\"%s\"&gt;Saber mais&lt;/a&gt;</string>
+    <string name="str25db">Como membro desta comunidade, pode ver e juntar-se aos grupos que fazem parte dela. Graças aos comunicados dos administradores, pode também manter-se sempre a par das novidades.&lt;a href=\"%s\">Saber mais&lt;/a></string>
     <string name="str25dc">As nossas boas-vindas à comunidade!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Não foi possível mudar de conta. Volte a tentar mais tarde.</string>
@@ -50,12 +50,12 @@
     <string name="str262c">‎%s vai deixar de poder enviar-lhe mensagens e de lhe ligar.</string>
     <string name="str262d">Tipo de empresa</string>
     <string name="str262e">Detalhes da empresa</string>
-    <string name="str2636">Para ser mais difícil descobrirem a sua localização, as chamadas feitas neste dispositivo vão ser transmitidas em segurança através dos servidores do WhatsApp. Isto vai reduzir a qualidade das chamadas. &lt;a href=call_relaying_help&gt;Saber mais&lt;/a&gt;</string>
+    <string name="str2636">Para ser mais difícil descobrirem a sua localização, as chamadas feitas neste dispositivo vão ser transmitidas em segurança através dos servidores do WhatsApp. Isto vai reduzir a qualidade das chamadas. &lt;a href=call_relaying_help>Saber mais&lt;/a></string>
     <string name="str2637">Proteger o endereço IP em chamadas</string>
     <string name="str2638">Chamadas</string>
     <string name="str2639">Adicione um atalho para ligar a %s.</string>
     <string name="str263a">Atalho para chamada</string>
-    <string name="str263b">Use os efeitos da câmara, como o seu avatar, em chamadas. &lt;a href=\"%s\"&gt;Saber mais&lt;/a&gt;</string>
+    <string name="str263b">Use os efeitos da câmara, como o seu avatar, em chamadas. &lt;a href=\"%s\">Saber mais&lt;/a></string>
     <string name="str263c">Efeitos da câmara</string>
     <string name="str263d">Câmara do WhatsApp</string>
     <string name="str263e">Cancelar</string>
@@ -110,7 +110,7 @@
     <string name="str26fd">Muitas tentativas. Tente novamente mais tarde.</string>
     <string name="str26fe">Nenhuma impressão digital registrada.</string>
     <string name="str26ff">Operação de impressão digital cancelada pelo usuário.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Saber mais&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Saber mais&lt;/a></string>
     <string name="str2701">Grande</string>
     <string name="str2702">Médio</string>
     <string name="str2703">Pequeno</string>
@@ -147,7 +147,7 @@
     <string name="str278c">Voltar a ligar</string>
     <string name="str2791">Mais</string>
     <string name="str27d0">Atualizações ocultadas</string>
-    <string name="str27e2">Quer criar um grupo novo? &lt;font color=#%s&gt;&lt;b&gt;Ver como&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Quer criar um grupo novo? &lt;font color=#%s>&lt;b>Ver como&lt;/b>&lt;/font></string>
     <string name="str27e5">1 dia</string>
     <string name="str27e6">Predefinição da aplicação (%s)</string>
     <string name="str27e7">1 mês</string>
@@ -243,7 +243,7 @@
     <string name="str288b">Perfil</string>
     <string name="str288c">Nenhum resultado de definições encontrado</string>
     <string name="str288d">Armazenamento e utilização de dados</string>
-    <string name="str2891">As chamadas de números desconhecidos são silenciadas, mas continuam a surgir no separador Chamadas e nas notificações. &lt;a href=calling_privacy_help&gt;Saber mais&lt;/a&gt;</string>
+    <string name="str2891">As chamadas de números desconhecidos são silenciadas, mas continuam a surgir no separador Chamadas e nas notificações. &lt;a href=calling_privacy_help>Saber mais&lt;/a></string>
     <string name="str2892">Silenciar números desconhecidos</string>
     <string name="str2893">Ignorar</string>
     <string name="str2895">Ordenar por data</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:paddingLeft="@dimen/dimen01c4" android:paddingTop="@dimen/dimen01c5" android:paddingRight="@dimen/dimen01c4" android:paddingBottom="@dimen/dimen01c5" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0a89" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/title_category_list_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
-    <com.gbwhatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/image_arrow_all_category_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_right_arrow"/>
+<FrameLayout android:orientation="horizontal" android:paddingLeft="@dimen/dimen01c4" android:paddingTop="@dimen/dimen01c5" android:paddingRight="@dimen/dimen01c4" android:paddingBottom="@dimen/dimen01c5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/color0a89" android:layout_gravity="start|center" android:id="@id/title_category_list_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="end|center" android:id="@id/image_arrow_all_category_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_right_arrow" />
 </FrameLayout>

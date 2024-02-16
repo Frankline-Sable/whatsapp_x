@@ -23,7 +23,7 @@
     <string name="str25d5">Utfør søket</string>
     <string name="str25d6">Talesøk</string>
     <string name="str25d9">Skjul</string>
-    <string name="str25db">Som medlem kan du se og bli med i grupper i dette fellesskapet og holde deg oppdatert med kunngjøringer fra administratorer. &lt;a href=\"%s\"&gt;Finn ut mer&lt;/a&gt;</string>
+    <string name="str25db">Som medlem kan du se og bli med i grupper i dette fellesskapet og holde deg oppdatert med kunngjøringer fra administratorer. &lt;a href=\"%s\">Finn ut mer&lt;/a></string>
     <string name="str25dc">Velkommen til fellesskapet!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Kontoer kunne ikke byttes. Prøv på nytt senere.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s kan ikke sende meldinger eller ringe deg lenger.</string>
     <string name="str262d">Virksomhetstype</string>
     <string name="str262e">Virksomhetsdetaljer</string>
-    <string name="str2636">For å gjøre det vanskeligere for folk å finne ut hvor du er, formidles anrop på denne enheten sikkert via WhatsApps servere. Dette reduserer anropskvaliteten. &lt;a href=call_relaying_help&gt;Finn ut mer&lt;/a&gt;</string>
+    <string name="str2636">For å gjøre det vanskeligere for folk å finne ut hvor du er, formidles anrop på denne enheten sikkert via WhatsApps servere. Dette reduserer anropskvaliteten. &lt;a href=call_relaying_help>Finn ut mer&lt;/a></string>
     <string name="str2637">Beskytt IP-adresse i anrop</string>
     <string name="str2638">Anrop</string>
     <string name="str2639">Legg til en snarvei for å ringe %s.</string>
     <string name="str263a">Anropssnarvei</string>
-    <string name="str263b">Bruk kameraeffekter, som avataren din, i anrop. &lt;a href=\"%s\"&gt;Finn ut mer&lt;/a&gt;</string>
+    <string name="str263b">Bruk kameraeffekter, som avataren din, i anrop. &lt;a href=\"%s\">Finn ut mer&lt;/a></string>
     <string name="str263c">Kameraeffekter</string>
     <string name="str263d">WhatsApp Kamera</string>
     <string name="str263e">Avbryt</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Du har gjort for mange forsøk. Prøv på nytt senere.</string>
     <string name="str26fe">Ingen fingeravtrykk er registrert.</string>
     <string name="str26ff">Fingeravtrykk-operasjonen ble avbrutt av brukeren.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Finn ut mer&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Finn ut mer&lt;/a></string>
     <string name="str2701">Stor</string>
     <string name="str2702">Middels</string>
     <string name="str2703">Liten</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Bytt til tekstinndatamodus</string>
     <string name="str27c5">Trykk for å bytte til å velge år</string>
     <string name="str27d0">Dempede oppdateringer</string>
-    <string name="str27e2">Oppretter du en ny gruppe? &lt;font color=#%s&gt;&lt;b&gt;Se hvordan&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Oppretter du en ny gruppe? &lt;font color=#%s>&lt;b>Se hvordan&lt;/b>&lt;/font></string>
     <string name="str27e5">1 dag</string>
     <string name="str27e6">Standard appinnstilling (%s)</string>
     <string name="str27e7">1 måned</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Finner ingen slike innstillinger</string>
     <string name="str288d">Bruk av lagring og data</string>
-    <string name="str2891">Anrop fra ukjente numre vil dempes. De vil fortsatt vises i Anrop-fanen og i varslene dine. &lt;a href=calling_privacy_help&gt;Finn ut mer&lt;/a&gt;</string>
+    <string name="str2891">Anrop fra ukjente numre vil dempes. De vil fortsatt vises i Anrop-fanen og i varslene dine. &lt;a href=calling_privacy_help>Finn ut mer&lt;/a></string>
     <string name="str2892">Demp ukjente anropere</string>
     <string name="str2893">Hopp over</string>
     <string name="str2895">Sorter etter dato</string>

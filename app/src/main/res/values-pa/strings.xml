@@ -23,7 +23,7 @@
     <string name="str25d5">ਪੁੱਛਗਿੱਛ ਸਪੁਰਦ ਕਰੋ</string>
     <string name="str25d6">ਅਵਾਜ਼ੀ ਖੋਜ</string>
     <string name="str25d9">ਸਮੇਟੋ</string>
-    <string name="str25db">ਇੱਕ ਮੈਂਬਰ ਵਜੋਂ ਤੁਸੀਂ ਇਸ ਕਮਿਊਨਿਟੀ ਦੇ ਅੰਦਰ ਕਿਸੇ ਵੀ ਗਰੁੱਪ ਨੂੰ ਦੇਖ ਸਕਦੇ ਹੋ ਅਤੇ ਉਸ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋ ਸਕਦੇ ਹੋ ਅਤੇ ਐਡਮਿਨ ਦੀਆਂ ਘੋਸ਼ਣਾਵਾਂ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੇ ਹੋ। &lt;a href=\"%s\"&gt;ਹੋਰ ਜਾਣੋ&lt;/a&gt;</string>
+    <string name="str25db">ਇੱਕ ਮੈਂਬਰ ਵਜੋਂ ਤੁਸੀਂ ਇਸ ਕਮਿਊਨਿਟੀ ਦੇ ਅੰਦਰ ਕਿਸੇ ਵੀ ਗਰੁੱਪ ਨੂੰ ਦੇਖ ਸਕਦੇ ਹੋ ਅਤੇ ਉਸ ਵਿੱਚ ਸ਼ਾਮਲ ਹੋ ਸਕਦੇ ਹੋ ਅਤੇ ਐਡਮਿਨ ਦੀਆਂ ਘੋਸ਼ਣਾਵਾਂ ਪ੍ਰਾਪਤ ਕਰ ਸਕਦੇ ਹੋ। &lt;a href=\"%s\">ਹੋਰ ਜਾਣੋ&lt;/a></string>
     <string name="str25dc">ਕਮਿਊਨਿਟੀ ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ!</string>
     <string name="str25df">ਠੀਕ ਹੈ</string>
     <string name="str25e0">ਖਾਤਿਆਂ ਨੂੰ ਬਦਲ ਨਹੀਂ ਕਰ ਸਕੇ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਮੁੜ-ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
@@ -41,7 +41,7 @@
     <string name="str25f3">ਐਡਵਾਂਸਡ</string>
     <string name="str2600">ਸਾਰੀਆਂ ਚੈਟਾਂ ਨੂੰ ਪੁਰਾਲੇਖ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ</string>
     <string name="str2603">ਚੈਟਾਂ ਨੂੰ ਪੁਰਾਲੇਖ ਵਿੱਚ ਮੌਜੂਦ ਰੱਖੋ</string>
-    <string name="str2604">ਨਵਾਂ ਸੁਨੇਹਾ ਪ੍ਰਾਪਤ ਹੋਣ \'ਤੇ ਪੁਰਾਲੇਖ ਵਿੱਚ ਮੌਜੂਦ ਚੈਟਾਂ ਪੁਰਾਲੇਖ ਵਿੱਚ ਹੀ ਰਹਿਣਗੀਆਂ</string>
+    <string name="str2604">"ਨਵਾਂ ਸੁਨੇਹਾ ਪ੍ਰਾਪਤ ਹੋਣ 'ਤੇ ਪੁਰਾਲੇਖ ਵਿੱਚ ਮੌਜੂਦ ਚੈਟਾਂ ਪੁਰਾਲੇਖ ਵਿੱਚ ਹੀ ਰਹਿਣਗੀਆਂ"</string>
     <string name="str2607">ਸੁਰੱਖਿਅਤ ਕਰੋ</string>
     <string name="str261c">ਪ੍ਰੋਫ਼ਾਈਲ ਫ਼ੋਟੋ ਦੇਖੋ</string>
     <string name="str261d">ਸਟੇਟਸ ਦੇਖੋ</string>
@@ -50,17 +50,17 @@
     <string name="str2624">ਹੇਠਲੀ ਸ਼ੀਟ ਨੂੰ ਸਮੇਟੋ</string>
     <string name="str2625">ਹੇਠਲੀ ਸ਼ੀਟ ਦਾ ਵਿਸਤਾਰ ਕਰੋ</string>
     <string name="str2626">ਅੱਧ ਤੱਕ ਵਿਸਤਾਰ ਕਰੋ</string>
-    <string name="str2627">ਘਸੀਟਣ ਵਾਲੇ ਹੈਂਡਲ \'ਤੇ ਡਬਲ-ਟੈਪ ਕੀਤਾ ਗਿਆ</string>
+    <string name="str2627">"ਘਸੀਟਣ ਵਾਲੇ ਹੈਂਡਲ 'ਤੇ ਡਬਲ-ਟੈਪ ਕੀਤਾ ਗਿਆ"</string>
     <string name="str2628">ਘਸੀਟਣ ਵਾਲਾ ਹੈਂਡਲ</string>
     <string name="str262c">‎%s ਹੁਣ ਨਾ ਹੀ ਤੁਹਾਨੂੰ ਕਾਲ ਕਰ ਸਕਣਗੇ ਅਤੇ ਨਾ ਹੀ ਸੁਨੇਹੇ ਭੇਜ ਸਕਣਗੇ।</string>
     <string name="str262d">ਕਾਰੋਬਾਰ ਦੀ ਕਿਸਮ</string>
     <string name="str262e">ਕਾਰੋਬਾਰ ਦੇ ਵੇਰਵੇ</string>
-    <string name="str2636">ਲੋਕਾਂ ਲਈ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਦਾ ਪਤਾ ਲਗਾਉਣਾ ਔਖਾ ਬਣਾਉਣ ਲਈ, ਇਸ ਡਿਵਾਈਸ ਦੀਆਂ ਕਾਲਾਂ ਨੂੰ WhatsApp ਸਰਵਰਾਂ ਰਾਹੀਂ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਰੀਲੇਅ ਕੀਤਾ ਜਾਵੇਗਾ। ਇਸ ਨਾਲ ਕਾਲ ਦੀ ਗੁਣਵੱਤਾ ਥੋੜ੍ਹੀ ਘੱਟ ਜਾਵੇਗੀ। &lt;a href=call_relaying_help&gt;ਹੋਰ ਜਾਣੋ&lt;/a&gt;</string>
+    <string name="str2636">ਲੋਕਾਂ ਲਈ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਦਾ ਪਤਾ ਲਗਾਉਣਾ ਔਖਾ ਬਣਾਉਣ ਲਈ, ਇਸ ਡਿਵਾਈਸ ਦੀਆਂ ਕਾਲਾਂ ਨੂੰ WhatsApp ਸਰਵਰਾਂ ਰਾਹੀਂ ਸੁਰੱਖਿਅਤ ਢੰਗ ਨਾਲ ਰੀਲੇਅ ਕੀਤਾ ਜਾਵੇਗਾ। ਇਸ ਨਾਲ ਕਾਲ ਦੀ ਗੁਣਵੱਤਾ ਥੋੜ੍ਹੀ ਘੱਟ ਜਾਵੇਗੀ। &lt;a href=call_relaying_help>ਹੋਰ ਜਾਣੋ&lt;/a></string>
     <string name="str2637">ਕਾਲਾਂ ਵਿੱਚ IP ਪਤੇ ਦੀ ਰੱਖਿਆ ਕਰੋ</string>
     <string name="str2638">ਕਾਲਾਂ</string>
     <string name="str2639">‎%s ਲਈ ਕਾਲਿੰਗ ਸ਼ਾਰਟਕੱਟ ਸ਼ਾਮਲ ਕਰੋ।</string>
     <string name="str263a">ਕਾਲਿੰਗ ਸ਼ਾਰਟਕੱਟ</string>
-    <string name="str263b">ਕਾਲਾਂ ਵਿੱਚ ਆਪਣੇ ਅਵਤਾਰ ਵਰਗੇ ਕੈਮਰਾ ਇਫੈਕਟ ਦੀ ਵਰਤੋਂ ਕਰੋ। &lt;a href=\"%s\"&gt;ਹੋਰ ਜਾਣੋ&lt;/a&gt;</string>
+    <string name="str263b">ਕਾਲਾਂ ਵਿੱਚ ਆਪਣੇ ਅਵਤਾਰ ਵਰਗੇ ਕੈਮਰਾ ਇਫੈਕਟ ਦੀ ਵਰਤੋਂ ਕਰੋ। &lt;a href=\"%s\">ਹੋਰ ਜਾਣੋ&lt;/a></string>
     <string name="str263c">ਕੈਮਰਾ ਇਫੈਕਟ</string>
     <string name="str263d">WhatsApp ਕੈਮਰਾ</string>
     <string name="str263e">ਰੱਦ ਕਰੋ</string>
@@ -88,13 +88,13 @@
     <string name="str265b">Google Play ਸੇਵਾਵਾਂ ਦੀ ਉਪਲਬਧਤਾ</string>
     <string name="str265c">Google Play ਸੇਵਾਵਾਂ ਅਸ਼ੁੱਧੀ</string>
     <string name="str265d">%1$s ਨੂੰ Google Play ਸੇਵਾਵਾਂ ਨਾਲ ਸਮੱਸਿਆ ਆ ਰਹੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
-    <string name="str265e">%1$s Google Play ਸੇਵਾਵਾਂ ਤੋਂ ਬਿਨਾਂ ਨਹੀਂ ਚੱਲ ਸਕੇਗੀ, ਜੋ ਤੁਹਾਡੇ ਡੀਵਾਈਸ \'ਤੇ ਸਮਰਥਿਤ ਨਹੀਂ ਹਨ।</string>
+    <string name="str265e">"%1$s Google Play ਸੇਵਾਵਾਂ ਤੋਂ ਬਿਨਾਂ ਨਹੀਂ ਚੱਲ ਸਕੇਗੀ, ਜੋ ਤੁਹਾਡੇ ਡੀਵਾਈਸ 'ਤੇ ਸਮਰਥਿਤ ਨਹੀਂ ਹਨ।"</string>
     <string name="str265f">ਅੱਪਡੇਟ ਕਰੋ</string>
     <string name="str2660">%1$s ਨਹੀਂ ਚੱਲੇਗਾ ਜਦੋਂ ਤੱਕ ਤੁਸੀਂ Google Play ਸੇਵਾਵਾਂ ਨੂੰ ਅੱਪਡੇਟ ਨਹੀਂ ਕਰਦੇ ਹੋ।</string>
     <string name="str2661">Google Play ਸੇਵਾਵਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰੋ</string>
     <string name="str2662">%1$s Google Play ਸੇਵਾਵਾਂ ਤੋਂ ਬਿਨਾਂ ਨਹੀਂ ਚੱਲੇਗਾ, ਜੋ ਵਰਤਮਾਨ ਵਿੱਚ ਅੱਪਡੇਟ ਹੋ ਰਹੀਆਂ ਹਨ।</string>
-    <string name="str2663">Google Play ਸੇਵਾਵਾਂ ਦੇ ਨਵਾਂ ਸੰਸਕਰਨ ਦੀ ਲੋੜ ਹੈ। ਇਹ ਛੇਤੀ ਹੀ ਸਵੈਚਲਿਤ ਤੌਰ \'ਤੇ ਅੱਪਡੇਟ ਕਰੇਗਾ।</string>
-    <string name="str2664">ਫ਼ੋਨ \'ਤੇ ਖੋਲ੍ਹੋ</string>
+    <string name="str2663">"Google Play ਸੇਵਾਵਾਂ ਦੇ ਨਵਾਂ ਸੰਸਕਰਨ ਦੀ ਲੋੜ ਹੈ। ਇਹ ਛੇਤੀ ਹੀ ਸਵੈਚਲਿਤ ਤੌਰ 'ਤੇ ਅੱਪਡੇਟ ਕਰੇਗਾ।"</string>
+    <string name="str2664">"ਫ਼ੋਨ 'ਤੇ ਖੋਲ੍ਹੋ"</string>
     <string name="str2667">ਸਿਰਫ਼ ਕਮਿਊਨਿਟੀ ਦੇ ਐਡਮਿਨ</string>
     <string name="str2668">ਸਿਰਫ਼ ਕਮਿਊਨਿਟੀ ਦੇ ਐਡਮਿਨ ਗਰੁੱਪਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰ ਸਕਦੇ ਹਨ।</string>
     <string name="str2669">ਸਾਰੇ</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">ਬਹੁਤ ਜ਼ਿਆਦਾ ਕੋਸ਼ਿਸ਼ਾਂ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।</string>
     <string name="str26fe">ਕੋਈ ਫਿੰਗਰਪ੍ਰਿੰਟ ਦਰਜ ਨਹੀਂ ਕੀਤਾ ਗਿਆ।</string>
     <string name="str26ff">ਫਿੰਗਰਪ੍ਰਿੰਟ ਦੇ ਪੁਸ਼ਟੀਕਰਨ ਦੀ ਕਾਰਵਾਈ ਵਰਤੋਂਕਾਰ ਵੱਲੋਂ ਰੱਦ ਕੀਤੀ ਗਈ।</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;ਹੋਰ ਜਾਣੋ&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">ਹੋਰ ਜਾਣੋ&lt;/a></string>
     <string name="str2701">ਵੱਡਾ</string>
     <string name="str2702">ਮੱਧਮ</string>
     <string name="str2703">ਛੋਟਾ</string>
@@ -180,20 +180,20 @@
     <string name="str2792">ਨਵੀਂ ਸੂਚਨਾ</string>
     <string name="str279e">%1$s ਹਟਾਓ</string>
     <string name="str279f">%1$d ਤੋਂ ਵੱਧ ਨਵੀਆਂ ਸੂਚਨਾਵਾਂ</string>
-    <string name="str27a1">ਅਗਲੇ ਮਹੀਨੇ \'ਤੇ ਜਾਓ</string>
-    <string name="str27a2">ਪਿਛਲੇ ਮਹੀਨੇ \'ਤੇ ਜਾਓ</string>
+    <string name="str27a1">"ਅਗਲੇ ਮਹੀਨੇ 'ਤੇ ਜਾਓ"</string>
+    <string name="str27a2">"ਪਿਛਲੇ ਮਹੀਨੇ 'ਤੇ ਜਾਓ"</string>
     <string name="str27a6">ਰੱਦ ਕਰੋ</string>
     <string name="str27a7">ਠੀਕ ਹੈ</string>
     <string name="str27ab">ਦਿਨਾਂ ਦਾ ਕਾਲਮ: %1$s</string>
-    <string name="str27b2">ਸਾਲ %1$s \'ਤੇ ਨੈਵੀਗੇਟ ਕਰੋ</string>
+    <string name="str27b2">"ਸਾਲ %1$s 'ਤੇ ਨੈਵੀਗੇਟ ਕਰੋ"</string>
     <string name="str27b9">ਰੱਖਿਅਤ ਕਰੋ</string>
-    <string name="str27c2">ਕੈਲੰਡਰ ਇਨਪੁੱਟ ਮੋਡ \'ਤੇ ਜਾਓ</string>
-    <string name="str27c3">ਦਿਨ ਦੀ ਚੋਣ \'ਤੇ ਜਾਣ ਲਈ ਟੈਪ ਕਰੋ</string>
-    <string name="str27c4">ਲਿਖਤ ਇਨਪੁੱਟ ਮੋਡ \'ਤੇ ਜਾਓ</string>
-    <string name="str27c5">ਸਾਲ ਦੀ ਚੋਣ \'ਤੇ ਜਾਣ ਲਈ ਟੈਪ ਕਰੋ</string>
+    <string name="str27c2">"ਕੈਲੰਡਰ ਇਨਪੁੱਟ ਮੋਡ 'ਤੇ ਜਾਓ"</string>
+    <string name="str27c3">"ਦਿਨ ਦੀ ਚੋਣ 'ਤੇ ਜਾਣ ਲਈ ਟੈਪ ਕਰੋ"</string>
+    <string name="str27c4">"ਲਿਖਤ ਇਨਪੁੱਟ ਮੋਡ 'ਤੇ ਜਾਓ"</string>
+    <string name="str27c5">"ਸਾਲ ਦੀ ਚੋਣ 'ਤੇ ਜਾਣ ਲਈ ਟੈਪ ਕਰੋ"</string>
     <string name="str27d0">ਮੌਨ ਕੀਤੇ ਅੱਪਡੇਟ</string>
     <string name="str27d1">ਮੇਰਾ QR ਕੋਡ</string>
-    <string name="str27e2">ਕੀ ਤੁਸੀਂ ਇੱਕ ਨਵਾਂ ਗਰੁੱਪ ਬਣਾ ਰਹੇ ਹੋ? &lt;font color=#%s&gt;&lt;b&gt;ਜਾਣੋ ਕਿ ਕਿਵੇਂ ਬਣਾਉਣਾ ਹੈ&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">ਕੀ ਤੁਸੀਂ ਇੱਕ ਨਵਾਂ ਗਰੁੱਪ ਬਣਾ ਰਹੇ ਹੋ? &lt;font color=#%s>&lt;b>ਜਾਣੋ ਕਿ ਕਿਵੇਂ ਬਣਾਉਣਾ ਹੈ&lt;/b>&lt;/font></string>
     <string name="str27e5">1 ਦਿਨ</string>
     <string name="str27e6">ਡਿਫਾਲਟ ਐਪ ਸੈਟਿੰਗ (%s)</string>
     <string name="str27e7">1 ਮਹੀਨਾ</string>
@@ -224,14 +224,14 @@
     <string name="str2825">ਚਲਾਓ</string>
     <string name="str2826">ਫਾਲੋਅਰ ਇਹ ਨਹੀਂ ਦੇਖ ਸਕਦੇ ਹਨ ਕਿ ਤੁਸੀਂ ਕਦੋਂ ਕਿਸੇ ਚੈਨਲ ਨੂੰ ਫਾਲੋ ਕਰਦੇ ਹੋ ਜਾਂ ਉਸ ਨਾਲ ਇੰਟਰੈਕਟ ਕਰਦੇ ਹੋ।</string>
     <string name="str2827">ਐਡਮਿਨ ਤੁਹਾਡਾ ਪੂਰਾ ਫ਼ੋਨ ਨੰਬਰ ਨਹੀਂ ਦੇਖ ਸਕਦੇ ਹਨ, ਜਦੋਂ ਤੱਕ ਕਿ ਉਹਨਾਂ ਨੇ ਤੁਹਾਡਾ ਨੰਬਰ ਆਪਣੇ ਡਿਵਾਈਸ ਵਿੱਚ ਸੰਪਰਕ ਵਜੋਂ ਸੁਰੱਖਿਅਤ ਨਹੀਂ ਕੀਤਾ ਹੁੰਦਾ।</string>
-    <string name="str2828">ਤੁਹਾਡੀਆਂ ਪਰਦੇਦਾਰੀ ਸੈਟਿੰਗਾਂ ਦੇ ਆਧਾਰ \'ਤੇ ਐਡਮਿਨ ਤੁਹਾਡੀ ਪ੍ਰੋਫ਼ਾਈਲ ਫ਼ੋਟੋ ਵੀ ਦੇਖ ਸਕਦੇ ਹਨ।</string>
+    <string name="str2828">"ਤੁਹਾਡੀਆਂ ਪਰਦੇਦਾਰੀ ਸੈਟਿੰਗਾਂ ਦੇ ਆਧਾਰ 'ਤੇ ਐਡਮਿਨ ਤੁਹਾਡੀ ਪ੍ਰੋਫ਼ਾਈਲ ਫ਼ੋਟੋ ਵੀ ਦੇਖ ਸਕਦੇ ਹਨ।"</string>
     <string name="str2829">ਐਡਮਿਨ ਤੁਹਾਡੀ ਪ੍ਰੋਫ਼ਾਈਲ ਦਾ ਨਾਂ ਦੇਖ ਸਕਦੇ ਹਨ</string>
     <string name="str282a">ਤੁਸੀਂ ਸਿਰਫ਼ ਗਰੁੱਪ ਛੱਡਣ ਤੋਂ ਪਹਿਲਾਂ ਪਾਈਆਂ ਗਈਆਂ ਵੋਟਾਂ ਦੇਖ ਸਕਦੇ ਹੋ।</string>
     <string name="str282b">ਹਮੇਸ਼ਾ ਪੋਪਅੱਪ ਦਿਖਾਓ</string>
     <string name="str282c">ਕੋਈ ਪੋਪਅੱਪ ਨਹੀਂ</string>
     <string name="str282d">ਸਿਰਫ਼ ਜਦੋਂ ਸਕ੍ਰੀਨ \"ਬੰਦ\" ਹੋਵੇ</string>
     <string name="str282e">ਸਿਰਫ਼ ਜਦੋਂ ਸਕ੍ਰੀਨ \"ਚਾਲੂ\" ਹੋਵੇ</string>
-    <string name="str2831">\"%1$s\" ਨੂੰ ਕਲਿੱਪਬੋਰਡ \'ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ।</string>
+    <string name="str2831">"\"%1$s\" ਨੂੰ ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ।"</string>
     <string name="str2834">ਹੋਰ ਵੇਰਵੇ ਦੇਖੋ</string>
     <string name="str2836">ਪ੍ਰੋਫ਼ਾਈਲ ਫ਼ੋਟੋ</string>
     <string name="str2837">ਜਾਣ-ਪਛਾਣ</string>
@@ -262,7 +262,7 @@
     <string name="str286d">ਕਾਲ ਸੂਚਨਾ</string>
     <string name="str286e">ਰਿੰਗਟੋਨ</string>
     <string name="str286f">ਆਉਣ ਵਾਲੀਆਂ WhatsApp ਕਾਲਾਂ ਲਈ ਰਿੰਗਟੋਨ ਚੁਣੋ।</string>
-    <string name="str2870">WhatsApp ਕਾਲ ਆਉਣ \'ਤੇ ਡਿਵਾਈਸ ਨੂੰ ਵਾਈਬ੍ਰੇਟ ਕਰੋ।</string>
+    <string name="str2870">"WhatsApp ਕਾਲ ਆਉਣ 'ਤੇ ਡਿਵਾਈਸ ਨੂੰ ਵਾਈਬ੍ਰੇਟ ਕਰੋ।"</string>
     <string name="str2871">ਚੈਟ ਨਿਰਯਾਤ ਕਰੋ</string>
     <string name="str2872">ਸੈਟਿੰਗਾਂ</string>
     <string name="str2873">ਮਦਦ</string>
@@ -280,9 +280,9 @@
     <string name="str287f">ਨਵੇਂ ਸੂਚਨਾ ਸੁਨੇਹੇ ਲਈ ਚਲਾਉਣ ਵਾਸਤੇ ਧੁਨੀ ਚੁਣੋ</string>
     <string name="str2880">ਲੋੜ ਮੁਤਾਬਕ ਸੂਚਨਾਵਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ</string>
     <string name="str2881">ਉੱਚ ਤਰਜੀਹ ਸੂਚਨਾਵਾਂ ਵਰਤੋਂ</string>
-    <string name="str2882">ਸਕ੍ਰੀਨ ਦੇ ਸਿਖਰ \'ਤੇ ਸੂਚਨਾਵਾਂ ਦੀ ਝਲਕ ਦਿਖਾਓ</string>
+    <string name="str2882">"ਸਕ੍ਰੀਨ ਦੇ ਸਿਖਰ 'ਤੇ ਸੂਚਨਾਵਾਂ ਦੀ ਝਲਕ ਦਿਖਾਓ"</string>
     <string name="str2883">ਵਾਈਬ੍ਰੇਟ</string>
-    <string name="str2884">ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਚੱਲਦੇ ਸਮੇਂ ਨਵਾਂ ਸੁਨੇਹਾ ਆਉਣ \'ਤੇ ਡਿਵਾਈਸ ਨੂੰ ਵਾਈਬ੍ਰੇਟ ਕਰੋ।</string>
+    <string name="str2884">"ਐਪਲੀਕੇਸ਼ਨ ਦੇ ਚੱਲਦੇ ਸਮੇਂ ਨਵਾਂ ਸੁਨੇਹਾ ਆਉਣ 'ਤੇ ਡਿਵਾਈਸ ਨੂੰ ਵਾਈਬ੍ਰੇਟ ਕਰੋ।"</string>
     <string name="str2885">ਸੂਚਨਾਵਾਂ</string>
     <string name="str2886">ਆਰਡਰ ਦਾ ਵੇਰਵਾ</string>
     <string name="str2887">ਸੇਲ ਦਾ ਵੇਰਵਾ</string>
@@ -292,7 +292,7 @@
     <string name="str288b">ਪ੍ਰੋਫ਼ਾਈਲ</string>
     <string name="str288c">ਸੈਟਿੰਗਾਂ ਲਈ ਕੋਈ ਨਤੀਜੇ ਨਹੀਂ ਲੱਭੇ</string>
     <string name="str288d">ਸਟੋਰੇਜ਼ ਅਤੇ ਡਾਟਾ ਦੀ ਵਰਤੋਂ</string>
-    <string name="str2891">ਅਗਿਆਤ ਨੰਬਰਾਂ ਤੋਂ ਆਉਣ ਵਾਲੀਆਂ ਕਾਲਾਂ ਨੂੰ ਮੌਨ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ। ਉਹ ਕਾਲਾਂ ਫਿਰ ਵੀ ਤੁਹਾਡੀ ਕਾਲ ਟੈਬ ਅਤੇ ਸੂਚਨਾਵਾਂ ਵਿੱਚ ਦਿਖਾਈ ਦੇਣਗੀਆਂ। &lt;a href=calling_privacy_help&gt;ਹੋਰ ਜਾਣੋ&lt;/a&gt;</string>
+    <string name="str2891">ਅਗਿਆਤ ਨੰਬਰਾਂ ਤੋਂ ਆਉਣ ਵਾਲੀਆਂ ਕਾਲਾਂ ਨੂੰ ਮੌਨ ਕਰ ਦਿੱਤਾ ਜਾਵੇਗਾ। ਉਹ ਕਾਲਾਂ ਫਿਰ ਵੀ ਤੁਹਾਡੀ ਕਾਲ ਟੈਬ ਅਤੇ ਸੂਚਨਾਵਾਂ ਵਿੱਚ ਦਿਖਾਈ ਦੇਣਗੀਆਂ। &lt;a href=calling_privacy_help>ਹੋਰ ਜਾਣੋ&lt;/a></string>
     <string name="str2892">ਅਗਿਆਤ ਕਾਲਰ ਨੂੰ ਮੌਨ ਕਰੋ</string>
     <string name="str2893">ਛੱਡੋ</string>
     <string name="str2895">ਮਿਤੀ ਅਨੁਸਾਰ ਲੜੀਬੱਧ ਕਰੋ</string>
@@ -302,7 +302,7 @@
     <string name="str289e">ਜਿਮ ਵਿੱਚ ਹਾਂ</string>
     <string name="str289f">ਫ਼ਿਲਮ ਦੇਖ ਰਹੇ ਹਾਂ</string>
     <string name="str28a0">ਸਕੂਲ ਵਿੱਚ ਹਾਂ</string>
-    <string name="str28a1">ਕੰਮ \'ਤੇ ਹਾਂ</string>
+    <string name="str28a1">"ਕੰਮ 'ਤੇ ਹਾਂ"</string>
     <string name="str28a2">ਉਪਲਬਧ ਹਾਂ</string>
     <string name="str28a3">ਬੈਟਰੀ ਖਤਮ ਹੋਣ ਵਾਲੀ ਹੈ</string>
     <string name="str28a4">ਵਿਅਸਤ ਹਾਂ</string>
@@ -315,7 +315,7 @@
     <string name="str28ab">ਤੀਜੀ ਧਿਰ ਦੀਆਂ ਸਟਿੱਕਰ ਐਪਾਂ ਦੇ WhatsApp ਸਟਿੱਕਰਾਂ ਨੂੰ ਪੜ੍ਹੋ ਅਤੇ ਦਿਖਾਓ</string>
     <string name="str28b3">%1$s, %2$s</string>
     <string name="str28b6">ਖ਼ਾਰਜ ਕਰੋ</string>
-    <string name="str28d0">ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ, ਤੁਹਾਡੇ ਖਾਤੇ \'ਤੇ ਪੇਮੈਂਟਾਂ ਨੂੰ ਅਸਮਰੱਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਮਦਦ ਲਈ WhatsApp ਸਹਾਇਤਾ ਟੀਮ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।</string>
+    <string name="str28d0">"ਤੁਹਾਡੇ ਖਾਤੇ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖਣ ਲਈ, ਤੁਹਾਡੇ ਖਾਤੇ 'ਤੇ ਪੇਮੈਂਟਾਂ ਨੂੰ ਅਸਮਰੱਥ ਕਰ ਦਿੱਤਾ ਗਿਆ ਹੈ। ਮਦਦ ਲਈ WhatsApp ਸਹਾਇਤਾ ਟੀਮ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।"</string>
     <string name="str28d1">ਬੰਦ</string>
     <string name="str28d2">ਚਾਲੂ</string>
     <string name="str28d3">ਸੁਰੱਖਿਆ ਕੋਡ ਦੀ ਤਸਦੀਕ ਕਰੋ</string>

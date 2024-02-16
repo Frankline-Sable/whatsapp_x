@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
-    <size android:width="1dp"/>
-    <solid android:color="?attr/attr06f7"/>
-    <padding android:top="-12sp" android:bottom="-12sp"/>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:width="1.0dip" />
+    <solid android:color="?attr06f7" />
+    <padding android:top="-12.0sp" android:bottom="-12.0sp" />
 </shape>

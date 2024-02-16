@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/actions_card" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style023c">
-    <LinearLayout android:orientation="vertical" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
-        <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/vcards_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen05f8" android:paddingRight="@dimen/dimen05f8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen05fa" android:text="@string/str2306" style="@style/style0260"/>
-        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@+id/mute_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_settings_notification" app:attr056c="@string/str1272"/>
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/actions_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/style023c"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="?attr06f8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/vcards_layout" android:background="@drawable/selector_orange_gradient" android:paddingLeft="@dimen/dimen05f8" android:paddingRight="@dimen/dimen05f8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen05fa" android:text="@string/str2306" style="@style/style0260" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/mute_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_settings_notification" app:attr056c="@string/str1272" />
     </LinearLayout>
 </com.gbwhatsapp.InfoCard>

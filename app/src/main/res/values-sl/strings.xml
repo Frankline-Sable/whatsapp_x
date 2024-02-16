@@ -23,7 +23,7 @@
     <string name="str25d5">Pošiljanje poizvedbe</string>
     <string name="str25d6">Glasovno iskanje</string>
     <string name="str25d9">Strnitev</string>
-    <string name="str25db">Kot član lahko vidite skupine v tej skupnosti in se jim pridružite ter prek obvestil skrbnikov ostajate na tekočem. &lt;a href=\"%s\"&gt;Več o tem&lt;/a&gt;</string>
+    <string name="str25db">Kot član lahko vidite skupine v tej skupnosti in se jim pridružite ter prek obvestil skrbnikov ostajate na tekočem. &lt;a href=\"%s\">Več o tem&lt;/a></string>
     <string name="str25dc">Dobrodošli v skupnosti!</string>
     <string name="str25df">V redu</string>
     <string name="str25e0">Med računi ni bilo mogoče preklopiti. Poskusite znova pozneje.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">Oseba %s vam ne bo več mogla pošiljati sporočil ali vas klicati.</string>
     <string name="str262d">Vrsta podjetja</string>
     <string name="str262e">Podatki o podjetju</string>
-    <string name="str2636">Da bi drugi ljudje težje sklepali, na kateri lokaciji ste, bodo klici v tej napravi varno posredovani prek strežnikov WhatsApp. Zaradi tega bo kakovost klica zmanjšana. &lt;a href=call_relaying_help&gt;Več o tem&lt;/a&gt;</string>
+    <string name="str2636">Da bi drugi ljudje težje sklepali, na kateri lokaciji ste, bodo klici v tej napravi varno posredovani prek strežnikov WhatsApp. Zaradi tega bo kakovost klica zmanjšana. &lt;a href=call_relaying_help>Več o tem&lt;/a></string>
     <string name="str2637">Zaščita naslova IP v klicih</string>
     <string name="str2638">Klici</string>
     <string name="str2639">Dodajanje bližnjice do klicanja za %s.</string>
     <string name="str263a">Bližnjica do klicanja</string>
-    <string name="str263b">Uporabljajte učinke kamere, kakor je vaš avatar, v klicih. &lt;a href=\"%s\"&gt;Več o tem&lt;/a&gt;</string>
+    <string name="str263b">Uporabljajte učinke kamere, kakor je vaš avatar, v klicih. &lt;a href=\"%s\">Več o tem&lt;/a></string>
     <string name="str263c">Učinki kamere</string>
     <string name="str263d">WhatsApp Fotoaparat</string>
     <string name="str263e">Prekliči</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Preveč poskusov. Poskusite znova pozneje.</string>
     <string name="str26fe">Ni prijavljenih prstnih odtisov.</string>
     <string name="str26ff">Dejanje s prstnim odtisom je preklical uporabnik.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Več o tem&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Več o tem&lt;/a></string>
     <string name="str2701">Velika</string>
     <string name="str2702">Srednja</string>
     <string name="str2703">Majhna</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Preklop na način vnosa besedila</string>
     <string name="str27c5">Dotik za preklop na izbiro leta</string>
     <string name="str27d0">Utišane posodobitve</string>
-    <string name="str27e2">Ali želite ustvariti novo skupino? &lt;font color=#%s&gt;&lt;b&gt;Oglejte si, kako&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Ali želite ustvariti novo skupino? &lt;font color=#%s>&lt;b>Oglejte si, kako&lt;/b>&lt;/font></string>
     <string name="str27e5">1 dan</string>
     <string name="str27e6">Privzeta nastavitev aplikacije (%s)</string>
     <string name="str27e7">1 mesec</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Ni najdenih rezultatov za nastavitve</string>
     <string name="str288d">Prostor za shranjevanje in poraba prenosa podatkov</string>
-    <string name="str2891">Klici z neznanih številk bodo utišani. Še vedno bodo prikazani na zavihku s klici in med obvestili. &lt;a href=calling_privacy_help&gt;Več o tem&lt;/a&gt;</string>
+    <string name="str2891">Klici z neznanih številk bodo utišani. Še vedno bodo prikazani na zavihku s klici in med obvestili. &lt;a href=calling_privacy_help>Več o tem&lt;/a></string>
     <string name="str2892">Utišaj neznane klicatelje</string>
     <string name="str2893">Proskoči</string>
     <string name="str2895">Uredi po datumu</string>

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/dimen04f3">
-    <com.whatsapp.stickers.StickerView android:layout_gravity="center" android:id="@+id/sticker" android:layout_width="@dimen/dimen04f2" android:layout_height="@dimen/dimen04f2"/>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="@dimen/dimen04f3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.whatsapp.stickers.StickerView android:layout_gravity="center" android:id="@id/sticker" android:layout_width="@dimen/dimen04f2" android:layout_height="@dimen/dimen04f2" />
 </FrameLayout>

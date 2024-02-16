@@ -23,7 +23,7 @@
     <string name="str25d5">Pateikti užklausą</string>
     <string name="str25d6">Paieška balsu</string>
     <string name="str25d9">Sutraukti</string>
-    <string name="str25db">Kaip narys galite prisijungti prie bendruomenės grupių ir sužinoti naujienas per administratorių pranešimus. &lt;a href=\"%s\"&gt;Sužinokite daugiau&lt;/a&gt;</string>
+    <string name="str25db">Kaip narys galite prisijungti prie bendruomenės grupių ir sužinoti naujienas per administratorių pranešimus. &lt;a href=\"%s\">Sužinokite daugiau&lt;/a></string>
     <string name="str25dc">Sveikiname prisijungus prie bendruomenės!</string>
     <string name="str25df">Gerai</string>
     <string name="str25e0">Paskyrų perjungti nepavyko. Bandykite dar kartą vėliau.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s nebegalės siųsti jums žinučių ar skambinti.</string>
     <string name="str262d">Įmonės tipas</string>
     <string name="str262e">Verslo duomenys</string>
-    <string name="str2636">Kad kitiems būtų sunkiau nustatyti jūsų buvimo vietą, skambučiai bus saugiai perduodami per „WhatsApp“ serverius. Dėl to suprastės skambučių kokybė. &lt;a href=call_relaying_help&gt;Sužinokite daugiau&lt;/a&gt;</string>
+    <string name="str2636">Kad kitiems būtų sunkiau nustatyti jūsų buvimo vietą, skambučiai bus saugiai perduodami per „WhatsApp“ serverius. Dėl to suprastės skambučių kokybė. &lt;a href=call_relaying_help>Sužinokite daugiau&lt;/a></string>
     <string name="str2637">Apsaugoti IP adresą skambučiuose</string>
     <string name="str2638">Skambučiai</string>
     <string name="str2639">Pridėkite %s skambinimo trumpąjį ruošinį.</string>
     <string name="str263a">Skambinimo trumpasis ruošinys</string>
-    <string name="str263b">Skambučiams naudokite kameros efektus tokius kaip pseudoportretas. &lt;a href=\"%s\"&gt;Sužinokite daugiau&lt;/a&gt;</string>
+    <string name="str263b">Skambučiams naudokite kameros efektus tokius kaip pseudoportretas. &lt;a href=\"%s\">Sužinokite daugiau&lt;/a></string>
     <string name="str263c">Kameros efektai</string>
     <string name="str263d">„WhatsApp“ kamera</string>
     <string name="str263e">Atšaukti</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Per daug bandymų. Vėliau bandykite dar kartą.</string>
     <string name="str26fe">Neužregistruota jokių kontrolinių kodų.</string>
     <string name="str26ff">Piršto antspaudo operaciją atšaukė naudotojas.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Sužinokite daugiau&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Sužinokite daugiau&lt;/a></string>
     <string name="str2701">Didelis</string>
     <string name="str2702">Vidutinis</string>
     <string name="str2703">Mažas</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Perjungti į teksto įvesties režimą</string>
     <string name="str27c5">Palieskite, kad perjungtumėte į metų pasirinkimą</string>
     <string name="str27d0">Nutildyti atnaujiminai</string>
-    <string name="str27e2">Kuriate naują grupę? &lt;font color=#%s&gt;&lt;b&gt;Sužinokite kaip&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Kuriate naują grupę? &lt;font color=#%s>&lt;b>Sužinokite kaip&lt;/b>&lt;/font></string>
     <string name="str27e5">1 d.</string>
     <string name="str27e6">Numatytasis programos nustatymas (%s)</string>
     <string name="str27e7">1 mėn.</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profilis</string>
     <string name="str288c">Nustatymų rezultatų nerasta</string>
     <string name="str288d">Saugyklos ir duomenų naudojimas</string>
-    <string name="str2891">Skambučiai iš nežinomų numerių bus nutildyti. Jie vis tiek bus rodomi jūsų skambučių skirtuke ir pranešimuose. &lt;a href=calling_privacy_help&gt;Sužinokite daugiau&lt;/a&gt;</string>
+    <string name="str2891">Skambučiai iš nežinomų numerių bus nutildyti. Jie vis tiek bus rodomi jūsų skambučių skirtuke ir pranešimuose. &lt;a href=calling_privacy_help>Sužinokite daugiau&lt;/a></string>
     <string name="str2892">Nutildyti nežinomus skambintojus</string>
     <string name="str2893">Praleisti</string>
     <string name="str2895">Rūšiuoti pagal datą</string>

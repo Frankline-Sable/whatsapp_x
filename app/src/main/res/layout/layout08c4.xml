@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.WaImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/dimen06bf" android:layout_height="@dimen/dimen06bd"/>
+<com.gbwhatsapp.WaImageView android:layout_width="@dimen/dimen06bf" android:layout_height="@dimen/dimen06bd"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

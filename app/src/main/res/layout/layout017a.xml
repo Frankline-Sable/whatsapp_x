@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/change_number_notification" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <LinearLayout android:orientation="horizontal" android:background="?attr/attr02a3" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="4dp">
-        <com.gbwhatsapp.WaTextView android:id="@+id/change_number_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_weight="1"/>
-        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/change_number_dismiss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/ic_close" app:attr0906="?attr/attr0147"/>
+<LinearLayout android:orientation="vertical" android:id="@id/change_number_notification" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="?attr02a3" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip">
+        <com.gbwhatsapp.WaTextView android:id="@id/change_number_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/change_number_dismiss" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:src="@drawable/ic_close" app:attr0906="?attr0147" />
     </LinearLayout>
-    <View android:layout_gravity="bottom" style="@style/style031f"/>
+    <View android:layout_gravity="bottom" style="@style/style031f" />
 </LinearLayout>

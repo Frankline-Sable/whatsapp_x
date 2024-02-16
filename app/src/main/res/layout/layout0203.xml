@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/style001c">
-    <com.gbwhatsapp.WaImageButton android:id="@+id/icon" style="@style/style001a"/>
-    <include layout="@layout/layout0202"/>
+<LinearLayout style="@style/style001c"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageButton android:id="@id/icon" style="@style/style001a" />
+    <include layout="@layout/layout0202" />
 </LinearLayout>

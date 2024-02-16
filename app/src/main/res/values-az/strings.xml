@@ -18,7 +18,7 @@
     <string name="HangoutsBt">Söhbət ekranı düymə rəngləri</string>
     <string name="HangoutsBtS">Giriş işarələrinin rəngini dəyişdir</string>
     <string name="HideFAB">FAB düyməsini gizlə</string>
-    <string name="Lock">WhatsApp\'ı Kilidlə</string>
+    <string name="Lock">"WhatsApp'ı Kilidlə"</string>
     <string name="MainSize">Əsas/Zənglər/Şəxslər Ekranı yazı ölçüsü</string>
     <string name="MainSizeS">Əsas ekrandakı bütün yazıların ölçüsünü dəyiş</string>
     <string name="OnlineDotHomeColor">Onlayn Nöqtə Rəngi</string>
@@ -155,11 +155,13 @@
     <string name="disable_dttl">İkiqat toxunma reaksiyasını deaktiv edin</string>
     <string name="disablestatus">Adımın altındakı statusu yığışdır</string>
     <string name="disablestatusSum">Ana səhifədə adınızın altındakı statusunuzu görünməz edər</string>
-    <string name="donateMe">Bu tətbiq səncə yararlıdır?\10Hazırlayan şəxsə maddi yardım edərək dəstək ol!</string>
+    <string name="donateMe">"Bu tətbiq səncə yararlıdır?
+Hazırlayan şəxsə maddi yardım edərək dəstək ol!"</string>
     <string name="donations__alert_dialog_no_browser">Sayta daxil olmaq üçün brauzer tapılmadı!</string>
     <string name="donations__alert_dialog_title">Xəta baş verdi</string>
     <string name="donations__button_close">Bağla</string>
-    <string name="donations__description">Bu tətbiq səncə yararlıdır?\10Hazırlayan şəxsə maddi yardım edərək dəstək ol!</string>
+    <string name="donations__description">"Bu tətbiq səncə yararlıdır?
+Hazırlayan şəxsə maddi yardım edərək dəstək ol!"</string>
     <string name="donations__flattr">Flattr</string>
     <string name="donations__flattr_description">Flattr 10% rüsum tutur</string>
     <string name="donations__google_android_market">Google Play Store</string>
@@ -170,7 +172,8 @@
     <string name="donations__google_android_market_text">Nə qədər?</string>
     <string name="donations__paypal">PayPal</string>
     <string name="donations__paypal_description">Düyməyə basdıqdan sonra nə qədər pul göndərəcəyinizi seçə bilərsiniz!</string>
-    <string name="donations__thanks_dialog">Dəstək olduğunuz üçün təşəkkürlər!\10Öpürəm səni qaqam!</string>
+    <string name="donations__thanks_dialog">"Dəstək olduğunuz üçün təşəkkürlər!
+Öpürəm səni qaqam!"</string>
     <string name="donations__thanks_dialog_title">Təşəkkürlər!</string>
     <string name="elapsedT">Keçən zaman</string>
     <string name="elapsedTS">Keçən zaman funksiyasını işlədərək əsas ekranda və ya söhbət ekranında kontaktın nəçə dəqiqə/saat əvvəl xəttə olduğunu görə bilərsiniz!</string>
@@ -187,7 +190,7 @@
     <string name="entryTextSum">Söhbət qutusunda yazının rəngini dəyiş</string>
     <string name="str0918">Kopyalayın</string>
     <string name="fab">Fab rəngi</string>
-    <string name="ghost_mode">Ghost Mode��</string>
+    <string name="ghost_mode">Ghost Mode👻</string>
     <string name="group_participant_pic">Üzv şəkli</string>
     <string name="group_participant_pic_summary">Qrup üzvlərinin şəkillərini hər mesajda göstər</string>
     <string name="groups_participation">Qruplar</string>
@@ -299,7 +302,7 @@
     <string name="repetition_4">Aylıq</string>
     <string name="repetition_5">İllik</string>
     <string name="resetPrivacyonly">Cari temanı saxlayaq?</string>
-    <string name="resetPrivacyonlyS">\'Saxla\': Qurulmuş temanı saxla \'Sıfırla\': Standart WhatsApp rəngləri</string>
+    <string name="resetPrivacyonlyS">"'Saxla': Qurulmuş temanı saxla 'Sıfırla': Standart WhatsApp rəngləri"</string>
     <string name="resetThemes">Hər şeyi sıfırla</string>
     <string name="resetThemesSum">WhatsApp-ı əvvəlki ayarlara geri döndür</string>
     <string name="restoreTheme">Tema bərpa et</string>
@@ -308,9 +311,8 @@
     <string name="rowResizer_sum">Əsas ekranda row ölçüsünü dəşişdir. 0=söndürmək</string>
     <string name="saveTheme">Tema yadda saxla</string>
     <string name="saveThemeS">Hazırki ayarları (/Download/GBThemes) daxilində yadda saxla</string>
-    <string name="sched_title_activity_edit">Mesajı Düzenle</string>
     <string name="selected_tabPagerTitle">Səhifə seçildi başlıq rəngini dəyiş</string>
-    <string name="selected_tabPagerTitleS">Seçilən səhifədə \'SÖHBƏTLƏR\', \'STATUSLAR\', \'ZƏNGLƏR\' rəngini dəyiş</string>
+    <string name="selected_tabPagerTitleS">"Seçilən səhifədə 'SÖHBƏTLƏR', 'STATUSLAR', 'ZƏNGLƏR' rəngini dəyiş"</string>
     <string name="show_all">Hamısını göstər</string>
     <string name="show_name">Adı göstər</string>
     <string name="somehelp">Kömək lazımdır?</string>
@@ -327,7 +329,7 @@
     <string name="supportyo">Dəstək</string>
     <string name="tabPagerIndicator">Seçilmiş Tab altxətt rəngi</string>
     <string name="tabPagerTitle">Səhifə başlığı yazı rəngi</string>
-    <string name="tabPagerTitleS">Ekranda \'SÖHBƏTLƏR\', \'STATUSLAR\', \'ZƏNGLƏR\' rəngini dəyiş</string>
+    <string name="tabPagerTitleS">"Ekranda 'SÖHBƏTLƏR', 'STATUSLAR', 'ZƏNGLƏR' rəngini dəyiş"</string>
     <string name="textcolormain">Əsas ekran rəngini təyin et</string>
     <string name="textcoloruni">Yazı rəngi</string>
     <string name="time_ago">%s əvvəl</string>
@@ -520,11 +522,8 @@
     <string name="youplink" />
     <string name="yowaUpdate">Yenilənmələr</string>
     <string name="yowa_widget">Widget</string>
-    <string name="donations__bitcoin">Bitcoin</string>
-    <string name="donations__bitcoin_description">İstədiyiniz məbləğdə bitcoin göndərə bilərsiniz. Düyməni sıxın və linki kopyalayın.</string>
-    <string name="donations__bitcoin_send_bitcoin_button">Bitcoin Göndər!</string>
-    <string name="donations__bitcoin_toast_copy">Bitcoin ünvanı mübadilə buferinə kopyalandı!</string>
-    <string name="follow_us_on_telegram">Bizi Telegram-da izləyin\10@AlexMods_Official</string>
+    <string name="follow_us_on_telegram">"Bizi Telegram-da izləyin
+@AlexMods_Official"</string>
     <string name="alex_CancelButton">Ləğv Et</string>
     <string name="alex_UpdateButton">İndi Yeniləyin</string>
     <string name="alex_UpdateTitle">Yeni Yeniləmə Mövcuddur</string>
@@ -554,7 +553,7 @@
     <string name="str25d5">Sorğunu göndərin</string>
     <string name="str25d6">Səsli axtarış</string>
     <string name="str25d9">Yığcamlaşdırın</string>
-    <string name="str25db">Üzv olaraq bu icmada qrupları görə, onlara qoşula və inzibatçı elanlarından xəbərdar ola bilərsiniz. &lt;a href=\"%s\"&gt;Ətraflı məlumat&lt;/a&gt;</string>
+    <string name="str25db">Üzv olaraq bu icmada qrupları görə, onlara qoşula və inzibatçı elanlarından xəbərdar ola bilərsiniz. &lt;a href=\"%s\">Ətraflı məlumat&lt;/a></string>
     <string name="str25dc">İcmaya xoş gəlmisiniz!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Hesabları dəyişmək mümkün olmadı. Sonra yenidən cəhd edin.</string>
@@ -586,12 +585,12 @@
     <string name="str262c">‎%s artıq sizə mesaj yaza və ya zəng edə bilməyəcək.</string>
     <string name="str262d">Biznes növü</string>
     <string name="str262e">Biznes Təfərrüatları</string>
-    <string name="str2636">İnsanların məkanınızı müəyyən etməsini çətinləşdirmək üçün bu cihazdakı zənglər WhatsApp serverləri vasitəsilə təhlükəsiz şəkildə ötürüləcək. Bu, zəng keyfiyyətini aşağı salacaq. &lt;a href=call_relaying_help&gt;Ətraflı məlumat&lt;/a&gt;</string>
+    <string name="str2636">İnsanların məkanınızı müəyyən etməsini çətinləşdirmək üçün bu cihazdakı zənglər WhatsApp serverləri vasitəsilə təhlükəsiz şəkildə ötürüləcək. Bu, zəng keyfiyyətini aşağı salacaq. &lt;a href=call_relaying_help>Ətraflı məlumat&lt;/a></string>
     <string name="str2637">Zənglərdə IP ünvanını qoruyun</string>
     <string name="str2638">Zənglər</string>
     <string name="str2639">‎%s üçün zəng qısayolu əlavə edin.</string>
     <string name="str263a">Zəng qısayolu</string>
-    <string name="str263b">Zənglərdə avatarınız kimi kamera effektlərindən istifadə edin. &lt;a href=\"%s\"&gt;Ətraflı məlumat&lt;/a&gt;</string>
+    <string name="str263b">Zənglərdə avatarınız kimi kamera effektlərindən istifadə edin. &lt;a href=\"%s\">Ətraflı məlumat&lt;/a></string>
     <string name="str263c">Kamera effektləri</string>
     <string name="str263d">WhatsApp Kamera</string>
     <string name="str263e">Ləğv et</string>
@@ -668,7 +667,7 @@
     <string name="str26fd">Həddən çox cəhd oldu. Sonra sınayın.</string>
     <string name="str26fe">Barmaq izi qeydə alınmayıb.</string>
     <string name="str26ff">Barmaq izi əməliyyatı istifadəçi tərəfindən ləğv edildi.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Ətraflı məlumat&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Ətraflı məlumat&lt;/a></string>
     <string name="str2701">Geniş</string>
     <string name="str2702">Orta</string>
     <string name="str2703">Kiçik</string>
@@ -723,7 +722,7 @@
     <string name="str27c4">Mətn daxiletmə rejiminə keçin</string>
     <string name="str27c5">İl seçiminə keçmək üçün toxunun</string>
     <string name="str27d0">Səssizləşdirilmiş yeniləmələr</string>
-    <string name="str27e2">Yeni qrup yaradırsınız? &lt;font color=#%s&gt;&lt;b&gt;Necə yaradıldığına baxın&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Yeni qrup yaradırsınız? &lt;font color=#%s>&lt;b>Necə yaradıldığına baxın&lt;/b>&lt;/font></string>
     <string name="str27e5">1 gün</string>
     <string name="str27e6">Standart tətbiq parametri (%s)</string>
     <string name="str27e7">1 ay</string>
@@ -820,7 +819,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Ayarlar səhifəsində nəticə tapılmadı</string>
     <string name="str288d">Yaddaş və data istifadəsi</string>
-    <string name="str2891">Naməlum nömrələrdən gələn zənglər səssiz ediləcək. Zənglər tabında və bildirişlərinizdə hələ də göstəriləcək. &lt;a href=calling_privacy_help&gt;Ətraflı məlumat&lt;/a&gt;</string>
+    <string name="str2891">Naməlum nömrələrdən gələn zənglər səssiz ediləcək. Zənglər tabında və bildirişlərinizdə hələ də göstəriləcək. &lt;a href=calling_privacy_help>Ətraflı məlumat&lt;/a></string>
     <string name="str2892">Naməlum nömrələrdən gələn zəngləri səssiz edin</string>
     <string name="str2893">Keçin</string>
     <string name="str2895">Tarixə görə sıralayın</string>
@@ -855,4 +854,9 @@
     <string name="str28dc">Tam şifrələmə</string>
     <string name="str28dd">Qoşulun</string>
     <string name="str28ec">Bu vebsayt sənaye standartı üzrə HTTPS təhlükəsizlik protokolu ilə qorunur.</string>
+    <string name="donations__bitcoin">Bitcoin</string>
+    <string name="donations__bitcoin_description">İstədiyiniz məbləğdə bitcoin göndərə bilərsiniz. Düyməni sıxın və linki kopyalayın.</string>
+    <string name="donations__bitcoin_send_bitcoin_button">Bitcoin Göndər!</string>
+    <string name="donations__bitcoin_toast_copy">Bitcoin ünvanı mübadilə buferinə kopyalandı!</string>
+    <string name="sched_title_activity_edit">Mesajı Düzenle</string>
 </resources>

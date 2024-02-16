@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="rectangle">
-            <corners android:radius="@dimen/dimen02d8"/>
-            <solid android:color="@color/color0b5a"/>
-            <stroke android:width="@dimen/dimen0134" android:color="@color/color0a71"/>
+            <corners android:radius="@dimen/dimen02d8" />
+            <solid android:color="@color/color0b5a" />
+            <stroke android:width="@dimen/dimen0134" android:color="@color/color0a71" />
         </shape>
     </item>
-    <item android:drawable="?attr/attr078a"/>
+    <item android:drawable="?attr078a" />
 </layer-list>

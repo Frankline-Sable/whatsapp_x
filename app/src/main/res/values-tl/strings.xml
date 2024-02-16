@@ -23,7 +23,7 @@
     <string name="str25d5">Isumite ang query</string>
     <string name="str25d6">Paghahanap gamit ang boses</string>
     <string name="str25d9">I-collapse</string>
-    <string name="str25db">Bilang miyembro, puwede kang tumingin at sumali sa mga group sa komunidad na ito at manatiling updated sa mga anunsyo ng admin. &lt;a href=\"%s\"&gt;Alamin pa&lt;/a&gt;</string>
+    <string name="str25db">Bilang miyembro, puwede kang tumingin at sumali sa mga group sa komunidad na ito at manatiling updated sa mga anunsyo ng admin. &lt;a href=\"%s\">Alamin pa&lt;/a></string>
     <string name="str25dc">Welcome sa komunidad!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Hindi makakapagpalit ng account. Pakisubukan ulit mamaya.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">Hindi ka na mapapadalhan ng mensahe o matatawagan ni %s.</string>
     <string name="str262d">Uri ng Business</string>
     <string name="str262e">Mga Detalye ng Business</string>
-    <string name="str2636">Para maging mas mahirap sa mga tao na mahulaan ang lokasyon mo, secure na ipapasa ang mga tawag sa device na ito sa pamamagitan ng mga WhatsApp server. Mababawasan nito ang kalidad ng tawag. &lt;a href=call_relaying_help&gt;Alamin pa&lt;/a&gt;</string>
+    <string name="str2636">Para maging mas mahirap sa mga tao na mahulaan ang lokasyon mo, secure na ipapasa ang mga tawag sa device na ito sa pamamagitan ng mga WhatsApp server. Mababawasan nito ang kalidad ng tawag. &lt;a href=call_relaying_help>Alamin pa&lt;/a></string>
     <string name="str2637">Protektahan ang IP address sa mga tawag</string>
     <string name="str2638">Mga Tawag</string>
     <string name="str2639">Maglagay ng shortcut sa pagtawag para kay %s.</string>
     <string name="str263a">Shortcut sa pagtawag</string>
-    <string name="str263b">Gumamit ng mga camera effect gaya ng avatar mo sa mga tawag. &lt;a href=\"%s\"&gt;Alamin pa&lt;/a&gt;</string>
+    <string name="str263b">Gumamit ng mga camera effect gaya ng avatar mo sa mga tawag. &lt;a href=\"%s\">Alamin pa&lt;/a></string>
     <string name="str263c">Mga effect sa camera</string>
     <string name="str263d">WhatsApp Camera</string>
     <string name="str263e">Kanselahin</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Masyadong maraming pagsubok. Pakisubukan ulit sa ibang pagkakataon.</string>
     <string name="str26fe">Walang naka-enroll na fingerprint.</string>
     <string name="str26ff">Kinansela ng user ang operasyon sa fingerprint.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Alamin pa&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Alamin pa&lt;/a></string>
     <string name="str2701">Malaki</string>
     <string name="str2702">Katamtaman</string>
     <string name="str2703">Maliit</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Lumipat sa pamamaraan ng pag-input ng text</string>
     <string name="str27c5">I-tap para lumipat sa pagpili ng taon</string>
     <string name="str27d0">Naka-mute na updates</string>
-    <string name="str27e2">Gagawa ng bagong group? &lt;font color=#%s&gt;&lt;b&gt;Tingnan kung paano&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Gagawa ng bagong group? &lt;font color=#%s>&lt;b>Tingnan kung paano&lt;/b>&lt;/font></string>
     <string name="str27e5">1 araw</string>
     <string name="str27e6">Default na setting sa app (%s)</string>
     <string name="str27e7">1 buwan</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profile</string>
     <string name="str288c">Walang nahanap na resulta ng mga setting</string>
     <string name="str288d">Paggamit ng storage at data</string>
-    <string name="str2891">Isa-silent ang mga tawag mula sa mga hindi kilalang numero. Lalabas pa rin ang mga ito sa tab na Mga Tawag at sa mga notification mo. &lt;a href=calling_privacy_help&gt;Alamin pa&lt;/a&gt;</string>
+    <string name="str2891">Isa-silent ang mga tawag mula sa mga hindi kilalang numero. Lalabas pa rin ang mga ito sa tab na Mga Tawag at sa mga notification mo. &lt;a href=calling_privacy_help>Alamin pa&lt;/a></string>
     <string name="str2892">I-silent ang mga hindi kilalang caller</string>
     <string name="str2893">Laktawan</string>
     <string name="str2895">Ayusin ayon sa petsa</string>

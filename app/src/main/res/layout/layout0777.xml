@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.search.views.itemviews.VoiceNoteProfileAvatarView android:id="@+id/search_row_voice_note_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp" app:attr05fb="@drawable/mic_background_incoming" app:attr05fc="@color/color0a97" app:attr05fe="40dp" app:attr0702="48dp"/>
-    <FrameLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
-        <com.gbwhatsapp.search.views.itemviews.AudioPlayerView android:layout_gravity="center_vertical" android:id="@+id/search_row_voice_note_controls" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr06cc="54dp" app:attr070b="44dp" app:attr0782="12dp"/>
-        <com.gbwhatsapp.conversation.ui.AudioPlayerMetadataView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/search_row_voice_note_metadata" android:paddingLeft="54dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr024d="7dp" app:attr047c="false"/>
+<merge android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.search.views.itemviews.VoiceNoteProfileAvatarView android:id="@id/search_row_voice_note_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8.0dip" whatsapp:attr05fb="@drawable/mic_background_incoming" whatsapp:attr05fc="@color/color0a97" whatsapp:attr05fe="40.0dip" whatsapp:attr0702="48.0dip" />
+    <FrameLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.search.views.itemviews.AudioPlayerView android:layout_gravity="center_vertical" android:id="@id/search_row_voice_note_controls" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:attr06cc="54.0dip" whatsapp:attr070b="44.0dip" whatsapp:attr0782="12.0dip" />
+        <com.gbwhatsapp.conversation.ui.AudioPlayerMetadataView android:layout_gravity="bottom|center|left" android:id="@id/search_row_voice_note_metadata" android:paddingLeft="54.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" whatsapp:attr024d="7.0dip" whatsapp:attr047c="false" />
     </FrameLayout>
 </merge>

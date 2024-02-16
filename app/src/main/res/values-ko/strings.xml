@@ -23,7 +23,7 @@
     <string name="str25d5">검색어 보내기</string>
     <string name="str25d6">음성 검색</string>
     <string name="str25d9">접기</string>
-    <string name="str25db">회원님은 멤버 권한으로 이 커뮤니티에 속한 그룹을 볼 수 있으며 원하는 그룹에 가입할 수 있습니다. 또한 관리자 공지사항을 통해 새로운 소식을 계속 받아볼 수 있습니다. &lt;a href=\"%s\"&gt;더 알아보기&lt;/a&gt;</string>
+    <string name="str25db">회원님은 멤버 권한으로 이 커뮤니티에 속한 그룹을 볼 수 있으며 원하는 그룹에 가입할 수 있습니다. 또한 관리자 공지사항을 통해 새로운 소식을 계속 받아볼 수 있습니다. &lt;a href=\"%s\">더 알아보기&lt;/a></string>
     <string name="str25dc">커뮤니티에 오신 것을 환영합니다!</string>
     <string name="str25df">확인</string>
     <string name="str25e0">계정을 전환할 수 없습니다. 나중에 다시 시도해주세요.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s님은 더 이상 회원님께 메시지를 보내거나 전화를 걸 수 없습니다.</string>
     <string name="str262d">비즈니스 유형</string>
     <string name="str262e">비즈니스 상세정보</string>
-    <string name="str2636">사람들이 회원님의 위치를 쉽게 추정할 수 없도록 이 기기의 통화는 WhatsApp 서버를 통해 안전하게 중계됩니다. 이에 따라 통화 품질이 낮아집니다. &lt;a href=call_relaying_help&gt;더 알아보기&lt;/a&gt;</string>
+    <string name="str2636">사람들이 회원님의 위치를 쉽게 추정할 수 없도록 이 기기의 통화는 WhatsApp 서버를 통해 안전하게 중계됩니다. 이에 따라 통화 품질이 낮아집니다. &lt;a href=call_relaying_help>더 알아보기&lt;/a></string>
     <string name="str2637">통화에서 IP 주소 보호</string>
     <string name="str2638">통화</string>
     <string name="str2639">‎%s의 통화 단축어를 추가합니다.</string>
     <string name="str263a">통화 단축어</string>
-    <string name="str263b">통화 중에 아바타와 같은 카메라 효과를 사용하세요. &lt;a href=\"%s\"&gt;더 알아보기&lt;/a&gt;</string>
+    <string name="str263b">통화 중에 아바타와 같은 카메라 효과를 사용하세요. &lt;a href=\"%s\">더 알아보기&lt;/a></string>
     <string name="str263c">카메라 효과</string>
     <string name="str263d">WhatsApp 카메라</string>
     <string name="str263e">취소</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">시도 횟수가 너무 많습니다. 나중에 다시 시도해 주세요.</string>
     <string name="str26fe">등록된 지문이 없습니다.</string>
     <string name="str26ff">사용자가 지문 인식 작업을 취소했습니다.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;더 알아보기&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">더 알아보기&lt;/a></string>
     <string name="str2701">크게</string>
     <string name="str2702">중간</string>
     <string name="str2703">작게</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">텍스트 입력 모드로 전환</string>
     <string name="str27c5">탭하여 연도 선택으로 전환</string>
     <string name="str27d0">무음 업데이트</string>
-    <string name="str27e2">새 그룹을 만드시겠어요? &lt;font color=#%s&gt;&lt;b&gt;방법 보기&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">새 그룹을 만드시겠어요? &lt;font color=#%s>&lt;b>방법 보기&lt;/b>&lt;/font></string>
     <string name="str27e5">1일</string>
     <string name="str27e6">앱 기본 설정(%s)</string>
     <string name="str27e7">1개월</string>
@@ -229,7 +229,7 @@
     <string name="str282c">팝업 차단</string>
     <string name="str282d">화면 “꺼짐” 상태에서만</string>
     <string name="str282e">화면 “활성화” 상태에서만</string>
-    <string name="str2831">\'%1$s\'이(가) 클립보드에 복사되었습니다.</string>
+    <string name="str2831">"'%1$s'이(가) 클립보드에 복사되었습니다."</string>
     <string name="str2834">상세 정보 보기</string>
     <string name="str2836">프로필 사진</string>
     <string name="str2837">정보</string>
@@ -289,7 +289,7 @@
     <string name="str288b">프로필</string>
     <string name="str288c">설정 검색 결과가 없습니다</string>
     <string name="str288d">저장 공간 및 데이터 사용 내용</string>
-    <string name="str2891">알 수 없는 번호로부터 걸려 온 전화가 알림 해제됩니다. 통화 탭과 알림에는 계속 표시됩니다. &lt;a href=calling_privacy_help&gt;더 알아보기&lt;/a&gt;</string>
+    <string name="str2891">알 수 없는 번호로부터 걸려 온 전화가 알림 해제됩니다. 통화 탭과 알림에는 계속 표시됩니다. &lt;a href=calling_privacy_help>더 알아보기&lt;/a></string>
     <string name="str2892">알 수 없는 발신자 알림 해제</string>
     <string name="str2893">건너뛰기</string>
     <string name="str2895">날짜별 정렬</string>

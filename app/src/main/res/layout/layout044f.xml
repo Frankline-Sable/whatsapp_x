@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen011b" android:textColor="@color/color0210" android:id="@+id/question" android:background="@drawable/selector_orange_gradient" android:paddingTop="@dimen/dimen0a54" android:paddingBottom="@dimen/dimen0a54" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_toLeftOf="@+id/radio" android:layout_centerVertical="true"/>
-    <RadioButton android:theme="?attr/attr0799" android:id="@+id/radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen011b" android:textColor="@color/color0210" android:id="@id/question" android:background="@drawable/selector_orange_gradient" android:paddingTop="@dimen/dimen0a54" android:paddingBottom="@dimen/dimen0a54" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toLeftOf="@id/radio" android:layout_centerVertical="true" />
+    <RadioButton android:theme="?attr0799" android:id="@id/radio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
 </RelativeLayout>

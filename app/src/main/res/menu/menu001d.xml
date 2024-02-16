@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:icon="@drawable/ic_action_select_multiple_teal" android:enabled="true" android:id="@+id/multi_select" android:visible="true" android:title="@string/str285a" android:titleCondensed="@string/str285a" app:attr04ac="?attr/attr045e" app:attr07ed="2"/>
-    <item android:icon="@drawable/vec_ic_more" android:enabled="true" android:id="@+id/more" android:visible="true" android:title="@string/str2791" android:titleCondensed="@string/str2791" app:attr04ac="?attr/attr045e" app:attr07ed="2">
-        <menu/>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_action_select_multiple_teal" android:enabled="true" android:id="@id/multi_select" android:visible="true" android:title="@string/str285a" android:titleCondensed="@string/str285a" app:attr04ac="?attr045e" app:attr07ed="always" />
+    <item android:icon="@drawable/vec_ic_more" android:enabled="true" android:id="@id/more" android:visible="true" android:title="@string/str2791" android:titleCondensed="@string/str2791" app:attr04ac="?attr045e" app:attr07ed="always">
+        <menu />
     </item>
 </menu>

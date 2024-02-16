@@ -23,7 +23,7 @@
     <string name="str25d5">Pošalji upit</string>
     <string name="str25d6">Glasovno pretraživanje</string>
     <string name="str25d9">Sažmi</string>
-    <string name="str25db">Kao član možete vidjeti grupe u ovoj zajednici i pridruživati im se. Osim toga, možete primati obavijesti administratora. &lt;a href=\"%s\"&gt;Saznajte više&lt;/a&gt;</string>
+    <string name="str25db">Kao član možete vidjeti grupe u ovoj zajednici i pridruživati im se. Osim toga, možete primati obavijesti administratora. &lt;a href=\"%s\">Saznajte više&lt;/a></string>
     <string name="str25dc">Dobro došli u zajednicu!</string>
     <string name="str25df">U redu</string>
     <string name="str25e0">Računi se ne mogu promijeniti. Pokušajte ponovno poslije.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s više vam neće moći poslati poruku ili vas nazvati.</string>
     <string name="str262d">Vrsta tvrtke</string>
     <string name="str262e">Podaci o tvrtki</string>
-    <string name="str2636">Da bi ljudi teže otkrili vašu lokaciju, pozivi s ovog uređaja sigurno će se prenijeti putem WhatsAppovih poslužitelja. To će smanjiti kvalitetu poziva. &lt;a href=call_relaying_help&gt;Saznajte više&lt;/a&gt;</string>
+    <string name="str2636">Da bi ljudi teže otkrili vašu lokaciju, pozivi s ovog uređaja sigurno će se prenijeti putem WhatsAppovih poslužitelja. To će smanjiti kvalitetu poziva. &lt;a href=call_relaying_help>Saznajte više&lt;/a></string>
     <string name="str2637">Zaštitite IP adresu u pozivima</string>
     <string name="str2638">Pozivi</string>
     <string name="str2639">Dodajte prečac za pozive za %s.</string>
     <string name="str263a">Prečac za pozive</string>
-    <string name="str263b">Upotrijebite efekte kamere, kao što je avatar u pozivima. &lt;a href=\"%s\"&gt;Saznajte više&lt;/a&gt;</string>
+    <string name="str263b">Upotrijebite efekte kamere, kao što je avatar u pozivima. &lt;a href=\"%s\">Saznajte više&lt;/a></string>
     <string name="str263c">Efekti kamere</string>
     <string name="str263d">WhatsApp kamera</string>
     <string name="str263e">Otkaži</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Previše pokušaja. Pokušajte ponovno kasnije.</string>
     <string name="str26fe">Nije registriran nijedan otisak prsta.</string>
     <string name="str26ff">Radnju s otiskom prsta otkazao je korisnik.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Saznajte više&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Saznajte više&lt;/a></string>
     <string name="str2701">Velika</string>
     <string name="str2702">Srednja</string>
     <string name="str2703">Mala</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Prijelaz na način unosa teksta</string>
     <string name="str27c5">Dodirnite za prijelaz na odabir godine</string>
     <string name="str27d0">Utišana ažuriranja</string>
-    <string name="str27e2">Izrađujete novu grupu? &lt;font color=#%s&gt;&lt;b&gt;Pogledajte kako&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Izrađujete novu grupu? &lt;font color=#%s>&lt;b>Pogledajte kako&lt;/b>&lt;/font></string>
     <string name="str27e5">1 dan</string>
     <string name="str27e6">Zadane postavke aplikacije (%s)</string>
     <string name="str27e7">1 mjesec</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Nema rezultata u postavkama</string>
     <string name="str288d">Pohrana i potrošnja podatkovnog prometa</string>
-    <string name="str2891">Pozivi s nepoznatih brojeva utišat će se. I dalje će se prikazivati na kartici Pozivi i u vašim obavijestima. &lt;a href=\"learn-more\"&gt;Saznajte više&lt;/a&gt;</string>
+    <string name="str2891">Pozivi s nepoznatih brojeva utišat će se. I dalje će se prikazivati na kartici Pozivi i u vašim obavijestima. &lt;a href=\"learn-more\">Saznajte više&lt;/a></string>
     <string name="str2892">Utišajte nepoznate pozivatelje</string>
     <string name="str2893">Preskoči</string>
     <string name="str2895">Sortiraj po datumu</string>

@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
-        <LinearLayout android:orientation="horizontal" android:id="@+id/title_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0d97" android:ellipsize="end" android:id="@+id/title" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" app:attr043c="sans-serif-medium" style="?attr/attr0564"/>
-            <ViewStub android:layout_gravity="center" android:id="@+id/participant_count_container_stub" android:layout="@layout/layout0635" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/title_container" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/color0d97" android:ellipsize="end" android:id="@id/title" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" app:attr043c="sans-serif-medium" style="?attr0564" />
+            <ViewStub android:layout_gravity="center" android:id="@id/participant_count_container_stub" android:layout="@layout/layout0635" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4.0dip" />
         </LinearLayout>
-        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/e2ee_container" android:layout_width="match_parent" android:layout_height="wrap_content">
-            <com.gbwhatsapp.WaImageView android:id="@+id/e2ee_padlock" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginTop="1dp" android:scaleType="center" android:layout_marginEnd="@dimen/dimen0bc2" app:attr0831="@drawable/ic_voip_e2ee_padlock_flat" app:attr0906="@color/color0dcf"/>
-            <com.gbwhatsapp.WaTextView android:textSize="12sp" android:textColor="@color/color0dd3" android:ellipsize="end" android:id="@+id/e2ee_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str28dc" android:maxLines="2" android:singleLine="false" android:textAlignment="viewStart" app:attr043c="sans-serif"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/e2ee_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:id="@id/e2ee_padlock" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="1.0dip" android:scaleType="center" android:layout_marginEnd="@dimen/dimen0bc2" app:attr0831="@drawable/ic_voip_e2ee_padlock_flat" app:attr0906="@color/color0dcf" />
+            <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/color0dd3" android:ellipsize="end" android:id="@id/e2ee_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str28dc" android:maxLines="2" android:singleLine="false" android:textAlignment="viewStart" app:attr043c="sans-serif" />
         </LinearLayout>
     </LinearLayout>
-    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/add_participant_button" android:layout_width="@dimen/dimen006e" android:layout_height="wrap_content" app:attr000b="4" app:attr0967="1"/>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/add_participant_button" android:layout_width="@dimen/dimen006e" android:layout_height="wrap_content" app:attr000b="calling" app:attr0967="tonal" />
 </merge>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <View android:id="@+id/account_number_divider" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="72dp" android:layout_marginStart="72dp"/>
-        <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/attr057d" android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72dp" android:layout_marginTop="@dimen/dimen0a59" android:layout_marginBottom="@dimen/dimen0a59" android:text="@string/str0827" android:layout_marginStart="72dp" app:attr043c="sans-serif-medium"/>
-        <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/attr057d" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:layout_marginEnd="16dp" app:attr043c="sans-serif-medium"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/account_number_divider" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="72.0dip" android:layout_marginStart="72.0dip" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="?attr057d" android:layout_gravity="start|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72.0dip" android:layout_marginTop="@dimen/dimen0a59" android:layout_marginBottom="@dimen/dimen0a59" android:text="@string/str0827" android:layout_marginStart="72.0dip" app:attr043c="sans-serif-medium" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="?attr057d" android:layout_gravity="end|center" android:id="@id/amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginEnd="16.0dip" app:attr043c="sans-serif-medium" />
     </FrameLayout>
 </merge>

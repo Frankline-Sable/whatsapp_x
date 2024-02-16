@@ -23,7 +23,7 @@
     <string name="str25d5">Envoyer la requête</string>
     <string name="str25d6">Recherche vocale</string>
     <string name="str25d9">Réduire</string>
-    <string name="str25db">En tant que membre, vous pouvez voir et rejoindre des groupes de cette communauté et rester informé·e des annonces de l’admin. &lt;a href=\"%s\"&gt;En savoir plus&lt;/a&gt;</string>
+    <string name="str25db">En tant que membre, vous pouvez voir et rejoindre des groupes de cette communauté et rester informé·e des annonces de l’admin. &lt;a href=\"%s\">En savoir plus&lt;/a></string>
     <string name="str25dc">Bienvenue dans la communauté !</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Impossible de changer de compte. Veuillez réessayer plus tard.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s ne pourra plus vous envoyer de messages ou vous appeler.</string>
     <string name="str262d">Type d’entreprise</string>
     <string name="str262e">Détails de l’entreprise</string>
-    <string name="str2636">Pour empêcher quiconque de déterminer votre localisation, les appels passés à partir de cet appareil seront relayés de manière sécurisée par les serveurs de WhatsApp. La qualité des appels sera réduite. &lt;a href=call_relaying_help&gt;En savoir plus&lt;/a&gt;</string>
+    <string name="str2636">Pour empêcher quiconque de déterminer votre localisation, les appels passés à partir de cet appareil seront relayés de manière sécurisée par les serveurs de WhatsApp. La qualité des appels sera réduite. &lt;a href=call_relaying_help>En savoir plus&lt;/a></string>
     <string name="str2637">Protéger l’adresse IP lors des appels</string>
     <string name="str2638">Appels</string>
     <string name="str2639">Ajouter un raccourci d’appel pour %s.</string>
     <string name="str263a">Raccourci d’appel</string>
-    <string name="str263b">Utilisez les effets de caméra comme votre avatar durant les appels. &lt;a href=\"%s\"&gt;En savoir plus&lt;/a&gt;</string>
+    <string name="str263b">Utilisez les effets de caméra comme votre avatar durant les appels. &lt;a href=\"%s\">En savoir plus&lt;/a></string>
     <string name="str263c">Effets de caméra</string>
     <string name="str263d">Caméra WhatsApp</string>
     <string name="str263e">Annuler</string>
@@ -80,17 +80,17 @@
     <string name="str2653">Effacer le texte</string>
     <string name="str2654">Fermer</string>
     <string name="str2655">Activer</string>
-    <string name="str2656">%1$s ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play.</string>
+    <string name="str2656">"%1$s ne fonctionnera pas tant que vous n'aurez pas activé les services Google Play."</string>
     <string name="str2657">Activer les services Google Play</string>
     <string name="str2658">Installer</string>
     <string name="str2659">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre appareil.</string>
     <string name="str265a">Installer les services Google Play</string>
     <string name="str265b">Disponibilité des services Google Play</string>
     <string name="str265c">Erreur liée aux services Google Play</string>
-    <string name="str265d">L\'application %1$s rencontre des problèmes avec les services Google Play. Veuillez réessayer.</string>
+    <string name="str265d">"L'application %1$s rencontre des problèmes avec les services Google Play. Veuillez réessayer."</string>
     <string name="str265e">%1$s ne fonctionnera pas sans les services Google Play, qui ne sont pas compatibles avec votre appareil.</string>
     <string name="str265f">Mettre à jour</string>
-    <string name="str2660">%1$s ne fonctionnera pas tant que vous n\'aurez pas mis à jour les services Google Play.</string>
+    <string name="str2660">"%1$s ne fonctionnera pas tant que vous n'aurez pas mis à jour les services Google Play."</string>
     <string name="str2661">Mettre à jour les services Google Play</string>
     <string name="str2662">%1$s ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour.</string>
     <string name="str2663">La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement.</string>
@@ -131,13 +131,13 @@
     <string name="str26f2">Ouvrir dans le navigateur</string>
     <string name="fcm_fallback_notification_channel_label">Divers</string>
     <string name="str26f9">Voir la politique de confidentialité de WhatsApp</string>
-    <string name="str26fa">Appuyez sur lecteur d\'empreinte</string>
-    <string name="str26fb">Matériel de lecture d\'empreinte digitale indisponible.</string>
-    <string name="str26fc">Aucun lecteur d\'empreinte digitale n\'est installé sur cet appareil</string>
+    <string name="str26fa">"Appuyez sur lecteur d'empreinte"</string>
+    <string name="str26fb">"Matériel de lecture d'empreinte digitale indisponible."</string>
+    <string name="str26fc">"Aucun lecteur d'empreinte digitale n'est installé sur cet appareil"</string>
     <string name="str26fd">Tentatives trop nombreuses. Veuillez réessayer plus tard.</string>
     <string name="str26fe">Aucune empreinte digitale enregistrée.</string>
-    <string name="str26ff">Opération d\'authentification par empreinte digitale annulée par l\'utilisateur.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;En savoir plus&lt;/a&gt;</string>
+    <string name="str26ff">"Opération d'authentification par empreinte digitale annulée par l'utilisateur."</string>
+    <string name="str2700">&lt;a href=\"learn-more\">En savoir plus&lt;/a></string>
     <string name="str2701">Grande</string>
     <string name="str2702">Moyenne</string>
     <string name="str2703">Petite</string>
@@ -148,9 +148,9 @@
     <string name="str270b">Sauvegarde en cours</string>
     <string name="str270c">Préparation…</string>
     <string name="str270d">Restauration des fichiers médias en cours</string>
-    <string name="str270e">Aucun code, schéma ni mot de passe n\'est défini.</string>
-    <string name="str270f">Cet appareil n\'est pas compatible avec les codes, schémas ni mots de passe.</string>
-    <string name="str2710">Authentification annulée par l\'utilisateur.</string>
+    <string name="str270e">"Aucun code, schéma ni mot de passe n'est défini."</string>
+    <string name="str270f">"Cet appareil n'est pas compatible avec les codes, schémas ni mots de passe."</string>
+    <string name="str2710">"Authentification annulée par l'utilisateur."</string>
     <string name="str2719">Fin de la liste</string>
     <string name="str271a">Début de la liste, 3 articles</string>
     <string name="str2723">Cette vidéo est visionnée en Image dans l’image</string>
@@ -185,14 +185,14 @@
     <string name="str27a6">Annuler</string>
     <string name="str27a7">OK</string>
     <string name="str27ab">Colonne du jour de la semaine : %1$s</string>
-    <string name="str27b2">Accéder à l\'année %1$s</string>
+    <string name="str27b2">"Accéder à l'année %1$s"</string>
     <string name="str27b9">Enregistrer</string>
     <string name="str27c2">Passer au mode de saisie Agenda</string>
     <string name="str27c3">Appuyer pour sélectionner un jour</string>
     <string name="str27c4">Passer au mode de saisie Texte</string>
     <string name="str27c5">Appuyer pour sélectionner une année</string>
     <string name="str27d0">Mises à jour masquées</string>
-    <string name="str27e2">Pour créer un groupe, &lt;font color=#%s&gt;&lt;b&gt;c’est par ici&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Pour créer un groupe, &lt;font color=#%s>&lt;b>c’est par ici&lt;/b>&lt;/font></string>
     <string name="str27e5">1 jour</string>
     <string name="str27e6">Paramètres de l’application par défaut (%s)</string>
     <string name="str27e7">1 mois</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Aucun résultat dans les paramètres</string>
     <string name="str288d">Utilisation données et stockage</string>
-    <string name="str2891">Les appels provenant d’un numéro inconnu seront mis en sourdine. Ils continueront d’apparaître dans la liste d’appels et dans vos notifications. &lt;a href=calling_privacy_help&gt;En savoir plus&lt;/a&gt;</string>
+    <string name="str2891">Les appels provenant d’un numéro inconnu seront mis en sourdine. Ils continueront d’apparaître dans la liste d’appels et dans vos notifications. &lt;a href=calling_privacy_help>En savoir plus&lt;/a></string>
     <string name="str2892">Mettre les numéros inconnus en sourdine</string>
     <string name="str2893">Ignorer</string>
     <string name="str2895">Trier par date</string>

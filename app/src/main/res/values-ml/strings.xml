@@ -27,7 +27,7 @@
     <string name="str25d5">ചോദ്യം സമർപ്പിക്കുക</string>
     <string name="str25d6">സംസാരത്തിലൂടെ തിരയുക</string>
     <string name="str25d9">ചുരുക്കുക</string>
-    <string name="str25db">ഒരു അംഗമെന്ന നിലയിൽ, നിങ്ങൾക്ക് ഈ കമ്മ്യൂണിറ്റിയിലെ ഗ്രൂപ്പുകൾ കാണാനും അവയിൽ ചേരാനും അഡ്‌മിൻ അറിയിപ്പുകൾ അറിഞ്ഞുകൊണ്ടേയിരിക്കാനും കഴിയും. &lt;a href=\"%s\"&gt;കൂടുതലറിയുക&lt;/a&gt;</string>
+    <string name="str25db">ഒരു അംഗമെന്ന നിലയിൽ, നിങ്ങൾക്ക് ഈ കമ്മ്യൂണിറ്റിയിലെ ഗ്രൂപ്പുകൾ കാണാനും അവയിൽ ചേരാനും അഡ്‌മിൻ അറിയിപ്പുകൾ അറിഞ്ഞുകൊണ്ടേയിരിക്കാനും കഴിയും. &lt;a href=\"%s\">കൂടുതലറിയുക&lt;/a></string>
     <string name="str25dc">കമ്മ്യൂണിറ്റിയിലേക്ക് സ്വാഗതം!</string>
     <string name="str25df">ശരി</string>
     <string name="str25e0">അക്കൗണ്ടുകൾ തമ്മിൽ മാറാൻ കഴിയില്ല പിന്നീട് വീണ്ടും ശ്രമിക്കുക.</string>
@@ -67,12 +67,12 @@
     <string name="str262c">‎%s എന്ന സ്ഥാപനത്തിന് ഇനി നിങ്ങൾക്ക് മെസേജ് അയയ്ക്കാനോ വിളിക്കാനോ കഴിയില്ല.</string>
     <string name="str262d">ബിസിനസ്സിന്റെ തരം</string>
     <string name="str262e">ബിസിനസ് വിശദാംശം</string>
-    <string name="str2636">ആളുകൾക്ക് നിങ്ങളുടെ ലൊക്കേഷൻ അനുമാനിച്ചെടുക്കുന്നത് പ്രയാസമുള്ളതാക്കാൻ, ഈ ഉപകരണത്തിലെ കോളുകൾ സുരക്ഷിതമായി WhatsApp സെർവറുകൾ മുഖേന റിലേ ചെയ്യും. ഇത് കോളിന്റെ നിലവാരം കുറയ്ക്കും. &lt;a href=call_relaying_help&gt;കൂടുതലറിയുക&lt;/a&gt;</string>
+    <string name="str2636">ആളുകൾക്ക് നിങ്ങളുടെ ലൊക്കേഷൻ അനുമാനിച്ചെടുക്കുന്നത് പ്രയാസമുള്ളതാക്കാൻ, ഈ ഉപകരണത്തിലെ കോളുകൾ സുരക്ഷിതമായി WhatsApp സെർവറുകൾ മുഖേന റിലേ ചെയ്യും. ഇത് കോളിന്റെ നിലവാരം കുറയ്ക്കും. &lt;a href=call_relaying_help>കൂടുതലറിയുക&lt;/a></string>
     <string name="str2637">കോളുകളിൽ IP വിലാസം പരിരക്ഷിക്കുക</string>
     <string name="str2638">കോളുകൾ</string>
     <string name="str2639">‎%s എന്ന കോണ്ടാക്‌റ്റിനായി ഒരു കോളിംഗ് കുറുക്കുവഴി ചേർക്കുക.</string>
     <string name="str263a">കോളിംഗ് കുറുക്കുവഴി</string>
-    <string name="str263b">കോളുകളിൽ നിങ്ങളുടെ അവതാർ പോലുള്ള ക്യാമറ ഇഫക്റ്റുകൾ ഉപയോഗിക്കുക. &lt;a href=\"%s\"&gt;കൂടുതലറിയുക&lt;/a&gt;</string>
+    <string name="str263b">കോളുകളിൽ നിങ്ങളുടെ അവതാർ പോലുള്ള ക്യാമറ ഇഫക്റ്റുകൾ ഉപയോഗിക്കുക. &lt;a href=\"%s\">കൂടുതലറിയുക&lt;/a></string>
     <string name="str263c">ക്യാമറ ഇഫക്‌റ്റുകൾ</string>
     <string name="str263d">WhatsApp ക്യാമറ</string>
     <string name="str263e">റദ്ദാക്കുക</string>
@@ -151,11 +151,11 @@
     <string name="str26a8">ഇമോജി</string>
     <string name="str26ab">പിശക്</string>
     <string name="str26ac">ദയവായി %1$d-അക്ക ആധാര്‍-ഒടിപി നൽകുക</string>
-    <string name="str26ad">ദയവായി  %1$d അക്ക കാർഡ പിന്‍ നല്‍കുക </string>
+    <string name="str26ad">"ദയവായി  %1$d അക്ക കാർഡ പിന്‍ നല്‍കുക "</string>
     <string name="str26ae">ദയവായി %1$d-അക്ക ബാങ്ക്-ഒടിപി നൽകുക</string>
     <string name="str26af">കാർഡിന്റെ അവസാന 6 അക്കങ്ങൾ ദയവായി നൽകുക</string>
     <string name="str26b0">ദയവായി കാർഡിന്‍റെ സാധുത നൽകുക</string>
-    <string name="str26b2">ദയവായി %1$d അക്ക യു.പി.ഐ പിന്‍ നല്‍കുക </string>
+    <string name="str26b2">"ദയവായി %1$d അക്ക യു.പി.ഐ പിന്‍ നല്‍കുക "</string>
     <string name="str26b4">സാങ്കേതിക പ്രശ്നം,ദയവായി കുറച്ച് സമയത്തിനു ശേഷം ശ്രമിക്കുക</string>
     <string name="str26c0">തൽക്കാലം നിർത്തുക</string>
     <string name="str26c1">പ്ലേ ചെയ്യുക</string>
@@ -173,7 +173,7 @@
     <string name="str26fd">നിരവധി ശ്രമങ്ങൾ. പിന്നീട് വീണ്ടും ശ്രമിക്കുക.</string>
     <string name="str26fe">ഫിംഗർപ്രിന്റുകളൊന്നും എൻറോൾ ചെയ്‌തിട്ടില്ല.</string>
     <string name="str26ff">ഫിംഗർപ്രിന്റിന്റെ പ്രവർത്തനം ഉപയോക്താവ് റദ്ദാക്കി.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;കൂടുതലറിയുക&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">കൂടുതലറിയുക&lt;/a></string>
     <string name="str2701">വലുത്</string>
     <string name="str2702">ഇടത്തരം</string>
     <string name="str2703">ചെറുത്‌</string>
@@ -237,7 +237,7 @@
     <string name="str27c5">വർഷം തിരഞ്ഞെടുക്കുന്നതിലേക്ക് മാറാൻ ടാപ്പ് ചെയ്യുക</string>
     <string name="str27d0">മ്യൂട്ടുചെയ്ത അപ്ഡേറ്റുകൾ</string>
     <string name="str27d1">എന്റെ QR കോഡ്</string>
-    <string name="str27e2">പുതിയ ഗ്രൂപ്പ് സൃഷ്‌ടിക്കുകയാണോ? &lt;font color=#%s&gt;&lt;b&gt;എങ്ങനെയാണെന്ന് കാണൂ&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">പുതിയ ഗ്രൂപ്പ് സൃഷ്‌ടിക്കുകയാണോ? &lt;font color=#%s>&lt;b>എങ്ങനെയാണെന്ന് കാണൂ&lt;/b>&lt;/font></string>
     <string name="str27e5">1 ദിവസം</string>
     <string name="str27e6">ഡിഫോൾട്ട് ആപ്പ് ക്രമീകരണം (%s)</string>
     <string name="str27e7">ഒരു മാസം</string>
@@ -347,7 +347,7 @@
     <string name="str288c">ക്രമീകരണ ഫലങ്ങളൊന്നും കണ്ടെത്തിയില്ല</string>
     <string name="str288d">സ്റ്റോറേജും ഡാറ്റാ ഉപയോഗവും</string>
     <string name="str288e">ക്രമീകരണങ്ങളിലേക്ക് പോകുക</string>
-    <string name="str2891">അജ്ഞാത നമ്പറുകളിൽ നിന്നുള്ള കോളുകൾ നിശബ്ദമാക്കപ്പെടും. \'കോളുകൾ\' ടാബിലും നിങ്ങളുടെ അറിയിപ്പുകളിലും അവ തുടർന്നും കാണിക്കും. &lt;a href=calling_privacy_help&gt;കൂടുതലറിയുക&lt;/a&gt;</string>
+    <string name="str2891">"അജ്ഞാത നമ്പറുകളിൽ നിന്നുള്ള കോളുകൾ നിശബ്ദമാക്കപ്പെടും. 'കോളുകൾ' ടാബിലും നിങ്ങളുടെ അറിയിപ്പുകളിലും അവ തുടർന്നും കാണിക്കും. &lt;a href=calling_privacy_help>കൂടുതലറിയുക&lt;/a>"</string>
     <string name="str2892">അജ്ഞാത കോളർമാരെ നിശബ്‌ദമാക്കുക</string>
     <string name="str2893">ഒഴിവാക്കുക</string>
     <string name="str2895">തിയ്യതി പ്രകാരം</string>

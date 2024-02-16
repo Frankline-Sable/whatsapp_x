@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.conversation.comments.CommentFailedIconView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/ic_msg_fail" android:layout_width="@dimen/dimen0351" android:layout_height="@dimen/dimen0351" android:scaleType="center" android:contentDescription="@string/str12d1" app:attr0906="@color/color0203"/>
+<com.gbwhatsapp.conversation.comments.CommentFailedIconView android:background="@drawable/ic_msg_fail" android:layout_width="@dimen/dimen0351" android:layout_height="@dimen/dimen0351" android:scaleType="center" android:contentDescription="@string/str12d1" app:attr0906="@color/color0203"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

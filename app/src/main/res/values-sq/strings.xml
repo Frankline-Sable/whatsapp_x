@@ -23,7 +23,7 @@
     <string name="str25d5">Dërgo pyetjen</string>
     <string name="str25d6">Kërkim me zë</string>
     <string name="str25d9">Palos</string>
-    <string name="str25db">Si anëtar, ti mund të shikosh dhe të bashkohesh në grupet në këtë komunitet dhe të qëndrosh i përditësuar me njoftimet e administratorit. &lt;a href=\"%s\"&gt;Mëso më shumë&lt;/a&gt;</string>
+    <string name="str25db">Si anëtar, ti mund të shikosh dhe të bashkohesh në grupet në këtë komunitet dhe të qëndrosh i përditësuar me njoftimet e administratorit. &lt;a href=\"%s\">Mëso më shumë&lt;/a></string>
     <string name="str25dc">Mirë se erdhe në komunitet!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Llogaritë nuk mund të ndërroheshin. Provo përsëri më vonë.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s nuk do të mund të të dërgojë më mesazhe ose të të telefonojë.</string>
     <string name="str262d">Lloji i biznesit</string>
     <string name="str262e">Detajet e biznesit</string>
-    <string name="str2636">Për t\'ua bërë më të vështirë njerëzve që të kuptojnë vendndodhjen tënde, telefonatat në këtë pajisje do të transmetohen në mënyrë të sigurt përmes serverëve të WhatsApp. Kjo do të ulë cilësinë e telefonatës. &lt;a href=call_relaying_help&gt;Mëso më shumë&lt;/a&gt;</string>
+    <string name="str2636">"Për t'ua bërë më të vështirë njerëzve që të kuptojnë vendndodhjen tënde, telefonatat në këtë pajisje do të transmetohen në mënyrë të sigurt përmes serverëve të WhatsApp. Kjo do të ulë cilësinë e telefonatës. &lt;a href=call_relaying_help>Mëso më shumë&lt;/a>"</string>
     <string name="str2637">Mbro adresën IP në telefonata</string>
     <string name="str2638">Telefonatat</string>
     <string name="str2639">Shto një shkurtore të telefonatës për %s.</string>
     <string name="str263a">Shkurtorja e telefonatës</string>
-    <string name="str263b">Përdor efektet e kamerës të tilla si avatari yt në telefonata. &lt;a href=\"%s\"&gt;Mëso më shumë&lt;/a&gt;</string>
+    <string name="str263b">Përdor efektet e kamerës të tilla si avatari yt në telefonata. &lt;a href=\"%s\">Mëso më shumë&lt;/a></string>
     <string name="str263c">Efektet e kamerës</string>
     <string name="str263d">Kamera e WhatsApp</string>
     <string name="str263e">Anulo</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Janë bërë shumë përpjekje. Provo përsëri më vonë.</string>
     <string name="str26fe">Nuk ka asnjë gjurmë gishti të regjistruar.</string>
     <string name="str26ff">Veprimi i gjurmës së gishtit u anulua nga përdoruesi.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Mëso më shumë&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Mëso më shumë&lt;/a></string>
     <string name="str2701">E madhe</string>
     <string name="str2702">Mesatare</string>
     <string name="str2703">E vogël</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Kalo te modaliteti i \"Hyrjes së tekstit\"</string>
     <string name="str27c5">Trokit për të kaluar te zgjedhja e një viti</string>
     <string name="str27d0">Statuset e heshtura</string>
-    <string name="str27e2">Po krijon një grup të ri? &lt;font color=#%s&gt;&lt;b&gt;Shiko se si ta bësh&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Po krijon një grup të ri? &lt;font color=#%s>&lt;b>Shiko se si ta bësh&lt;/b>&lt;/font></string>
     <string name="str27e5">1 ditë</string>
     <string name="str27e6">Cilësimi i parazgjedhur i aplikacionit (%s)</string>
     <string name="str27e7">1 muaj</string>
@@ -202,7 +202,7 @@
     <string name="str27eb">Ikona e kanalit</string>
     <string name="str27ec">Të gjitha</string>
     <string name="str27ed">Kontaktet</string>
-    <string name="str27f0">S\'ka mesazhe të palexuara</string>
+    <string name="str27f0">"S'ka mesazhe të palexuara"</string>
     <string name="str27f2">Nuk është caktuar</string>
     <string name="str27f3">Duke kontrolluar për mesazhe të reja</string>
     <string name="str27fe">Detajet e porosisë</string>
@@ -274,7 +274,7 @@
     <string name="str287c">Njoftim në dritaren kërcyese</string>
     <string name="str287d">Shfaq një dialog njoftimi kur aplikacioni të jetë në sfond.</string>
     <string name="str287e">Toni i njoftimeve</string>
-    <string name="str287f">Zgjidh një tingull për t\'u luajtur për mesazhin e ri të njoftimit</string>
+    <string name="str287f">"Zgjidh një tingull për t'u luajtur për mesazhin e ri të njoftimit"</string>
     <string name="str2880">Përdor të personalizuara</string>
     <string name="str2881">Përdor njoftimet me prioritet të lartë</string>
     <string name="str2882">Shfaq pamje paraprake të njoftimeve në krye të ekranit</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profili</string>
     <string name="str288c">Nuk u gjet asnjë rezultat për cilësimet</string>
     <string name="str288d">Përdorimi i hapësirës ruajtëse dhe i të dhënave</string>
-    <string name="str2891">Telefonatat nga numra të panjohur do të kalojnë në heshtje. Ato do të vazhdojnë të shfaqen në skedën Telefonatat dhe te njoftimet e tua. &lt;a href=calling_privacy_help&gt;Mëso më shumë&lt;/a&gt;</string>
+    <string name="str2891">Telefonatat nga numra të panjohur do të kalojnë në heshtje. Ato do të vazhdojnë të shfaqen në skedën Telefonatat dhe te njoftimet e tua. &lt;a href=calling_privacy_help>Mëso më shumë&lt;/a></string>
     <string name="str2892">Kalo në heshtje telefonuesit e panjohur</string>
     <string name="str2893">Kapërce</string>
     <string name="str2895">Rendit sipas datës</string>

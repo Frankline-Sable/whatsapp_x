@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/dimen0a99">
-    <com.google.android.material.button.MaterialButtonToggleGroup android:layout_gravity="center_horizontal" android:id="@+id/reactions_tab_buttons" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr078e="true" app:attr080f="true">
-        <com.google.android.material.button.MaterialButton android:id="@+id/reactions_button_all" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str27ec" android:layout_weight="1" style="@style/style02fa"/>
-        <com.google.android.material.button.MaterialButton android:id="@+id/reactions_button_contacts" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str27ed" android:layout_weight="1" style="@style/style02fa"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0a99"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.button.MaterialButtonToggleGroup android:layout_gravity="center_horizontal" android:id="@id/reactions_tab_buttons" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr078e="true" app:attr080f="true">
+        <com.google.android.material.button.MaterialButton android:id="@id/reactions_button_all" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/str27ec" android:layout_weight="1.0" style="@style/style02fa" />
+        <com.google.android.material.button.MaterialButton android:id="@id/reactions_button_contacts" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/str27ed" android:layout_weight="1.0" style="@style/style02fa" />
     </com.google.android.material.button.MaterialButtonToggleGroup>
-    <com.gbwhatsapp.WaViewPager android:id="@+id/reactions_content" android:layout_width="match_parent" android:layout_height="match_parent" android:nestedScrollingEnabled="true"/>
+    <com.gbwhatsapp.WaViewPager android:id="@id/reactions_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true" />
 </LinearLayout>

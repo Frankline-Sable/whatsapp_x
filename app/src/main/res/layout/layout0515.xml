@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/shimmer_category_list_item" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style0177">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen01c6" android:layout_marginEnd="@dimen/dimen01c6">
-        <View android:background="@drawable/category_loading_bg" style="@style/style0175"/>
-        <View android:background="@drawable/category_loading_bg" android:layout_width="@dimen/dimen01d1" android:layout_height="@dimen/dimen01d0"/>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_category_list_item" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/style0177"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen01c6" android:layout_marginEnd="@dimen/dimen01c6">
+        <View android:background="@drawable/category_loading_bg" style="@style/style0175" />
+        <View android:background="@drawable/category_loading_bg" android:layout_width="@dimen/dimen01d1" android:layout_height="@dimen/dimen01d0" />
     </LinearLayout>
 </com.facebook.shimmer.ShimmerFrameLayout>

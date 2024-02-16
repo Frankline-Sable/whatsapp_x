@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/default_status_privacy_fb_crossposting_setting_container" android:paddingTop="8dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/linking_fb_icon" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="22dp" android:src="@drawable/ic_settings_fb" android:layout_marginEnd="22dp" app:attr0906="@color/color0325"/>
-    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
-        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0bd9" android:textColor="?attr/attr025e" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str09b3"/>
-        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen03b8" android:textColor="@color/color0253" android:id="@+id/default_status_privacy_fb_crossposting_setting_text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="horizontal" android:id="@id/default_status_privacy_fb_crossposting_setting_container" android:paddingTop="8.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/linking_fb_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="22.0dip" android:src="@drawable/ic_settings_fb" android:layout_marginEnd="22.0dip" app:attr0906="@color/color0325" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0bd9" android:textColor="?attr025e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str09b3" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen03b8" android:textColor="@color/color0253" android:id="@id/default_status_privacy_fb_crossposting_setting_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
     </LinearLayout>
 </LinearLayout>

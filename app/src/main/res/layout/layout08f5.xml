@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.wabloks.ui.PercentageBasedMaxHeightLinearLayout android:orientation="vertical" android:id="@+id/fcs_bottom_sheet" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="150dp">
-        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
-            <androidx.appcompat.widget.Toolbar android:theme="@style/style021a" android:id="@+id/bk_bottom_sheet_toolbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0923="1"/>
-            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dimen0c6f" android:layout_marginRight="@dimen/dimen0c6f" android:layout_alignTop="@+id/bk_bottom_sheet_toolbar" android:layout_alignBottom="@+id/bk_bottom_sheet_toolbar" android:layout_centerInParent="true">
-                <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/bk_branding_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="@dimen/dimen0c6c" android:maxHeight="@dimen/dimen0c6b"/>
-                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-                    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0ae6" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@+id/toolbar_customized_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/dimen0ae5" android:maxLines="1" app:attr0552="@dimen/dimen0ae4" style="@style/style041d"/>
-                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/webview_title_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
-                        <com.gbwhatsapp.WaTextView android:textSize="12sp" android:textColor="@color/color0a73" android:ellipsize="end" android:id="@+id/website_url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true"/>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wabloks.ui.PercentageBasedMaxHeightLinearLayout android:orientation="vertical" android:id="@id/fcs_bottom_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="150.0dip">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.Toolbar android:theme="@style/style021a" android:id="@id/bk_bottom_sheet_toolbar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0923="bidi" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimen0c6f" android:layout_marginRight="@dimen/dimen0c6f" android:layout_alignTop="@id/bk_bottom_sheet_toolbar" android:layout_alignBottom="@id/bk_bottom_sheet_toolbar" android:layout_centerInParent="true">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/bk_branding_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="@dimen/dimen0c6c" android:maxHeight="@dimen/dimen0c6b" />
+                <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0ae6" android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/toolbar_customized_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/dimen0ae5" android:maxLines="1" app:attr0552="@dimen/dimen0ae4" style="@style/style041d" />
+                    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/webview_title_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/color0a73" android:ellipsize="end" android:id="@id/website_url" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" />
                     </LinearLayout>
                 </LinearLayout>
             </FrameLayout>
-            <ProgressBar android:id="@+id/bk_toolbar_loading" android:visibility="gone" android:layout_width="@dimen/dimen0c6e" android:layout_height="@dimen/dimen0c6e" android:layout_marginLeft="@dimen/dimen0c6d" android:layout_marginRight="@dimen/dimen0c6d" android:layout_alignTop="@+id/bk_bottom_sheet_toolbar" android:layout_alignBottom="@+id/bk_bottom_sheet_toolbar" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+            <ProgressBar android:id="@id/bk_toolbar_loading" android:visibility="gone" android:layout_width="@dimen/dimen0c6e" android:layout_height="@dimen/dimen0c6e" android:layout_marginLeft="@dimen/dimen0c6d" android:layout_marginRight="@dimen/dimen0c6d" android:layout_alignTop="@id/bk_bottom_sheet_toolbar" android:layout_alignBottom="@id/bk_bottom_sheet_toolbar" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
         </RelativeLayout>
-        <View android:id="@+id/divider_under_nav_bar" android:visibility="gone" style="@style/style031d"/>
-        <FrameLayout android:orientation="vertical" android:id="@+id/wa_fcs_bottom_sheet_fragment_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
-        <FrameLayout android:id="@+id/optional_loading_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <View android:id="@id/divider_under_nav_bar" android:visibility="gone" style="@style/style031d" />
+        <FrameLayout android:orientation="vertical" android:id="@id/wa_fcs_bottom_sheet_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <FrameLayout android:id="@id/optional_loading_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </com.gbwhatsapp.wabloks.ui.PercentageBasedMaxHeightLinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

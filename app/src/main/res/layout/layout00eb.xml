@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.bonsai.BonsaiToolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/attr000f" app:attr01f1="0dp" app:attr01f5="0dp" app:attr06dd="@style/style0573" app:attr08f1="@style/style013f"/>
+<com.gbwhatsapp.bonsai.BonsaiToolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?attr000f" app:attr01f1="0.0dip" app:attr01f5="0.0dip" app:attr06dd="@style/style0573" app:attr08f1="@style/style013f"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

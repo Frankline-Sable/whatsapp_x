@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.yo.tf xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@android:id/text1" android:paddingLeft="?attr/attr0577" android:paddingRight="?attr/attr0578" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/attr0575" style="?attr/attr05ab"/>
+<com.gbwhatsapp.yo.tf android:ellipsize="marquee" android:gravity="center_vertical" android:id="@android:id/text1" android:paddingLeft="?attr0577" android:paddingRight="?attr0578" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?attr0575" style="?attr05ab"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

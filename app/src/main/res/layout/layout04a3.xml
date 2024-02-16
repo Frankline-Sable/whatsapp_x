@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="match_parent">
-    <include layout="@layout/layout0864"/>
-    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
-        <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-            <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@+id/hero_img" android:layout_width="64dp" android:layout_height="64dp" android:src="@drawable/ic_hero_pin_success" android:contentDescription="@null"/>
-            <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/str1873" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/hero_img" style="@style/style0298"/>
-            <com.gbwhatsapp.WaTextView android:gravity="center_horizontal" android:id="@+id/desc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/str1872" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/title"/>
-            <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="24dp"/>
-            <include android:id="@+id/account_layout" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout0462"/>
-            <View android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+<LinearLayout android:orientation="vertical" android:background="?attr06f8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout0864" />
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@id/hero_img" android:layout_width="64.0dip" android:layout_height="64.0dip" android:src="@drawable/ic_hero_pin_success" android:contentDescription="@null" />
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/str1873" app:attr051d="parent" app:attr0530="parent" app:attr0533="@id/hero_img" style="@style/style0298" />
+            <com.gbwhatsapp.WaTextView android:gravity="center_horizontal" android:id="@id/desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/str1872" app:attr051d="parent" app:attr0530="parent" app:attr0533="@id/title" />
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="24.0dip" />
+            <include android:id="@id/account_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout0462" />
+            <View android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
         </LinearLayout>
     </ScrollView>
-    <com.gbwhatsapp.wds.components.button.WDSButton android:gravity="center" android:id="@+id/continue_button" android:layout_marginLeft="8dp" android:layout_marginTop="16dp" android:layout_marginRight="8dp" android:layout_marginBottom="16dp" android:text="@string/str03f8" android:maxLines="1" style="@style/style05a5"/>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:gravity="center" android:id="@id/continue_button" android:layout_marginLeft="8.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="16.0dip" android:text="@string/str03f8" android:maxLines="1" style="@style/style05a5" />
 </LinearLayout>

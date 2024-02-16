@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen04c5" android:textColor="@color/color0a73" android:gravity="center" android:layout_gravity="center" android:id="@+id/extensions_error_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen04c2" android:layout_marginLeft="@dimen/dimen04c3" android:layout_marginRight="@dimen/dimen04c3" app:attr043c="Roboto" app:attr0552="@dimen/dimen04c4"/>
-    <include android:id="@+id/extensions_container" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout03b9"/>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen04c5" android:textColor="@color/color0a73" android:gravity="center" android:layout_gravity="center" android:id="@id/extensions_error_text" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen04c2" android:layout_marginLeft="@dimen/dimen04c3" android:layout_marginRight="@dimen/dimen04c3" app:attr043c="Roboto" app:attr0552="@dimen/dimen04c4" />
+    <include android:id="@id/extensions_container" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout03b9" />
 </FrameLayout>

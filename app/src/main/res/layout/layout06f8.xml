@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <androidx.appcompat.widget.Toolbar android:id="@+id/verify_flash_call_title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr08f1="@style/style0780" app:attr0923="1">
-        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@+id/verify_flash_call_title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str233a" style="@style/style02fe"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/verify_flash_call_title_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr08f1="@style/style0780" app:attr0923="bidi">
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@id/verify_flash_call_title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str233a" style="@style/style02fe" />
     </androidx.appcompat.widget.Toolbar>
-    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
         <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/style019e">
-            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dimen00e1" android:layout_marginRight="@dimen/dimen00e1" app:attr051d="0" app:attr0530="0" app:attr0534="0">
-                <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/missed_call_circle_background" android:padding="@dimen/dimen054d" android:layout_width="@dimen/dimen054f" android:layout_height="@dimen/dimen054e" android:layout_marginTop="@dimen/dimen054c" android:layout_marginBottom="@dimen/dimen0549" android:src="@drawable/phone_missed" app:attr0906="?attr/attr0605"/>
-                <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen053e" android:textColor="?attr/attr0413" android:gravity="center" android:id="@+id/flash_call_education_screen_headline" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0549" android:layout_marginRight="@dimen/dimen0549" android:layout_marginBottom="@dimen/dimen053d" android:text="@string/str0d47"/>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/dimen00e1" android:layout_marginRight="@dimen/dimen00e1" app:attr051d="parent" app:attr0530="parent" app:attr0534="parent">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/missed_call_circle_background" android:padding="@dimen/dimen054d" android:layout_width="@dimen/dimen054f" android:layout_height="@dimen/dimen054e" android:layout_marginTop="@dimen/dimen054c" android:layout_marginBottom="@dimen/dimen0549" android:src="@drawable/phone_missed" app:attr0906="?attr0605" />
+                <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen053e" android:textColor="?attr0413" android:gravity="center" android:id="@id/flash_call_education_screen_headline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0549" android:layout_marginRight="@dimen/dimen0549" android:layout_marginBottom="@dimen/dimen053d" android:text="@string/str0d47" />
                 <LinearLayout style="@style/style021d">
                     <LinearLayout style="@style/style021e">
-                        <com.gbwhatsapp.WaImageView android:src="@drawable/call" style="@style/style01c7"/>
+                        <com.gbwhatsapp.WaImageView android:src="@drawable/call" style="@style/style01c7" />
                         <LinearLayout style="@style/style01c8">
-                            <com.gbwhatsapp.WaTextView android:id="@+id/make_and_manage_calls" android:text="@string/str11f0" style="@style/style021c"/>
+                            <com.gbwhatsapp.WaTextView android:id="@id/make_and_manage_calls" android:text="@string/str11f0" style="@style/style021c" />
                         </LinearLayout>
                     </LinearLayout>
                     <LinearLayout style="@style/style021e">
-                        <com.gbwhatsapp.WaImageView android:src="@drawable/call_logs" style="@style/style01c7"/>
+                        <com.gbwhatsapp.WaImageView android:src="@drawable/call_logs" style="@style/style01c7" />
                         <LinearLayout style="@style/style01c8">
-                            <com.gbwhatsapp.WaTextView android:id="@+id/access_phone_call_logs" android:text="@string/str0017" style="@style/style021c"/>
+                            <com.gbwhatsapp.WaTextView android:id="@id/access_phone_call_logs" android:text="@string/str0017" style="@style/style021c" />
                         </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
-                <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen054a" android:textColor="@color/color0a73" android:textColorLink="?attr/attr055a" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/flash_call_learn_more" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0549" android:layout_marginRight="@dimen/dimen0549" android:layout_marginBottom="@dimen/dimen0549" android:text="@string/str112d" android:lineSpacingMultiplier="1.25"/>
-                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen053f">
-                    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/continue_button" android:layout_width="@dimen/dimen099a" android:layout_marginBottom="@dimen/dimen0548" android:text="@string/str2353" style="@style/style059e"/>
-                    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/verify_with_sms_button" android:layout_width="@dimen/dimen099a" android:text="@string/str2354" style="@style/style05a6"/>
-                    <ViewStub android:layout_gravity="center_horizontal" android:id="@+id/verify_another_way_button_view_stub" android:layout="@layout/layout089a" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen054a" android:textColor="@color/color0a73" android:textColorLink="?attr055a" android:gravity="bottom|center" android:id="@id/flash_call_learn_more" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0549" android:layout_marginRight="@dimen/dimen0549" android:layout_marginBottom="@dimen/dimen0549" android:text="@string/str112d" android:lineSpacingMultiplier="1.25" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen053f">
+                    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/continue_button" android:layout_width="@dimen/dimen099a" android:layout_marginBottom="@dimen/dimen0548" android:text="@string/str2353" style="@style/style059e" />
+                    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/verify_with_sms_button" android:layout_width="@dimen/dimen099a" android:text="@string/str2354" style="@style/style05a6" />
+                    <ViewStub android:layout_gravity="center_horizontal" android:id="@id/verify_another_way_button_view_stub" android:layout="@layout/layout089a" android:layout_width="wrap_content" android:layout_height="wrap_content" />
                 </LinearLayout>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

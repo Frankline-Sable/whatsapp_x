@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="@dimen/dimen0577">
-    <com.whatsapp.stickers.StickerView android:gravity="center" android:layout_gravity="center" android:id="@+id/fun_sticker_image_view" android:background="@drawable/search_fun_stickers_background" android:padding="@dimen/dimen0bbd" android:layout_width="@dimen/dimen0577" android:layout_height="@dimen/dimen0577"/>
-    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center" android:id="@+id/shimmer_row_view" android:padding="@dimen/dimen0bbd" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/str2780" android:importantForAccessibility="yes" app:attr07da="2000">
-        <View android:background="@drawable/shimmer_fun_stickers_background" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no"/>
+<FrameLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0577"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.whatsapp.stickers.StickerView android:gravity="center" android:layout_gravity="center" android:id="@id/fun_sticker_image_view" android:background="@drawable/search_fun_stickers_background" android:padding="@dimen/dimen0bbd" android:layout_width="@dimen/dimen0577" android:layout_height="@dimen/dimen0577" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:layout_gravity="center" android:id="@id/shimmer_row_view" android:padding="@dimen/dimen0bbd" android:focusable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/str2780" android:importantForAccessibility="yes" app:attr07da="2000">
+        <View android:background="@drawable/shimmer_fun_stickers_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
     </com.facebook.shimmer.ShimmerFrameLayout>
 </FrameLayout>

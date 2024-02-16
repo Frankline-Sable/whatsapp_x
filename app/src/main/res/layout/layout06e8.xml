@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.settings.SettingsRowIconText xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/remove_account_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr07a0="@color/color0ac8" app:attr07a3="@drawable/vec_person_add" app:attr07a6="@string/str1d9d" style="?attr/attr07a1"/>
+<com.gbwhatsapp.settings.SettingsRowIconText android:id="@id/remove_account_preference" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr07a0="@color/color0ac8" app:attr07a3="@drawable/vec_person_add" app:attr07a6="@string/str1d9d" style="?attr07a1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

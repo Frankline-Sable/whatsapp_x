@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:layout_gravity="right" android:paddingLeft="16dp" android:paddingRight="16dp" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:contentDescription="@string/str2645">
-    <com.gbwhatsapp.WaImageView android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ic_shopping_cart"/>
-    <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0db2" android:id="@+id/cart_total_quantity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp"/>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/str2645"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/ic_shopping_cart" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/color0db2" android:id="@id/cart_total_quantity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
 </LinearLayout>

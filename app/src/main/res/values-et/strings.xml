@@ -23,7 +23,7 @@
     <string name="str25d5">Päringu esitamine</string>
     <string name="str25d6">Häälotsing</string>
     <string name="str25d9">Ahendamine</string>
-    <string name="str25db">Liikmena saad vaadata selle kogukonna gruppe ja nendega liituda ning hoida end kursis administraatorite teadaannetega. &lt;a href=\"%s\"&gt;Lisateave&lt;/a&gt;</string>
+    <string name="str25db">Liikmena saad vaadata selle kogukonna gruppe ja nendega liituda ning hoida end kursis administraatorite teadaannetega. &lt;a href=\"%s\">Lisateave&lt;/a></string>
     <string name="str25dc">Tere tulemast kogukonda!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Kontosid ei saanud vahetada. Proovi hiljem uuesti.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s ei saa sulle enam helistada ega sõnumeid saata.</string>
     <string name="str262d">Ettevõtte tüüp</string>
     <string name="str262e">Ettevõtte detailid</string>
-    <string name="str2636">Selleks et inimestel oleks raskem sinu asukohta tuletada, edastatakse selle seadme kõned turvaliselt WhatsAppi serverite kaudu. See halvendab kõne kvaliteeti. &lt;a href=call_relaying_help&gt;Lisateave&lt;/a&gt;</string>
+    <string name="str2636">Selleks et inimestel oleks raskem sinu asukohta tuletada, edastatakse selle seadme kõned turvaliselt WhatsAppi serverite kaudu. See halvendab kõne kvaliteeti. &lt;a href=call_relaying_help>Lisateave&lt;/a></string>
     <string name="str2637">Kaitse kõnedes IP-aadressi</string>
     <string name="str2638">Kõned</string>
     <string name="str2639">Helistamise otsetee lisamine – %s.</string>
     <string name="str263a">Helistamise otsetee</string>
-    <string name="str263b">Kasuta kõnede ajal kaameraefekte, näiteks oma avatari. &lt;a href=\"%s\"&gt;Lisateave&lt;/a&gt;</string>
+    <string name="str263b">Kasuta kõnede ajal kaameraefekte, näiteks oma avatari. &lt;a href=\"%s\">Lisateave&lt;/a></string>
     <string name="str263c">Kaameraefektid</string>
     <string name="str263d">WhatsAppi kaamera</string>
     <string name="str263e">Tühista</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Liiga palju katseid. Proovige hiljem uuesti.</string>
     <string name="str26fe">Ühtegi sõrmejälge pole registreeritud.</string>
     <string name="str26ff">Kasutaja tühistas sõrmejälje kasutamise.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Lisateave&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Lisateave&lt;/a></string>
     <string name="str2701">Suur</string>
     <string name="str2702">Keskmine</string>
     <string name="str2703">Väike</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Lülitu tekstisisestusrežiimile</string>
     <string name="str27c5">Puudutage, et lülituda aasta valimisele</string>
     <string name="str27d0">Vaigistatud uuendused</string>
-    <string name="str27e2">Kas soovid uut gruppi luua? &lt;font color=#%s&gt;&lt;b&gt;Vaata, kuidas seda teha&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Kas soovid uut gruppi luua? &lt;font color=#%s>&lt;b>Vaata, kuidas seda teha&lt;/b>&lt;/font></string>
     <string name="str27e5">1 päev</string>
     <string name="str27e6">Rakenduse vaikeseade (%s)</string>
     <string name="str27e7">1 kuu</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profiil</string>
     <string name="str288c">Seadete hulgast ei leitud tulemusi</string>
     <string name="str288d">Salvestusruumi ja andmemahu kasutus</string>
-    <string name="str2891">Kõned tundmatutelt numbritelt vaigistatakse. Need kuvatakse siiski sinu märguannetes ja vahekaardil Kõned. &lt;a href=calling_privacy_help&gt;Lisateave&lt;/a&gt;</string>
+    <string name="str2891">Kõned tundmatutelt numbritelt vaigistatakse. Need kuvatakse siiski sinu märguannetes ja vahekaardil Kõned. &lt;a href=calling_privacy_help>Lisateave&lt;/a></string>
     <string name="str2892">Vaigista tundmatud helistajad</string>
     <string name="str2893">Eira</string>
     <string name="str2895">Sorteeri aja järgi</string>

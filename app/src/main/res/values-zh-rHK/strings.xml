@@ -2,7 +2,7 @@
 <resources>
     <string name="str0918">複製</string>
     <string name="str0d36">未能識別</string>
-    <string name="str0eac">商家如何使用 Facebook 提供的工具 &lt;b&gt;來管理對話&lt;/b&gt;。與商家的對話為非必要選項，並會在應用程式中清楚標示。</string>
+    <string name="str0eac">商家如何使用 Facebook 提供的工具 &lt;b>來管理對話&lt;/b>。與商家的對話為非必要選項，並會在應用程式中清楚標示。</string>
     <string name="str25c0">向上瀏覽</string>
     <string name="str25c2">完成</string>
     <string name="str25c5">關閉</string>
@@ -24,7 +24,7 @@
     <string name="str25d5">提交查詢</string>
     <string name="str25d6">語音搜尋</string>
     <string name="str25d9">收合</string>
-    <string name="str25db">作為社群成員，您可查看及加入此社群內的群組，並接收管理員的最新公告。&lt;a href=\"%s\"&gt;瞭解詳情&lt;/a&gt;</string>
+    <string name="str25db">作為社群成員，您可查看及加入此社群內的群組，並接收管理員的最新公告。&lt;a href=\"%s\">瞭解詳情&lt;/a></string>
     <string name="str25dc">歡迎加入社群！</string>
     <string name="str25df">確定</string>
     <string name="str25e0">無法切換帳戶，請稍後再試。</string>
@@ -56,12 +56,12 @@
     <string name="str262c">‎%s將無法再傳送訊息或致電給您。</string>
     <string name="str262d">業務類型</string>
     <string name="str262e">商家詳細資料</string>
-    <string name="str2636">此裝置的通話將透過 WhatsApp 伺服器安全轉駁，使他人難以推斷出您的位置。此功能會降低通話質素。&lt;a href=call_relaying_help&gt;瞭解詳情&lt;/a&gt;</string>
+    <string name="str2636">此裝置的通話將透過 WhatsApp 伺服器安全轉駁，使他人難以推斷出您的位置。此功能會降低通話質素。&lt;a href=call_relaying_help>瞭解詳情&lt;/a></string>
     <string name="str2637">在通話中保護 IP 位址</string>
     <string name="str2638">通話</string>
     <string name="str2639">為%s新增通話捷徑。</string>
     <string name="str263a">通話捷徑</string>
-    <string name="str263b">在通話中使用虛擬替身等相機特效。&lt;a href=\"%s\"&gt;瞭解詳情&lt;/a&gt;</string>
+    <string name="str263b">在通話中使用虛擬替身等相機特效。&lt;a href=\"%s\">瞭解詳情&lt;/a></string>
     <string name="str263c">相機特效</string>
     <string name="str263d">WhatsApp 相機</string>
     <string name="str263e">取消</string>
@@ -138,7 +138,7 @@
     <string name="str26fd">嘗試次數過多。請稍後再試。</string>
     <string name="str26fe">尚未註冊任何指紋。</string>
     <string name="str26ff">使用者已取消指紋操作。</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;瞭解詳情&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">瞭解詳情&lt;/a></string>
     <string name="str2701">大</string>
     <string name="str2702">中</string>
     <string name="str2703">小</string>
@@ -193,7 +193,7 @@
     <string name="str27c4">切換至文字輸入模式</string>
     <string name="str27c5">輕按以切換至選擇年份</string>
     <string name="str27d0">已關閉通知的更新</string>
-    <string name="str27e2">要建立新群組嗎？&lt;font color=#%s&gt;&lt;b&gt;查看操作方式&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">要建立新群組嗎？&lt;font color=#%s>&lt;b>查看操作方式&lt;/b>&lt;/font></string>
     <string name="str27e5">1 天</string>
     <string name="str27e6">預設應用程式設定 (%s)</string>
     <string name="str27e7">1 個月</string>
@@ -290,7 +290,7 @@
     <string name="str288b">個人檔案</string>
     <string name="str288c">找不到設定搜尋結果</string>
     <string name="str288d">儲存空間及數據用量</string>
-    <string name="str2891">未知號碼來電將會靜音，但仍會在「通話」分頁和通知中顯示。&lt;a href=calling_privacy_help&gt;瞭解詳情&lt;/a&gt;</string>
+    <string name="str2891">未知號碼來電將會靜音，但仍會在「通話」分頁和通知中顯示。&lt;a href=calling_privacy_help>瞭解詳情&lt;/a></string>
     <string name="str2892">將未知來電者設為靜音</string>
     <string name="str2893">略過</string>
     <string name="str2895">按日期排序</string>

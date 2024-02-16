@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/toolbar_holder" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="?attr/attr091c" android:layout_width="match_parent" android:layout_height="?attr/attr000f" android:minHeight="?attr/attr000f" app:attr06dd="@style/style05cd" app:attr08f1="@style/style056d" app:attr0923="1"/>
-    <com.gbwhatsapp.wds.components.search.WDSSearchView android:id="@+id/wds_search_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="?attr/attr000f" android:hint="@string/str2853" android:navigationIcon="?attr/attr0495" app:attr048b="true" style="@style/style05c7"/>
+<merge android:id="@id/toolbar_holder" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?attr091c" android:layout_width="fill_parent" android:layout_height="?attr000f" android:minHeight="?attr000f" app:attr06dd="@style/style05cd" app:attr08f1="@style/style056d" app:attr0923="bidi" />
+    <com.gbwhatsapp.wds.components.search.WDSSearchView android:id="@id/wds_search_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="?attr000f" android:hint="@string/str2853" android:navigationIcon="?attr0495" app:attr048b="true" style="@style/style05c7" />
 </merge>

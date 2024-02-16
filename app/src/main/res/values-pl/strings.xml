@@ -23,7 +23,7 @@
     <string name="str25d5">Wyślij zapytanie</string>
     <string name="str25d6">Wyszukiwanie głosowe</string>
     <string name="str25d9">Zwiń</string>
-    <string name="str25db">Jako uczestnik możesz przeglądać grupy w tej społeczności i dołączać do nich, a także śledzić ogłoszenia administratorów. &lt;a href=\"%s\"&gt;Dowiedz się więcej&lt;/a&gt;</string>
+    <string name="str25db">Jako uczestnik możesz przeglądać grupy w tej społeczności i dołączać do nich, a także śledzić ogłoszenia administratorów. &lt;a href=\"%s\">Dowiedz się więcej&lt;/a></string>
     <string name="str25dc">Witaj w społeczności!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Nie można przełączyć kont. Spróbuj ponownie później.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">Firma %s nie będzie już mogła wysyłać do Ciebie wiadomości ani dzwonić.</string>
     <string name="str262d">Forma prawna firmy</string>
     <string name="str262e">Informacje o firmie</string>
-    <string name="str2636">Aby utrudnić innym ustalenie Twojej lokalizacji, połączenia na tym urządzeniu będą bezpiecznie przekazywane przez serwery WhatsApp. Jakość połączeń będzie gorsza. &lt;a href=call_relaying_help&gt;Dowiedz się więcej&lt;/a&gt;</string>
+    <string name="str2636">Aby utrudnić innym ustalenie Twojej lokalizacji, połączenia na tym urządzeniu będą bezpiecznie przekazywane przez serwery WhatsApp. Jakość połączeń będzie gorsza. &lt;a href=call_relaying_help>Dowiedz się więcej&lt;/a></string>
     <string name="str2637">Chroń adres IP podczas połączeń</string>
     <string name="str2638">Połączenia</string>
     <string name="str2639">Dodaj skrót do połączenia z: %s.</string>
     <string name="str263a">Skrót do połączenia</string>
-    <string name="str263b">Używaj w połączeniach efektów z aparatu, na przykład swojego awatara. &lt;a href=\"%s\"&gt;Dowiedz się więcej&lt;/a&gt;</string>
+    <string name="str263b">Używaj w połączeniach efektów z aparatu, na przykład swojego awatara. &lt;a href=\"%s\">Dowiedz się więcej&lt;/a></string>
     <string name="str263c">Efekty z aparatu</string>
     <string name="str263d">Aparat WhatsApp</string>
     <string name="str263e">Anuluj</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Zbyt wiele prób. Spróbuj ponownie później.</string>
     <string name="str26fe">Nie zarejestrowano odcisków palców.</string>
     <string name="str26ff">Odczyt odcisku palca został anulowany przez użytkownika.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Dowiedz się więcej&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Dowiedz się więcej&lt;/a></string>
     <string name="str2701">Duża</string>
     <string name="str2702">Średnia</string>
     <string name="str2703">Mała</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Włącz tekstowy tryb wprowadzania</string>
     <string name="str27c5">Kliknij, by wybrać rok</string>
     <string name="str27d0">Wyciszone aktualizacje</string>
-    <string name="str27e2">Utworzyć nową grupę? &lt;font color=#%s&gt;&lt;b&gt;Zobacz, jak to zrobić&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Utworzyć nową grupę? &lt;font color=#%s>&lt;b>Zobacz, jak to zrobić&lt;/b>&lt;/font></string>
     <string name="str27e5">1 dzień</string>
     <string name="str27e6">Domyślne ustawienie aplikacji (%s)</string>
     <string name="str27e7">1 miesiąc</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Nie znaleziono wyników w ustawieniach</string>
     <string name="str288d">Pamięć i użycie danych</string>
-    <string name="str2891">Połączenia z nieznanych numerów będą wyciszane. Nadal będą widoczne na karcie Połączenia oraz w powiadomieniach. &lt;a href=calling_privacy_help&gt;Dowiedz się więcej&lt;/a&gt;</string>
+    <string name="str2891">Połączenia z nieznanych numerów będą wyciszane. Nadal będą widoczne na karcie Połączenia oraz w powiadomieniach. &lt;a href=calling_privacy_help>Dowiedz się więcej&lt;/a></string>
     <string name="str2892">Wyciszanie nieznanych osób dzwoniących</string>
     <string name="str2893">Pomiń</string>
     <string name="str2895">Sortuj według daty</string>

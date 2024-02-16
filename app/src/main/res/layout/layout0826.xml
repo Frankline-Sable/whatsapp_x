@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/content_sheet" android:layout_width="match_parent" android:layout_height="match_parent" app:attr05e6="@+id/store_container">
-    <LinearLayout android:orientation="vertical" android:id="@+id/store_container" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="match_parent">
-        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" app:attr0923="1" style="@style/style0570"/>
-        <com.google.android.material.tabs.TabLayout android:id="@+id/sticker_store_tabs" android:background="?attr/attr064b" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <androidx.viewpager.widget.ViewPager android:id="@+id/sticker_store_pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+<com.gbwhatsapp.components.MainChildCoordinatorLayout android:id="@id/content_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent" app:attr05e6="@id/store_container"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/store_container" android:background="?attr06f8" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" app:attr0923="bidi" style="@style/style0570" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/sticker_store_tabs" android:background="?attr064b" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/sticker_store_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
     </LinearLayout>
 </com.gbwhatsapp.components.MainChildCoordinatorLayout>

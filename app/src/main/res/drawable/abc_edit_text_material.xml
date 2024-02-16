@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<inset xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:insetLeft="@dimen/dimen002d" android:insetRight="@dimen/dimen002d" android:insetTop="@dimen/dimen002e" android:insetBottom="@dimen/dimen002c">
+<inset android:insetLeft="@dimen/dimen002d" android:insetRight="@dimen/dimen002d" android:insetTop="@dimen/dimen002e" android:insetBottom="@dimen/dimen002c"
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <selector>
         <item android:state_enabled="false">
-            <nine-patch android:src="@drawable/abc_textfield_default_mtrl_alpha" android:tint="?attr/attr01a5" android:alpha="?android:attr/disabledAlpha"/>
+            <nine-patch android:src="@drawable/abc_textfield_default_mtrl_alpha" android:tint="?attr01a5" android:alpha="?android:disabledAlpha" />
         </item>
         <item android:state_focused="false" android:state_pressed="false">
-            <nine-patch android:src="@drawable/abc_textfield_default_mtrl_alpha" android:tint="?attr/attr01a5"/>
+            <nine-patch android:src="@drawable/abc_textfield_default_mtrl_alpha" android:tint="?attr01a5" />
         </item>
         <item>
-            <nine-patch android:src="@drawable/abc_textfield_activated_mtrl_alpha" android:tint="?attr/attr01a3"/>
+            <nine-patch android:src="@drawable/abc_textfield_activated_mtrl_alpha" android:tint="?attr01a3" />
         </item>
     </selector>
 </inset>

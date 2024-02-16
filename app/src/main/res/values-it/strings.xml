@@ -12,11 +12,11 @@
     <string name="EchangeLPW">Imposta sfondo personalizzato per la sequenza</string>
     <string name="EnableP">Abilita sequenza</string>
     <string name="EnablePS">Scegli tra PIN e sequenza per proteggere i dati</string>
-    <string name="EntryBak">Sfondo barra d\'inserimento</string>
-    <string name="HangoutsBK">Sfondo barra d\'inserimento della chat</string>
-    <string name="HangoutsBKS">Imposta il colore di sfondo della barra d\'inserimento</string>
+    <string name="EntryBak">"Sfondo barra d'inserimento"</string>
+    <string name="HangoutsBK">"Sfondo barra d'inserimento della chat"</string>
+    <string name="HangoutsBKS">"Imposta il colore di sfondo della barra d'inserimento"</string>
     <string name="HangoutsBt">Colore dei pulsanti della UI nelle chat</string>
-    <string name="HangoutsBtS">Imposta il colore delle icone della barra d\'inserimento</string>
+    <string name="HangoutsBtS">"Imposta il colore delle icone della barra d'inserimento"</string>
     <string name="HideFAB">Nascondi tasto fluttuante (FAB)</string>
     <string name="Lock">Proteggi WhatsApp</string>
     <string name="MainSize">Dimensione testo schermata principale/chiamate/contatti</string>
@@ -59,8 +59,8 @@
     <string name="acj_cp_nav_sum">Imposta il colore della barra di navigazione nella schermata di selezione dei contatti</string>
     <string name="acj_cp_stat_sum">Imposta il colore della barra di stato nella schermata di selezione dei contatti</string>
     <string name="acj_fab_bg">Colore sfondo FAB attivo</string>
-    <string name="acj_fab_bg_anim_sum">Imposta lo sfondo dell\'animazione del FAB</string>
-    <string name="acj_fab_bg_anim_tut">Questo è un link a YouTube che mostra l\'animazione del tasto FAB</string>
+    <string name="acj_fab_bg_anim_sum">"Imposta lo sfondo dell'animazione del FAB"</string>
+    <string name="acj_fab_bg_anim_tut">"Questo è un link a YouTube che mostra l'animazione del tasto FAB"</string>
     <string name="acj_fab_bg_pos">Sfondo animazione tasto FAB</string>
     <string name="acj_fab_bg_sum">Imposta il colore dello sfondo con tasto FAB attivo</string>
     <string name="acj_fab_bg_tut">Tutorial animazione tasto FAB</string>
@@ -105,13 +105,10 @@
     <string name="acjunisum">Imposta il colore generale di WhatsApp</string>
     <string name="acjuniversal">Generale</string>
     <string name="action_settings">Impostazioni</string>
-    <string name="add_group_description">Aggiungi descrizione gruppo</string>
     <string name="airplane_mode">Modalità aereo</string>
     <string name="already_saved">Già salvato</string>
     <string name="antiviewonce">Anti \"Visualizza una volta\"</string>
     <string name="antiviewonceS">Apri illimitatamente i messaggi \"Visualizza una volta\"</string>
-    <string name="archive_notify_new_messages_info">Ripristina le chat con nuovi messaggi nella lista principale</string>
-    <string name="archive_notify_new_messages_title">Ripristina se nuovi messaggi</string>
     <string name="bg_counter_color">Sfondo contatore</string>
     <string name="bg_counter_color_sum">Modifica colore dello sfondo del contatore delle storie</string>
     <string name="btnSchedule">Programma</string>
@@ -132,7 +129,6 @@
     <string name="chat_my_pic_summary">Mostra la mia immagine in ogni messaggio</string>
     <string name="chat_text_size">Dimensione testo messaggi</string>
     <string name="chat_text_size_summary">Imposta la dimensione del testo nelle chat</string>
-    <string name="chats">Chat</string>
     <string name="chats_date_mod">Colore data</string>
     <string name="chats_date_pending_mod">Data messaggio in attesa</string>
     <string name="chats_date_pending_summary">Imposta il colore della data del messaggio in attesa nella schermata stato</string>
@@ -151,7 +147,6 @@
     <string name="contact_lastseen_mod_summary">Imposta colore ultimo accesso nella schermata principale</string>
     <string name="contact_online_mod">Colore contatto online</string>
     <string name="contact_online_summary">Imposta colore \"Online\" nella schermata principale</string>
-    <string name="contact_picker_section_groups">Chat di gruppo</string>
     <string name="contactstatusC">Sfondo stato contatti</string>
     <string name="contactstatusCS">Imposta il testo dello stato nella schermata chat</string>
     <string name="contactstatusCSB">Imposta lo sfondo dello stato nella schermata chat</string>
@@ -167,7 +162,7 @@
     <string name="create_link_contact">Collegamento diretto al contatto</string>
     <string name="creditsS">Crediti</string>
     <string name="custom_wall_profilepic">Immagine profilo come sfondo</string>
-    <string name="custom_wall_profilepicS">Imposta l\'immagine del profilo come sfondo</string>
+    <string name="custom_wall_profilepicS">"Imposta l'immagine del profilo come sfondo"</string>
     <string name="customfont">Stile del carattere</string>
     <string name="customfont_sum">Imposta il carattere per WhatsApp</string>
     <string name="customwall">Sfondo personalizzato per contatto</string>
@@ -178,24 +173,24 @@
     <string name="date_divider_mod">Colore testo divisore data</string>
     <string name="date_divider_summary">Imposta il colore del testo del divisore data nella schermata Conversazione</string>
     <string name="ddtl_emoji">Reazione con doppio tap</string>
-    <string name="default_payment_pin_name">PIN</string>
     <string name="deletethemes">Elimina tutti i temi salvati/installati</string>
     <string name="deletethemessum">Elimina tutti i temi da (/Download/GBThemes)</string>
-    <string name="description_hint">Aggiungi descrizione gruppo</string>
     <string name="devweb">Sito sviluppatore</string>
     <string name="dialog_call_msg">Vuoi effettuare la chiamata?</string>
     <string name="dialog_call_title">Chiama</string>
-    <string name="disableFingerprintFirst">Per usare altri tipi di blocco, disabilita prima l\'impronta digitale</string>
+    <string name="disableFingerprintFirst">"Per usare altri tipi di blocco, disabilita prima l'impronta digitale"</string>
     <string name="disableHiddenAccess">Disabilita tocco su \"WhatsApp\"</string>
-    <string name="disableHiddenAccessSum">Il tocco su \"WhatsApp\" nell\'intestazione non aprirà le chat nascoste</string>
+    <string name="disableHiddenAccessSum">"Il tocco su \"WhatsApp\" nell'intestazione non aprirà le chat nascoste"</string>
     <string name="disable_dttl">Disabilita reazione con doppio tap</string>
     <string name="disablestatus">Disabilita stato sotto il mio nome</string>
     <string name="disablestatusSum">Rimuove la riga con lo stato sotto il tuo nome nella schermata principale</string>
-    <string name="donateMe">Trovi questa app utile?\10Supporta il suo sviluppo con una donazione allo sviluppatore</string>
+    <string name="donateMe">"Trovi questa app utile?
+Supporta il suo sviluppo con una donazione allo sviluppatore"</string>
     <string name="donations__alert_dialog_no_browser">Nessun browser trovato per aprire il sito</string>
     <string name="donations__alert_dialog_title">Si è verificato un errore</string>
     <string name="donations__button_close">Chiudi</string>
-    <string name="donations__description">Trovi questa app utile?\10Supporta il suo sviluppo con una donazione allo sviluppatore!</string>
+    <string name="donations__description">"Trovi questa app utile?
+Supporta il suo sviluppo con una donazione allo sviluppatore!"</string>
     <string name="donations__google_android_market">Google Play Store</string>
     <string name="donations__google_android_market_description">Google impone una tassa del 30%</string>
     <string name="donations__google_android_market_donate_button">Dona!</string>
@@ -204,7 +199,8 @@
     <string name="donations__google_android_market_text">Importo?</string>
     <string name="donations__paypal">PayPal</string>
     <string name="donations__paypal_description">Puoi decidere quanto donare dopo aver premuto il tasto!</string>
-    <string name="donations__thanks_dialog">Grazie per la donazione!\10lo apprezzo molto!</string>
+    <string name="donations__thanks_dialog">"Grazie per la donazione!
+lo apprezzo molto!"</string>
     <string name="donations__thanks_dialog_title">Grazie!</string>
     <string name="elapsedT">Tempo fa</string>
     <string name="elapsedTS">Usare \"tempo fa\" (ultimo accesso in ore e minuti) in WhatsApp, in schermata principale e chat</string>
@@ -212,13 +208,13 @@
     <string name="em_setS">Modifica la variante Emoji di WhatsApp</string>
     <string name="emojiBackColor">Colore sfondo del selettore delle emoji</string>
     <string name="emojiBackColorSum">Imposta il colore di sfondo del popup Emoji</string>
-    <string name="emojiHeadIconsColor">Colore icone dell\'intestazione emoji</string>
+    <string name="emojiHeadIconsColor">"Colore icone dell'intestazione emoji"</string>
     <string name="emojiHeadIconsColorSum">Imposta il colore delle icone del popup Emoji</string>
     <string name="emojiHeaderColor">Colore intestazione delle emoji</string>
-    <string name="emojiHeaderColorSum">Imposta il colore dell\'intestazione del popup Emoji</string>
+    <string name="emojiHeaderColorSum">"Imposta il colore dell'intestazione del popup Emoji"</string>
     <string name="endDate">Data di fine</string>
-    <string name="entryText">Colore testo barra d\'inserimento</string>
-    <string name="entryTextSum">Imposta colore del testo nella barra d\'inserimento</string>
+    <string name="entryText">"Colore testo barra d'inserimento"</string>
+    <string name="entryTextSum">"Imposta colore del testo nella barra d'inserimento"</string>
     <string name="str0918">Copia</string>
     <string name="fab">Colore FAB</string>
     <string name="first_message">Primo messaggio</string>
@@ -226,7 +222,7 @@
     <string name="frequently_contacted_sum">Nascondi \"Contatti frequenti\" dalla sezione \"Inoltra\"</string>
     <string name="from_mod">Colore nome partecipanti</string>
     <string name="from_summary">Imposta il colore dei nomi dei partecipanti nella schermata \"Chat di gruppo\"</string>
-    <string name="ghost_mode">Modalità fantasma��</string>
+    <string name="ghost_mode">Modalità fantasma👻</string>
     <string name="go_to_first_msg">Vai al primo messaggio</string>
     <string name="group_participant_pic">Immagine del membro del gruppo</string>
     <string name="group_participant_pic_summary">Mostra immagine del membro del gruppo in ogni messaggio</string>
@@ -265,7 +261,7 @@
     <string name="inside_bubble">Dentro</string>
     <string name="last_message">Ultimo messsaggio</string>
     <string name="launchericons">Icona nel launcher</string>
-    <string name="launchericonsSum">Imposta lo stile dell\'icona nel launcher</string>
+    <string name="launchericonsSum">"Imposta lo stile dell'icona nel launcher"</string>
     <string name="limit">Mostra solo le ultime ore</string>
     <string name="listBackground">Sfondo lista (solo One UI)</string>
     <string name="listBackgroundSum">Imposta colore sfondo della lista delle chat con One UI</string>
@@ -282,7 +278,6 @@
     <string name="mention_color_chats">Colore menzione</string>
     <string name="menuDeleteText">Elimina messaggio</string>
     <string name="menuEditText">Modifica messaggio</string>
-    <string name="message">Messaggio</string>
     <string name="missed_call_bg">Bolla chiamata persa</string>
     <string name="str0d36">Non riconosciuta</string>
     <string name="missed_call_icon_bg">Icona chiamata persa</string>
@@ -294,16 +289,16 @@
     <string name="msg_autoreply_delaymsgseconds">Ritardo in secondi</string>
     <string name="msg_autoreply_enabledisable">Abilita/Disabilita</string>
     <string name="msg_autoreply_endtime">Ora di fine</string>
-    <string name="msg_autoreply_error2">L\'ora di inizio non può essere uguale all\'ora di fine</string>
-    <string name="msg_autoreply_error3">L\'ora di fine non può essere inferiore all\'ora di inizio</string>
+    <string name="msg_autoreply_error2">"L'ora di inizio non può essere uguale all'ora di fine"</string>
+    <string name="msg_autoreply_error3">"L'ora di fine non può essere inferiore all'ora di inizio"</string>
     <string name="msg_autoreply_group">Gruppi</string>
     <string name="msg_autoreply_incomingmessage">Messaggio in arrivo</string>
-    <string name="msg_autoreply_receive">Se ricevi: </string>
+    <string name="msg_autoreply_receive">"Se ricevi: "</string>
     <string name="msg_autoreply_receiver">Destinatario</string>
     <string name="msg_autoreply_replyall">Rispondi a tutti i messaggi</string>
     <string name="msg_autoreply_replyifcontain">Solo se contiene</string>
     <string name="msg_autoreply_replyifeq">Solo se uguale</string>
-    <string name="msg_autoreply_send">Rispondi:  </string>
+    <string name="msg_autoreply_send">"Rispondi:  "</string>
     <string name="msg_autoreply_setautoreply">Imposta risposta automatica</string>
     <string name="msg_autoreply_specifictimes">Orari specifici</string>
     <string name="msg_autoreply_specifictoignore">Contatti/gruppi a cui non rispondere</string>
@@ -331,7 +326,7 @@
     <string name="msg_scheduler_setscheduler">Imposta pianificazione</string>
     <string name="msg_scheduler_timetosend">È ora di inviare il messaggio</string>
     <string name="msg_scheduler_title">Pianifica invio messaggi</string>
-    <string name="msg_scheduler_to">A: </string>
+    <string name="msg_scheduler_to">"A: "</string>
     <string name="multiChat">Scheda per ogni chat (chat multiple)</string>
     <string name="multiChatsS">Ogni chat viene aperta in una nuova scheda e apparirà nei recenti (Lollipop e superiori)</string>
     <string name="name_contact_sto">Nome contatto</string>
@@ -353,10 +348,8 @@
     <string name="pic_chat_size">Dimensione immagine chat</string>
     <string name="pic_chat_size_summary">Imposta dimensione immagine nella chat</string>
     <string name="pic_location">Posizione immagine</string>
-    <string name="pic_locationS">Imposta se visualizzare l\'immagine sul primo, sull\'ultimo o su tutti i messaggi</string>
+    <string name="pic_locationS">"Imposta se visualizzare l'immagine sul primo, sull'ultimo o su tutti i messaggi"</string>
     <string name="preview_failed">Anteprima fallita</string>
-    <string name="privacy_everyone">Tutti</string>
-    <string name="privacy_nobody">Nessuno</string>
     <string name="privacy_switch">Solo privacy</string>
     <string name="profile_name">Nome profilo:</string>
     <string name="quoteBackColor">Colore sfondo del pannello quotato</string>
@@ -385,17 +378,8 @@
     <string name="saveTheme">Salva tema</string>
     <string name="saveThemeS">Salva le preferenze attuali in (/Download/GBThemes)</string>
     <string name="schedule_title_activity_edit">Modifica messaggio</string>
-    <string name="search_contact_token_prefix">Da %s</string>
-    <string name="select_contacts">Seleziona contatti</string>
-    <string name="select_status_recipients_black_list">I miei contatti tranne…</string>
     <string name="selected_tabPagerTitle">Colore testo titolo pagina selezionata</string>
     <string name="selected_tabPagerTitleS">Imposta colore della scheda attiva tra \"CHAT\", \"STATO\", \"CHIAMATE\"</string>
-    <string name="send_message_to_contact_button">Messaggio</string>
-    <string name="sent_to_group">Invia a \"%s\"</string>
-    <string name="sent_to_person">Invia a %s</string>
-    <string name="settings_chat">Chat</string>
-    <string name="settings_privacy_security_section_title">Blocco impronta digitale</string>
-    <string name="settings_privacy_status">Stato</string>
     <string name="showAirplaneMode">Mostra modalità aereo</string>
     <string name="showAirplaneModeS">Consente di interrompere la ricezione di messaggi whatsapp fino alla disattivazione</string>
     <string name="showNightMode">Mostra modalità Chiaro/Scuro</string>
@@ -416,7 +400,7 @@
     <string name="statusesTitleText">Testo aggiornamenti recenti</string>
     <string name="statusesTitleTextS">Imposta il colore del testo barra aggiornamenti recenti/visti nella pagina stato</string>
     <string name="story_style">Stile delle storie</string>
-    <string name="sum_change_p_s">Visualizza le storie con l\'immagine del profilo o con l\'anteprima dello stato</string>
+    <string name="sum_change_p_s">"Visualizza le storie con l'immagine del profilo o con l'anteprima dello stato"</string>
     <string name="supportyo">Supporto</string>
     <string name="tabPagerIndicator">Colore sottolineatura scheda attiva</string>
     <string name="tabPagerTitle">Colore testo titolo pagina</string>
@@ -424,7 +408,7 @@
     <string name="tabindicator">Colore sottolineatura della scheda selezionata</string>
     <string name="text_counter_color">Testo contatore</string>
     <string name="text_counter_color_sum">Modifica il colore del testo del contatore</string>
-    <string name="textcolormain">Imposta colore dell\'intera schermata principale</string>
+    <string name="textcolormain">"Imposta colore dell'intera schermata principale"</string>
     <string name="textcoloruni">Colore testo</string>
     <string name="themes_alert_lightdarkInfo">Applicare? Nota: se dopo aver applicato il tema, questo non viene visualizzato correttamente, prova a passare alla modalità chiara/scura ed applica di nuovo</string>
     <string name="time_ago">%s fa</string>
@@ -457,9 +441,7 @@
     <string name="voicechanger_sound_robot">Robot</string>
     <string name="voicechanger_sound_slowmotion">Rallentata</string>
     <string name="voicechanger_sound_teenager">Adolescente</string>
-    <string name="voicechanger_sound_underwater">Sott\'acqua</string>
-    <string name="voip_not_allowed_never">%s non può ricevere chiamate WhatsApp</string>
-    <string name="voip_video_not_allowed_at_this_time">%s non può ricevere videochiamate WhatsApp al momento</string>
+    <string name="voicechanger_sound_underwater">"Sott'acqua"</string>
     <string name="wa_moved">Dati WhatsApp copiati correttamente, ora puoi completare i passaggi!</string>
     <string name="whocancall">Chi può chiamarmi?</string>
     <string name="wmavno">1</string>
@@ -494,14 +476,14 @@
     <string name="yoContactNameC">Colore nome contatto</string>
     <string name="yoContactNameCS">Imposta il colore del nome del contatto nella schermata principale</string>
     <string name="yoContactStatus">Disabilita stato contatti</string>
-    <string name="yoContactStatusSum">Rimuove lo stato del contatto sotto l\'intestazione della chat</string>
+    <string name="yoContactStatusSum">"Rimuove lo stato del contatto sotto l'intestazione della chat"</string>
     <string name="yoCopy">Stato copiato negli appunti</string>
     <string name="yoDeveloped">Sviluppato da</string>
     <string name="yoDeveloper">Sviluppatore</string>
     <string name="yoDisableAudioHeads">Disabilita notifiche riproduzione audio</string>
     <string name="yoDisableAudioHeadsS">Rimuove la notifica durante la riproduzione di note vocali/audio</string>
     <string name="yoDisableBCounter">Disabilita contatore badge</string>
-    <string name="yoDisableBCounterS">Disabilita il contatore messaggi sull\'icona nella schermata principale</string>
+    <string name="yoDisableBCounterS">"Disabilita il contatore messaggi sull'icona nella schermata principale"</string>
     <string name="yoDisableChatSwipe">Disabilita \"Scorri per uscire dalla chat\"</string>
     <string name="yoDisableChatSwipeS">Impedisce la chiusura della chat scorrendo da sinistra a destra (come Telegram)</string>
     <string name="yoDisableFwd">Disabilita \"Inoltrato\"</string>
@@ -558,7 +540,7 @@
     <string name="yoImgShareLimit">Disabilita il limite di condivisione di immagini</string>
     <string name="yoImgShareLimitSum">Invia più di 10 immagini contemporaneamente</string>
     <string name="yoLeftTime">Colore orario bolla sinistra</string>
-    <string name="yoLeftTimeS">Imposta il colore dell\'orario nella bolla della chat sinistra</string>
+    <string name="yoLeftTimeS">"Imposta il colore dell'orario nella bolla della chat sinistra"</string>
     <string name="yoMisc">Mods varie</string>
     <string name="yoMods">GBImpostazioni</string>
     <string name="yoName">Imposta il mio nome</string>
@@ -576,7 +558,7 @@
     <string name="yoPlus">Entra nella community WhatsApp di Google+</string>
     <string name="yoPrivacySum">Privacy specifica</string>
     <string name="yoProfilePic">Nascondi la foto dei contatti</string>
-    <string name="yoProfilePicS">Rimuove l\'immagine del contatto dall\'intestazione nella schermata della chat</string>
+    <string name="yoProfilePicS">"Rimuove l'immagine del contatto dall'intestazione nella schermata della chat"</string>
     <string name="yoRecoveryQ">Domanda di recupero</string>
     <string name="yoRecoveryQS">Questa domanda di recupero consente il ripristino di PIN/sequenza dimenticati</string>
     <string name="yoRecoveryQ_old">Vecchia domanda</string>
@@ -588,9 +570,9 @@
     <string name="yoRestoreSum">Ripristina backup più recente</string>
     <string name="yoRestoreTitle">Ripristina</string>
     <string name="yoRevokedIconColor">Colore icona messaggi eliminati</string>
-    <string name="yoRevokedIconColorS">Imposta il colore dell\'icona revocata nei messaggi eliminati</string>
+    <string name="yoRevokedIconColorS">"Imposta il colore dell'icona revocata nei messaggi eliminati"</string>
     <string name="yoRightTime">Colore orario bolla destra</string>
-    <string name="yoRightTimeS">Imposta il colore dell\'orario nella bolla della chat destra</string>
+    <string name="yoRightTimeS">"Imposta il colore dell'orario nella bolla della chat destra"</string>
     <string name="yoSendBK">Sfondo del tasto mic/invia</string>
     <string name="yoSendBKS">Imposta il colore del tasto Mic/Invia</string>
     <string name="yoSendBtn">Colore tasto \"Invia\"</string>
@@ -616,7 +598,7 @@
     <string name="yo_Cancel">Annulla​</string>
     <string name="yo_Connect">Caricamento…</string>
     <string name="yo_ErrUp">Impossibile ricevere info sugli aggiornamenti</string>
-    <string name="yo_FoundUp">Nuovo aggiornamento disponibile! L\'ultima versione di WhatsApp è %s</string>
+    <string name="yo_FoundUp">"Nuovo aggiornamento disponibile! L'ultima versione di WhatsApp è %s"</string>
     <string name="yo_Later">Chiudi!</string>
     <string name="yo_Mods">Privacy</string>
     <string name="yo_OK">OK</string>
@@ -649,20 +631,16 @@
     <string name="yo_webdl">Scarica dal sito</string>
     <string name="yo_webdlS">Scarica WhatsApp dal sito ufficiale</string>
     <string name="yocent">Stile barra strumenti della chat</string>
-    <string name="yocentS">Imposta lo stile dell\'intestazione nella schermata chat</string>
+    <string name="yocentS">"Imposta lo stile dell'intestazione nella schermata chat"</string>
     <string name="yoconh">Stile Home</string>
     <string name="yoconhS">Imposta lo stile della schermata principale</string>
     <string name="yoconv">Stile barra di inserimento della chat</string>
-    <string name="yoconvS">Imposta lo stile della barra d\'inserimento nella schermata chat</string>
+    <string name="yoconvS">"Imposta lo stile della barra d'inserimento nella schermata chat"</string>
     <string name="yoconvback">Colore di sfondo della chat</string>
     <string name="yoconvobackS">Imposta il colore dello sfondo della chat, se impostato su \"Nessuno sfondo\"</string>
     <string name="yocustom">Privacy personalizzata (contatti,gruppi, broadcast)</string>
     <string name="yowaUpdate">Aggiornamenti</string>
     <string name="yowa_widget">Widget</string>
-    <string name="donations__bitcoin">Bitcoin</string>
-    <string name="donations__bitcoin_description">Invia qualsiasi somma in Bitcoin allo sviluppatore. Tocca e tieni premuto per copiare l\'indirizzo.</string>
-    <string name="donations__bitcoin_send_bitcoin_button">Invia Bitcoin!</string>
-    <string name="donations__bitcoin_toast_copy">Indirizzo Bitcoin copiato negli appunti</string>
     <string name="alex_addons">Add-ons</string>
     <string name="alex_calls">Chiamate</string>
     <string name="alex_chats">Chats</string>
@@ -690,7 +668,7 @@
     <string name="str25d5">Invia query</string>
     <string name="str25d6">Ricerca vocale</string>
     <string name="str25d9">Comprimi</string>
-    <string name="str25db">Ora che fai parte della community, puoi vedere i gruppi che la compongono ed entrarvi. Potrai inoltre ricevere aggiornamenti dagli amministratori. &lt;a href=\"%s\"&gt;Per saperne di più&lt;/a&gt;</string>
+    <string name="str25db">Ora che fai parte della community, puoi vedere i gruppi che la compongono ed entrarvi. Potrai inoltre ricevere aggiornamenti dagli amministratori. &lt;a href=\"%s\">Per saperne di più&lt;/a></string>
     <string name="str25dc">Ti diamo il benvenuto nella community</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Impossibile cambiare account. Riprova più tardi.</string>
@@ -708,12 +686,12 @@
     <string name="str25f3">Avanzate</string>
     <string name="str2600">Archivia tutte le chat</string>
     <string name="str2603">Mantieni le chat archiviate</string>
-    <string name="str2604">Le chat archiviate resteranno nell\'archivio quando ricevi un nuovo messaggio.</string>
+    <string name="str2604">"Le chat archiviate resteranno nell'archivio quando ricevi un nuovo messaggio."</string>
     <string name="str2607">Salva</string>
     <string name="str261c">Visualizza immagine del profilo</string>
     <string name="str261d">Visualizza stato</string>
-    <string name="str2620">Chatta con l\'IA</string>
-    <string name="str2622">Usa l\'IA di Meta</string>
+    <string name="str2620">"Chatta con l'IA"</string>
+    <string name="str2622">"Usa l'IA di Meta"</string>
     <string name="str2624">Comprimi riquadro inferiore</string>
     <string name="str2625">Espandi riquadro inferiore</string>
     <string name="str2626">Espandi a metà</string>
@@ -722,12 +700,12 @@
     <string name="str262c">‎%s non potrà più inviarti messaggi o chiamarti.</string>
     <string name="str262d">Tipo di attività</string>
     <string name="str262e">Dettagli azienda</string>
-    <string name="str2636">Per rendere più difficile l\'individuazione della tua posizione, le chiamate su questo dispositivo verranno reindirizzate in modo sicuro attraverso i server di WhatsApp. Questo ridurrà la qualità delle chiamate. &lt;a href=call_relaying_help&gt;Per saperne di più&lt;/a&gt;</string>
-    <string name="str2637">Proteggi l\'indirizzo IP durante le chiamate</string>
+    <string name="str2636">"Per rendere più difficile l'individuazione della tua posizione, le chiamate su questo dispositivo verranno reindirizzate in modo sicuro attraverso i server di WhatsApp. Questo ridurrà la qualità delle chiamate. &lt;a href=call_relaying_help>Per saperne di più&lt;/a>"</string>
+    <string name="str2637">"Proteggi l'indirizzo IP durante le chiamate"</string>
     <string name="str2638">Chiamate</string>
     <string name="str2639">Aggiungi un collegamento di chiamata per %s.</string>
     <string name="str263a">Collegamento di chiamata</string>
-    <string name="str263b">Usa gli effetti della fotocamera, come il tuo avatar, durante le chiamate. &lt;a href=\"%s\"&gt;Per saperne di più&lt;/a&gt;</string>
+    <string name="str263b">Usa gli effetti della fotocamera, come il tuo avatar, durante le chiamate. &lt;a href=\"%s\">Per saperne di più&lt;/a></string>
     <string name="str263c">Effetti della fotocamera</string>
     <string name="str263d">Fotocamera WhatsApp</string>
     <string name="str263e">Annulla</string>
@@ -750,7 +728,7 @@
     <string name="str2656">%1$s non funzionerà se non attivi Google Play Services.</string>
     <string name="str2657">Attiva Google Play Services</string>
     <string name="str2658">Installa</string>
-    <string name="str2659">L\'app %1$s non funzionerà senza Google Play Services, non presente sul tuo dispositivo.</string>
+    <string name="str2659">"L'app %1$s non funzionerà senza Google Play Services, non presente sul tuo dispositivo."</string>
     <string name="str265a">Installa Google Play Services</string>
     <string name="str265b">Disponibilità di Google Play Services</string>
     <string name="str265c">Errore Google Play Services</string>
@@ -760,7 +738,7 @@
     <string name="str2660">%1$s non funzionerà se non aggiorni Google Play Services.</string>
     <string name="str2661">Aggiorna Google Play Services</string>
     <string name="str2662">%1$s non funzionerà senza Google Play Services, attualmente in fase di aggiornamento.</string>
-    <string name="str2663">È richiesta una nuova versione di Google Play Services. L\'aggiornamento automatico verrà eseguito a breve.</string>
+    <string name="str2663">"È richiesta una nuova versione di Google Play Services. L'aggiornamento automatico verrà eseguito a breve."</string>
     <string name="str2664">Apri sul telefono</string>
     <string name="str2667">Solo gli amministratori della community</string>
     <string name="str2668">Solo gli amministratori della community possono aggiungere gruppi.</string>
@@ -780,7 +758,7 @@
     <string name="str267f">Elimina</string>
     <string name="str2680">Eliminazione in corso…</string>
     <string name="str2681">Elimina tutte le chat</string>
-    <string name="str2687">WhatsApp si chiuderà per applicare la modifica. Potrebbe essere necessario riavviare l\'app.</string>
+    <string name="str2687">"WhatsApp si chiuderà per applicare la modifica. Potrebbe essere necessario riavviare l'app."</string>
     <string name="str2688">Applica modifica</string>
     <string name="str2693">Applica un timer alle chat</string>
     <string name="str2695">Timer predefinito messaggi</string>
@@ -799,12 +777,12 @@
     <string name="fcm_fallback_notification_channel_label">Varie</string>
     <string name="str26f9">Visualizza la Dichiarazione sulla privacy di WhatsApp</string>
     <string name="str26fa">Tocca sensore impronte</string>
-    <string name="str26fb">Hardware per l\'impronta non disponibile.</string>
+    <string name="str26fb">"Hardware per l'impronta non disponibile."</string>
     <string name="str26fc">Questo dispositivo non è dotato di sensore di impronte</string>
     <string name="str26fd">È stato effettuato un numero eccessivo di tentativi. Riprova più tardi.</string>
     <string name="str26fe">Nessuna impronta digitale registrata.</string>
-    <string name="str26ff">Operazione di autenticazione dell\'impronta annullata dall\'utente.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Per saperne di più&lt;/a&gt;</string>
+    <string name="str26ff">"Operazione di autenticazione dell'impronta annullata dall'utente."</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Per saperne di più&lt;/a></string>
     <string name="str2701">Grandi</string>
     <string name="str2702">Medie</string>
     <string name="str2703">Piccole</string>
@@ -817,7 +795,7 @@
     <string name="str270d">Ripristino dei media</string>
     <string name="str270e">Non hai impostato PIN, sequenza o password.</string>
     <string name="str270f">Questo dispositivo non supporta il PIN, la sequenza o la password.</string>
-    <string name="str2710">Autenticazione annullata dall\'utente.</string>
+    <string name="str2710">"Autenticazione annullata dall'utente."</string>
     <string name="str2719">Fine elenco</string>
     <string name="str271a">3 elementi elencati</string>
     <string name="str2723">Video in riproduzione in modalità PiP</string>
@@ -852,14 +830,14 @@
     <string name="str27a6">Annulla</string>
     <string name="str27a7">OK</string>
     <string name="str27ab">Colonna dei giorni: %1$s</string>
-    <string name="str27b2">Vai all\'anno %1$s</string>
+    <string name="str27b2">"Vai all'anno %1$s"</string>
     <string name="str27b9">Salva</string>
     <string name="str27c2">Passa alla modalità di immissione Calendario</string>
     <string name="str27c3">Tocca per passare alla selezione di un giorno</string>
     <string name="str27c4">Passa alla modalità di immissione Testo</string>
     <string name="str27c5">Tocca per passare alla selezione di un anno</string>
     <string name="str27d0">Aggiornamenti disattivati</string>
-    <string name="str27e2">Vuoi creare un nuovo gruppo? &lt;font color=#%s&gt;&lt;b&gt;Scopri come&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Vuoi creare un nuovo gruppo? &lt;font color=#%s>&lt;b>Scopri come&lt;/b>&lt;/font></string>
     <string name="str27e5">1 giorno</string>
     <string name="str27e6">Impostazione app predefinita (%s)</string>
     <string name="str27e7">1 mese</string>
@@ -872,7 +850,7 @@
     <string name="str27f0">Nessun messaggio da leggere</string>
     <string name="str27f2">Non impostato</string>
     <string name="str27f3">Controllo nuovi messaggi in corso</string>
-    <string name="str27fe">Dettagli dell\'ordine</string>
+    <string name="str27fe">"Dettagli dell'ordine"</string>
     <string name="str27ff">Dettagli vendita</string>
     <string name="str2800">Dettagli richiesta di pagamento</string>
     <string name="str2801">Dettagli addebito</string>
@@ -884,7 +862,7 @@
     <string name="str2807">Riepilogo dell’ordine</string>
     <string name="str2808">Riepilogo della vendita</string>
     <string name="str2809">Riepilogo della richiesta di pagamento</string>
-    <string name="str280a">Riepilogo dell\'addebito</string>
+    <string name="str280a">"Riepilogo dell'addebito"</string>
     <string name="str281b">Mostra password</string>
     <string name="str2825">Riproduci</string>
     <string name="str2826">Gli iscritti non possono vedere quando ti iscrivi o interagisci con un canale.</string>
@@ -910,7 +888,7 @@
     <string name="str284b">Inquadra il codice QR</string>
     <string name="str2850">Cerca</string>
     <string name="str2851">PRECEDENTI</string>
-    <string name="str2852">Cerca un\'area geografica</string>
+    <string name="str2852">"Cerca un'area geografica"</string>
     <string name="str2853">Cerca…</string>
     <string name="str2854">SUCCESSIVI</string>
     <string name="str285a">Selezione multipla</string>
@@ -926,7 +904,7 @@
     <string name="str286d">Notifiche chiamate</string>
     <string name="str286e">Suoneria</string>
     <string name="str286f">Scegli una suoneria per le chiamate WhatsApp in arrivo.</string>
-    <string name="str2870">Vibrazione all\'arrivo di una chiamata WhatsApp.</string>
+    <string name="str2870">"Vibrazione all'arrivo di una chiamata WhatsApp."</string>
     <string name="str2871">Esporta chat</string>
     <string name="str2872">Impostazioni</string>
     <string name="str2873">Aiuto</string>
@@ -939,14 +917,14 @@
     <string name="str287a">Luce</string>
     <string name="str287b">Scegli il colore della luce di notifica quando arriva un nuovo messaggio.</string>
     <string name="str287c">Notifica a comparsa</string>
-    <string name="str287d">Mostra una notifica quando l\'applicazione è in background.</string>
+    <string name="str287d">"Mostra una notifica quando l'applicazione è in background."</string>
     <string name="str287e">Tono notifiche</string>
     <string name="str287f">Scegli una suoneria per i nuovi messaggi di notifica</string>
     <string name="str2880">Usa notifiche personalizzate</string>
     <string name="str2881">Usa notifiche a priorità alta</string>
     <string name="str2882">Mostra le anteprime delle notifiche nella parte superiore dello schermo.</string>
     <string name="str2883">Vibrazione</string>
-    <string name="str2884">Vibrazione all\'arrivo di un nuovo messaggio mentre l\'applicazione è attiva.</string>
+    <string name="str2884">"Vibrazione all'arrivo di un nuovo messaggio mentre l'applicazione è attiva."</string>
     <string name="str2885">Notifiche</string>
     <string name="str2886">Dettagli ordine</string>
     <string name="str2887">Dettagli vendita</string>
@@ -956,7 +934,7 @@
     <string name="str288b">Profilo</string>
     <string name="str288c">Nessun risultato trovato nelle Impostazioni.</string>
     <string name="str288d">Utilizzo spazio e dati</string>
-    <string name="str2891">Le chiamate provenienti da numeri sconosciuti saranno silenziate, ma compariranno nella scheda Chiamate e nelle tue notifiche. &lt;a href=calling_privacy_help&gt;Per saperne di più&lt;/a&gt;</string>
+    <string name="str2891">Le chiamate provenienti da numeri sconosciuti saranno silenziate, ma compariranno nella scheda Chiamate e nelle tue notifiche. &lt;a href=calling_privacy_help>Per saperne di più&lt;/a></string>
     <string name="str2892">Silenzia le chiamate da numeri sconosciuti</string>
     <string name="str2893">Salta</string>
     <string name="str2895">Ordina per data</string>
@@ -991,4 +969,29 @@
     <string name="str28dc">Crittografata end-to-end</string>
     <string name="str28dd">Partecipa</string>
     <string name="str28ec">Questo sito web è protetto da un protocollo di sicurezza HTTPS standard del settore.</string>
+    <string name="donations__bitcoin">Bitcoin</string>
+    <string name="donations__bitcoin_description">"Invia qualsiasi somma in Bitcoin allo sviluppatore. Tocca e tieni premuto per copiare l'indirizzo."</string>
+    <string name="donations__bitcoin_send_bitcoin_button">Invia Bitcoin!</string>
+    <string name="donations__bitcoin_toast_copy">Indirizzo Bitcoin copiato negli appunti</string>
+    <string name="voip_not_allowed_never">%s non può ricevere chiamate WhatsApp</string>
+    <string name="privacy_everyone">Tutti</string>
+    <string name="privacy_nobody">Nessuno</string>
+    <string name="select_contacts">Seleziona contatti</string>
+    <string name="select_status_recipients_black_list">I miei contatti tranne…</string>
+    <string name="add_group_description">Aggiungi descrizione gruppo</string>
+    <string name="archive_notify_new_messages_info">Ripristina le chat con nuovi messaggi nella lista principale</string>
+    <string name="archive_notify_new_messages_title">Ripristina se nuovi messaggi</string>
+    <string name="chats">Chat</string>
+    <string name="contact_picker_section_groups">Chat di gruppo</string>
+    <string name="default_payment_pin_name">PIN</string>
+    <string name="description_hint">Aggiungi descrizione gruppo</string>
+    <string name="message">Messaggio</string>
+    <string name="search_contact_token_prefix">Da %s</string>
+    <string name="send_message_to_contact_button">Messaggio</string>
+    <string name="sent_to_group">Invia a \"%s\"</string>
+    <string name="sent_to_person">Invia a %s</string>
+    <string name="settings_chat">Chat</string>
+    <string name="settings_privacy_security_section_title">Blocco impronta digitale</string>
+    <string name="settings_privacy_status">Stato</string>
+    <string name="voip_video_not_allowed_at_this_time">%s non può ricevere videochiamate WhatsApp al momento</string>
 </resources>

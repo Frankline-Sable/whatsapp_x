@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_selected="true">
         <shape android:shape="oval">
-            <solid android:color="@color/color0d97"/>
+            <solid android:color="@color/color0d97" />
         </shape>
     </item>
     <item android:state_pressed="true">
         <shape android:shape="oval">
-            <solid android:color="@color/color0d97"/>
+            <solid android:color="@color/color0d97" />
         </shape>
     </item>
     <item android:state_focused="true">
         <shape android:shape="oval">
-            <solid android:color="@color/color0d97"/>
+            <solid android:color="@color/color0d97" />
         </shape>
     </item>
     <item>
         <shape android:shape="oval">
-            <solid android:color="@color/color0d0f"/>
+            <solid android:color="@color/color0d0f" />
         </shape>
     </item>
 </selector>

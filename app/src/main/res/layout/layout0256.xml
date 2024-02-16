@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dimen04cb" android:minHeight="30dp">
-        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <include layout="@layout/layout0299"/>
-        <com.gbwhatsapp.WaFrameLayout android:background="@drawable/conversation_row_event_bubble_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen0bc2">
-            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bbd" android:layout_marginTop="@dimen/dimen0bbd" android:layout_marginRight="@dimen/dimen0bbd">
-                <FrameLayout android:background="@drawable/bubble_circle_outgoing" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="@dimen/dimen0bbd">
-                    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="@dimen/dimen0dc0" android:layout_height="@dimen/dimen0dc0" app:attr0831="@drawable/vec_ic_calendar" app:attr0906="@color/color063d"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center|right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dimen04cb" android:minHeight="30.0dip">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/layout0299" />
+        <com.gbwhatsapp.WaFrameLayout android:background="@drawable/conversation_row_event_bubble_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen0bc2">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bbd" android:layout_marginTop="@dimen/dimen0bbd" android:layout_marginRight="@dimen/dimen0bbd">
+                <FrameLayout android:background="@drawable/bubble_circle_outgoing" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="@dimen/dimen0bbd">
+                    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="@dimen/dimen0dc0" android:layout_height="@dimen/dimen0dc0" app:attr0831="@drawable/vec_ic_calendar" app:attr0906="@color/color063d" />
                 </FrameLayout>
-                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-                    <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/style05e2" android:layout_gravity="left" android:id="@+id/event_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-                    <com.gbwhatsapp.WaTextView android:textAppearance="@style/style05e1" android:textColor="@color/color0a73" android:layout_gravity="left" android:id="@+id/event_date" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-                    <ViewStub android:id="@+id/event_location" android:layout="@layout/layout0212" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingBottom="@dimen/dimen0bc2" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                        <com.gbwhatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style05b2"/>
-                        <com.gbwhatsapp.WaImageView android:id="@+id/status" android:paddingLeft="@dimen/dimen0bc2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/style05e2" android:layout_gravity="left" android:id="@id/event_name" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <com.gbwhatsapp.WaTextView android:textAppearance="@style/style05e1" android:textColor="@color/color0a73" android:layout_gravity="left" android:id="@id/event_date" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ViewStub android:id="@id/event_location" android:layout="@layout/layout0212" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:paddingBottom="@dimen/dimen0bc2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <com.gbwhatsapp.WaTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style05b2" />
+                        <com.gbwhatsapp.WaImageView android:id="@id/status" android:paddingLeft="@dimen/dimen0bc2" android:layout_width="wrap_content" android:layout_height="wrap_content" />
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>

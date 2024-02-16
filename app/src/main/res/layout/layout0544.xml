@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/topPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <LinearLayout android:id="@+id/title_template" style="?attr/attr05af">
-        <ImageView android:id="@android:id/icon" style="?attr/attr05ae"/>
-        <androidx.appcompat.widget.DialogTitle android:id="@+id/alertTitle" style="?attr/attr05b0"/>
+<LinearLayout android:orientation="vertical" android:id="@id/topPanel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/title_template" style="?attr05af">
+        <ImageView android:id="@android:id/icon" style="?attr05ae" />
+        <androidx.appcompat.widget.DialogTitle android:id="@id/alertTitle" style="?attr05b0" />
     </LinearLayout>
-    <android.widget.Space android:id="@+id/titleDividerNoCustom" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen06c7"/>
+    <android.widget.Space android:id="@id/titleDividerNoCustom" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen06c7" />
 </LinearLayout>

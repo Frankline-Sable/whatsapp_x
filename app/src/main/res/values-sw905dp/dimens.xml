@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="dimen00e3">0dp</dimen>
-    <dimen name="dimen00e5">840dp</dimen>
+    <dimen name="dimen00e3">0.0dip</dimen>
+    <dimen name="dimen00e5">840.0dip</dimen>
 </resources>

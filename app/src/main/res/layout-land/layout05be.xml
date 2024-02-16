@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="match_parent">
-    <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@+id/mtrl_picker_header" android:paddingLeft="@dimen/dimen087a" android:paddingRight="@dimen/dimen087a" android:paddingBottom="@dimen/dimen087a" android:layout_width="wrap_content" android:layout_height="match_parent" android:paddingStart="@dimen/dimen087a" android:paddingEnd="@dimen/dimen087a" style="?attr/attr05ba">
-        <FrameLayout android:id="@+id/mtrl_picker_header_title_and_selection" android:paddingLeft="@dimen/dimen0880" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/dimen0883" android:layout_height="0dp" android:layout_weight="1" android:paddingStart="@dimen/dimen0880">
-            <include layout="@layout/layout05c1"/>
-            <include layout="@layout/layout05c0"/>
+<merge android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="start" android:orientation="vertical" android:id="@id/mtrl_picker_header" android:paddingLeft="@dimen/dimen087a" android:paddingRight="@dimen/dimen087a" android:paddingBottom="@dimen/dimen087a" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/dimen087a" android:paddingEnd="@dimen/dimen087a" style="?attr05ba">
+        <FrameLayout android:id="@id/mtrl_picker_header_title_and_selection" android:paddingLeft="@dimen/dimen0880" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="@dimen/dimen0883" android:layout_height="0.0dip" android:layout_weight="1.0" android:paddingStart="@dimen/dimen0880">
+            <include layout="@layout/layout05c1" />
+            <include layout="@layout/layout05c0" />
         </FrameLayout>
-        <include layout="@layout/layout05c2"/>
+        <include layout="@layout/layout05c2" />
     </LinearLayout>
-    <View android:layout_gravity="end" android:layout_width="@dimen/dimen087c" android:layout_height="match_parent" style="?attr/attr05b9"/>
+    <View android:layout_gravity="end" android:layout_width="@dimen/dimen087c" android:layout_height="fill_parent" style="?attr05b9" />
 </merge>

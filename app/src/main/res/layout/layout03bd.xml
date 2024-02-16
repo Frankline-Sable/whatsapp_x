@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/business_product_list_holder" android:layout_width="match_parent" android:layout_height="match_parent">
-    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
-        <androidx.recyclerview.widget.RecyclerView android:id="@+id/product_list" android:layout_width="match_parent" android:layout_height="match_parent" app:attr050b="androidx.recyclerview.widget.LinearLayoutManager"/>
-        <View android:layout_gravity="bottom" android:id="@+id/shadow_bottom" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0126"/>
+<LinearLayout android:orientation="vertical" android:id="@id/business_product_list_holder" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/product_list" android:layout_width="fill_parent" android:layout_height="fill_parent" app:attr050b="androidx.recyclerview.widget.LinearLayoutManager" />
+        <View android:layout_gravity="bottom" android:id="@id/shadow_bottom" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0126" />
     </FrameLayout>
-    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/view_cart_button" android:visibility="gone" android:layout_width="match_parent" android:layout_marginLeft="@dimen/dimen0ccf" android:layout_marginTop="@dimen/dimen0cce" android:layout_marginRight="@dimen/dimen0ccf" android:layout_marginBottom="@dimen/dimen0cce" android:text="@string/str237d" style="@style/style059e"/>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/view_cart_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/dimen0ccf" android:layout_marginTop="@dimen/dimen0cce" android:layout_marginRight="@dimen/dimen0ccf" android:layout_marginBottom="@dimen/dimen0cce" android:text="@string/str237d" style="@style/style059e" />
 </LinearLayout>

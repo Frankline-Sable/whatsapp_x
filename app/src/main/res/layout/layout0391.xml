@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/expressions_view_root" android:layout_width="match_parent" android:layout_height="match_parent">
-    <FrameLayout android:background="@drawable/expression_search_bottom_sheet_background" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="24dp" app:attr0831="@drawable/wds_bottom_sheet_handle"/>
+<LinearLayout android:orientation="vertical" android:id="@id/expressions_view_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:background="@drawable/expression_search_bottom_sheet_background" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="24.0dip" app:attr0831="@drawable/wds_bottom_sheet_handle" />
     </FrameLayout>
-    <LinearLayout android:orientation="horizontal" android:id="@+id/search_bar_container" android:background="?attr/attr029d" android:paddingTop="4dp" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="44dp">
-        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/back" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="48dp" android:layout_height="match_parent" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:src="@drawable/ic_back" android:contentDescription="@string/str01f4" app:attr0906="@color/color063d" style="@style/style0001"/>
-        <com.gbwhatsapp.WaEditText android:textSize="16sp" android:textColor="?attr/attr06f9" android:textColorHint="@color/color0621" android:layout_gravity="center_vertical" android:id="@+id/search_bar" android:background="@android:color/transparent" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:hint="@string/str0cca" android:singleLine="true" android:layout_weight="1" android:imeOptions="actionSearch"/>
-        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/clear_search_btn" android:visibility="gone" android:layout_width="40dp" android:layout_height="match_parent" android:layout_marginRight="16dp" android:src="@drawable/ic_close" android:contentDescription="@string/str2651" app:attr0906="@color/color063d" style="@style/style0006"/>
+    <LinearLayout android:orientation="horizontal" android:id="@id/search_bar_container" android:background="?attr029d" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:layout_width="fill_parent" android:layout_height="44.0dip">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/back" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="48.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:src="@drawable/ic_back" android:contentDescription="@string/str01f4" app:attr0906="@color/color063d" style="@style/style0001" />
+        <com.gbwhatsapp.WaEditText android:textSize="16.0sp" android:textColor="?attr06f9" android:textColorHint="@color/color0621" android:layout_gravity="center_vertical" android:id="@id/search_bar" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:hint="@string/str0cca" android:singleLine="true" android:layout_weight="1.0" android:imeOptions="actionSearch" />
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/clear_search_btn" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:src="@drawable/ic_close" android:contentDescription="@string/str2651" app:attr0906="@color/color063d" style="@style/style0006" />
     </LinearLayout>
-    <ViewFlipper android:id="@+id/flipper" android:layout_width="match_parent" android:layout_height="match_parent">
-        <include android:id="@+id/browser_view" layout="@layout/layout0393"/>
+    <ViewFlipper android:id="@id/flipper" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/browser_view" layout="@layout/layout0393" />
     </ViewFlipper>
 </LinearLayout>

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="?android:attr/colorControlHighlight">
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <selector>
-            <item android:state_enabled="false" android:drawable="@drawable/btn_circle_disabled"/>
-            <item android:drawable="@drawable/btn_green_circle_normal"/>
+            <item android:state_enabled="false" android:drawable="@drawable/btn_circle_disabled" />
+            <item android:drawable="@drawable/btn_green_circle_normal" />
         </selector>
     </item>
 </ripple>

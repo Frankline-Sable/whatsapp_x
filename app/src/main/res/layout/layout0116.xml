@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@drawable/round_rectangle" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.payments.ui.widget.PayToolbar android:id="@+id/pay_service_toolbar" android:layout_width="match_parent" android:layout_height="48dp" app:attr01f2="0dp" app:attr01f5="0dp"/>
-    <View style="@style/style031e"/>
-    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
-        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-            <LinearLayout android:orientation="vertical" android:id="@+id/payment_partner_container" android:layout_width="match_parent" android:layout_height="wrap_content">
-                <com.gbwhatsapp.WaTextView android:text="@string/str166b" style="@style/style0218"/>
-                <include layout="@layout/layout063d"/>
-                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/view_dashboard_row" android:background="?android:attr/selectableItemBackground" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-                    <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:src="@drawable/ic_partner_dashboard_link"/>
-                    <com.gbwhatsapp.WaTextView android:textSize="16sp" android:ellipsize="end" android:id="@+id/payment_partner_dashboard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="@string/str0e67" android:singleLine="true" android:layout_marginStart="24dp" style="@style/style0260"/>
+<LinearLayout android:orientation="vertical" android:background="@drawable/round_rectangle" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.payments.ui.widget.PayToolbar android:id="@id/pay_service_toolbar" android:layout_width="fill_parent" android:layout_height="48.0dip" app:attr01f2="0.0dip" app:attr01f5="0.0dip" />
+    <View style="@style/style031e" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/payment_partner_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:text="@string/str166b" style="@style/style0218" />
+                <include layout="@layout/layout063d" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/view_dashboard_row" android:background="?android:selectableItemBackground" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/ic_partner_dashboard_link" />
+                    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:ellipsize="end" android:id="@id/payment_partner_dashboard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:text="@string/str0e67" android:singleLine="true" android:layout_marginStart="24.0dip" style="@style/style0260" />
                 </LinearLayout>
             </LinearLayout>
-            <include layout="@layout/layout032e"/>
-            <LinearLayout android:orientation="vertical" android:id="@+id/payout_method_container" android:layout_width="match_parent" android:layout_height="wrap_content">
-                <com.gbwhatsapp.WaTextView android:text="@string/str1894" style="@style/style0218"/>
-                <include layout="@layout/layout0592"/>
+            <include layout="@layout/layout032e" />
+            <LinearLayout android:orientation="vertical" android:id="@id/payout_method_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:text="@string/str1894" style="@style/style0218" />
+                <include layout="@layout/layout0592" />
             </LinearLayout>
-            <include layout="@layout/layout032e"/>
-            <LinearLayout android:orientation="vertical" android:id="@+id/partner_support_container" android:layout_width="match_parent" android:layout_height="wrap_content">
-                <include layout="@layout/layout0759"/>
-                <include layout="@layout/layout074b"/>
+            <include layout="@layout/layout032e" />
+            <LinearLayout android:orientation="vertical" android:id="@id/partner_support_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/layout0759" />
+                <include layout="@layout/layout074b" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

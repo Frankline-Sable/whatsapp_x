@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="str25db">Agus tú i do bhall, is féidir leat féachaint ar ghrúpaí sa phobal seo agus dul isteach iontu agus fanacht suas chun dáta le fógraí riarthóra. &lt;a href=\"%s\"&gt;Tuilleadh faisnéise&lt;/a&gt;</string>
+    <string name="str25db">Agus tú i do bhall, is féidir leat féachaint ar ghrúpaí sa phobal seo agus dul isteach iontu agus fanacht suas chun dáta le fógraí riarthóra. &lt;a href=\"%s\">Tuilleadh faisnéise&lt;/a></string>
     <string name="str25dc">Fáilte chuig an bpobal!</string>
     <string name="str25df">CGL</string>
     <string name="str25e0">Níorbh fhéidir cuntais a aistriú. Triail arís níos déanaí.</string>
@@ -27,12 +27,12 @@
     <string name="str262c">Ní bheidh %s in ann teachtaireacht a sheoladh chugat ná glao a chur ort a thuilleadh.</string>
     <string name="str262d">Cineál an Ghnóthais</string>
     <string name="str262e">Sonraí Gnó</string>
-    <string name="str2636">Chun é a dhéanamh níos deacra do dhaoine do shuíomh a thátal, déanfar glaonna ar an ngléas seo a athsheachadadh go sábháilte trí fhreastalaithe WhatsApp. Laghdóidh sé seo caighdeán na nglaonna. &lt;a href=call_relaying_help&gt;Tuilleadh faisnéise&lt;/a&gt;</string>
+    <string name="str2636">Chun é a dhéanamh níos deacra do dhaoine do shuíomh a thátal, déanfar glaonna ar an ngléas seo a athsheachadadh go sábháilte trí fhreastalaithe WhatsApp. Laghdóidh sé seo caighdeán na nglaonna. &lt;a href=call_relaying_help>Tuilleadh faisnéise&lt;/a></string>
     <string name="str2637">Cosain an seoladh IP i nglaonna</string>
     <string name="str2638">Glaonna</string>
     <string name="str2639">Cuir aicearra glao leis le haghaidh %s.</string>
     <string name="str263a">Aicearra glao</string>
-    <string name="str263b">Úsáid maisíochtaí ceamara amhail d\'abhatár ar ghlaonna. &lt;a href=\"%s\"&gt;Tuilleadh faisnéise&lt;/a&gt;</string>
+    <string name="str263b">"Úsáid maisíochtaí ceamara amhail d'abhatár ar ghlaonna. &lt;a href=\"%s\">Tuilleadh faisnéise&lt;/a>"</string>
     <string name="str263c">Maisíochtaí ceamara</string>
     <string name="str263d">Ceamara WhatsApp</string>
     <string name="str263e">Cealaigh</string>
@@ -64,7 +64,7 @@
     <string name="str267f">Scrios</string>
     <string name="str2680">Á scriosadh…</string>
     <string name="str2681">Scrios gach comhrá</string>
-    <string name="str2687">Dúnfar WhatsApp leis an athrú sin a chur i bhfeidhm. Seans go mbeidh ort d\'aip a atosú.</string>
+    <string name="str2687">"Dúnfar WhatsApp leis an athrú sin a chur i bhfeidhm. Seans go mbeidh ort d'aip a atosú."</string>
     <string name="str2688">Cuir athrú i bhfeidhm</string>
     <string name="str2693">Cuir amadóir i bhfeidhm ar chomhráite</string>
     <string name="str2695">Amadóir teachtaireachtaí réamhshocraithe</string>
@@ -74,7 +74,7 @@
     <string name="str26ed">Facebook</string>
     <string name="str26f2">Oscail sa bhrabhsálaí</string>
     <string name="str26f9">Féach ar Nochtadh Príobháideachais WhatsApp</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Tuilleadh faisnéise&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Tuilleadh faisnéise&lt;/a></string>
     <string name="str2701">Mór</string>
     <string name="str2702">Meánach</string>
     <string name="str2703">Beag</string>
@@ -108,7 +108,7 @@
     <string name="str278c">Glaoigh arís</string>
     <string name="str2791">Tuilleadh</string>
     <string name="str27d0">Stádais bhalbhaithe</string>
-    <string name="str27e2">Cruthaigh grúpa nua? &lt;font color=#%s&gt;&lt;b&gt;Féach conas é sin a dhéanamh&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Cruthaigh grúpa nua? &lt;font color=#%s>&lt;b>Féach conas é sin a dhéanamh&lt;/b>&lt;/font></string>
     <string name="str27e5">1 lá amháin</string>
     <string name="str27e6">Socrú aipe réamhshocraithe (%s)</string>
     <string name="str27e7">1 mhí amháin</string>
@@ -135,9 +135,9 @@
     <string name="str280a">Achoimre muirir</string>
     <string name="str2825">Seinn</string>
     <string name="str2826">Ní féidir le leantóirí a fheiceáil nuair a leanann tú nó nuair a idirghníomhaíonn tú i gcainéal.</string>
-    <string name="str2827">Ní féidir le riarthóirí iomlán d\'uimhreach gutháin a fheiceáil, ach amháin má tá tú sábháilte mar theagmhálaí acu.</string>
+    <string name="str2827">"Ní féidir le riarthóirí iomlán d'uimhreach gutháin a fheiceáil, ach amháin má tá tú sábháilte mar theagmhálaí acu."</string>
     <string name="str2828">Féadfaidh riarthóirí do ghrianghraf próifíle a fheiceáil freisin, bunaithe ar do shocruithe príobháideachais.</string>
-    <string name="str2829">Is féidir le riarthóirí d\'ainm próifíle a fheiceáil</string>
+    <string name="str2829">"Is féidir le riarthóirí d'ainm próifíle a fheiceáil"</string>
     <string name="str282a">Ní féidir leat ach vótaí a caitheadh sular imigh tú a fheiceáil.</string>
     <string name="str282b">Taispeáin preabfhógra i gcónaí</string>
     <string name="str282c">Preabfhógra ar bith</string>
@@ -150,7 +150,7 @@
     <string name="str283a">Seachóstach</string>
     <string name="str283c">As</string>
     <string name="str283d">Air</string>
-    <string name="str2841">Fíordheimhnigh d\'uimhir ghutháin</string>
+    <string name="str2841">"Fíordheimhnigh d'uimhir ghutháin"</string>
     <string name="str2843">Má thuairiscíonn tú an gnóthas seo, cuirfear na 5 theachtaireacht is déanaí ón ngnóthas ar aghaidh chuig WhatsApp. Scriosfar do chomhrá leis an ngnóthas seo freisin.</string>
     <string name="str2844">Cuir bac ar an teagmhálaí agus scrios an comhrá</string>
     <string name="str284b">Scan cód QR</string>
@@ -186,7 +186,7 @@
     <string name="str287b">Roghnaigh dath do sholas na bhfógraí a thaispeánfaidh go bhfuil teachtaireacht nua ann.</string>
     <string name="str287c">Preabfhógra</string>
     <string name="str287d">Fógra comhrá le preabadh anuas nuair atá an aip sa chúlra.</string>
-    <string name="str287e">Fuaim d\'fhógraí</string>
+    <string name="str287e">"Fuaim d'fhógraí"</string>
     <string name="str287f">Roghnaigh fuaim a seinnfear nuair a gheofar fógra go bhfuil teachtaireacht nua agat</string>
     <string name="str2880">Bain feidhm as fógraí saincheaptha</string>
     <string name="str2881">Bain feidhm as fógraí ard-tosaíochta</string>
@@ -202,7 +202,7 @@
     <string name="str288b">Próifíl</string>
     <string name="str288c">Ní bhfuarthas aon torthaí socruithe</string>
     <string name="str288d">Úsáid stórais agus sonraí</string>
-    <string name="str2891">Déanfar glaonna ó uimhreacha anaithnide a bhalbhú. Beidh siad ar taispeáint fós sa táb Glaonna agus i d\'fhógraí. &lt;a href=calling_privacy_help&gt;Tuilleadh faisnéise&lt;/a&gt;</string>
+    <string name="str2891">"Déanfar glaonna ó uimhreacha anaithnide a bhalbhú. Beidh siad ar taispeáint fós sa táb Glaonna agus i d'fhógraí. &lt;a href=calling_privacy_help>Tuilleadh faisnéise&lt;/a>"</string>
     <string name="str2892">Balbhaigh glaoiteoirí anaithnide</string>
     <string name="str2893">Scipeáil</string>
     <string name="str2895">Sórtáil de réir dáta</string>

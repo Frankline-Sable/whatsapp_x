@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.wds.components.internal.header.WDSHeader android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0534="0"/>
-    <com.gbwhatsapp.WaTextView android:id="@+id/footnote" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0df5" app:attr0533="@+id/header" style="@style/style0226"/>
-    <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:layout_gravity="end" android:id="@+id/button_group" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0df5" app:attr051d="0" app:attr0533="@+id/footnote" app:attr053b="0.8" app:attr0666="1">
-        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/secondary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0967="3"/>
-        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/primary_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.internal.header.WDSHeader android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0534="parent" />
+    <com.gbwhatsapp.WaTextView android:id="@id/footnote" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0df5" app:attr0533="@id/header" style="@style/style0226" />
+    <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:layout_gravity="end" android:id="@id/button_group" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0df5" app:attr051d="parent" app:attr0533="@id/footnote" app:attr053b="0.8" app:attr0666="horizontal">
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/secondary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0967="borderless" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/primary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </com.gbwhatsapp.wds.components.button.WDSButtonGroup>
 </merge>

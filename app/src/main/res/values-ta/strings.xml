@@ -27,7 +27,7 @@
     <string name="str25d5">வினவலைச் சமர்ப்பிக்கும்</string>
     <string name="str25d6">குரல் தேடல்</string>
     <string name="str25d9">சுருக்கும்</string>
-    <string name="str25db">உறுப்பினர் என்ற முறையில், இந்தச் சமூகத்தில் உள்ள குழுக்களை நீங்கள் பார்க்கலாம், அவற்றில் சேரலாம், நிர்வாகி அனுப்பும் அறிவிப்புகள் மூலம் சமீபத்திய செய்திகளைத் தெரிந்து கொள்ளலாம். &lt;a href=\"%s\"&gt;மேலும் அறிக&lt;/a&gt;</string>
+    <string name="str25db">உறுப்பினர் என்ற முறையில், இந்தச் சமூகத்தில் உள்ள குழுக்களை நீங்கள் பார்க்கலாம், அவற்றில் சேரலாம், நிர்வாகி அனுப்பும் அறிவிப்புகள் மூலம் சமீபத்திய செய்திகளைத் தெரிந்து கொள்ளலாம். &lt;a href=\"%s\">மேலும் அறிக&lt;/a></string>
     <string name="str25dc">சமூகத்திற்கு வரவேற்கிறோம்!</string>
     <string name="str25df">சரி</string>
     <string name="str25e0">கணக்குகளை மாற்ற முடியவில்லை. பிறகு மீண்டும் முயலவும்.</string>
@@ -67,12 +67,12 @@
     <string name="str262c">‎%s இனி உங்களுக்கு மெசேஜ் அனுப்பவோ அழைக்கவோ முடியாது.</string>
     <string name="str262d">பிசினஸ் வகை</string>
     <string name="str262e">பிசினஸ் விவரங்கள்</string>
-    <string name="str2636">உங்கள் இருப்பிடத்தைக் கண்டறிவதைக் கடினமாக்க, இந்தச் சாதனத்தின் அழைப்புகள் WhatsApp இன் சர்வர்கள் மூலம் அனுப்பப்படும். இது அழைப்பின் தரத்தைக் குறைக்கும். &lt;a href=call_relaying_help&gt;மேலும் அறிக&lt;/a&gt;</string>
+    <string name="str2636">உங்கள் இருப்பிடத்தைக் கண்டறிவதைக் கடினமாக்க, இந்தச் சாதனத்தின் அழைப்புகள் WhatsApp இன் சர்வர்கள் மூலம் அனுப்பப்படும். இது அழைப்பின் தரத்தைக் குறைக்கும். &lt;a href=call_relaying_help>மேலும் அறிக&lt;/a></string>
     <string name="str2637">அழைப்புகளில் IP முகவரியை மறைத்தல்</string>
     <string name="str2638">அழைப்புகள்</string>
     <string name="str2639">‎%sஐ அழைப்பதற்கான குறுக்குவழியைச் சேர்க்கும்.</string>
     <string name="str263a">அழைப்பிற்கான குறுக்குவழி</string>
-    <string name="str263b">கேமரா எஃபெக்ட்டுகளை (எ.கா. உங்கள் அவதார்) அழைப்புகளில் பயன்படுத்தலாம். &lt;a href=\"%s\"&gt;மேலும் அறிக&lt;/a&gt;</string>
+    <string name="str263b">கேமரா எஃபெக்ட்டுகளை (எ.கா. உங்கள் அவதார்) அழைப்புகளில் பயன்படுத்தலாம். &lt;a href=\"%s\">மேலும் அறிக&lt;/a></string>
     <string name="str263c">கேமரா எஃபெக்ட்டுகள்</string>
     <string name="str263d">WhatsApp கேமரா</string>
     <string name="str263e">ரத்துசெய்</string>
@@ -173,7 +173,7 @@
     <string name="str26fd">பலமுறை முயன்றுவிட்டீர்கள். பிறகு முயலவும்.</string>
     <string name="str26fe">கைரேகைப் பதிவுகள் எதுவுமில்லை.</string>
     <string name="str26ff">கைரேகைச் சரிபார்ப்பு பயனரால் ரத்துசெய்யப்பட்டது.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;மேலும் அறிக&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">மேலும் அறிக&lt;/a></string>
     <string name="str2701">பெரியது</string>
     <string name="str2702">நடுத்தரமானது</string>
     <string name="str2703">சிறியது</string>
@@ -237,7 +237,7 @@
     <string name="str27c5">ஆண்டைத் தேர்வுசெய்வதற்கு மாற்ற தட்டவும்</string>
     <string name="str27d0">முடக்கப்பட்ட ஸ்டேட்டஸ்கள்</string>
     <string name="str27d1">என் QR குறியீடு</string>
-    <string name="str27e2">புதிய குழுவை உருவாக்குகிறீர்களா? &lt;font color=#%s&gt;&lt;b&gt;எப்படி எனப் பாருங்கள்&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">புதிய குழுவை உருவாக்குகிறீர்களா? &lt;font color=#%s>&lt;b>எப்படி எனப் பாருங்கள்&lt;/b>&lt;/font></string>
     <string name="str27e5">1 நாள்</string>
     <string name="str27e6">இயல்புநிலை செயலி அமைப்புகள் (%s)</string>
     <string name="str27e7">1 மாதம்</string>
@@ -252,7 +252,7 @@
     <string name="str27f2">அமைக்கப்படவில்லை</string>
     <string name="str27f3">புதிய மெசேஜ்களுக்காகக் காத்திருக்கிறது</string>
     <string name="str27f4">%1$d-இலக்க ஆதார்--OTP உள்ளிடுக</string>
-    <string name="str27f5"> %1$d-இலக்க கார்டை பின்-ஐ உள்ளிடவும்</string>
+    <string name="str27f5">" %1$d-இலக்க கார்டை பின்-ஐ உள்ளிடவும்"</string>
     <string name="str27f6">%1$d-இலக்க வங்கி--OTP உள்ளிடுக</string>
     <string name="str27f7">%1$d-இலக்க யூ.பி.ஐ பின்-ஐ உறுதிப்படுத்தவும்</string>
     <string name="str27f8">%1$d-இலக்க புதிய யூ.பி.ஐ பின்-ஐ உறுதிப்படுத்தவும்</string>
@@ -347,7 +347,7 @@
     <string name="str288c">அமைப்புகள் குறித்த முடிவுகள் இல்லை</string>
     <string name="str288d">சேமிப்பகம் &amp; டேட்டா பயன்பாடு</string>
     <string name="str288e">அமைப்புகளுக்குச் செல்லவும்</string>
-    <string name="str2891">தெரியாத எண்களில் இருந்து வரும் அழைப்புகள் ஒலியடக்கப்படும். எனினும், \'அழைப்புகள்\' பிரிவிலும் அறிவிப்புகளிலும் அவை காட்டப்படும். &lt;a href=calling_privacy_help&gt;மேலும் அறிக&lt;/a&gt;</string>
+    <string name="str2891">"தெரியாத எண்களில் இருந்து வரும் அழைப்புகள் ஒலியடக்கப்படும். எனினும், 'அழைப்புகள்' பிரிவிலும் அறிவிப்புகளிலும் அவை காட்டப்படும். &lt;a href=calling_privacy_help>மேலும் அறிக&lt;/a>"</string>
     <string name="str2892">தெரியாத அழைப்பாளர்களை ஒலியடக்குதல்</string>
     <string name="str2893">தவிர்</string>
     <string name="str2895">தேதி வரிசை</string>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/addMembersBanner" android:background="?attr/attr014b" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/dimen0207" android:elevation="4dp">
-        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen0204" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@+id/addMembersBanner_content" android:paddingLeft="@dimen/dimen0202" android:layout_width="match_parent" android:layout_height="match_parent" android:lines="1" android:layout_weight="1" android:fontFamily="Roboto"/>
-        <com.gbwhatsapp.WaImageView android:gravity="center" android:id="@+id/addMembersBanner_dismiss" android:paddingLeft="@dimen/dimen0205" android:paddingRight="@dimen/dimen0206" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ic_close" android:layout_weight="0" android:contentDescription="@string/str2654"/>
+<LinearLayout android:orientation="vertical" android:id="@id/addMembersBanner" android:background="?attr014b" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0207" android:elevation="4.0dip">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen0204" android:textStyle="bold" android:ellipsize="end" android:gravity="center" android:id="@id/addMembersBanner_content" android:paddingLeft="@dimen/dimen0202" android:layout_width="fill_parent" android:layout_height="fill_parent" android:lines="1" android:layout_weight="1.0" android:fontFamily="Roboto" />
+        <com.gbwhatsapp.WaImageView android:gravity="center" android:id="@id/addMembersBanner_dismiss" android:paddingLeft="@dimen/dimen0205" android:paddingRight="@dimen/dimen0206" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_close" android:layout_weight="0.0" android:contentDescription="@string/str2654" />
     </LinearLayout>
-    <View android:layout_gravity="bottom" style="@style/style031e"/>
+    <View android:layout_gravity="bottom" style="@style/style031e" />
 </LinearLayout>

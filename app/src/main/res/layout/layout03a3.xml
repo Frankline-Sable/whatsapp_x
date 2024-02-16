@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.TextEmojiLabel android:textSize="14sp" android:textColor="?attr/attr06f9" android:ellipsize="end" android:gravity="start" android:id="@+id/file_attachment_metadata_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0552="17sp"/>
-    <com.gbwhatsapp.TextEmojiLabel android:textSize="13sp" android:textColor="@color/color0a73" android:ellipsize="end" android:gravity="start" android:id="@+id/file_attachment_metadata_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0552="17sp"/>
-    <com.gbwhatsapp.TextEmojiLabel android:textSize="11sp" android:textColor="@color/color0621" android:gravity="start" android:id="@+id/file_attachment_metadata_subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0552="17sp"/>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="14.0sp" android:textColor="?attr06f9" android:ellipsize="end" android:gravity="start" android:id="@id/file_attachment_metadata_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0552="17.0sp" />
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="13.0sp" android:textColor="@color/color0a73" android:ellipsize="end" android:gravity="start" android:id="@id/file_attachment_metadata_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0552="17.0sp" />
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="11.0sp" android:textColor="@color/color0621" android:gravity="start" android:id="@id/file_attachment_metadata_subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0552="17.0sp" />
 </merge>

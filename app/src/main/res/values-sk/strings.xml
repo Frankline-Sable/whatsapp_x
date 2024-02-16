@@ -23,7 +23,7 @@
     <string name="str25d5">Odoslať dopyt</string>
     <string name="str25d6">Hlasové vyhľadávanie</string>
     <string name="str25d9">Zbaliť</string>
-    <string name="str25db">Ako člen môžete v rámci komunity zobraziť skupiny a pripojiť sa k nim. Správcovia daných skupín s vami tak budú môcť zdieľať oznámenia s aktuálnymi informáciami. &lt;a href=\"%s\"&gt;Viac informácií&lt;/a&gt;</string>
+    <string name="str25db">Ako člen môžete v rámci komunity zobraziť skupiny a pripojiť sa k nim. Správcovia daných skupín s vami tak budú môcť zdieľať oznámenia s aktuálnymi informáciami. &lt;a href=\"%s\">Viac informácií&lt;/a></string>
     <string name="str25dc">Vitajte v komunite!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Účty sa nepodarilo prepnúť. Skúste to znova neskôr.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s vám už nebude môcť volať ani posielať správy.</string>
     <string name="str262d">Typ spoločnosti</string>
     <string name="str262e">Detaily spoločnosti</string>
-    <string name="str2636">Hovory z tohto zariadenia budú bezpečne prenášané cez servery služby WhatsApp, aby nebolo ľahké zistiť vašu polohu. Zníži sa tým kvalita hovorov. &lt;a href=call_relaying_help&gt;Viac informácií&lt;/a&gt;</string>
+    <string name="str2636">Hovory z tohto zariadenia budú bezpečne prenášané cez servery služby WhatsApp, aby nebolo ľahké zistiť vašu polohu. Zníži sa tým kvalita hovorov. &lt;a href=call_relaying_help>Viac informácií&lt;/a></string>
     <string name="str2637">Chrániť IP adresu počas hovorov</string>
     <string name="str2638">Hovory</string>
     <string name="str2639">Pridajte skratku na volanie používateľovi %s.</string>
     <string name="str263a">Skratka na volanie</string>
-    <string name="str263b">Počas hovorov používajte efekty fotoaparátu, ako je váš avatar. &lt;a href=\"%s\"&gt;Viac informácií&lt;/a&gt;</string>
+    <string name="str263b">Počas hovorov používajte efekty fotoaparátu, ako je váš avatar. &lt;a href=\"%s\">Viac informácií&lt;/a></string>
     <string name="str263c">Efekty fotoaparátu</string>
     <string name="str263d">WhatsApp fotoaparát</string>
     <string name="str263e">Zrušiť</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Príliš veľa pokusov. Skúste to znova neskôr.</string>
     <string name="str26fe">Neregistrovali ste žiadne odtlačky prstov.</string>
     <string name="str26ff">Overenie odtlačku prsta zrušil používateľ.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Viac informácií&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Viac informácií&lt;/a></string>
     <string name="str2701">Veľké</string>
     <string name="str2702">Stredné</string>
     <string name="str2703">Malé</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Prepnúť na textový režim vstupu</string>
     <string name="str27c5">Klepnutím prepnete na výber roka</string>
     <string name="str27d0">Zastavené aktualizácie</string>
-    <string name="str27e2">Vytvárate novú skupinu? &lt;font color=#%s&gt;&lt;b&gt;Pozrite si postup&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Vytvárate novú skupinu? &lt;font color=#%s>&lt;b>Pozrite si postup&lt;/b>&lt;/font></string>
     <string name="str27e5">1 deň</string>
     <string name="str27e6">Predvolené nastavenie aplikácie (%s)</string>
     <string name="str27e7">1 mesiac</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">V nastaveniach sa nenašli žiadne výsledky</string>
     <string name="str288d">Využitie úložiska a dát</string>
-    <string name="str2891">Hovory z neznámych čísiel budú stíšené. Budú sa však zobrazovať na karte Hovory a vo vašich upozorneniach. &lt;a href=calling_privacy_help&gt;Viac informácií&lt;/a&gt;</string>
+    <string name="str2891">Hovory z neznámych čísiel budú stíšené. Budú sa však zobrazovať na karte Hovory a vo vašich upozorneniach. &lt;a href=calling_privacy_help>Viac informácií&lt;/a></string>
     <string name="str2892">Stíšiť hovory z neznámych čísiel</string>
     <string name="str2893">Preskočiť</string>
     <string name="str2895">Zoradiť podľa dátumu</string>

@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="oval">
-            <solid android:color="@color/color0db2"/>
+            <solid android:color="@color/color0db2" />
         </shape>
     </item>
     <item>
-        <bitmap android:gravity="center" android:src="@drawable/ic_action_refresh" android:tint="?attr/attr06ef"/>
+        <bitmap android:gravity="center" android:src="@drawable/ic_action_refresh" android:tint="?attr06ef" />
     </item>
 </layer-list>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
-    <Preference android:title="@string/launchericons" android:key="acjicons" android:summary="@string/launchericonsSum"/>
-    <com.gbwhatsapp.yo.ImageListPreference android:entries="@array/yo_niconss" android:title="@string/yoNicon" android:key="yo_nicons" android:summary="@string/yoNiconSum" android:defaultValue="0" android:entryValues="@array/yo_niconsv" app:entryImages="@array/yo_niconsi"/>
-    <com.gbwhatsapp.yo.YoFontListPreference android:entries="@array/fonts_names" android:title="@string/customfont" android:key="font" android:summary="@string/customfont_sum" android:defaultValue="0" android:entryValues="@array/fonts_names"/>
-    <Preference android:title="@string/load_customfont" android:key="load_customfont" android:summary="@string/customfont_sum"/>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cmwmobile="http://schemas.android.com/apk/res-auto">
+    <Preference android:title="@string/launchericons" android:key="acjicons" android:summary="@string/launchericonsSum" />
+    <com.gbwhatsapp.yo.ImageListPreference android:entries="@array/yo_niconss" android:title="@string/yoNicon" android:key="yo_nicons" android:summary="@string/yoNiconSum" android:defaultValue="0" android:entryValues="@array/yo_niconsv" cmwmobile:entryImages="@array/yo_niconsi" />
+    <com.gbwhatsapp.yo.YoFontListPreference android:entries="@array/fonts_names" android:title="@string/customfont" android:key="font" android:summary="@string/customfont_sum" android:defaultValue="0" android:entryValues="@array/fonts_names" />
+    <Preference android:title="@string/load_customfont" android:key="load_customfont" android:summary="@string/customfont_sum" />
 </PreferenceScreen>

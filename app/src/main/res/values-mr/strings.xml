@@ -27,7 +27,7 @@
     <string name="str25d5">क्वेरी सबमिट करा</string>
     <string name="str25d6">व्हॉइस शोध</string>
     <string name="str25d9">कोलॅप्स करा</string>
-    <string name="str25db">सदस्य म्हणून, तुम्ही या कम्युनिटीमधील ग्रुप्स पाहू शकता आणि त्या ग्रुप्समध्ये सामील होऊ शकता, तसेच ॲडमिनच्या घोषणा वेळोवेळी मिळवू शकता. &lt;a href=\"%s\"&gt;अधिक जाणून घ्या&lt;/a&gt;</string>
+    <string name="str25db">सदस्य म्हणून, तुम्ही या कम्युनिटीमधील ग्रुप्स पाहू शकता आणि त्या ग्रुप्समध्ये सामील होऊ शकता, तसेच ॲडमिनच्या घोषणा वेळोवेळी मिळवू शकता. &lt;a href=\"%s\">अधिक जाणून घ्या&lt;/a></string>
     <string name="str25dc">कम्युनिटीमध्ये स्वागत आहे!</string>
     <string name="str25df">ठीक आहे</string>
     <string name="str25e0">खाती स्विच करता आली नाहीत. कृपया नंतर पुन्हा प्रयत्न करा.</string>
@@ -67,12 +67,12 @@
     <string name="str262c">‎%s यापुढे कोणालाही मेसेज किंवा कॉल करू शकणार नाहीत.</string>
     <string name="str262d">बिझनेसचा प्रकार</string>
     <string name="str262e">बिझनेसची माहिती</string>
-    <string name="str2636">लोकांना तुमच्या लोकेशनचा सहजासहजी अंदाज लावता येऊ नये याकरिता या डिव्हाइसवरील कॉल्स WhatsApp सर्व्हर्समधून सुरक्षितपणे रिले केले जातील. यामुळे कॉलची गुणवत्ता कमी होईल. &lt;a href=call_relaying_help&gt;अधिक जाणून घ्या&lt;/a&gt;</string>
+    <string name="str2636">लोकांना तुमच्या लोकेशनचा सहजासहजी अंदाज लावता येऊ नये याकरिता या डिव्हाइसवरील कॉल्स WhatsApp सर्व्हर्समधून सुरक्षितपणे रिले केले जातील. यामुळे कॉलची गुणवत्ता कमी होईल. &lt;a href=call_relaying_help>अधिक जाणून घ्या&lt;/a></string>
     <string name="str2637">कॉल्समध्ये IP ॲड्रेसला सुरक्षित करा</string>
     <string name="str2638">कॉल्स</string>
     <string name="str2639">‎%s यांच्याकरिता कॉल करण्यासाठी शॉर्टकट जोडा.</string>
     <string name="str263a">कॉल करण्यासाठी शॉर्टकट</string>
-    <string name="str263b">तुम्ही कॉल्सवर तुमचा अवतार वापरता त्याप्रमाणेच कॅमेरा इफेक्ट्स वापरा. &lt;a href=\"%s\"&gt;अधिक जाणून घ्या&lt;/a&gt;</string>
+    <string name="str263b">तुम्ही कॉल्सवर तुमचा अवतार वापरता त्याप्रमाणेच कॅमेरा इफेक्ट्स वापरा. &lt;a href=\"%s\">अधिक जाणून घ्या&lt;/a></string>
     <string name="str263c">कॅमेरा इफेक्ट्स</string>
     <string name="str263d">WhatsApp कॅमेरा</string>
     <string name="str263e">रद्द करा</string>
@@ -173,7 +173,7 @@
     <string name="str26fd">खूप जास्त प्रयत्न. कृपया नंतर पुन्हा प्रयत्न करा.</string>
     <string name="str26fe">कोणत्याही फिंगरप्रिंटची नोंद झाली नाही.</string>
     <string name="str26ff">वापरकर्त्याने फिंगरप्रिंट ऑपरेशन रद्द केले.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;अधिक जाणून घ्या&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">अधिक जाणून घ्या&lt;/a></string>
     <string name="str2701">मोठा</string>
     <string name="str2702">मध्यम</string>
     <string name="str2703">लहान</string>
@@ -237,7 +237,7 @@
     <string name="str27c5">वर्ष निवडण्यासाठी स्विच करा वर टॅप करा</string>
     <string name="str27d0">म्यूट केलेले अपडेट</string>
     <string name="str27d1">माझा QR कोड</string>
-    <string name="str27e2">नवीन ग्रुप तयार करत आहात? &lt;font color=#%s&gt;&lt;b&gt;कसे ते पहा&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">नवीन ग्रुप तयार करत आहात? &lt;font color=#%s>&lt;b>कसे ते पहा&lt;/b>&lt;/font></string>
     <string name="str27e5">१ दिवस</string>
     <string name="str27e6">डीफॉल्ट ॲप सेटिंग (%s)</string>
     <string name="str27e7">१ महिना</string>
@@ -288,7 +288,7 @@
     <string name="str2831">\"%1$s\" क्लिपबोर्डवर कॉपी केली.</string>
     <string name="str2834">अधिक तपशील पहा</string>
     <string name="str2836">प्रोफाइल फोटो</string>
-    <string name="str2837">\'माझ्याबद्दल\'</string>
+    <string name="str2837">"'माझ्याबद्दल'"</string>
     <string name="str2838">नाव</string>
     <string name="str283a">प्रॉक्सी होस्ट</string>
     <string name="str283c">बंद</string>
@@ -347,7 +347,7 @@
     <string name="str288c">कोणतेही सेटिंग्ज परिणाम आढळले नाहीत</string>
     <string name="str288d">स्टोरेज आणि डेटा वापर</string>
     <string name="str288e">सेटिंग्ज वर जा</string>
-    <string name="str2891">अज्ञात नंबर्सवरून आलेले कॉल्स सायलंट केले जातील. असे असले, तरी ते कॉल्स टॅबमध्ये आणि तुमच्या नोटिफिकेशन्समध्ये दाखवले जातील. &lt;a href=calling_privacy_help&gt;अधिक जाणून घ्या&lt;/a&gt;</string>
+    <string name="str2891">अज्ञात नंबर्सवरून आलेले कॉल्स सायलंट केले जातील. असे असले, तरी ते कॉल्स टॅबमध्ये आणि तुमच्या नोटिफिकेशन्समध्ये दाखवले जातील. &lt;a href=calling_privacy_help>अधिक जाणून घ्या&lt;/a></string>
     <string name="str2892">अज्ञात कॉलर्सना सायलंट करा</string>
     <string name="str2893">वगळा</string>
     <string name="str2895">तारखेनुसार क्रमवारी लावा</string>

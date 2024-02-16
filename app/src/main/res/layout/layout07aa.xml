@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="@dimen/dimen0b1a">
-    <FrameLayout android:layout_gravity="center" android:id="@+id/contact_selector" android:layout_width="@dimen/dimen0b1e" android:layout_height="@dimen/dimen0b1d">
-        <com.gbwhatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center_horizontal" android:id="@+id/contact_row_photo" android:layout_width="@dimen/dimen0b19" android:layout_height="@dimen/dimen0b19" android:scaleType="fitCenter" app:attr08a8="false" app:attr08aa="@dimen/dimen0b9e"/>
-        <FrameLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/close" android:layout_width="21dp" android:layout_height="21dp">
-            <com.gbwhatsapp.WaImageView android:background="@drawable/primary_color_circle" android:layout_width="match_parent" android:layout_height="match_parent"/>
-            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/grey_circle" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ic_profile_x" android:scaleType="center" android:contentDescription="@string/str1b7a" app:attr0906="?attr/attr078f"/>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="@dimen/dimen0b1a"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="center" android:id="@id/contact_selector" android:layout_width="@dimen/dimen0b1e" android:layout_height="@dimen/dimen0b1d">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center_horizontal" android:id="@id/contact_row_photo" android:layout_width="@dimen/dimen0b19" android:layout_height="@dimen/dimen0b19" android:scaleType="fitCenter" whatsapp:attr08a8="false" whatsapp:attr08aa="@dimen/dimen0b9e" />
+        <FrameLayout android:layout_gravity="bottom|center|right" android:id="@id/close" android:layout_width="21.0dip" android:layout_height="21.0dip">
+            <com.gbwhatsapp.WaImageView android:background="@drawable/primary_color_circle" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:background="@drawable/grey_circle" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_profile_x" android:scaleType="center" android:contentDescription="@string/str1b7a" whatsapp:attr0906="?attr078f" />
         </FrameLayout>
     </FrameLayout>
-    <com.gbwhatsapp.WaTextView android:textSize="12sp" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:maxWidth="@dimen/dimen0b1e" android:singleLine="true"/>
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxWidth="@dimen/dimen0b1e" android:singleLine="true" />
 </LinearLayout>

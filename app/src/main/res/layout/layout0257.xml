@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30dp">
-        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <include layout="@layout/layout0299"/>
-        <view android:id="@+id/conversation_text_row" android:paddingLeft="@dimen/dimen0bc6" android:paddingRight="@dimen/dimen0bc6" android:paddingBottom="@dimen/dimen0bc6" android:layout_width="match_parent" android:layout_height="wrap_content" class="com.gbwhatsapp.components.TextAndDateLayout">
-            <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen0508" android:textColor="@color/color0a78" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_gravity="left" android:id="@+id/message_text" android:paddingLeft="@dimen/dimen033f" android:paddingTop="@dimen/dimen0389" android:paddingRight="@dimen/dimen033f" android:paddingBottom="@dimen/dimen0389" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:drawablePadding="@dimen/dimen0509" android:textAlignment="center"/>
-            <include layout="@layout/layout024a"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center|left" android:orientation="vertical" android:id="@id/main_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="30.0dip">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/layout0299" />
+        <view android:id="@id/conversation_text_row" android:paddingLeft="@dimen/dimen0bc6" android:paddingRight="@dimen/dimen0bc6" android:paddingBottom="@dimen/dimen0bc6" android:layout_width="fill_parent" android:layout_height="wrap_content" class="com.gbwhatsapp.components.TextAndDateLayout">
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen0508" android:textColor="@color/color0a78" android:gravity="start|center" android:layout_gravity="left" android:id="@id/message_text" android:paddingLeft="@dimen/dimen033f" android:paddingTop="@dimen/dimen0389" android:paddingRight="@dimen/dimen033f" android:paddingBottom="@dimen/dimen0389" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:drawablePadding="@dimen/dimen0509" android:textAlignment="center" />
+            <include layout="@layout/layout024a" />
         </view>
     </LinearLayout>
 </merge>

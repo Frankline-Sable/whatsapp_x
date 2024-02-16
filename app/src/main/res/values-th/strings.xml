@@ -23,7 +23,7 @@
     <string name="str25d5">ส่งคำค้นหา</string>
     <string name="str25d6">ค้นหาด้วยเสียง</string>
     <string name="str25d9">ยุบ</string>
-    <string name="str25db">ในฐานะสมาชิก คุณสามารถดูและเข้าร่วมกลุ่มในชุมชนนี้ พร้อมทั้งติดตามประกาศล่าสุดจากผู้ดูแลได้ &lt;a href=\"%s\"&gt;เรียนรู้เพิ่มเติม&lt;/a&gt;</string>
+    <string name="str25db">ในฐานะสมาชิก คุณสามารถดูและเข้าร่วมกลุ่มในชุมชนนี้ พร้อมทั้งติดตามประกาศล่าสุดจากผู้ดูแลได้ &lt;a href=\"%s\">เรียนรู้เพิ่มเติม&lt;/a></string>
     <string name="str25dc">ยินดีต้อนรับสู่ชุมชน!</string>
     <string name="str25df">ตกลง</string>
     <string name="str25e0">ไม่สามารถสลับบัญชีได้ โปรดลองอีกครั้งในภายหลัง</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s จะไม่สามารถส่งข้อความหรือโทรหาคุณได้อีกต่อไป</string>
     <string name="str262d">ประเภทธุรกิจ</string>
     <string name="str262e">รายละเอียดธุรกิจ</string>
-    <string name="str2636">เพื่อให้ยากต่อการเดาตำแหน่งที่ตั้งของคุณ การโทรด้วยอุปกรณ์นี้จะได้รับการส่งต่อผ่านเซิร์ฟเวอร์ WhatsApp ซึ่งจะทำให้คุณภาพการโทรลดลง &lt;a href=call_relaying_help&gt;เรียนรู้เพิ่มเติม&lt;/a&gt;</string>
+    <string name="str2636">เพื่อให้ยากต่อการเดาตำแหน่งที่ตั้งของคุณ การโทรด้วยอุปกรณ์นี้จะได้รับการส่งต่อผ่านเซิร์ฟเวอร์ WhatsApp ซึ่งจะทำให้คุณภาพการโทรลดลง &lt;a href=call_relaying_help>เรียนรู้เพิ่มเติม&lt;/a></string>
     <string name="str2637">ปกป้องที่อยู่ IP ในการโทร</string>
     <string name="str2638">การโทร</string>
     <string name="str2639">เพิ่มทางลัดการโทรสำหรับ %s</string>
     <string name="str263a">ทางลัดการโทร</string>
-    <string name="str263b">ใช้เอ็ฟเฟ็กต์กล้องเช่นอวาตาร์กับการโทร &lt;a href=\"%s\"&gt;เรียนรู้เพิ่มเติม&lt;/a&gt;</string>
+    <string name="str263b">ใช้เอ็ฟเฟ็กต์กล้องเช่นอวาตาร์กับการโทร &lt;a href=\"%s\">เรียนรู้เพิ่มเติม&lt;/a></string>
     <string name="str263c">เอ็ฟเฟ็กต์กล้อง</string>
     <string name="str263d">กล้อง WhatsApp</string>
     <string name="str263e">ยกเลิก</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">ลองหลายครั้งเกินไป โปรดลองอีกครั้งภายหลัง</string>
     <string name="str26fe">ไม่มีลายนิ้วมือที่ลงทะเบียน</string>
     <string name="str26ff">ผู้ใช้ยกเลิกการทำงานของลายนิ้วมือ</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;เรียนรู้เพิ่มเติม&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">เรียนรู้เพิ่มเติม&lt;/a></string>
     <string name="str2701">ใหญ่</string>
     <string name="str2702">กลาง</string>
     <string name="str2703">เล็ก</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">สลับไปใช้โหมดป้อนข้อมูลข้อความ</string>
     <string name="str27c5">แตะเพื่อสลับไปใช้การเลือกปี</string>
     <string name="str27d0">อัปเดตที่ปิดการแจ้งเตือน</string>
-    <string name="str27e2">สร้างกลุ่มใหม่หรือไม่ &lt;font color=#%s&gt;&lt;b&gt;ดูวิธี&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">สร้างกลุ่มใหม่หรือไม่ &lt;font color=#%s>&lt;b>ดูวิธี&lt;/b>&lt;/font></string>
     <string name="str27e5">1 วัน</string>
     <string name="str27e6">การตั้งค่าแอปตามค่าเริ่มต้น (%s)</string>
     <string name="str27e7">1 เดือน</string>
@@ -289,7 +289,7 @@
     <string name="str288b">โปรไฟล์</string>
     <string name="str288c">ไม่พบผลการค้นหาในการตั้งค่า</string>
     <string name="str288d">การใช้พื้นที่เก็บข้อมูลและข้อมูล</string>
-    <string name="str2891">การโทรจากหมายเลขที่ไม่รู้จักจะถูกปิดเสียง แต่จะยังคงแสดงในแท็บการโทรและการแจ้งเตือนของคุณ &lt;a href=calling_privacy_help&gt;เรียนรู้เพิ่มเติม&lt;/a&gt;</string>
+    <string name="str2891">การโทรจากหมายเลขที่ไม่รู้จักจะถูกปิดเสียง แต่จะยังคงแสดงในแท็บการโทรและการแจ้งเตือนของคุณ &lt;a href=calling_privacy_help>เรียนรู้เพิ่มเติม&lt;/a></string>
     <string name="str2892">ปิดเสียงผู้โทรที่ไม่รู้จัก</string>
     <string name="str2893">ข้าม</string>
     <string name="str2895">เรียงลำดับตามวันที่</string>

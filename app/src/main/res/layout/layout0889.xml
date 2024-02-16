@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="@dimen/dimen0b5b" android:paddingTop="10dp" android:paddingRight="25dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style032e">
-    <com.gbwhatsapp.WaTextView android:textSize="16sp" android:id="@+id/manual_proxy_setting" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1a9f" style="?attr/attr07b2"/>
-    <com.gbwhatsapp.WaTextView android:textSize="14sp" android:id="@+id/proxy_connection_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str09a9" style="?attr/attr07ae"/>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dimen0b5b" android:paddingTop="10.0dip" android:paddingRight="25.0dip" android:paddingBottom="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/style032e"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:id="@id/manual_proxy_setting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str1a9f" style="?attr07b2" />
+    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:id="@id/proxy_connection_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str09a9" style="?attr07ae" />
 </LinearLayout>

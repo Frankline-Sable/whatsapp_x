@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.TextEmojiLabel xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="@dimen/dimen0e05" android:textColor="@color/color0a73" android:id="@+id/header_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen0ba1" android:paddingEnd="@dimen/dimen069b"/>
+<com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen0e05" android:textColor="@color/color0a73" android:id="@id/header_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen0ba1" android:paddingEnd="@dimen/dimen069b"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto" />

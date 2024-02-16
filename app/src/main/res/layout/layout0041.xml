@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/audio_picker_layout" android:layout_width="match_parent" android:layout_height="match_parent">
-    <LinearLayout android:orientation="vertical" android:background="?attr/attr06ef" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <FrameLayout android:id="@+id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <include android:id="@+id/search_toolbar_container" layout="@layout/layout0866"/>
+<LinearLayout android:orientation="vertical" android:id="@id/audio_picker_layout" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="?attr06ef" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:id="@id/search_toolbar_container" layout="@layout/layout0866" />
     </LinearLayout>
     <androidx.constraintlayout.widget.ConstraintLayout style="@style/style019d">
-        <RelativeLayout android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0">
-            <ListView android:id="@android:id/list" android:paddingBottom="90dp" android:clipToPadding="false" android:persistentDrawingCache="scrolling" android:alwaysDrawnWithCache="true" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@color/color0b5a" android:divider="@drawable/audio_picker_list_divider" android:dividerHeight="0.5dp" android:headerDividersEnabled="false" android:footerDividersEnabled="false"/>
-            <com.gbwhatsapp.WaTextView android:textSize="20sp" android:gravity="center_horizontal" android:id="@+id/empty" android:padding="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
-            <RelativeLayout android:id="@+id/no_audio_layout" android:layout_width="match_parent" android:layout_height="match_parent">
-                <FrameLayout android:id="@+id/no_audio_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52dp" android:layout_marginBottom="52dp" android:layout_centerHorizontal="true">
-                    <com.gbwhatsapp.WaImageView android:layout_width="168dp" android:layout_height="168dp" android:src="@drawable/teal_circle"/>
-                    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_audio_forward_large" app:attr0906="?attr/attr04b0"/>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="0.0dip" app:attr0517="parent" app:attr051d="parent" app:attr0530="parent" app:attr0534="parent">
+            <ListView android:id="@android:id/list" android:paddingBottom="90.0dip" android:clipToPadding="false" android:persistentDrawingCache="scrolling" android:alwaysDrawnWithCache="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/color0b5a" android:divider="@drawable/audio_picker_list_divider" android:dividerHeight="0.5dip" android:headerDividersEnabled="false" android:footerDividersEnabled="false" />
+            <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:gravity="center_horizontal" android:id="@id/empty" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <RelativeLayout android:id="@id/no_audio_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/no_audio_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="52.0dip" android:layout_marginBottom="52.0dip" android:layout_centerHorizontal="true">
+                    <com.gbwhatsapp.WaImageView android:layout_width="168.0dip" android:layout_height="168.0dip" android:src="@drawable/teal_circle" />
+                    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_audio_forward_large" app:attr0906="?attr04b0" />
                 </FrameLayout>
-                <com.gbwhatsapp.WaTextView android:textSize="17sp" android:id="@+id/no_audio_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str140d" android:layout_below="@+id/no_audio_image" android:layout_centerHorizontal="true"/>
+                <com.gbwhatsapp.WaTextView android:textSize="17.0sp" android:id="@id/no_audio_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str140d" android:layout_below="@id/no_audio_image" android:layout_centerHorizontal="true" />
             </RelativeLayout>
-            <RelativeLayout android:id="@+id/loading_audio_layout" android:layout_width="match_parent" android:layout_height="match_parent">
-                <ProgressBar android:id="@+id/indefiniteProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="112dp" android:layout_marginBottom="112dp" android:layout_centerHorizontal="true"/>
-                <com.gbwhatsapp.WaTextView android:textSize="17sp" android:id="@+id/loading_media_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str2780" android:layout_below="@+id/indefiniteProgressBar" android:layout_centerHorizontal="true"/>
+            <RelativeLayout android:id="@id/loading_audio_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ProgressBar android:id="@id/indefiniteProgressBar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="112.0dip" android:layout_marginBottom="112.0dip" android:layout_centerHorizontal="true" />
+                <com.gbwhatsapp.WaTextView android:textSize="17.0sp" android:id="@id/loading_media_text_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str2780" android:layout_below="@id/indefiniteProgressBar" android:layout_centerHorizontal="true" />
             </RelativeLayout>
         </RelativeLayout>
-        <com.gbwhatsapp.components.FloatingActionButton android:id="@+id/fab" android:src="@drawable/input_send" app:attr0517="0" app:attr051d="0" style="@style/style05a8"/>
+        <com.gbwhatsapp.components.FloatingActionButton android:id="@id/fab" android:src="@drawable/input_send" app:attr0517="parent" app:attr051d="parent" style="@style/style05a8" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </LinearLayout>

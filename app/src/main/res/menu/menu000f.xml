@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:icon="@drawable/input_send" android:id="@+id/fun_stickers_send" android:title="@string/str2867" app:attr04ac="@color/color063d"/>
-    <item android:icon="@drawable/ic_spam_report" android:id="@+id/fun_stickers_report" android:title="@string/str2707" app:attr04ac="@color/color063d"/>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/input_send" android:id="@id/fun_stickers_send" android:title="@string/str2867" app:attr04ac="@color/color063d" />
+    <item android:icon="@drawable/ic_spam_report" android:id="@id/fun_stickers_report" android:title="@string/str2707" app:attr04ac="@color/color063d" />
 </menu>

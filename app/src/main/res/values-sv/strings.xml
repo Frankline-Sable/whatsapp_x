@@ -23,7 +23,7 @@
     <string name="str25d5">Skicka fråga</string>
     <string name="str25d6">Röstsökning</string>
     <string name="str25d9">Komprimera</string>
-    <string name="str25db">Som medlem kan du visa och gå med i grupper i communityn och hålla dig uppdaterad med administratörsmeddelanden. &lt;a href=\"%s\"&gt;Läs mer&lt;/a&gt;</string>
+    <string name="str25db">Som medlem kan du visa och gå med i grupper i communityn och hålla dig uppdaterad med administratörsmeddelanden. &lt;a href=\"%s\">Läs mer&lt;/a></string>
     <string name="str25dc">Välkommen till communityn!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Kunde inte växla konton. Försök igen senare.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s kommer inte längre att kunna skicka meddelanden eller ringa till dig.</string>
     <string name="str262d">Företagstyp</string>
     <string name="str262e">Företagsdetaljer</string>
-    <string name="str2636">För att göra det svårare för andra att lista ut din plats vidarebefordras samtal på den här enheten på ett säkert sätt via WhatsApps servrar. Det försämrar samtalskvaliteten. &lt;a href=call_relaying_help&gt;Läs mer&lt;/a&gt;</string>
+    <string name="str2636">För att göra det svårare för andra att lista ut din plats vidarebefordras samtal på den här enheten på ett säkert sätt via WhatsApps servrar. Det försämrar samtalskvaliteten. &lt;a href=call_relaying_help>Läs mer&lt;/a></string>
     <string name="str2637">Skydda IP-adressen i samtal</string>
     <string name="str2638">Samtal</string>
     <string name="str2639">Lägg till en samtalsgenväg för %s.</string>
     <string name="str263a">Samtalsgenväg</string>
-    <string name="str263b">Använd kameraeffekter som din avatar i samtal. &lt;a href=\"%s\"&gt;Läs mer&lt;/a&gt;</string>
+    <string name="str263b">Använd kameraeffekter som din avatar i samtal. &lt;a href=\"%s\">Läs mer&lt;/a></string>
     <string name="str263c">Kameraeffekter</string>
     <string name="str263d">WhatsApp-kamera</string>
     <string name="str263e">Avbryt</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">För många försök. Försök igen senare.</string>
     <string name="str26fe">Inga fingeravtryck har registrerats.</string>
     <string name="str26ff">Fingeravtrycksåtgärden avbröts av användaren.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Läs mer&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Läs mer&lt;/a></string>
     <string name="str2701">Stor</string>
     <string name="str2702">Mellan</string>
     <string name="str2703">Liten</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Byt till text som inmatningsläge</string>
     <string name="str27c5">Byt till att välja ett år genom att trycka</string>
     <string name="str27d0">Avstängda uppdateringar</string>
-    <string name="str27e2">Ska du skapa en ny grupp? &lt;font color=#%s&gt;&lt;b&gt;Se hur&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Ska du skapa en ny grupp? &lt;font color=#%s>&lt;b>Se hur&lt;/b>&lt;/font></string>
     <string name="str27e5">1 dag</string>
     <string name="str27e6">Standardinställningar för app (%s)</string>
     <string name="str27e7">1 månad</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Inga inställningsresultat hittades</string>
     <string name="str288d">Lagring och dataanvändning</string>
-    <string name="str2891">Samtal från okända nummer tystas. De visas fortfarande i fliken Samtal och i dina aviseringar. &lt;a href=calling_privacy_help&gt;Läs mer&lt;/a&gt;</string>
+    <string name="str2891">Samtal från okända nummer tystas. De visas fortfarande i fliken Samtal och i dina aviseringar. &lt;a href=calling_privacy_help>Läs mer&lt;/a></string>
     <string name="str2892">Tystade okända uppringare</string>
     <string name="str2893">Hoppa över</string>
     <string name="str2895">Sortera efter datum</string>

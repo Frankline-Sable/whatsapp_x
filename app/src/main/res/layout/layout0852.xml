@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.TextEmojiLabel xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/style038a"/>
+<com.gbwhatsapp.TextEmojiLabel style="@style/style038a" />

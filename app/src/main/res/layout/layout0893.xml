@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style057f">
-    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <com.gbwhatsapp.WaTextView android:textStyle="bold" android:id="@+id/variants_label" android:background="@color/color0d01" android:layout_width="@dimen/dimen0a61" android:layout_height="wrap_content" android:minHeight="@dimen/dimen0a62" android:letterSpacing="0.02"/>
-        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/variants_list" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0a60" app:attr050b="androidx.recyclerview.widget.LinearLayoutManager"/>
-        <com.gbwhatsapp.WaTextView android:id="@+id/variants_dropdown" android:visibility="gone" android:layout_marginTop="@dimen/dimen0a60" style="@style/style0580"/>
+<com.facebook.shimmer.ShimmerFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/style057f" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textStyle="bold" android:id="@id/variants_label" android:background="@color/color0d01" android:layout_width="@dimen/dimen0a61" android:layout_height="wrap_content" android:minHeight="@dimen/dimen0a62" android:letterSpacing="0.02" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/variants_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0a60" app:attr050b="androidx.recyclerview.widget.LinearLayoutManager" />
+        <com.gbwhatsapp.WaTextView android:id="@id/variants_dropdown" android:visibility="gone" android:layout_marginTop="@dimen/dimen0a60" style="@style/style0580" />
     </LinearLayout>
 </com.facebook.shimmer.ShimmerFrameLayout>

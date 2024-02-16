@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory android:title="@string/str1f9a">
-        <SwitchPreference android:icon="@drawable/hide_image_icon" android:title="@string/str1cdf" android:key="yohide_inimages"/>
-        <SwitchPreference android:icon="@drawable/hide_video_icon" android:title="@string/str1cef" android:key="yohide_invideos"/>
-        <SwitchPreference android:icon="@drawable/hide_gif_icon" android:title="@string/str1cda" android:key="yohide_ingifs"/>
+        <SwitchPreference android:icon="@drawable/hide_image_icon" android:title="@string/str1cdf" android:key="yohide_inimages" />
+        <SwitchPreference android:icon="@drawable/hide_video_icon" android:title="@string/str1cef" android:key="yohide_invideos" />
+        <SwitchPreference android:icon="@drawable/hide_gif_icon" android:title="@string/str1cda" android:key="yohide_ingifs" />
     </PreferenceCategory>
     <PreferenceCategory android:title="@string/str12a2">
-        <Preference android:icon="@drawable/hide_reset_button" android:title="@string/str0892" android:key="yohide_mediashow" android:summary="@string/str05e3"/>
-        <Preference android:icon="@drawable/hide_restart_button" android:title="Restart Your Phone" android:summary="If Media Still Does Not Show In Gallery"/>
+        <Preference android:icon="@drawable/hide_reset_button" android:title="@string/str0892" android:key="yohide_mediashow" android:summary="@string/str05e3" />
+        <Preference android:icon="@drawable/hide_restart_button" android:title="Restart Your Phone" android:summary="If Media Still Does Not Show In Gallery" />
     </PreferenceCategory>
 </PreferenceScreen>

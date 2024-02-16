@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
-        <ViewStub android:id="@+id/hidden_additional_tos" android:layout="@layout/layout086b" android:inflatedId="@+id/tos_disclaimer" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-        <com.gbwhatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/color0a73" android:layout_gravity="center_horizontal" android:id="@+id/footer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:textAlignment="center" app:attr043c="sans-serif"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip">
+        <ViewStub android:id="@id/hidden_additional_tos" android:layout="@layout/layout086b" android:inflatedId="@id/tos_disclaimer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="12.0sp" android:textColor="@color/color0a73" android:layout_gravity="center_horizontal" android:id="@id/footer_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:textAlignment="center" app:attr043c="sans-serif" />
     </LinearLayout>
 </merge>

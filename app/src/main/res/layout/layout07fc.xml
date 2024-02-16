@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.WaLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
-    <com.gbwhatsapp.WaImageView android:id="@+id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_delete" android:contentDescription="@string/str267f" style="@style/style0001"/>
-    <com.gbwhatsapp.WaImageView android:id="@+id/forward" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_forward" android:contentDescription="@string/str08ed" style="@style/style0001"/>
+<com.gbwhatsapp.WaLinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:id="@id/delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_delete" android:contentDescription="@string/str267f" style="@style/style0001" />
+    <com.gbwhatsapp.WaImageView android:id="@id/forward" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_forward" android:contentDescription="@string/str08ed" style="@style/style0001" />
 </com.gbwhatsapp.WaLinearLayout>

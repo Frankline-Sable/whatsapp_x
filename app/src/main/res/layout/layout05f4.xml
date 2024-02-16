@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/newsletter_enforced_messages" android:layout_width="match_parent" android:layout_height="match_parent">
-    <ListView android:id="@android:id/list" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/color0b5a" android:textFilterEnabled="true" android:cacheColorHint="@color/color0b5a" android:divider="@drawable/divider_emphasized" android:dividerHeight="0.5dp" android:fastScrollEnabled="false"/>
-    <ViewStub android:id="@+id/newsletter_enforced_messages_empty_state" android:layout="@layout/layout05f6" android:layout_width="match_parent" android:layout_height="match_parent"/>
-    <View android:layout_gravity="top" android:id="@+id/transition_clipper_top" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/str28c7"/>
-    <View android:layout_gravity="bottom" android:id="@+id/transition_clipper_bottom" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/str28c6"/>
+<FrameLayout android:id="@id/newsletter_enforced_messages" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/color0b5a" android:textFilterEnabled="true" android:cacheColorHint="@color/color0b5a" android:divider="@drawable/divider_emphasized" android:dividerHeight="0.5dip" android:fastScrollEnabled="false" />
+    <ViewStub android:id="@id/newsletter_enforced_messages_empty_state" android:layout="@layout/layout05f6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="top" android:id="@id/transition_clipper_top" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/str28c7" />
+    <View android:layout_gravity="bottom" android:id="@id/transition_clipper_bottom" android:layout_width="fill_parent" android:layout_height="0.0dip" android:transitionName="@string/str28c6" />
 </FrameLayout>

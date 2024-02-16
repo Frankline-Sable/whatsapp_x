@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@color/primary_surface" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="48dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="4dp">
-        <com.gbwhatsapp.WaTextView android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0f0a" style="@style/style0222"/>
-        <com.gbwhatsapp.text.ReadMoreTextView android:textColor="@color/color0213" android:id="@+id/group_description_text" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr074b="2" app:attr074d="?attr/attr055a" app:attr074e="@string/str1adc"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@color/primary_surface" android:paddingLeft="16.0dip" android:paddingTop="8.0dip" android:paddingRight="48.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip">
+        <com.gbwhatsapp.WaTextView android:paddingBottom="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str0f0a" style="@style/style0222" />
+        <com.gbwhatsapp.text.ReadMoreTextView android:textColor="@color/color0213" android:id="@id/group_description_text" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr074b="2" app:attr074d="?attr055a" app:attr074e="@string/str1adc" />
     </LinearLayout>
-    <com.gbwhatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/group_description_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/str2654" style="@style/style0006"/>
-    <View android:layout_gravity="bottom" style="@style/style031f"/>
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|right" android:id="@id/group_description_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/str2654" style="@style/style0006" />
+    <View android:layout_gravity="bottom" style="@style/style031f" />
 </merge>

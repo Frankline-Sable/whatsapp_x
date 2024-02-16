@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rotate xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/bloks_spinner_large" android:fromDegrees="0" android:toDegrees="850" android:pivotX="50%" android:pivotY="50%"/>
+<rotate android:drawable="@drawable/bloks_spinner_large" android:fromDegrees="0.0" android:toDegrees="850.0" android:pivotX="50.0%" android:pivotY="50.0%"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

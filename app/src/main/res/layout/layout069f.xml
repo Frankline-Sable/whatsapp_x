@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/coordinator" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.KeyboardPopupLayout android:id="@+id/send_payment_keyboard_popup_layout" android:layout_width="match_parent" android:layout_height="match_parent">
-        <com.google.android.material.tabs.TabLayout android:id="@+id/payment_tabs" android:background="?attr/attr06ef" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:elevation="?attr/attr0033" app:attr0885="?attr/attr06ef" app:attr088d="?attr/attr069d" app:attr089d="?attr/attr069d" app:attr08a0="@color/color0dcd"/>
-        <include layout="@layout/layout069e"/>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.KeyboardPopupLayout android:id="@id/send_payment_keyboard_popup_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.tabs.TabLayout android:id="@id/payment_tabs" android:background="?attr06ef" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:elevation="?attr0033" whatsapp:attr0885="?attr06ef" whatsapp:attr088d="?attr069d" whatsapp:attr089d="?attr069d" whatsapp:attr08a0="@color/color0dcd" />
+        <include layout="@layout/layout069e" />
     </com.gbwhatsapp.KeyboardPopupLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

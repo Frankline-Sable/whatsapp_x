@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape>
-            <solid android:color="?attr/attr02ac"/>
-            <corners android:radius="11dp"/>
+            <solid android:color="?attr02ac" />
+            <corners android:radius="11.0dip" />
         </shape>
     </item>
     <item>
-        <bitmap android:gravity="fill" android:src="@drawable/encr_key_reveal" android:alpha="0.1"/>
+        <bitmap android:gravity="fill" android:src="@drawable/encr_key_reveal" android:alpha="0.1" />
     </item>
 </layer-list>

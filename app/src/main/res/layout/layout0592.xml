@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen0a54">
-        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/payout_bank_icon" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/bank_logo_placeholder_with_circle_bg" android:scaleType="fitXY"/>
-        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a54">
-            <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/attr06f9" android:ellipsize="end" android:id="@+id/payout_bank_name" android:layout_width="match_parent" android:layout_height="0dp" android:singleLine="true" android:layout_weight="1" style="@style/style0260"/>
-            <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0a73" android:id="@+id/payout_bank_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen0a54">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/payout_bank_icon" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/bank_logo_placeholder_with_circle_bg" android:scaleType="fitXY" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a54">
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?attr06f9" android:ellipsize="end" android:id="@id/payout_bank_name" android:layout_width="fill_parent" android:layout_height="0.0dip" android:singleLine="true" android:layout_weight="1.0" style="@style/style0260" />
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/color0a73" android:id="@id/payout_bank_status" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         </LinearLayout>
     </LinearLayout>
-    <LinearLayout android:orientation="vertical" android:id="@+id/warning_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0a54">
-        <View android:background="@color/color0ac5" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="56dp"/>
-        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a54" android:layout_marginTop="@dimen/dimen0a54" android:layout_marginRight="@dimen/dimen0a54">
-            <FrameLayout android:layout_width="40dp" android:layout_height="40dp">
-                <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@+id/warning_icon" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_verify" android:scaleType="fitXY"/>
+    <LinearLayout android:orientation="vertical" android:id="@id/warning_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0a54">
+        <View android:background="@color/color0ac5" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginLeft="56.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a54" android:layout_marginTop="@dimen/dimen0a54" android:layout_marginRight="@dimen/dimen0a54">
+            <FrameLayout android:layout_width="40.0dip" android:layout_height="40.0dip">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="center_horizontal" android:id="@id/warning_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_verify" android:scaleType="fitXY" />
             </FrameLayout>
-            <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0a73" android:id="@+id/warning_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a54"/>
+            <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/color0a73" android:id="@id/warning_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a54" />
         </LinearLayout>
-        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/cta_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a54" android:layout_marginTop="@dimen/dimen0a54" android:layout_marginRight="@dimen/dimen0a54" style="@style/style0214"/>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/cta_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a54" android:layout_marginTop="@dimen/dimen0a54" android:layout_marginRight="@dimen/dimen0a54" style="@style/style0214" />
     </LinearLayout>
 </LinearLayout>

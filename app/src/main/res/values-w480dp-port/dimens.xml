@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="dimen0870">0dp</dimen>
-    <dimen name="dimen0872">22dp</dimen>
-    <dimen name="dimen0873">48dp</dimen>
-    <dimen name="dimen0877">48dp</dimen>
-    <dimen name="dimen0878">48dp</dimen>
-    <dimen name="dimen0885">0dp</dimen>
+    <dimen name="dimen0870">0.0dip</dimen>
+    <dimen name="dimen0872">22.0dip</dimen>
+    <dimen name="dimen0873">48.0dip</dimen>
+    <dimen name="dimen0877">48.0dip</dimen>
+    <dimen name="dimen0878">48.0dip</dimen>
+    <dimen name="dimen0885">0.0dip</dimen>
 </resources>

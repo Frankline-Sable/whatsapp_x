@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.google.android.material.appbar.AppBarLayout android:theme="@style/style04fe" android:id="@+id/appbar" android:layout_width="0dp" android:layout_height="wrap_content" app:attr051d="0" app:attr0530="0" app:attr0534="0">
-        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" app:attr0923="1" style="@style/style0570"/>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/style04fe" android:id="@id/appbar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:attr051d="parent" app:attr0530="parent" app:attr0534="parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" app:attr0923="bidi" style="@style/style0570" />
     </com.google.android.material.appbar.AppBarLayout>
-    <androidx.recyclerview.widget.RecyclerView android:id="@+id/wallpaper_thumbnail_recyclerview" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" app:attr0518="@+id/wallpaper_thumbnail_error_container" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/appbar" style="@style/style019d"/>
-    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/wallpaper_thumbnail_error_container" android:padding="@dimen/dimen0d42" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" app:attr0518="@+id/wallpaper_thumbnails_progress_container" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/wallpaper_thumbnail_recyclerview">
-        <com.gbwhatsapp.WaTextView android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str2564"/>
-        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/wallpaper_thumbnail_reload_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140dp" android:layout_marginBottom="140dp" android:text="@string/str2565" style="@style/style059e"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/wallpaper_thumbnail_recyclerview" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:attr0518="@id/wallpaper_thumbnail_error_container" app:attr051d="parent" app:attr0530="parent" app:attr0533="@id/appbar" style="@style/style019d" />
+    <LinearLayout android:gravity="bottom|center" android:orientation="vertical" android:id="@id/wallpaper_thumbnail_error_container" android:padding="@dimen/dimen0d42" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:attr0518="@id/wallpaper_thumbnails_progress_container" app:attr051d="parent" app:attr0530="parent" app:attr0533="@id/wallpaper_thumbnail_recyclerview">
+        <com.gbwhatsapp.WaTextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str2564" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/wallpaper_thumbnail_reload_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140.0dip" android:layout_marginBottom="140.0dip" android:text="@string/str2565" style="@style/style059e" />
     </LinearLayout>
-    <FrameLayout android:id="@+id/wallpaper_thumbnails_progress_container" android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/wallpaper_thumbnail_error_container">
-        <ProgressBar android:layout_gravity="center" android:layout_width="48dp" android:layout_height="48dp" android:indeterminate="true" style="?android:attr/progressBarStyleLarge"/>
+    <FrameLayout android:id="@id/wallpaper_thumbnails_progress_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:attr0517="parent" app:attr051d="parent" app:attr0530="parent" app:attr0533="@id/wallpaper_thumbnail_error_container">
+        <ProgressBar android:layout_gravity="center" android:layout_width="48.0dip" android:layout_height="48.0dip" android:indeterminate="true" style="?android:progressBarStyleLarge" />
     </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

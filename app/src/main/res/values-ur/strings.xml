@@ -27,7 +27,7 @@
     <string name="str25d5">استفسار جمع کرائیں</string>
     <string name="str25d6">صوتی تلاش</string>
     <string name="str25d9">سکیڑیں</string>
-    <string name="str25db">‏ممبر کی حیثیت سے آپ اس کمیونٹی میں گروپس دیکھ سکتے ہیں اور جوائن کر سکتے ہیں اور ایڈمن کے اعلانات سے اپ ڈیٹ رہ سکتے ہیں۔ &lt;a href=\"%s\"&gt;مزید جانیں&lt;/a&gt;</string>
+    <string name="str25db">‏ممبر کی حیثیت سے آپ اس کمیونٹی میں گروپس دیکھ سکتے ہیں اور جوائن کر سکتے ہیں اور ایڈمن کے اعلانات سے اپ ڈیٹ رہ سکتے ہیں۔ &lt;a href=\"%s\">مزید جانیں&lt;/a></string>
     <string name="str25dc">‏کمیونٹی میں خوش آمدید!</string>
     <string name="str25df">‏ٹھیک ہے</string>
     <string name="str25e0">‏اکاؤنٹس کو سوئچ نہیں کیا جا سکا۔ براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
@@ -67,12 +67,12 @@
     <string name="str262c">‏%s اب آپ کو میسج نہیں بھیج پائے گا نہ کال کر پائے گا۔</string>
     <string name="str262d">‏کاروبار کی قسم</string>
     <string name="str262e">‏کاروبار کی تفصیلات</string>
-    <string name="str2636">‏اس آلے کی کالز WhatsApp سرورز کے ذریعے محفوظ طریقے سے ریلے کی جائیں گی تاکہ لوگ آپ کے مقام کا اندازہ نہ لگا سکیں۔ اس سے کال کی کوالٹی کم ہوگی۔ &lt;a href=call_relaying_help&gt;مزید جانیں&lt;/a&gt;</string>
+    <string name="str2636">‏اس آلے کی کالز WhatsApp سرورز کے ذریعے محفوظ طریقے سے ریلے کی جائیں گی تاکہ لوگ آپ کے مقام کا اندازہ نہ لگا سکیں۔ اس سے کال کی کوالٹی کم ہوگی۔ &lt;a href=call_relaying_help>مزید جانیں&lt;/a></string>
     <string name="str2637">‏کالز میں IP پتے کو محفوظ بنائیں</string>
     <string name="str2638">‏کالز</string>
     <string name="str2639">‏‏%s کے لیے ایک کالنگ کا شارٹ کٹ شامل کریں۔</string>
     <string name="str263a">‏کالنگ کا شارٹ کٹ</string>
-    <string name="str263b">‏کالز پر اپنے اوتار جیسے کیمرا ایفیکٹس استعمال کریں۔ &lt;a href=\"%s\"&gt;مزید جانیں&lt;/a&gt;</string>
+    <string name="str263b">‏کالز پر اپنے اوتار جیسے کیمرا ایفیکٹس استعمال کریں۔ &lt;a href=\"%s\">مزید جانیں&lt;/a></string>
     <string name="str263c">‏کیمرا ایفیکٹس</string>
     <string name="str263d">‏WhatsApp کیمرا</string>
     <string name="str263e">‏منسوخ کریں</string>
@@ -142,7 +142,7 @@
     <string name="str269e">یوپی آئی پن آپ کے اکاؤنٹ کو غیرمجاز رسائی سے محفوظ رکھے گا۔ کسی کے بھی ساتھ اس پن کا اشتراک نہ کریں۔</string>
     <string name="str26a0">%1$s آپ اپنے اکاؤنٹ سے رقم منتقل کررہے ہیں از</string>
     <string name="str26a1">%1$sآپ اس کے خلاف حکم سے متعلق لین دین کررہے ہیں</string>
-    <string name="str26a2">%1$sآپ اس کے لیے حکم تخلیق کررہے ہیں </string>
+    <string name="str26a2">"%1$sآپ اس کے لیے حکم تخلیق کررہے ہیں "</string>
     <string name="str26a3">%1$sآپ اس کے لیے حکم میں ترمیم کررہے ہیں</string>
     <string name="str26a4">%1$sآپ اس کے لیے حکم کو روک رہے ہیں</string>
     <string name="str26a5">%1$sآپ اس کے لیے حکم رجسٹر کررہے ہیں</string>
@@ -173,7 +173,7 @@
     <string name="str26fd">کافی زیادہ کوششیں۔ براہ کرم بعد میں دوبارہ کوشش کریں۔</string>
     <string name="str26fe">کوئی فنگر پرنٹ مندرج نہیں ہے۔</string>
     <string name="str26ff">صارف نے فنگر پرنٹ کی کارروائی منسوخ کر دی۔</string>
-    <string name="str2700">‏&lt;a href=\"learn-more\"&gt;مزید جانیں&lt;/a&gt;</string>
+    <string name="str2700">‏&lt;a href=\"learn-more\">مزید جانیں&lt;/a></string>
     <string name="str2701">‏بڑا</string>
     <string name="str2702">‏درمیانہ</string>
     <string name="str2703">‏چھوٹا</string>
@@ -237,7 +237,7 @@
     <string name="str27c5">سال کو منتخب کرنے کے ليے سوئچ پر تھپتھپائیں</string>
     <string name="str27d0">‏خاموش کردہ اپ ڈیٹس</string>
     <string name="str27d1">‏میرا QR کوڈ</string>
-    <string name="str27e2">‏نیا گروپ بنا رہے ہیں؟ &lt;font color=#%s&gt;&lt;b&gt;طریقہ دیکھیں&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">‏نیا گروپ بنا رہے ہیں؟ &lt;font color=#%s>&lt;b>طریقہ دیکھیں&lt;/b>&lt;/font></string>
     <string name="str27e5">‏1 دن</string>
     <string name="str27e6">‏ایپ کی ڈیفالٹ سیٹنگ (%s)</string>
     <string name="str27e7">‏1 ماہ</string>
@@ -347,7 +347,7 @@
     <string name="str288c">‏سیٹنگز کے کوئی نتائج نہیں ملے</string>
     <string name="str288d">‏اسٹوریج اور ڈیٹا کا استعمال</string>
     <string name="str288e">ترتیبات پر جائیں۔</string>
-    <string name="str2891">‏نامعلوم نمبرز سے آنے والی کالز کو خاموش کر دیا جائے گا۔ انہیں اب بھی \'کالز\' ٹیب اور اور آپ کی اطلاعات میں دکھایا جائے گا۔ &lt;a href=calling_privacy_help&gt;مزید جانیں&lt;/a&gt;</string>
+    <string name="str2891">"‏نامعلوم نمبرز سے آنے والی کالز کو خاموش کر دیا جائے گا۔ انہیں اب بھی 'کالز' ٹیب اور اور آپ کی اطلاعات میں دکھایا جائے گا۔ &lt;a href=calling_privacy_help>مزید جانیں&lt;/a>"</string>
     <string name="str2892">‏نامعلوم کالرز کو خاموش کریں</string>
     <string name="str2893">‏چھوڑیں</string>
     <string name="str2895">‏تاریخ کے لحاظ سے ترتیب دیں</string>

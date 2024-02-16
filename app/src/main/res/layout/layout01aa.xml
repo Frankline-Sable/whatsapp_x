@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/dimen0255" android:layout_height="match_parent">
-    <com.google.android.material.appbar.AppBarLayout android:layout_gravity="top" android:id="@+id/app_bar" android:background="@color/color0b5a" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr029e="0dp">
-        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@color/color0b5a" android:layout_width="match_parent" android:layout_height="?attr/attr000f" app:attr01f2="0dp" app:attr01f4="0dp" app:attr01f5="0dp" app:attr0510="1" app:attr091d="0" app:attr0923="1" style="@style/style056d"/>
+<FrameLayout android:layout_width="@dimen/dimen0255" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_gravity="top" android:id="@id/app_bar" android:background="@color/color0b5a" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr029e="0.0dip">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="@color/color0b5a" android:layout_width="fill_parent" android:layout_height="?attr000f" app:attr01f2="0.0dip" app:attr01f4="0.0dip" app:attr01f5="0.0dip" app:attr0510="pin" app:attr091d="surface" app:attr0923="bidi" style="@style/style056d" />
     </com.google.android.material.appbar.AppBarLayout>
-    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/communityPhoto" android:layout_width="@dimen/dimen0252" android:layout_height="@dimen/dimen0252" android:src="@drawable/vec_ic_avatar_community" android:scaleType="centerCrop"/>
-    <FrameLayout android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:layout_width="@dimen/dimen0257" android:layout_height="@dimen/dimen0002">
-        <ProgressBar android:layout_gravity="center" android:id="@+id/change_subject_and_desription_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse"/>
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/communityPhoto" android:layout_width="@dimen/dimen0252" android:layout_height="@dimen/dimen0252" android:src="@drawable/vec_ic_avatar_community" android:scaleType="centerCrop" />
+    <FrameLayout android:layout_gravity="end|center" android:layout_width="@dimen/dimen0257" android:layout_height="@dimen/dimen0002">
+        <ProgressBar android:layout_gravity="center" android:id="@id/change_subject_and_desription_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleSmallInverse" />
     </FrameLayout>
 </FrameLayout>

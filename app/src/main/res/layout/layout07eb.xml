@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/business_profile_info_activity_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
-    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <View style="@style/style0259"/>
-        <com.gbwhatsapp.InfoCard android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" style="@style/style023c">
-            <com.gbwhatsapp.biz.BusinessHoursView android:id="@+id/business_hours" android:visibility="gone" style="@style/style015b"/>
-            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@+id/business_location" android:visibility="gone" app:attr00e6="@drawable/ic_business_location" style="@style/style015b"/>
-            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@+id/business_vertical" android:visibility="gone" app:attr00e6="@drawable/ic_business_category" style="@style/style015b"/>
-            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@+id/business_link" android:tag="website" android:visibility="gone" app:attr00e4="3" app:attr00e6="@drawable/ic_business_link" app:attr00e7="true" style="@style/style015b"/>
-            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@+id/business_link_2" android:tag="website" android:visibility="gone" app:attr00e4="3" app:attr00e6="@drawable/ic_business_link" app:attr00e7="true" style="@style/style015b"/>
-            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@+id/business_email" android:visibility="gone" app:attr00e4="3" app:attr00e6="@drawable/ic_business_email" app:attr00e7="true" style="@style/style015b"/>
+<ScrollView android:id="@id/business_profile_info_activity_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View style="@style/style0259" />
+        <com.gbwhatsapp.InfoCard android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr049e="?attr06f8" style="@style/style023c">
+            <com.gbwhatsapp.biz.BusinessHoursView android:id="@id/business_hours" android:visibility="gone" style="@style/style015b" />
+            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/business_location" android:visibility="gone" app:attr00e6="@drawable/ic_business_location" style="@style/style015b" />
+            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/business_vertical" android:visibility="gone" app:attr00e6="@drawable/ic_business_category" style="@style/style015b" />
+            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/business_link" android:tag="website" android:visibility="gone" app:attr00e4="end" app:attr00e6="@drawable/ic_business_link" app:attr00e7="true" style="@style/style015b" />
+            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/business_link_2" android:tag="website" android:visibility="gone" app:attr00e4="end" app:attr00e6="@drawable/ic_business_link" app:attr00e7="true" style="@style/style015b" />
+            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/business_email" android:visibility="gone" app:attr00e4="end" app:attr00e6="@drawable/ic_business_email" app:attr00e7="true" style="@style/style015b" />
         </com.gbwhatsapp.InfoCard>
-        <com.gbwhatsapp.InfoCard android:id="@+id/brand_link_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" style="@style/style023c">
-            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@+id/brand_link" android:tag="website" android:visibility="gone" app:attr00e4="3" app:attr00e6="@drawable/ic_business_link" app:attr00e7="true" style="@style/style015b"/>
-            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@+id/brand_link_2" android:tag="website" android:visibility="gone" app:attr00e4="3" app:attr00e6="@drawable/ic_business_link" app:attr00e7="true" style="@style/style015b"/>
+        <com.gbwhatsapp.InfoCard android:id="@id/brand_link_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr049e="?attr06f8" style="@style/style023c">
+            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/brand_link" android:tag="website" android:visibility="gone" app:attr00e4="end" app:attr00e6="@drawable/ic_business_link" app:attr00e7="true" style="@style/style015b" />
+            <com.gbwhatsapp.biz.BusinessProfileFieldView android:id="@id/brand_link_2" android:tag="website" android:visibility="gone" app:attr00e4="end" app:attr00e6="@drawable/ic_business_link" app:attr00e7="true" style="@style/style015b" />
         </com.gbwhatsapp.InfoCard>
     </LinearLayout>
 </ScrollView>

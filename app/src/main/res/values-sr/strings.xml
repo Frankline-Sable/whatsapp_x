@@ -23,7 +23,7 @@
     <string name="str25d5">Пошаљите упит</string>
     <string name="str25d6">Гласовна претрага</string>
     <string name="str25d9">Скупи</string>
-    <string name="str25db">Као члан, можете да видите и придружите се групама у овој заједници и да будете у току са најавама администратора. &lt;a href=\"%s\"&gt;Сазнајте више&lt;/a&gt;</string>
+    <string name="str25db">Као члан, можете да видите и придружите се групама у овој заједници и да будете у току са најавама администратора. &lt;a href=\"%s\">Сазнајте више&lt;/a></string>
     <string name="str25dc">Добро дошли у заједницу!</string>
     <string name="str25df">У реду</string>
     <string name="str25e0">Промена налога није могућа. Покушајте поново касније.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">Контакт %s више неће моћи да вам шаље поруке нити да вас зове.</string>
     <string name="str262d">Тип предузећа</string>
     <string name="str262e">Детаљи предузећа</string>
-    <string name="str2636">Да би други теже могли да погоде вашу локацију, позиви на овом уређају биће безбедно преусмеравани кроз WhatsApp сервере. Тиме ће се смањити квалитет разговора. &lt;a href=call_relaying_help&gt;Сазнајте више&lt;/a&gt;</string>
+    <string name="str2636">Да би други теже могли да погоде вашу локацију, позиви на овом уређају биће безбедно преусмеравани кроз WhatsApp сервере. Тиме ће се смањити квалитет разговора. &lt;a href=call_relaying_help>Сазнајте више&lt;/a></string>
     <string name="str2637">Заштитите IP адресу у позивима</string>
     <string name="str2638">Позиви</string>
     <string name="str2639">Додајте пречицу за позивање за %s.</string>
     <string name="str263a">Пречица за позивање</string>
-    <string name="str263b">Користите ефекте камере као ваш аватар у позивима. &lt;a href=\"%s\"&gt;Сазнајте више&lt;/a&gt;</string>
+    <string name="str263b">Користите ефекте камере као ваш аватар у позивима. &lt;a href=\"%s\">Сазнајте више&lt;/a></string>
     <string name="str263c">Ефекти камере</string>
     <string name="str263d">WhatsApp камера</string>
     <string name="str263e">Откажи</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Превише покушаја. Пробајте поново касније.</string>
     <string name="str26fe">Није регистрован ниједан отисак прста.</string>
     <string name="str26ff">Корисник је отказао радњу са отиском прста.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Сазнајте више&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Сазнајте више&lt;/a></string>
     <string name="str2701">Велика</string>
     <string name="str2702">Средња</string>
     <string name="str2703">Мала</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Пређите на режим уноса текста</string>
     <string name="str27c5">Додирните да бисте прешли на избор године</string>
     <string name="str27d0">Привремено искључене објаве</string>
-    <string name="str27e2">Креирате нову групу? &lt;font color=#%s&gt;&lt;b&gt;Погледајте како&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Креирате нову групу? &lt;font color=#%s>&lt;b>Погледајте како&lt;/b>&lt;/font></string>
     <string name="str27e5">1 дан</string>
     <string name="str27e6">Подразумевано подешавање апликације (%s)</string>
     <string name="str27e7">1 месец</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Профил</string>
     <string name="str288c">Резултати подешавања нису пронађени</string>
     <string name="str288d">Складиште и кориш. података</string>
-    <string name="str2891">Обавештења за позиве упућене са непознатих бројева биће искључена. И даље ће се приказивати у картици Позиви и у вашим обавештењима. &lt;a href=calling_privacy_help&gt;Сазнајте више&lt;/a&gt;</string>
+    <string name="str2891">Обавештења за позиве упућене са непознатих бројева биће искључена. И даље ће се приказивати у картици Позиви и у вашим обавештењима. &lt;a href=calling_privacy_help>Сазнајте више&lt;/a></string>
     <string name="str2892">Искључивање обавештења за непознате позиваоце</string>
     <string name="str2893">Прескочи</string>
     <string name="str2895">Сортирај по датуму</string>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <FrameLayout android:id="@+id/chat_bubble_container" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/newsletter_delete_message_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str13bd" android:translationY="-8dp" android:layout_marginStart="@dimen/dimen0bb9" android:layout_marginEnd="@dimen/dimen0bb9" app:attr0967="1" style="@style/style05a4"/>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/chat_bubble_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/newsletter_delete_message_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str13bd" android:translationY="-8.0dip" android:layout_marginStart="@dimen/dimen0bb9" android:layout_marginEnd="@dimen/dimen0bb9" app:attr0967="tonal" style="@style/style05a4" />
 </LinearLayout>

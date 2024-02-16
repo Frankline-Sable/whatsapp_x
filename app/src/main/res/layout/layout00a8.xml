@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" app:attr091d="1" app:attr0923="1" style="@style/style0570"/>
-    <com.gbwhatsapp.components.WaSwitchView android:id="@+id/notify_new_message_switch_view" android:paddingLeft="24dp" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0997="@string/str2604" app:attr0998="?attr/attr07ae" app:attr0999="@string/str2603" app:attr099a="?attr/attr07b2"/>
-    <com.gbwhatsapp.components.WaSwitchView android:id="@+id/auto_hide_switch_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0997="@string/str2601" app:attr0999="@string/str2602"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" whatsapp:attr091d="primary" whatsapp:attr0923="bidi" style="@style/style0570" />
+    <com.gbwhatsapp.components.WaSwitchView android:id="@id/notify_new_message_switch_view" android:paddingLeft="24.0dip" android:paddingTop="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:attr0997="@string/str2604" whatsapp:attr0998="?attr07ae" whatsapp:attr0999="@string/str2603" whatsapp:attr099a="?attr07b2" />
+    <com.gbwhatsapp.components.WaSwitchView android:id="@id/auto_hide_switch_view" android:layout_width="fill_parent" android:layout_height="wrap_content" whatsapp:attr0997="@string/str2601" whatsapp:attr0999="@string/str2602" />
 </LinearLayout>

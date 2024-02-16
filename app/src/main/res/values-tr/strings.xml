@@ -6,7 +6,7 @@
     <string name="ChangePS">Varsayılan Şifre: 0000 Kendinize yeni parola belirleyin!</string>
     <string name="ChangePt">Deseni Değiştir</string>
     <string name="Donate">Bağış yap!</string>
-    <string name="DonateSum">GBWhatsApp\'yı canlı tutun!</string>
+    <string name="DonateSum">"GBWhatsApp'yı canlı tutun!"</string>
     <string name="DownloadThemes">Tema İndir</string>
     <string name="DownloadThemesSum">Çevrimiçi Mağazadan Temalar Alın</string>
     <string name="EchangeLPW">Kilit Duvar Kağıdını Etkinleştir</string>
@@ -18,7 +18,7 @@
     <string name="HangoutsBt">Konuşma Arayüzü Düğmeleri Rengi</string>
     <string name="HangoutsBtS">Metin giriş alanındaki simgelerin rengini değiştirir.</string>
     <string name="HideFAB">Hareketli Eylem Butonunu Gizle</string>
-    <string name="Lock">WhatsApp\'ı Kilitle</string>
+    <string name="Lock">"WhatsApp'ı Kilitle"</string>
     <string name="MainSize">Ana/Aramalar/Kişiler/Durum Ekranı Metin Boyutu</string>
     <string name="MainSizeS">Ana ekranın tamamında metnin boyutunu değiştirir.</string>
     <string name="OnlineDotHomeColor">Çevrimiçi Nokta Rengi</string>
@@ -59,9 +59,9 @@
     <string name="acj_fab_bg_tut">FAB Animasyonu Konum Öğretici</string>
     <string name="acj_fab_icons">FAB Simgesi Rengi</string>
     <string name="acj_fab_normal">FAB Rengi</string>
-    <string name="acj_fab_normal_sum">FAB\'ın rengini değiştirir.</string>
+    <string name="acj_fab_normal_sum">"FAB'ın rengini değiştirir."</string>
     <string name="acj_fab_pressed">FAB Seçilme Rengi</string>
-    <string name="acj_fab_pressed_sum">FAB\'ın seçildiğinde alacağı rengi değiştirir.</string>
+    <string name="acj_fab_pressed_sum">"FAB'ın seçildiğinde alacağı rengi değiştirir."</string>
     <string name="acj_left_bubble">Sol Baloncuk Rengi</string>
     <string name="acj_left_bubble_sum">Sol sohbet baloncuğu rengini değiştirir.</string>
     <string name="acj_navbar">Gezinti Çubuğu</string>
@@ -84,7 +84,7 @@
     <string name="acjfabsum">Hareketli Eylem Butonu İçin Tema Modları</string>
     <string name="acjfabtab">Hareketli Eylem Butonu (FAB)</string>
     <string name="acjicons">İkonlar</string>
-    <string name="acjiconssum">WhatsApp\'ın başlatıcı simgesini değiştirir.</string>
+    <string name="acjiconssum">"WhatsApp'ın başlatıcı simgesini değiştirir."</string>
     <string name="acjoa_detail">Diğer uygulamalarımı yükleyerek de destekleyebilirsiniz</string>
     <string name="acjother">Genel</string>
     <string name="acjotherapps">Diğer Uygulamalar</string>
@@ -93,7 +93,7 @@
     <string name="acjpasssum">WhatsApp için desen parolası ayarlar.</string>
     <string name="acjreset">Sıfırla</string>
     <string name="acjresetsum">Bütün ayarları sıfırlar.</string>
-    <string name="acjrestart">GBWhatsApp\'yı yeniden başlat</string>
+    <string name="acjrestart">"GBWhatsApp'yı yeniden başlat"</string>
     <string name="acjrestartsum">WhatsApp uygulamasında yapılan değişiklikleri uygulamak için yeniden başlatacak.</string>
     <string name="acjunisum">Genel Whatsapp Rengi</string>
     <string name="acjuniversal">Genel</string>
@@ -129,7 +129,7 @@
     <string name="contact_lastseen_mod">Son Görülme Rengi</string>
     <string name="contact_lastseen_mod_summary">Ana ekrandaki son görülme rengini değiştirir.</string>
     <string name="contact_online_mod">Çevrimiçi Bildirimi Rengi</string>
-    <string name="contact_online_summary">Ana ekranda \'........... Çevrimiçi\' bildiriminin rengini değiştirir.</string>
+    <string name="contact_online_summary">"Ana ekranda '........... Çevrimiçi' bildiriminin rengini değiştirir."</string>
     <string name="contactstatusC">Kişilerin Durum Arka Planı</string>
     <string name="contactstatusCS">Konuşma ekranındaki durum metninin rengini değiştirir.</string>
     <string name="contactstatusCSB">Konuşma ekranında kişi durumu arka planını değiştir.</string>
@@ -159,7 +159,8 @@
     <string name="disable_dttl">Çift Dokunma Tepkisini Devre Dışı Bırak</string>
     <string name="disablestatus">Durumumu Göster</string>
     <string name="disablestatusSum">Ana ekranda adınızın altına durumunuzu içeren satır ekler.</string>
-    <string name="donateMe">Bu uygulamayı faydalı buluyor musunuz?\10Geliştiriciye bağış yaparak gelişimini destekleyebilirsiniz!</string>
+    <string name="donateMe">"Bu uygulamayı faydalı buluyor musunuz?
+Geliştiriciye bağış yaparak gelişimini destekleyebilirsiniz!"</string>
     <string name="donations__alert_dialog_no_browser">Web sitesini açabilecek hiçbir tarayıcı bulunamadı!</string>
     <string name="donations__alert_dialog_title">Hata oluştu</string>
     <string name="choose_from_themes">Temalar arasından seçim yapın</string>
@@ -167,7 +168,8 @@
     <string name="select_file">Dosya Seç</string>
     <string name="choose_a_lock">Bir kilit seçin:</string>
     <string name="donations__button_close">Kapat</string>
-    <string name="donations__description">Bu uygulamayı faydalı buluyor musunuz?\10Geliştiriciye bağış yaparak gelişimini destekleyebilirsiniz!</string>
+    <string name="donations__description">"Bu uygulamayı faydalı buluyor musunuz?
+Geliştiriciye bağış yaparak gelişimini destekleyebilirsiniz!"</string>
     <string name="donations__flattr">Flattr</string>
     <string name="donations__flattr_description">Flattr ücreti 10%</string>
     <string name="donations__google_android_market">Google Play Store</string>
@@ -178,10 +180,11 @@
     <string name="donations__google_android_market_text">Ne kadar?</string>
     <string name="donations__paypal">PayPal</string>
     <string name="donations__paypal_description">Düğmeye tıkladıktan sonra bağış yapmak istediğiniz miktarı seçebilirsiniz!</string>
-    <string name="donations__thanks_dialog">Bağış yaptığınız için teşekkür ederiz!\10Buna gerçekten minnettarım!</string>
+    <string name="donations__thanks_dialog">"Bağış yaptığınız için teşekkür ederiz!
+Buna gerçekten minnettarım!"</string>
     <string name="donations__thanks_dialog_title">Teşekkürler!</string>
     <string name="elapsedT">Geçen Zaman</string>
-    <string name="elapsedTS">WhatsApp\'da ev ve sohbet ekranında geçen saati (en son saat/dakika önce) kullanın!</string>
+    <string name="elapsedTS">"WhatsApp'da ev ve sohbet ekranında geçen saati (en son saat/dakika önce) kullanın!"</string>
     <string name="em_set">Emoji Şekilleri</string>
     <string name="em_setS">WhatsApp Emoji şeklini değiştirir.</string>
     <string name="emojiBackColor">Emoji Seçici Arka Plan Rengi</string>
@@ -195,7 +198,7 @@
     <string name="entryTextSum">Konuşma ekranında gönderilmek için yazılan metnin rengini değiştirir.</string>
     <string name="str0918">Kopyala</string>
     <string name="fab">Fab Rengi</string>
-    <string name="ghost_mode">Hayalet Modu��</string>
+    <string name="ghost_mode">Hayalet Modu👻</string>
     <string name="group_participant_pic">Katılımcı Profil Fotoğrafı</string>
     <string name="group_participant_pic_summary">Grup katılımcılarında profil fotoğrafı görünür.</string>
     <string name="groups_participation">Gruplar</string>
@@ -225,7 +228,7 @@
     <string name="launchericonsSum">Beğendiğiniz simgeyi başlatıcı simgesi olarak seçin.</string>
     <string name="limit">Sadece son saatleri göster</string>
     <string name="loadTheme">Tema Yükle</string>
-    <string name="loadThemeSum">Sdcard\'da saklanan temaları yükler.</string>
+    <string name="loadThemeSum">"Sdcard'da saklanan temaları yükler."</string>
     <string name="lock">Konuşmayı kilitle</string>
     <string name="mass_spam_warning">Bu özelliği çok sayıda spam mesaj göndermek için kullanırsanız, hesabınız yasaklanabilir. RİSK SİZE AİT KULLANIN.</string>
     <string name="massmsgr_title">Mass Message Sender</string>
@@ -243,16 +246,13 @@
     <string name="msg_autoreply_error3">Bitiş zamanı, başlangıç ​​zamanından az olamaz.</string>
     <string name="msg_autoreply_group">Gruplar</string>
     <string name="msg_autoreply_incomingmessage">Gelen mesaj</string>
-    <string name="msg_autoreply_receive">Al: </string>
+    <string name="msg_autoreply_receive">"Al: "</string>
     <string name="msg_autoreply_receiver">Alıcı</string>
     <string name="msg_autoreply_replyall">Tüm mesajları yanıtla</string>
     <string name="msg_autoreply_replyifcontain">Şunu içeriyorsa yanıtla</string>
     <string name="msg_autoreply_replyifeq">Eşitse yanıtla</string>
-    <string name="msg_autoreply_send">Gönder: </string>
+    <string name="msg_autoreply_send">"Gönder: "</string>
     <string name="msg_autoreply_setautoreply">Otomatik Yanıtı Ayarla</string>
-    <string name="msg_autoreply_specialtimes">Belirli zamanlar</string>
-    <string name="msg_autoreply_spectoignore">Yanıt verilmeyecek harici kişiler / gruplar</string>
-    <string name="msg_autoreply_spectoreply">Yanıtlanacak belirli kişiler / gruplar</string>
     <string name="msg_autoreply_starttime">Başlangıç ​​zamanı</string>
     <string name="msg_autoreply_template">Şablonlar</string>
     <string name="msg_autoreply_texttosend">Metnin buraya gönderilecek.</string>
@@ -274,7 +274,7 @@
     <string name="msg_scheduler_setscheduler">Zamanlayıcı Ayarla</string>
     <string name="msg_scheduler_timetosend">Mesaj gönderme zamanı</string>
     <string name="msg_scheduler_title">Mesaj Zamanlayıcı</string>
-    <string name="msg_scheduler_to">Kime: </string>
+    <string name="msg_scheduler_to">"Kime: "</string>
     <string name="multiChat">Sohbet Kartları (Çoklu Sohbet)</string>
     <string name="multiChatsS">Açtığınız her sohbet bir kart haline gelecek ve aralarında kolayca geçiş yapabileceksiniz. (Lolipop ve üzeri)</string>
     <string name="name_contact_sto">Kişi Adı</string>
@@ -306,9 +306,9 @@
     <string name="repetition_4">Aylık</string>
     <string name="repetition_5">Yıllık</string>
     <string name="resetPrivacyonly">Geçerli tema tutulsun mu?</string>
-    <string name="resetPrivacyonlyS">\'Tut\': Uygulanan tema silinmez. \'Sıfırla\': Varsayılan/Stok WhatsApp renklerine döner.</string>
+    <string name="resetPrivacyonlyS">"'Tut': Uygulanan tema silinmez. 'Sıfırla': Varsayılan/Stok WhatsApp renklerine döner."</string>
     <string name="resetThemes">Tercihleri ​​Sıfırla</string>
-    <string name="resetThemesSum">WhatsApp\'ın varsayılan ayarlarını geri yükler.</string>
+    <string name="resetThemesSum">"WhatsApp'ın varsayılan ayarlarını geri yükler."</string>
     <string name="restoreTheme">Temayı Geri Yükle</string>
     <string name="restoreThemeS">Yedeklediğiniz temayı (/Download/GBThemes) klasöründen geri yükler.</string>
     <string name="rowResizer">Satırı Yeniden Boyutlandır</string>
@@ -317,7 +317,7 @@
     <string name="saveThemeS">Geçerli ayarlarınızı (/Download/GBThemes) klasörüne kaydedin.</string>
     <string name="schedule_title_activity_edit">Mesajı Düzenle</string>
     <string name="selected_tabPagerTitle">Seçilen Sayfa Başlık Metni</string>
-    <string name="selected_tabPagerTitleS">\'SOHBETLER\', \'DURUM\', \'ARAMALAR\' sayfalarının seçildiğinde alacağı rengi değiştirir.</string>
+    <string name="selected_tabPagerTitleS">"'SOHBETLER', 'DURUM', 'ARAMALAR' sayfalarının seçildiğinde alacağı rengi değiştirir."</string>
     <string name="show_all">Tümünü Göster</string>
     <string name="show_name">İsimleri Göster</string>
     <string name="somehelp">Biraz yardım?</string>
@@ -334,11 +334,11 @@
     <string name="statuspage_extras">Kaydet ve Göründü Olarak İşaretle seçenekleri</string>
     <string name="statuspage_extras_desc">Herhangi bir durumu açtığınızda görüntülenecek Kaydet düğmesi ve Görüldüğünü İşaretle düğmesi</string>
     <string name="story_style">Hikayeler Stili</string>
-    <string name="sum_change_p_s">Hikayeler\'deki görünümü Profil resminden Durum önizlemesine değiştirin</string>
+    <string name="sum_change_p_s">"Hikayeler'deki görünümü Profil resminden Durum önizlemesine değiştirin"</string>
     <string name="supportyo">Destek</string>
     <string name="tabPagerIndicator">Seçili Sayfa Altçizgisi Rengi</string>
     <string name="tabPagerTitle">Sayfa Başlığı Metin Rengi</string>
-    <string name="tabPagerTitleS">\'SOHBETLER\', \'DURUM\', \'ARAMALAR\' sayfalarının başlık renklerini değiştirir.</string>
+    <string name="tabPagerTitleS">"'SOHBETLER', 'DURUM', 'ARAMALAR' sayfalarının başlık renklerini değiştirir."</string>
     <string name="text_counter_color">Sayaç Metni</string>
     <string name="text_counter_color_sum">Sayacın Renk metnini değiştir</string>
     <string name="textcolormain">Ana ekranın tamamında metin rengini değiştirir.</string>
@@ -383,7 +383,7 @@
     <string name="yoBackupRestore">Yedekle ve Geri Yükle</string>
     <string name="yoBackupSum">WhatsApp yedeği oluşturur. (Titanium Backup ile veri yedekleme gibi)</string>
     <string name="yoBackupTitle">Yedekle</string>
-    <string name="yoBlueOnReply">Cevapladıktan sonra Mavi Tik\'i göster</string>
+    <string name="yoBlueOnReply">"Cevapladıktan sonra Mavi Tik'i göster"</string>
     <string name="yoBlueOnReplyS">Siz yanıtladıktan sonra mesajı gönderen kişide mavi tik görünür.</string>
     <string name="yoCallBtn">Ara Simgesini Gizle</string>
     <string name="yoCallBtnSum">Konuşma işlem çubuğundan ara simgesini gizler.</string>
@@ -402,7 +402,7 @@
     <string name="yoDisableChatSwipe">Hızlıca Kaydırmayı Devre Dışı Bırak</string>
     <string name="yoDisableChatSwipeS">Soldan sağa doğru kaydırarak konuşmanın kapanmasını önler. (Telegram gibi)</string>
     <string name="yoDonate">Bağış yap!</string>
-    <string name="yoDonateSum">GBWhatsApp\'yı canlı tutun!</string>
+    <string name="yoDonateSum">"GBWhatsApp'yı canlı tutun!"</string>
     <string name="yoEmojibtn">Emoji Butonu Rengi</string>
     <string name="yoEmojibtnS">Konuşma ekranındaki emoji butonunun rengini değiştirir.</string>
     <string name="yoFullResBtn">HQ Gönder</string>
@@ -410,7 +410,7 @@
     <string name="yoGradientTitle">Meyil Rengi</string>
     <string name="yoHeds">Açılır Pencere Bildirimini Devre Dışı Bırak</string>
     <string name="yoHedsSum">Lolipop ve üzeri cihazlarda açılır pencere bildirimini devre dışı bırakır.</string>
-    <string name="yoHideCompose">\'yazıyor/kaydediyor…\' bilgisini gizle</string>
+    <string name="yoHideCompose">"'yazıyor/kaydediyor…' bilgisini gizle"</string>
     <string name="yoHideComposeSum">Sohbettekilere bir mesaj yazdığınız bilgisi gösterilmez.</string>
     <string name="yoHideDiv">Sohbetler Arasındaki Bölücüyü Kaldır</string>
     <string name="yoHideDivS">Ana ekrandaki sohbetler arasındaki gri çizgiyi kaldırır.</string>
@@ -430,7 +430,7 @@
     <string name="yoHideReceiptSumB">RİSK SİZE AİTTİR! MESAJLAR GEÇ GELEBİLİR/GİDEBİLİR.</string>
     <string name="yoHideReceiptSumC">MESAJLARIN İLETİLDİĞİ BİLGİSİ KARŞI TARAFA GÖSTERİLMEZ. AKTİFKEN MESAJLAR GEÇ GELEBİLİR/GİDEBİLİR!</string>
     <string name="yoHideReceiptSumG">RİSK SİZE AİTTİR! MESAJLAR GEÇ GELEBİLİR/GİDEBİLİR.</string>
-    <string name="yoHideRecord">\'kaydediyor...\' bilgisini gizle</string>
+    <string name="yoHideRecord">"'kaydediyor...' bilgisini gizle"</string>
     <string name="yoHideRecordSum">Sohbettekilere bir sesli mesaj kaydettiğiniz bilgisi gösterilmez.</string>
     <string name="yoHideSeen">Son görülmeyi dondur</string>
     <string name="yoHideSeenSum">Değişikliklerin uygulanabilmesi için lütfen WhatsApp uygulamasını yeniden başlatın.</string>
@@ -446,7 +446,7 @@
     <string name="yoImgQuickCamHold">Tam Çözünürlüklü Hızlı Kamera</string>
     <string name="yoImgQuickCamHoldSum">Tam çözünürlüklü resim göndermek için hızlı kamera tuşunu basılı tutun.</string>
     <string name="yoImgShareLimit">Resim Paylaşım Limitini Devre Dışı Bırak</string>
-    <string name="yoImgShareLimitSum">Mod aktif edildiğinde bir seferde 10\'dan fazla resim dosyası gönderebileceksiniz.</string>
+    <string name="yoImgShareLimitSum">"Mod aktif edildiğinde bir seferde 10'dan fazla resim dosyası gönderebileceksiniz."</string>
     <string name="yoLeftTime">Sol Baloncuk Saat Rengi</string>
     <string name="yoLeftTimeS">Sol baloncuk içindeki saatin rengini değiştirir.</string>
     <string name="yoMisc">Çeşitli Modlar</string>
@@ -458,7 +458,7 @@
     <string name="yoNific">Yalnızca bildirim çubuğu simgesinin yanındaki ileti gönderenin adını göster</string>
     <string name="yoNoBackup">(/Documents/GBBackup) konumunda yedek bulunamadı!</string>
     <string name="yoNotif">Küçültme Bildirimi</string>
-    <string name="yoOnline">Varsayılan olarak etkindir! \'..........Çevrimiçi\' bildirimini istemiyorsanız modu çalıştırın.</string>
+    <string name="yoOnline">"Varsayılan olarak etkindir! '..........Çevrimiçi' bildirimini istemiyorsanız modu çalıştırın."</string>
     <string name="yoOnlineHome">Çevrimiçi/Son Görülme Durumu Bilgisini Kaldır</string>
     <string name="yoOnlineSum">Ana ekrandan Çevrimiçi/Son Görülme bilgisini kaldırır.</string>
     <string name="yoOnlineTo">Çevrimiçi Bildirimi Devre Dışı</string>
@@ -467,7 +467,7 @@
     <string name="yoProfilePic">Kişi Profil Fotoğrafını Gizle</string>
     <string name="yoProfilePicS">Konuşma ekranındaki başlıktan kişi profil fotoğrafını kaldırır.</string>
     <string name="yoRecoveryQ">Kurtarma Sorusu</string>
-    <string name="yoRecoveryQS">Kurtarma Sorusu/Yanıtı, unutmuş olduğunuz PIN/Desen\'i sıfırlamanızı sağlar.</string>
+    <string name="yoRecoveryQS">"Kurtarma Sorusu/Yanıtı, unutmuş olduğunuz PIN/Desen'i sıfırlamanızı sağlar."</string>
     <string name="yoReport">Ters giden birşey mi var? Bize bir e-posta gönder!</string>
     <string name="yoRestore">WhatsApp Yedeğini Geri Yükle</string>
     <string name="yoRestoreDone">Geri yükleme tamamlandı!</string>
@@ -484,7 +484,7 @@
     <string name="yoShare">Paylaş</string>
     <string name="yoShareBdy">WhatsApp</string>
     <string name="yoShareSbj">WhatsApp</string>
-    <string name="yoShareSum">WhatsApp\'ı paylaş!</string>
+    <string name="yoShareSum">"WhatsApp'ı paylaş!"</string>
     <string name="yoStyling">Stiller (Bakın ve Hissedin)</string>
     <string name="yoThemes">Temalar</string>
     <string name="yoTxtSelect">Metni Seçilebilir Yap</string>
@@ -503,7 +503,7 @@
     <string name="yo_OK">Tamam</string>
     <string name="yo_Report">Rapor</string>
     <string name="yo_UDownload">İndir!</string>
-    <string name="yo_UpInfo">WhatsApp\'ın yeni bir sürümü olup olmadığını kontrol edin!</string>
+    <string name="yo_UpInfo">"WhatsApp'ın yeni bir sürümü olup olmadığını kontrol edin!"</string>
     <string name="yo_UpToDate">Sürümünüz güncel.</string>
     <string name="yo_activate">etkinleştirme</string>
     <string name="yo_apperance">Görünüş</string>
@@ -511,15 +511,15 @@
     <string name="yo_changelogS">Bu sürümdeki yeniliklere öğrenin!</string>
     <string name="yo_follow">Güncellemeler için beni takip edin!</string>
     <string name="yo_ghost_mode_warning">Hayalet Modu etkinken eylemleriniz herkes tarafından görülmeyecek. Son görülmeniz dondurulur, diğer kişiler mesajları almadığınızı düşünür, açılan mesajlar maviye dönmez ve durumları gizlice görüntüleyebilirsiniz.</string>
-    <string name="yo_hidemedia">Galeri\'den Medya Gizle</string>
+    <string name="yo_hidemedia">"Galeri'den Medya Gizle"</string>
     <string name="yo_misc">Diğer Modlar</string>
     <string name="yo_mods">Modlar</string>
     <string name="yo_uaction">Genel Eylem Çubuğu Metin Rengi</string>
     <string name="yo_uactionS">Tüm ekranlardaki eylem çubuğu metin rengini değiştirir.</string>
     <string name="yo_universal">Genel Renk</string>
     <string name="yo_universal_sum">Arayüz dahil olmak üzere her yerde renk değişir.</string>
-    <string name="yo_webdl">Web\'den İndirme</string>
-    <string name="yo_webdlS">Resmi web sitesinden WhatsApp\'ı indirin</string>
+    <string name="yo_webdl">"Web'den İndirme"</string>
+    <string name="yo_webdlS">"Resmi web sitesinden WhatsApp'ı indirin"</string>
     <string name="yocent">Konuşma Ekranı Araç Çubuğu Stili</string>
     <string name="yocentS">Konuşma ekranındaki başlığın stilini değiştirir.</string>
     <string name="yoconh">Ana Ekran Stili</string>
@@ -532,11 +532,8 @@
     <string name="youplink" />
     <string name="yowaUpdate">Güncellemeler</string>
     <string name="yowa_widget">Widget</string>
-    <string name="donations__bitcoin">Bitcoin</string>
-    <string name="donations__bitcoin_description">Geliştiriciye herhangi bir miktarda bitcoin gönder. Adresi kopyalamak için butona dokunun.</string>
-    <string name="donations__bitcoin_send_bitcoin_button">Bitcoin gönder!</string>
-    <string name="donations__bitcoin_toast_copy">Bitcoin adresi panoya kopyalanmış!</string>
-    <string name="follow_us_on_telegram">Bizi Telegram takip edin\10@AlexMods_Official</string>
+    <string name="follow_us_on_telegram">"Bizi Telegram takip edin
+@AlexMods_Official"</string>
     <string name="incorrect">Yanlış</string>
     <string name="alex_addons">Add-ons</string>
     <string name="alex_calls">Aramalar</string>
@@ -565,7 +562,7 @@
     <string name="str25d5">Sorguyu gönder</string>
     <string name="str25d6">Sesli arama</string>
     <string name="str25d9">Daralt</string>
-    <string name="str25db">Üyeler bu topluluktaki grupları görüntüleyebilir, gruplara katılabilir ve yöneticiler tarafından paylaşılan duyurular sayesinde en güncel bilgilere ulaşabilirler. &lt;a href=\"%s\"&gt;Daha fazla bilgi&lt;/a&gt;</string>
+    <string name="str25db">Üyeler bu topluluktaki grupları görüntüleyebilir, gruplara katılabilir ve yöneticiler tarafından paylaşılan duyurular sayesinde en güncel bilgilere ulaşabilirler. &lt;a href=\"%s\">Daha fazla bilgi&lt;/a></string>
     <string name="str25dc">Topluluğa hoş geldiniz!</string>
     <string name="str25df">Tamam</string>
     <string name="str25e0">Hesaplar değiştirilemedi. Lütfen daha sonra tekrar deneyin.</string>
@@ -588,7 +585,7 @@
     <string name="str261c">Profil fotoğrafını görüntüle</string>
     <string name="str261d">Durumu görüntüle</string>
     <string name="str2620">AI ile sohbet edin</string>
-    <string name="str2622">Meta\'nın sunduğu AI\'ı kullanıyor</string>
+    <string name="str2622">"Meta'nın sunduğu AI'ı kullanıyor"</string>
     <string name="str2624">Alt sayfayı daralt</string>
     <string name="str2625">Alt sayfayı genişlet</string>
     <string name="str2626">Yarım genişlet</string>
@@ -597,12 +594,12 @@
     <string name="str262c">‎%s artık size mesaj gönderemeyecek veya sizi arayamayacak.</string>
     <string name="str262d">İşletme Türü</string>
     <string name="str262e">İşletme Detayları</string>
-    <string name="str2636">Konumunuzun başka kişiler tarafından tahmin edilmesini zorlaştırmak amacıyla, bu cihazdan yapılan aramalar WhatsApp sunucuları üzerinden güvenli bir şekilde aktarılır. Bu işlem arama kalitesini düşürür. &lt;a href=call_relaying_help&gt;Daha fazla bilgi&lt;/a&gt;</string>
+    <string name="str2636">Konumunuzun başka kişiler tarafından tahmin edilmesini zorlaştırmak amacıyla, bu cihazdan yapılan aramalar WhatsApp sunucuları üzerinden güvenli bir şekilde aktarılır. Bu işlem arama kalitesini düşürür. &lt;a href=call_relaying_help>Daha fazla bilgi&lt;/a></string>
     <string name="str2637">Aramalarda IP adresini koru</string>
     <string name="str2638">Aramalar</string>
     <string name="str2639">‎%s için bir arama kısayolu ekleyin.</string>
     <string name="str263a">Arama kısayolu</string>
-    <string name="str263b">Aramalarda avatarınız gibi kamera efektlerinden yararlanın. &lt;a href=\"%s\"&gt;Daha fazla bilgi&lt;/a&gt;</string>
+    <string name="str263b">Aramalarda avatarınız gibi kamera efektlerinden yararlanın. &lt;a href=\"%s\">Daha fazla bilgi&lt;/a></string>
     <string name="str263c">Kamera efektleri</string>
     <string name="str263d">WhatsApp Kamerası</string>
     <string name="str263e">İptal</string>
@@ -672,14 +669,14 @@
     <string name="str26ed">Facebook</string>
     <string name="str26f2">Tarayıcıda aç</string>
     <string name="fcm_fallback_notification_channel_label">Çeşitli</string>
-    <string name="str26f9">WhatsApp Gizlilik Bildirimi\'ni görüntüle</string>
+    <string name="str26f9">"WhatsApp Gizlilik Bildirimi'ni görüntüle"</string>
     <string name="str26fa">Parmak izi sensörüne dokunun</string>
     <string name="str26fb">Parmak izi donanımı kullanılamıyor.</string>
     <string name="str26fc">Bu cihazda parmak izi sensörü yok</string>
     <string name="str26fd">Çok fazla deneme yapıldı. Lütfen daha sonra tekrar deneyin.</string>
     <string name="str26fe">Parmak izi kaydedilmedi.</string>
     <string name="str26ff">Parmak izi işlemi kullanıcı tarafından iptal edildi.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Daha fazla bilgi&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Daha fazla bilgi&lt;/a></string>
     <string name="str2701">Büyük</string>
     <string name="str2702">Orta</string>
     <string name="str2703">Küçük</string>
@@ -697,7 +694,7 @@
     <string name="str271a">3 madde listeleniyor</string>
     <string name="str2723">Bu video resim içinde resim olarak oynuyor</string>
     <string name="str2724">Instagram</string>
-    <string name="str2725">WhatsApp\'a bağlayın</string>
+    <string name="str2725">"WhatsApp'a bağlayın"</string>
     <string name="str272d">Sekme</string>
     <string name="str272f">Daha fazla bilgi</string>
     <string name="str2733">Çıkış yaptığınızda WhatsApp kapatılacak.</string>
@@ -706,7 +703,7 @@
     <string name="str274f">Harita görünümü</string>
     <string name="str2750">Uydu görünümü</string>
     <string name="str2751">Arazi görünümü</string>
-    <string name="str276b">ÖÖ veya ÖS\'yi seçin</string>
+    <string name="str276b">"ÖÖ veya ÖS'yi seçin"</string>
     <string name="str2779">AM</string>
     <string name="str277d">PM</string>
     <string name="str2780">Medya yükleniyor…</string>
@@ -734,7 +731,7 @@
     <string name="str27c4">Metin giriş moduna geç</string>
     <string name="str27c5">Yıl seçmeye geçmek için dokunun</string>
     <string name="str27d0">Sona alınan güncellemeler</string>
-    <string name="str27e2">Yeni bir grup mu oluşturuyorsunuz? &lt;font color=#%s&gt;&lt;b&gt;Nasıl oluşturacağınızı öğrenin&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Yeni bir grup mu oluşturuyorsunuz? &lt;font color=#%s>&lt;b>Nasıl oluşturacağınızı öğrenin&lt;/b>&lt;/font></string>
     <string name="str27e5">1 gün</string>
     <string name="str27e6">Varsayılan uygulama ayarı (%s)</string>
     <string name="str27e7">1 ay</string>
@@ -780,7 +777,7 @@
     <string name="str283c">Kapalı</string>
     <string name="str283d">Açık</string>
     <string name="str2841">Telefon numaranızı doğrulayın</string>
-    <string name="str2843">Bu işletmeyi şikayet ederseniz işletmeden gelen son 5 mesaj WhatsApp\'a iletilecek. Bu işletmeyle aranızdaki sohbet de silinecek.</string>
+    <string name="str2843">"Bu işletmeyi şikayet ederseniz işletmeden gelen son 5 mesaj WhatsApp'a iletilecek. Bu işletmeyle aranızdaki sohbet de silinecek."</string>
     <string name="str2844">Kişiyi engelle ve sohbeti sil</string>
     <string name="str284b">QR kodunu tara</string>
     <string name="str2850">Ara</string>
@@ -831,7 +828,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Ayarlarla ilgili sonuç bulunamadı</string>
     <string name="str288d">Depolama ve veri kullanımı</string>
-    <string name="str2891">Bilinmeyen numaralardan gelen aramalar sessize alınacak. Bu aramaları, Aramalar sekmesinde ve bildirimlerinizde görmeye devam edebilirsiniz. &lt;a href=calling_privacy_help&gt;Daha fazla bilgi&lt;/a&gt;</string>
+    <string name="str2891">Bilinmeyen numaralardan gelen aramalar sessize alınacak. Bu aramaları, Aramalar sekmesinde ve bildirimlerinizde görmeye devam edebilirsiniz. &lt;a href=calling_privacy_help>Daha fazla bilgi&lt;/a></string>
     <string name="str2892">Bilinmeyen kullanıcıları sessize al</string>
     <string name="str2893">Atla</string>
     <string name="str2895">Tarihe göre sırala</string>
@@ -866,4 +863,11 @@
     <string name="str28dc">Uçtan uca şifrelenmiş</string>
     <string name="str28dd">Katıl</string>
     <string name="str28ec">Bu web sitesi, sektör standardında bir HTTPS güvenlik protokolüyle korunmaktadır.</string>
+    <string name="donations__bitcoin">Bitcoin</string>
+    <string name="donations__bitcoin_description">Geliştiriciye herhangi bir miktarda bitcoin gönder. Adresi kopyalamak için butona dokunun.</string>
+    <string name="donations__bitcoin_send_bitcoin_button">Bitcoin gönder!</string>
+    <string name="donations__bitcoin_toast_copy">Bitcoin adresi panoya kopyalanmış!</string>
+    <string name="msg_autoreply_specialtimes">Belirli zamanlar</string>
+    <string name="msg_autoreply_spectoignore">Yanıt verilmeyecek harici kişiler / gruplar</string>
+    <string name="msg_autoreply_spectoreply">Yanıtlanacak belirli kişiler / gruplar</string>
 </resources>

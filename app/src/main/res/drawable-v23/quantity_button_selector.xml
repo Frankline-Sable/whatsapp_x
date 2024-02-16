@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:state_pressed="true">
         <inset android:insetLeft="@dimen/dimen012f" android:insetRight="@dimen/dimen012f" android:insetTop="@dimen/dimen0130" android:insetBottom="@dimen/dimen0130">
             <shape android:shape="rectangle">
-                <corners android:radius="4dp"/>
-                <solid android:color="?attr/attr0720"/>
+                <corners android:radius="4.0dip" />
+                <solid android:color="?attr0720" />
             </shape>
         </inset>
     </item>
     <item>
         <inset android:insetLeft="@dimen/dimen012f" android:insetRight="@dimen/dimen012f" android:insetTop="@dimen/dimen0130" android:insetBottom="@dimen/dimen0130">
             <shape android:shape="rectangle">
-                <corners android:radius="4dp"/>
-                <solid android:color="?attr/attr071f"/>
+                <corners android:radius="4.0dip" />
+                <solid android:color="?attr071f" />
             </shape>
         </inset>
     </item>

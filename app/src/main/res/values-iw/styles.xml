@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AlertDialogTheme">
+    <style name="AlertDialogTheme" parent="@style/style000b">
         <item name="android:layoutDirection">rtl</item>
     </style>
 </resources>

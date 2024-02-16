@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.ListItemWithLeftIcon xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/bot_pip_toggle_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0569="@drawable/vec_ic_bot_pip_toggle" app:attr056c="@string/str03ad"/>
+<com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/bot_pip_toggle_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0569="@drawable/vec_ic_bot_pip_toggle" app:attr056c="@string/str03ad"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

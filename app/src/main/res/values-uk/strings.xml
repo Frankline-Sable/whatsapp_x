@@ -23,7 +23,7 @@
     <string name="str25d5">Наіслати запит</string>
     <string name="str25d6">Голосовий пошук</string>
     <string name="str25d9">Згорнути</string>
-    <string name="str25db">Як учасник, ви можете бачити групи в цій спільноті та приєднуватися до них, а також отримувати оголошення від адміністраторів. &lt;a href=\"%s\"&gt;Докладніше&lt;/a&gt;</string>
+    <string name="str25db">Як учасник, ви можете бачити групи в цій спільноті та приєднуватися до них, а також отримувати оголошення від адміністраторів. &lt;a href=\"%s\">Докладніше&lt;/a></string>
     <string name="str25dc">Вітаємо в спільноті!</string>
     <string name="str25df">Гаразд</string>
     <string name="str25e0">Облікові записи не можна переключити. Будь ласка, спробуйте ще раз пізніше.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">Користувач %s більше не зможе надсилати вам повідомлення чи телефонувати.</string>
     <string name="str262d">Тип бізнесу</string>
     <string name="str262e">Інформація про бізнес</string>
-    <string name="str2636">Щоб ускладнити визначення вашого місцезнаходження, дзвінки з цього пристрою переадресовуватимуться в захищеному режимі через сервери WhatsApp. Це знизить якість дзвінків. &lt;a href=call_relaying_help&gt;Докладніше&lt;/a&gt;</string>
+    <string name="str2636">Щоб ускладнити визначення вашого місцезнаходження, дзвінки з цього пристрою переадресовуватимуться в захищеному режимі через сервери WhatsApp. Це знизить якість дзвінків. &lt;a href=call_relaying_help>Докладніше&lt;/a></string>
     <string name="str2637">Захистити IP-адресу під час дзвінка</string>
     <string name="str2638">Дзвінки</string>
     <string name="str2639">Створити ярлик для дзвінка користувачу %s.</string>
     <string name="str263a">Ярлик для дзвінка</string>
-    <string name="str263b">Використовуйте ефекти камери, як-от свій аватар, під час дзвінків. &lt;a href=\"%s\"&gt;Докладніше&lt;/a&gt;</string>
+    <string name="str263b">Використовуйте ефекти камери, як-от свій аватар, під час дзвінків. &lt;a href=\"%s\">Докладніше&lt;/a></string>
     <string name="str263c">Ефекти камери</string>
     <string name="str263d">Камера WhatsApp</string>
     <string name="str263e">Скасувати</string>
@@ -100,7 +100,7 @@
     <string name="str2669">Усі</string>
     <string name="str266a">Усі учасники спільноти можуть додавати групи.</string>
     <string name="str266f">Ввести пароль</string>
-    <string name="str2671">Зв\'язатися з нами</string>
+    <string name="str2671">"Зв'язатися з нами"</string>
     <string name="str2672">Бесіди</string>
     <string name="str2673">Фото профілю контакта</string>
     <string name="str2674">Проскануйте QR-код WhatsApp</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Забагато спроб. Зачекайте.</string>
     <string name="str26fe">Відбитки пальців не зареєстровано.</string>
     <string name="str26ff">Користувач скасував дію з відбитком пальця.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Докладніше&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Докладніше&lt;/a></string>
     <string name="str2701">Великий</string>
     <string name="str2702">Середній</string>
     <string name="str2703">Малий</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Перейти в режим введення тексту</string>
     <string name="str27c5">Натисніть, щоб вибрати рік</string>
     <string name="str27d0">Приховані</string>
-    <string name="str27e2">Створюєте групу? &lt;font color=#%s&gt;&lt;b&gt;Перегляньте інструкції&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Створюєте групу? &lt;font color=#%s>&lt;b>Перегляньте інструкції&lt;/b>&lt;/font></string>
     <string name="str27e5">1 день</string>
     <string name="str27e6">Налаштування програми за замовчуванням (%s)</string>
     <string name="str27e7">1 місяць</string>
@@ -223,7 +223,7 @@
     <string name="str2826">Підписникам не видно, коли ви підписуєтеся на канал або взаємодієте з ним.</string>
     <string name="str2827">Адміністратори можуть бачити ваш повний номер телефону, лише якщо додали вас до своїх контактів.</string>
     <string name="str2828">Адміністратори також можуть бачити ваше фото профілю відповідно до ваших налаштувань конфіденційності.</string>
-    <string name="str2829">Адміністратори можуть бачити ваше ім\'я профілю</string>
+    <string name="str2829">"Адміністратори можуть бачити ваше ім'я профілю"</string>
     <string name="str282a">Ви можете бачити лише голоси, подані до вашого виходу.</string>
     <string name="str282b">Завжди відображати</string>
     <string name="str282c">Не відображати</string>
@@ -233,7 +233,7 @@
     <string name="str2834">Дізнатися більше</string>
     <string name="str2836">Фото профілю</string>
     <string name="str2837">Звістка</string>
-    <string name="str2838">Ім\'я</string>
+    <string name="str2838">"Ім'я"</string>
     <string name="str283a">Проксі-сервер</string>
     <string name="str283c">Вимк.</string>
     <string name="str283d">Увімк.</string>
@@ -289,18 +289,18 @@
     <string name="str288b">Профіль</string>
     <string name="str288c">Налаштування не знайдено</string>
     <string name="str288d">Використання даних і пам’яті</string>
-    <string name="str2891">Дзвінки з незнайомих номерів будуть ігноруватися, але все ще відображатимуться на вкладці «Дзвінки» та в сповіщеннях. &lt;a href=calling_privacy_help&gt;Докладніше&lt;/a&gt;</string>
+    <string name="str2891">Дзвінки з незнайомих номерів будуть ігноруватися, але все ще відображатимуться на вкладці «Дзвінки» та в сповіщеннях. &lt;a href=calling_privacy_help>Докладніше&lt;/a></string>
     <string name="str2892">Ігнорувати дзвінки з незнайомих номерів</string>
     <string name="str2893">Пропустити</string>
     <string name="str2895">Сортування за датою</string>
-    <string name="str2897">Сортування за ім\'ям</string>
+    <string name="str2897">"Сортування за ім'ям"</string>
     <string name="str2898">Сортування</string>
     <string name="str289d">999+</string>
     <string name="str289e">У спортзалі</string>
     <string name="str289f">У кіно</string>
     <string name="str28a0">У школі</string>
     <string name="str28a1">На роботі</string>
-    <string name="str28a2">На зв\'язку</string>
+    <string name="str28a2">"На зв'язку"</string>
     <string name="str28a3">Акумулятор майже розряджений</string>
     <string name="str28a4">Зайнятий(-а)</string>
     <string name="str28a5">Не можу розмовляти, пишіть у WhatsApp</string>

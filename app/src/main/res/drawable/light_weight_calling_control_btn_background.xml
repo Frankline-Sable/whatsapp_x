@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="@color/color00ca">
+<ripple android:color="@color/color00ca"
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <selector>
             <item android:state_selected="true">
                 <shape android:shape="oval">
-                    <solid android:color="@color/color06a8"/>
+                    <solid android:color="@color/color06a8" />
                 </shape>
             </item>
             <item>
                 <shape android:shape="oval">
-                    <solid android:color="@color/color06a7"/>
+                    <solid android:color="@color/color06a7" />
                 </shape>
             </item>
         </selector>

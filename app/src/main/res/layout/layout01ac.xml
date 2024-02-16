@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/community_home_tabs" android:layout_width="match_parent" android:layout_height="match_parent" app:attr050f="@string/str25ff">
-    <com.google.android.material.tabs.TabLayout android:id="@+id/tab_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0549="5" app:attr0885="@drawable/tab_unselected_indicator" app:attr0887="0" app:attr0892="0dp" app:attr0894="1" app:attr089a="@null" app:attr089d="?attr/attr06f9" app:attr089f="@style/style03dd"/>
-    <androidx.viewpager2.widget.ViewPager2 android:id="@+id/pager" android:layout_width="match_parent" android:layout_height="match_parent"/>
+<LinearLayout android:orientation="vertical" android:id="@id/community_home_tabs" android:layout_width="fill_parent" android:layout_height="fill_parent" app:attr050f="@string/str25ff"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0549="enterAlways|scroll" app:attr0885="@drawable/tab_unselected_indicator" app:attr0887="fill" app:attr0892="0.0dip" app:attr0894="fixed" app:attr089a="@null" app:attr089d="?attr06f9" app:attr089f="@style/style03dd" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
 </LinearLayout>

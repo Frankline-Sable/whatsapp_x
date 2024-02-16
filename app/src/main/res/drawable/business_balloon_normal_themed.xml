@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
-        <nine-patch android:src="@drawable/system_balloon_normal_shadow"/>
+        <nine-patch android:src="@drawable/system_balloon_normal_shadow" />
     </item>
     <item>
-        <nine-patch android:src="@drawable/business_balloon_normal" android:tint="@color/color0ca0"/>
+        <nine-patch android:src="@drawable/business_balloon_normal" android:tint="@color/color0ca0" />
     </item>
 </layer-list>

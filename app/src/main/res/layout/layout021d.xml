@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/shimmer" android:paddingBottom="@dimen/dimen05d7" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr07d4="0.4" app:attr07d8="0" app:attr07da="1200" app:attr07de="0.6" app:attr07e2="400" app:attr07e5="20">
-    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <View android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="match_parent" android:layout_height="@dimen/dimen05d8" android:layout_marginBottom="@dimen/dimen05d9"/>
-        <View android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="match_parent" android:layout_height="@dimen/dimen05d8" android:layout_marginBottom="@dimen/dimen05d9"/>
-        <View android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="192dp" android:layout_height="@dimen/dimen05d8"/>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer" android:paddingBottom="@dimen/dimen05d7" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr07d4="0.4" app:attr07d8="left_to_right" app:attr07da="1200" app:attr07de="0.6" app:attr07e2="400" app:attr07e5="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="fill_parent" android:layout_height="@dimen/dimen05d8" android:layout_marginBottom="@dimen/dimen05d9" />
+        <View android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="fill_parent" android:layout_height="@dimen/dimen05d8" android:layout_marginBottom="@dimen/dimen05d9" />
+        <View android:background="@drawable/round_corner_icebreaker_shimmer" android:layout_width="192.0dip" android:layout_height="@dimen/dimen05d8" />
     </LinearLayout>
 </com.facebook.shimmer.ShimmerFrameLayout>

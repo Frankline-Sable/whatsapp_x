@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="dimen0842">24dp</dimen>
-    <dimen name="dimen0845">24dp</dimen>
-    <dimen name="dimen0aa8">1</dimen>
+    <dimen name="dimen0842">24.0dip</dimen>
+    <dimen name="dimen0845">24.0dip</dimen>
+    <item type="dimen" name="dimen0aa8">1.0</item>
 </resources>

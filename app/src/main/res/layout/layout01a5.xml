@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.ListItemWithLeftIcon android:id="@+id/edit_community_info_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_action_edit" app:attr056b="false" app:attr056c="@string/str0aee" app:attr056e="@dimen/dimen0254"/>
-    <com.gbwhatsapp.ListItemWithLeftIcon android:id="@+id/manage_groups_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_manage_groups" app:attr056b="false" app:attr056c="@string/str11f2" app:attr056e="@dimen/dimen0254"/>
-    <ViewStub android:id="@+id/community_settings_button" android:layout="@layout/layout01b4" android:inflatedId="@+id/community_settings_button" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-    <View android:background="@drawable/community_divider_shadow" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/edit_community_info_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_action_edit" app:attr056b="false" app:attr056c="@string/str0aee" app:attr056e="@dimen/dimen0254" />
+    <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/manage_groups_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_manage_groups" app:attr056b="false" app:attr056c="@string/str11f2" app:attr056e="@dimen/dimen0254" />
+    <ViewStub android:id="@id/community_settings_button" android:layout="@layout/layout01b4" android:inflatedId="@id/community_settings_button" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:background="@drawable/community_divider_shadow" android:layout_width="fill_parent" android:layout_height="wrap_content" />
 </LinearLayout>

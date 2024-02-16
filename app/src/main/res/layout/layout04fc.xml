@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/linked_account_open_profile_layout" android:background="@drawable/linked_account_media_open_profile" android:layout_width="wrap_content" android:layout_height="wrap_content">
-    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0">
-        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/linked_account_icon" android:layout_width="24dp" android:layout_height="24dp" app:attr0906="@color/color0d04"/>
-        <com.gbwhatsapp.WaTextView android:textSize="12sp" android:textColor="@color/color0d05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0a58" android:text="@string/str1151"/>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/linked_account_open_profile_layout" android:background="@drawable/linked_account_media_open_profile" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0517="parent" app:attr051d="parent" app:attr0530="parent" app:attr0534="parent">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/linked_account_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" app:attr0906="@color/color0d04" />
+        <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/color0d05" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0a58" android:text="@string/str1151" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

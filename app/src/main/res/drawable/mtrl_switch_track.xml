@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="@dimen/dimen08f3" android:width="@dimen/dimen08f4" android:viewportWidth="@integer/integer003f" android:viewportHeight="@integer/integer003e">
-    <path android:name="track" android:fillColor="#ffffffff" android:pathData="@string/str27cd"/>
+<vector android:height="@dimen/dimen08f3" android:width="@dimen/dimen08f4" android:viewportWidth="@integer/integer003f" android:viewportHeight="@integer/integer003e"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:name="track" android:fillColor="#ffffffff" android:pathData="@string/str27cd" />
 </vector>

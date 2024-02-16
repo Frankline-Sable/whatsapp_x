@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="@dimen/dimen0079">
-    <com.gbwhatsapp.WaImageView android:layout_width="@dimen/dimen007b" android:layout_height="@dimen/dimen007b" android:layout_marginTop="@dimen/dimen007a" android:src="@drawable/ic_wa_locked" app:attr0906="?attr/attr005b"/>
-    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen007e" android:textColor="?attr/attr07be" android:id="@+id/auth_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen007d"/>
-    <View android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="0.5"/>
-    <com.gbwhatsapp.authentication.FingerprintView android:id="@+id/fingerprint_view" android:padding="@dimen/dimen053c" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-    <com.gbwhatsapp.WaTextView android:textSize="16sp" android:id="@+id/app_unlock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str21c5" android:textAllCaps="true" app:attr043c="sans-serif-medium" style="@style/style05a0"/>
-    <View android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+<LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/dimen0079"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_width="@dimen/dimen007b" android:layout_height="@dimen/dimen007b" android:layout_marginTop="@dimen/dimen007a" android:src="@drawable/ic_wa_locked" app:attr0906="?attr005b" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen007e" android:textColor="?attr07be" android:id="@id/auth_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen007d" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="0.5" />
+    <com.gbwhatsapp.authentication.FingerprintView android:id="@id/fingerprint_view" android:padding="@dimen/dimen053c" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:id="@id/app_unlock" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str21c5" android:textAllCaps="true" app:attr043c="sans-serif-medium" style="@style/style05a0" />
+    <View android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="1.0" />
 </LinearLayout>

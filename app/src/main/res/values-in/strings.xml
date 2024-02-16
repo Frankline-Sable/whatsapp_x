@@ -164,11 +164,13 @@
     <string name="disable_dttl">Lumpuhkan Reaksi Ketik Dua Kali</string>
     <string name="disablestatus">Nonaktifkan Status di bawah nama saya</string>
     <string name="disablestatusSum">Menghapus baris status Anda di bawah nama Anda di Layar Utama</string>
-    <string name="donateMe">Apakah menurut Anda aplikasi ini bermanfaat?\10Dukung pengembangannya dengan mengirimkan donasi ke pengembang!</string>
+    <string name="donateMe">"Apakah menurut Anda aplikasi ini bermanfaat?
+Dukung pengembangannya dengan mengirimkan donasi ke pengembang!"</string>
     <string name="donations__alert_dialog_no_browser">Tidak ditemukan browser untuk membuka situs web!</string>
     <string name="donations__alert_dialog_title">Terjadi kesalahan</string>
     <string name="donations__button_close">Tutup</string>
-    <string name="donations__description">Apakah menurut Anda aplikasi ini bermanfaat?\10Dukung pengembangannya dengan mengirimkan donasi ke pengembang!</string>
+    <string name="donations__description">"Apakah menurut Anda aplikasi ini bermanfaat?
+Dukung pengembangannya dengan mengirimkan donasi ke pengembang!"</string>
     <string name="donations__flattr">Flattr</string>
     <string name="donations__flattr_description">Flattr membebankan biaya 10%</string>
     <string name="donations__google_android_market">Google Play Store</string>
@@ -179,7 +181,8 @@
     <string name="donations__google_android_market_text">Berapa banyak?</string>
     <string name="donations__paypal">PayPal</string>
     <string name="donations__paypal_description">Anda dapat memilih seberapa banyak Anda ingin menyumbang setelah mengklik tombol!</string>
-    <string name="donations__thanks_dialog">Terima kasih atas donasinya!\10Saya sangat menghargai ini!</string>
+    <string name="donations__thanks_dialog">"Terima kasih atas donasinya!
+Saya sangat menghargai ini!"</string>
     <string name="donations__thanks_dialog_title">Terima kasih!</string>
     <string name="edit_history">Edit Riwayat</string>
     <string name="elapsedT">Waktu berlalu</string>
@@ -259,12 +262,12 @@
     <string name="msg_autoreply_error3">Waktu berakhir tidak boleh kurang dari waktu mulai.</string>
     <string name="msg_autoreply_group">Grup</string>
     <string name="msg_autoreply_incomingmessage">Pesan masuk</string>
-    <string name="msg_autoreply_receive">Terima: </string>
+    <string name="msg_autoreply_receive">"Terima: "</string>
     <string name="msg_autoreply_receiver">Penerima</string>
     <string name="msg_autoreply_replyall">Balas semua pesan</string>
     <string name="msg_autoreply_replyifcontain">Balas jika berisi</string>
     <string name="msg_autoreply_replyifeq">Balas jika sama</string>
-    <string name="msg_autoreply_send">Kirim: </string>
+    <string name="msg_autoreply_send">"Kirim: "</string>
     <string name="msg_autoreply_setautoreply">Setel Balasan Otomatis</string>
     <string name="msg_autoreply_specifictimes">Waktu tertentu</string>
     <string name="msg_autoreply_specifictoignore">Kontak/grup eksternal untuk tidak membalas</string>
@@ -290,7 +293,7 @@
     <string name="msg_scheduler_setscheduler">Setel Penjadwal</string>
     <string name="msg_scheduler_timetosend">Waktunya mengirim pesan</string>
     <string name="msg_scheduler_title">Penjadwal Pesan</string>
-    <string name="msg_scheduler_to">Kepada: </string>
+    <string name="msg_scheduler_to">"Kepada: "</string>
     <string name="multiChat">Kartu Percakapan (banyak obrolan)</string>
     <string name="multiChatsS">Setiap obrolan yang Anda buka akan menjadi kartu, dapat beralih dari Terbaru dengan mudah (Lollipop ke atas)</string>
     <string name="myna">com.whatsapp</string>
@@ -330,7 +333,7 @@
     <string name="repetition_4">Bulanan</string>
     <string name="repetition_5">Tahunan</string>
     <string name="resetPrivacyonly">Simpan Tema saat ini?</string>
-    <string name="resetPrivacyonlyS">\'Tetap\': Simpan tema yang diterapkan \'Setel ulang\': Bawaan/Warna stok WhatsApp</string>
+    <string name="resetPrivacyonlyS">"'Tetap': Simpan tema yang diterapkan 'Setel ulang': Bawaan/Warna stok WhatsApp"</string>
     <string name="resetThemes">Setel Ulang Preferensi</string>
     <string name="resetThemesSum">Mengembalikan pengaturan bawaan WhatsApp</string>
     <string name="reset_themes_confirma">Apakah Anda yakin ingin menyetel ulang semua preferensi Tema?</string>
@@ -342,7 +345,7 @@
     <string name="saveThemeS">Simpan pengaturan Anda saat ini di (/Download/GBThemes)</string>
     <string name="schedule_title_activity_edit">Edit Pesan</string>
     <string name="selected_tabPagerTitle">Warna Teks Judul Judul yang Dipilih</string>
-    <string name="selected_tabPagerTitleS">Ubah warna yang dipilih dari \'OBROLAN\', \'STATUS\', \'PANGGILAN\'</string>
+    <string name="selected_tabPagerTitleS">"Ubah warna yang dipilih dari 'OBROLAN', 'STATUS', 'PANGGILAN'"</string>
     <string name="showAirplaneMode">Tampilkan ikon mode Pesawat (DND)</string>
     <string name="showAirplaneModeS">Mengizinkan Anda berhenti menerima pesan whatsapp, hingga dimatikan</string>
     <string name="showCameraToolbarIcon">Tampilkan Ikon Kamera</string>
@@ -368,7 +371,7 @@
     <string name="supportyo">Dukungan</string>
     <string name="tabPagerIndicator">Warna Garis Bawah Tab yang Dipilih</string>
     <string name="tabPagerTitle">Warna Teks Judul Halaman</string>
-    <string name="tabPagerTitleS">Ubah warna \'OBROLAN\', \'STATUS\', \'PANGGILAN\'</string>
+    <string name="tabPagerTitleS">"Ubah warna 'OBROLAN', 'STATUS', 'PANGGILAN'"</string>
     <string name="text_counter_color">Teks Penghitung</string>
     <string name="text_counter_color_sum">Ubah teks warna penghitung</string>
     <string name="textcolormain">Ubah Warna di seluruh Layar Utama</string>
@@ -404,7 +407,6 @@
     <string name="voicechanger_sound_slowmotion">Lambat</string>
     <string name="voicechanger_sound_teenager">Remaja</string>
     <string name="voicechanger_sound_underwater">Di bawah air</string>
-    <string name="voip_not_allowed_never">%s tidak dapat menerima panggilan WhatsApp.</string>
     <string name="wa_moved">Data WhatsApp berhasil disalin, kini Anda dapat menyelesaikan langkah-langkahnya!</string>
     <string name="whocancall">Siapa yang bisa memanggil saya?</string>
     <string name="wmavno">1</string>
@@ -609,11 +611,8 @@
     <string name="yoversion" />
     <string name="yowaUpdate">Pembaruan</string>
     <string name="yowa_widget">Widget</string>
-    <string name="donations__bitcoin">Bitcoin</string>
-    <string name="donations__bitcoin_description">Kirim sejumlah bitcoin ke pengembang. Tekan dan tahan tombol untuk menyalin alamat.</string>
-    <string name="donations__bitcoin_send_bitcoin_button">Kirim bitcoin!</string>
-    <string name="donations__bitcoin_toast_copy">Alamat Bitcoin telah disalin ke papan klip!</string>
-    <string name="follow_us_on_telegram">Ikuti kami di Telegram\10@AlexMods_Official</string>
+    <string name="follow_us_on_telegram">"Ikuti kami di Telegram
+@AlexMods_Official"</string>
     <string name="alex_CancelButton">Membatalkan</string>
     <string name="alex_UpdateButton">Memperbarui Sekarang</string>
     <string name="alex_UpdateTitle">Pembaruan Baru Tersedia</string>
@@ -647,7 +646,7 @@
     <string name="str25d5">Kirim kueri</string>
     <string name="str25d6">Penelusuran suara</string>
     <string name="str25d9">Ciutkan</string>
-    <string name="str25db">Sebagai anggota, Anda dapat melihat dan bergabung ke grup di komunitas ini serta tetap mengikuti perkembangan melalui pengumuman dari admin. &lt;a href=\"%s\"&gt;Pelajari selengkapnya&lt;/a&gt;</string>
+    <string name="str25db">Sebagai anggota, Anda dapat melihat dan bergabung ke grup di komunitas ini serta tetap mengikuti perkembangan melalui pengumuman dari admin. &lt;a href=\"%s\">Pelajari selengkapnya&lt;/a></string>
     <string name="str25dc">Selamat datang di komunitas.</string>
     <string name="str25df">OKE</string>
     <string name="str25e0">Akun tidak dapat dialihkan. Silakan coba lagi nanti.</string>
@@ -679,12 +678,12 @@
     <string name="str262c">‎%s tidak akan dapat mengirim pesan atau menelepon Anda lagi.</string>
     <string name="str262d">Jenis bisnis</string>
     <string name="str262e">Detail bisnis</string>
-    <string name="str2636">Untuk mencegah orang lain mengetahui lokasi Anda, panggilan dari perangkat ini akan diteruskan dengan aman melalui server WhatsApp. Hal ini akan mengurangi kualitas panggilan. &lt;a href=call_relaying_help&gt;Pelajari??selengkapnya&lt;/a&gt;</string>
+    <string name="str2636">Untuk mencegah orang lain mengetahui lokasi Anda, panggilan dari perangkat ini akan diteruskan dengan aman melalui server WhatsApp. Hal ini akan mengurangi kualitas panggilan. &lt;a href=call_relaying_help>Pelajari??selengkapnya&lt;/a></string>
     <string name="str2637">Lindungi alamat IP dalam panggilan</string>
     <string name="str2638">Panggilan</string>
     <string name="str2639">Tambah pintasan panggilan untuk %s.</string>
     <string name="str263a">Pintasan panggilan</string>
-    <string name="str263b">Gunakan efek kamera seperti avatar di panggilan. &lt;a href=\"%s\"&gt;Pelajari selengkapnya&lt;/a&gt;</string>
+    <string name="str263b">Gunakan efek kamera seperti avatar di panggilan. &lt;a href=\"%s\">Pelajari selengkapnya&lt;/a></string>
     <string name="str263c">Efek kamera</string>
     <string name="str263d">Kamera WhatsApp</string>
     <string name="str263e">Batal</string>
@@ -761,7 +760,7 @@
     <string name="str26fd">Terlalu banyak upaya yang gagal. Coba lagi nanti.</string>
     <string name="str26fe">Tidak ada sidik jari yang terdaftar.</string>
     <string name="str26ff">Operasi sidik jari dibatalkan oleh pengguna.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Pelajari selengkapnya&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Pelajari selengkapnya&lt;/a></string>
     <string name="str2701">Besar</string>
     <string name="str2702">Sedang</string>
     <string name="str2703">Kecil</string>
@@ -816,7 +815,7 @@
     <string name="str27c4">Beralih ke mode masukan teks</string>
     <string name="str27c5">Ketuk untuk beralih ke memilih tahun</string>
     <string name="str27d0">Pembaruan yang dibisukan</string>
-    <string name="str27e2">Ingin membuat grup baru? &lt;font color=#%s&gt;&lt;b&gt;Lihat caranya&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Ingin membuat grup baru? &lt;font color=#%s>&lt;b>Lihat caranya&lt;/b>&lt;/font></string>
     <string name="str27e5">1 hari</string>
     <string name="str27e6">Setelan default aplikasi (%s)</string>
     <string name="str27e7">1 bulan</string>
@@ -913,7 +912,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Hasil setelan tidak ditemukan</string>
     <string name="str288d">Penyimpanan dan penggunaan data</string>
-    <string name="str2891">Panggilan dari nomor tak dikenal akan dibisukan. Panggilan akan tetap ditampilkan di tab Panggilan dan notifikasi Anda. &lt;a href=calling_privacy_help&gt;Pelajari selengkapnya&lt;/a&gt;</string>
+    <string name="str2891">Panggilan dari nomor tak dikenal akan dibisukan. Panggilan akan tetap ditampilkan di tab Panggilan dan notifikasi Anda. &lt;a href=calling_privacy_help>Pelajari selengkapnya&lt;/a></string>
     <string name="str2892">Bisukan penelepon tidak dikenal</string>
     <string name="str2893">Lewati</string>
     <string name="str2895">Urutkan sesuai tanggal</string>
@@ -948,4 +947,9 @@
     <string name="str28dc">Terenkripsi secara end-to-end</string>
     <string name="str28dd">Gabung</string>
     <string name="str28ec">Situs web ini dilindungi dengan protokol keamanan HTTPS standar industri.</string>
+    <string name="donations__bitcoin">Bitcoin</string>
+    <string name="donations__bitcoin_description">Kirim sejumlah bitcoin ke pengembang. Tekan dan tahan tombol untuk menyalin alamat.</string>
+    <string name="donations__bitcoin_send_bitcoin_button">Kirim bitcoin!</string>
+    <string name="donations__bitcoin_toast_copy">Alamat Bitcoin telah disalin ke papan klip!</string>
+    <string name="voip_not_allowed_never">%s tidak dapat menerima panggilan WhatsApp.</string>
 </resources>

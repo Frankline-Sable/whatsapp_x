@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/conversation_row_name_in_group_container" android:paddingLeft="@dimen/dimen0bbe" android:paddingTop="@dimen/dimen0bbe" android:paddingRight="@dimen/dimen0bbe" android:paddingBottom="@dimen/dimen0bbd" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/conversation_row_profile_pic" android:layout_width="@dimen/dimen05b5" android:layout_height="@dimen/dimen05b5" android:src="@drawable/avatar_contact_colorable" android:scaleType="centerCrop" app:attr08aa="@dimen/dimen05b4"/>
-    <LinearLayout android:orientation="vertical" android:id="@+id/conversation_row_name_in_group_name_and_role_container" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <com.gbwhatsapp.conversation.conversationrow.ConversationRowParticipantHeaderMainView android:id="@+id/name_in_group" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01ab">
-            <com.gbwhatsapp.TextEmojiLabel android:id="@+id/name_in_group_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01b0"/>
-            <com.gbwhatsapp.TextEmojiLabel android:id="@+id/secondary_name_in_group_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01b3"/>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/conversation_row_name_in_group_container" android:paddingLeft="@dimen/dimen0bbe" android:paddingTop="@dimen/dimen0bbe" android:paddingRight="@dimen/dimen0bbe" android:paddingBottom="@dimen/dimen0bbd" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@id/conversation_row_profile_pic" android:layout_width="@dimen/dimen05b5" android:layout_height="@dimen/dimen05b5" android:src="@drawable/avatar_contact_colorable" android:scaleType="centerCrop" whatsapp:attr08aa="@dimen/dimen05b4" />
+    <LinearLayout android:orientation="vertical" android:id="@id/conversation_row_name_in_group_name_and_role_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.conversation.conversationrow.ConversationRowParticipantHeaderMainView android:id="@id/name_in_group" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01ab">
+            <com.gbwhatsapp.TextEmojiLabel android:id="@id/name_in_group_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01b0" />
+            <com.gbwhatsapp.TextEmojiLabel android:id="@id/secondary_name_in_group_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style01b3" />
         </com.gbwhatsapp.conversation.conversationrow.ConversationRowParticipantHeaderMainView>
-        <com.gbwhatsapp.WaTextView android:id="@+id/conversation_row_name_in_group_role" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str077e" style="@style/style01b2"/>
+        <com.gbwhatsapp.WaTextView android:id="@id/conversation_row_name_in_group_role" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str077e" style="@style/style01b2" />
     </LinearLayout>
 </LinearLayout>

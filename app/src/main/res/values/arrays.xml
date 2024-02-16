@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="notification_action">
+    <string-array name="notification_action">
         <item>wearos_alt_linking_prefill</item>
-    </array>
-    <array name="notification_action_tombstone">
+    </string-array>
+    <string-array name="notification_action_tombstone">
         <item>Pixel 4</item>
         <item>Pixel 4 XL</item>
-    </array>
-    <array name="notification_media_action">
+    </string-array>
+    <string-array name="notification_media_action">
         <item>@string/str286b</item>
         <item>@string/str2869</item>
         <item>@string/str286c</item>
         <item>@string/str286a</item>
-    </array>
-    <array name="conversation_bubbleStyleList">
+    </string-array>
+    <string-array name="conversation_bubbleStyleList">
         <item>Stock</item>
         <item>Facebook Messenger</item>
         <item>Old Hangouts</item>
@@ -73,8 +73,8 @@
         <item>Rc Imess</item>
         <item>Gabi Mess</item>
         <item>Rc Fancy</item>
-    </array>
-    <array name="conversation_bubbleStyleListValues">
+    </string-array>
+    <string-array name="conversation_bubbleStyleListValues">
         <item>yousef</item>
         <item>fbm</item>
         <item>hangouts</item>
@@ -134,14 +134,14 @@
         <item>rcimess</item>
         <item>gabymess</item>
         <item>rcfancy</item>
-    </array>
-    <array name="notification_template_big_media_custom">
-        <item>@null</item>
+    </string-array>
+    <string-array name="notification_template_big_media_custom">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
-    </array>
-    <array name="conversation_bubbleStyleListValuesI">
+    </string-array>
+    <string-array name="conversation_bubbleStyleListValuesI">
         <item>balloon_outgoing_normal</item>
         <item>fbm</item>
         <item>hangouts</item>
@@ -201,12 +201,12 @@
         <item>rcimess</item>
         <item>gabymess</item>
         <item>rcfancy</item>
-    </array>
-    <array name="notification_template_big_media_narrow_custom">
+    </string-array>
+    <string-array name="notification_template_big_media_narrow_custom">
         <item>@string/str28d9</item>
         <item>@string/str28db</item>
-    </array>
-    <array name="conversation_style_entry">
+    </string-array>
+    <string-array name="conversation_style_entry">
         <item>1- YStyle</item>
         <item>2- WAMOD</item>
         <item>3- Hangouts</item>
@@ -230,13 +230,12 @@
         <item>21- iOS 14 (NEW)</item>
         <item>22- FB Messenger (NEW)</item>
         <item>23- RC Mess (NEW)</item>
-    </array>
-    <array name="notification_template_icon_group">
-    </array>
-    <array name="notification_template_lines_media">
+    </string-array>
+    <array name="notification_template_icon_group" />
+    <string-array name="notification_template_lines_media">
         <item>samsung</item>
-    </array>
-    <array name="notification_template_media">
+    </string-array>
+    <string-array name="notification_template_media">
         <item>@string/str28a2</item>
         <item>@string/str28a4</item>
         <item>@string/str28a0</item>
@@ -248,13 +247,13 @@
         <item>@string/str289e</item>
         <item>@string/str28a7</item>
         <item>@string/str28a8</item>
-    </array>
-    <array name="notification_template_media_custom">
+    </string-array>
+    <string-array name="notification_template_media_custom">
         <item>Pixel 4</item>
         <item>Pixel 4 XL</item>
-    </array>
-    <array name="conversation_style_entry_values">
-        <item>@null</item>
+    </string-array>
+    <string-array name="conversation_style_entry_values">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -277,29 +276,29 @@
         <item>28</item>
         <item>29</item>
         <item>30</item>
-    </array>
-    <array name="conversation_style_toolbar">
+    </string-array>
+    <string-array name="conversation_style_toolbar">
         <item>Stock</item>
         <item>Stock centered</item>
         <item>WAMOD</item>
         <item>WAMOD centered</item>
-    </array>
-    <array name="conversation_style_toolbar_values">
-        <item>@null</item>
+    </string-array>
+    <string-array name="conversation_style_toolbar_values">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
-    </array>
-    <array name="array0010">
+    </string-array>
+    <string-array name="array0010">
         <item>@string/str2703</item>
         <item>@string/str2702</item>
         <item>@string/str2701</item>
-    </array>
-    <array name="array0011">
+    </string-array>
+    <string-array name="array0011">
         <item>-1</item>
-        <item>@null</item>
+        <item>0</item>
         <item>1</item>
-    </array>
+    </string-array>
     <array name="array0012">
         <item>@color/color05f1</item>
         <item>@color/color05f4</item>
@@ -348,7 +347,7 @@
         <item>@color/color0615</item>
         <item>@color/color0616</item>
     </array>
-    <array name="array0015">
+    <string-array name="array0015">
         <item>SM-A50</item>
         <item>SM-G973</item>
         <item>SM-G975</item>
@@ -366,8 +365,8 @@
         <item>SCV41</item>
         <item>SCV42</item>
         <item>SCV45</item>
-    </array>
-    <array name="fonts_names">
+    </string-array>
+    <string-array name="fonts_names">
         <item>Default</item>
         <item>Custom (Load font)</item>
         <item>Roboto-Light</item>
@@ -428,8 +427,8 @@
         <item>Rekaa(Arabic)</item>
         <item>Dubai(Arabic)</item>
         <item>Molham(Arabic)</item>
-    </array>
-    <array name="array0017">
+    </string-array>
+    <string-array name="array0017">
         <item>000000</item>
         <item>FFFFFF</item>
         <item>FF0000</item>
@@ -438,66 +437,66 @@
         <item>00FFFF</item>
         <item>0000FF</item>
         <item>FF00FF</item>
-    </array>
-    <array name="array0018">
+    </string-array>
+    <string-array name="array0018">
         <item>@string/str12d8</item>
         <item>@string/str12dc</item>
-    </array>
-    <array name="array0019">
+    </string-array>
+    <string-array name="array0019">
         <item>@string/str27e5</item>
         <item>@string/str27e9</item>
         <item>@string/str27e7</item>
         <item>@string/str27e8</item>
-    </array>
-    <array name="hide_notify_array">
+    </string-array>
+    <string-array name="hide_notify_array">
         <item>@string/hide_no</item>
         <item>@string/hide_notifybar_groups</item>
         <item>@string/hide_notifybar_groups_mute</item>
         <item>@string/hide_notifybar_contacts</item>
         <item>@string/hide_notifybar_always</item>
-    </array>
-    <array name="array001b">
+    </string-array>
+    <string-array name="array001b">
         <item>@string/str27fe</item>
         <item>@string/str27ff</item>
         <item>@string/str2800</item>
         <item>@string/str2801</item>
-    </array>
-    <array name="hide_notify_values">
-        <item>@null</item>
+    </string-array>
+    <string-array name="hide_notify_values">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
-    </array>
-    <array name="array001d">
+    </string-array>
+    <string-array name="array001d">
         <item>@string/str2807</item>
         <item>@string/str2808</item>
         <item>@string/str2809</item>
         <item>@string/str280a</item>
-    </array>
-    <array name="array001e">
+    </string-array>
+    <string-array name="array001e">
         <item>@string/str282c</item>
         <item>@string/str282e</item>
         <item>@string/str282d</item>
         <item>@string/str282b</item>
-    </array>
-    <array name="array001f">
-        <item>@null</item>
+    </string-array>
+    <string-array name="array001f">
+        <item>0</item>
         <item>1</item>
         <item>3</item>
         <item>2</item>
-    </array>
-    <array name="array0020">
+    </string-array>
+    <string-array name="array0020">
         <item>@string/str261c</item>
         <item>@string/str261d</item>
-    </array>
-    <array name="array0021">
+    </string-array>
+    <string-array name="array0021">
         <item>@string/str2845</item>
         <item>@string/str2846</item>
         <item>@string/str2847</item>
         <item>@string/str2848</item>
-    </array>
-    <array name="home_theme">
+    </string-array>
+    <string-array name="home_theme">
         <item>YOWA</item>
         <item>Telegram</item>
         <item>WAMOD</item>
@@ -506,8 +505,8 @@
         <item>NL MODS</item>
         <item>Old WAMD</item>
         <item>Stock</item>
-    </array>
-    <array name="home_theme_values">
+    </string-array>
+    <string-array name="home_theme_values">
         <item>yowa</item>
         <item>telegram</item>
         <item>wamod</item>
@@ -516,13 +515,13 @@
         <item>nlmods</item>
         <item>wamd</item>
         <item>yousef</item>
-    </array>
-    <array name="array0024">
+    </string-array>
+    <string-array name="array0024">
         <item>@string/str2886</item>
         <item>@string/str2887</item>
         <item>@string/str2888</item>
         <item>@string/str2889</item>
-    </array>
+    </string-array>
     <array name="array0025">
         <item>@color/color0bee</item>
         <item>@color/color0bf5</item>
@@ -581,25 +580,25 @@
         <item>@color/color0beb</item>
         <item>@color/color0be9</item>
     </array>
-    <array name="array0027">
+    <string-array name="array0027">
         <item>@string/str28ae</item>
         <item>@string/str28b1</item>
         <item>@string/str28b0</item>
         <item>@string/str28ad</item>
         <item>@string/str28af</item>
-    </array>
-    <array name="array0028">
+    </string-array>
+    <string-array name="array0028">
         <item>@string/str28d7</item>
         <item>@string/str28d5</item>
         <item>@string/str28d8</item>
         <item>@string/str28d6</item>
-    </array>
-    <array name="array0029">
-        <item>@null</item>
+    </string-array>
+    <string-array name="array0029">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
-    </array>
+    </string-array>
     <array name="array002a">
         <item>@color/color060f</item>
         <item>@color/color061a</item>
@@ -652,7 +651,7 @@
         <item>@color/color0c08</item>
         <item>@color/color0c06</item>
     </array>
-    <array name="language_names">
+    <string-array name="language_names">
         <item>Default</item>
         <item>Arabic</item>
         <item>English</item>
@@ -666,9 +665,9 @@
         <item>Indonesian</item>
         <item>Bahasa Malaysia</item>
         <item>Azerbaijani</item>
-    </array>
-    <array name="language_val">
-        <item>@null</item>
+    </string-array>
+    <string-array name="language_val">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -681,44 +680,44 @@
         <item>14</item>
         <item>16</item>
         <item>17</item>
-    </array>
-    <array name="online_toast_location">
+    </string-array>
+    <string-array name="online_toast_location">
         <item>Top</item>
         <item>Center</item>
         <item>Bottom</item>
-    </array>
-    <array name="pic_location">
+    </string-array>
+    <string-array name="pic_location">
         <item>@string/first_message</item>
         <item>@string/last_message</item>
         <item>@string/yo_all</item>
-    </array>
-    <array name="pic_location_values">
+    </string-array>
+    <string-array name="pic_location_values">
         <item>1</item>
         <item>3</item>
         <item>99</item>
-    </array>
-    <array name="repetition_alert">
+    </string-array>
+    <string-array name="repetition_alert">
         <item>repetition_1</item>
         <item>repetition_2</item>
         <item>repetition_3</item>
         <item>repetition_4</item>
         <item>repetition_5</item>
-    </array>
-    <array name="stories_entry">
+    </string-array>
+    <string-array name="stories_entry">
         <item>STOCK</item>
         <item>RC NOTIFY</item>
         <item>RC FACEBOOK</item>
         <item>RC CONCEPT V2</item>
         <item>RC CONCEPT</item>
-    </array>
-    <array name="stories_value">
-        <item>@null</item>
+    </string-array>
+    <string-array name="stories_value">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
-    </array>
-    <array name="tick_style_entries">
+    </string-array>
+    <string-array name="tick_style_entries">
         <item>Stock</item>
         <item>Allo</item>
         <item>Alien</item>
@@ -806,8 +805,8 @@
         <item>RC Tick</item>
         <item>Triangle</item>
         <item>VantCircle</item>
-    </array>
-    <array name="tick_style_values">
+    </string-array>
+    <string-array name="tick_style_values">
         <item>stockorg</item>
         <item>allo</item>
         <item>alien</item>
@@ -895,8 +894,8 @@
         <item>rctick</item>
         <item>triangle</item>
         <item>vantcircle</item>
-    </array>
-    <array name="tick_style_valuesI">
+    </string-array>
+    <string-array name="tick_style_valuesI">
         <item>stockorg_message_got_read_receipt_from_target</item>
         <item>allo_message_got_read_receipt_from_target</item>
         <item>alien_message_got_read_receipt_from_target</item>
@@ -984,16 +983,16 @@
         <item>rctick_message_got_read_receipt_from_target</item>
         <item>triangle_message_got_read_receipt_from_target</item>
         <item>vantcircle_message_got_read_receipt_from_target</item>
-    </array>
-    <array name="translation_preference">
+    </string-array>
+    <string-array name="translation_preference">
         <item>@string/translate_serverone</item>
         <item>@string/translate_gapp</item>
-    </array>
-    <array name="translation_preferenceVals">
+    </string-array>
+    <string-array name="translation_preferenceVals">
         <item>in-y</item>
         <item>gapp</item>
-    </array>
-    <array name="translation_to_preference">
+    </string-array>
+    <string-array name="translation_to_preference">
         <item>@string/show_all</item>
         <item>عربي</item>
         <item>English</item>
@@ -1013,8 +1012,8 @@
         <item>Gujarati</item>
         <item>Punjabi</item>
         <item>Bengali</item>
-    </array>
-    <array name="translation_to_preferenceVals">
+    </string-array>
+    <string-array name="translation_to_preferenceVals">
         <item>all</item>
         <item>ar</item>
         <item>en</item>
@@ -1034,24 +1033,24 @@
         <item>gu</item>
         <item>pa</item>
         <item>bn</item>
-    </array>
-    <array name="ui_home_style">
+    </string-array>
+    <string-array name="ui_home_style">
         <item>ONE UI</item>
         <item>WhatsApp UI Stock</item>
         <item>IOS STYLE</item>
         <item>BUBBLES TAB STYLE</item>
         <item>BASIC TAB STYLE</item>
         <item>WhatsApp OLD UI</item>
-    </array>
-    <array name="ui_home_styleV">
+    </string-array>
+    <string-array name="ui_home_styleV">
         <item>one</item>
         <item>stock</item>
         <item>ios</item>
         <item>bubble</item>
         <item>basic</item>
         <item>oldstock</item>
-    </array>
-    <array name="yo_niconsi">
+    </string-array>
+    <string-array name="yo_niconsi">
         <item>yo_notifybar_0</item>
         <item>yo_notifybar_1</item>
         <item>yo_notifybar_2</item>
@@ -1103,8 +1102,8 @@
         <item>yo_notifybar_48</item>
         <item>yo_notifybar_49</item>
         <item>yo_notifybar_50</item>
-    </array>
-    <array name="yo_niconss">
+    </string-array>
+    <string-array name="yo_niconss">
         <item>Default</item>
         <item>Icon 01</item>
         <item>Icon 02</item>
@@ -1156,9 +1155,9 @@
         <item>Icon 48</item>
         <item>Icon 49</item>
         <item>Icon 50</item>
-    </array>
-    <array name="yo_niconsv">
-        <item>@null</item>
+    </string-array>
+    <string-array name="yo_niconsv">
+        <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -1209,5 +1208,5 @@
         <item>48</item>
         <item>49</item>
         <item>50</item>
-    </array>
+    </string-array>
 </resources>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contacts_storage_usage" android:layout_marginEnd="@dimen/dimen0bbd" app:attr0906="@color/color063d"/>
-    <com.gbwhatsapp.WaTextView android:textColor="@color/color0b3d" android:layout_gravity="right|center_vertical|center_horizontal|center|end" android:id="@+id/member_suggested_groups_management_participant_count_text" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style05e1"/>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contacts_storage_usage" android:layout_marginEnd="@dimen/dimen0bbd" app:attr0906="@color/color063d" />
+    <com.gbwhatsapp.WaTextView android:textColor="@color/color0b3d" android:layout_gravity="end|center" android:id="@id/member_suggested_groups_management_participant_count_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/style05e1" />
 </LinearLayout>

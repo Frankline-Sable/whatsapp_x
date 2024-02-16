@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="dimen028a">16dp</dimen>
-    <dimen name="dimen028e">32dp</dimen>
-    <dimen name="dimen028f">32dp</dimen>
-    <dimen name="dimen0290">0dp</dimen>
-    <dimen name="dimen09b7">0.12</dimen>
+    <dimen name="dimen028a">16.0dip</dimen>
+    <dimen name="dimen028e">32.0dip</dimen>
+    <dimen name="dimen028f">32.0dip</dimen>
+    <dimen name="dimen0290">0.0dip</dimen>
+    <item type="dimen" name="dimen09b7">0.12</item>
 </resources>

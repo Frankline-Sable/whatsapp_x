@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="style0433">
-        <item name="android:navigationBarColor">?attr/attr054f</item>
-        <item name="?0x101056c">false</item>
+    <style name="style0433" parent="@style/style048d">
+        <item name="android:navigationBarColor">?attr054f</item>
+        <item name="android:windowLightNavigationBar">false</item>
     </style>
 </resources>

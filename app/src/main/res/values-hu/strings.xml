@@ -23,7 +23,7 @@
     <string name="str25d5">Lekérdezés küldése</string>
     <string name="str25d6">Hangalapú keresés</string>
     <string name="str25d9">Összecsukás</string>
-    <string name="str25db">Tagként láthatod a közösség csoportjait, illetve csatlakozhatsz hozzájuk, az adminbejelentések révén pedig naprakész maradhatsz. &lt;a href=\"%s\"&gt;Tudj meg többet&lt;/a&gt;</string>
+    <string name="str25db">Tagként láthatod a közösség csoportjait, illetve csatlakozhatsz hozzájuk, az adminbejelentések révén pedig naprakész maradhatsz. &lt;a href=\"%s\">Tudj meg többet&lt;/a></string>
     <string name="str25dc">Üdvözlünk a közösségben!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Nem sikerült a fiókok között váltani. Próbáld meg később.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s nem hívhat fel és küldhet neked üzenetet.</string>
     <string name="str262d">Vállalkozás típusa</string>
     <string name="str262e">Vállalkozás adatai</string>
-    <string name="str2636">Annak érdekében, hogy az emberek nehezebben tudják kikövetkeztetni a tartózkodási helyed, az ezen a készüléken bonyolított hívások a WhatsApp szerverein keresztül biztonságos módon továbbításra kerülnek. Ez csökkenti a hívásminőséget. &lt;a href=call_relaying_help&gt;Tudj meg többet&lt;/a&gt;</string>
+    <string name="str2636">Annak érdekében, hogy az emberek nehezebben tudják kikövetkeztetni a tartózkodási helyed, az ezen a készüléken bonyolított hívások a WhatsApp szerverein keresztül biztonságos módon továbbításra kerülnek. Ez csökkenti a hívásminőséget. &lt;a href=call_relaying_help>Tudj meg többet&lt;/a></string>
     <string name="str2637">Az IP-cím védelme hívások során</string>
     <string name="str2638">Hívások</string>
     <string name="str2639">Gyorshívó hozzáadása a következőhöz: %s.</string>
     <string name="str263a">Gyorshívó</string>
-    <string name="str263b">Hívás közben kameraeffektusokat is használhatsz, például az avatarodat. &lt;a href=\"%s\"&gt;Tudj meg többet&lt;/a&gt;</string>
+    <string name="str263b">Hívás közben kameraeffektusokat is használhatsz, például az avatarodat. &lt;a href=\"%s\">Tudj meg többet&lt;/a></string>
     <string name="str263c">Kameraeffektusok</string>
     <string name="str263d">WhatsApp Kamera</string>
     <string name="str263e">Mégsem</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Túl sok próbálkozás. Próbálja újra később.</string>
     <string name="str26fe">Nincsenek regisztrált ujjlenyomatok.</string>
     <string name="str26ff">Az ujjlenyomattal kapcsolatos műveletet a felhasználó megszakította.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Tudj meg többet&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Tudj meg többet&lt;/a></string>
     <string name="str2701">Nagy</string>
     <string name="str2702">Közepes</string>
     <string name="str2703">Kicsi</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Váltás szövegbeviteli módra</string>
     <string name="str27c5">Koppintson az év kiválasztásához</string>
     <string name="str27d0">Némított frissítések</string>
-    <string name="str27e2">Új csoportot szeretnél létrehozni? &lt;font color=#%s&gt;&lt;b&gt;Nézd meg hogyan&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Új csoportot szeretnél létrehozni? &lt;font color=#%s>&lt;b>Nézd meg hogyan&lt;/b>&lt;/font></string>
     <string name="str27e5">1 nap</string>
     <string name="str27e6">Alapértelmezett alkalmazásbeállítások (%s)</string>
     <string name="str27e7">1 hónap</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Ilyen beállítás nem található</string>
     <string name="str288d">Tárhely- és adathasználat</string>
-    <string name="str2891">Az ismeretlen számokról érkező hívások némítva lesznek. A hívások továbbra is megjelennek a Hívások listában és az értesítésekben. &lt;a href=calling_privacy_help&gt;Tudj meg többet&lt;/a&gt;</string>
+    <string name="str2891">Az ismeretlen számokról érkező hívások némítva lesznek. A hívások továbbra is megjelennek a Hívások listában és az értesítésekben. &lt;a href=calling_privacy_help>Tudj meg többet&lt;/a></string>
     <string name="str2892">Ismeretlen hívók némítása</string>
     <string name="str2893">Kihagyás</string>
     <string name="str2895">Dátum szerint rendezve</string>

@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="?android:attr/colorControlHighlight">
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@android:id/mask">
         <inset android:insetLeft="@dimen/dimen012f" android:insetRight="@dimen/dimen012f" android:insetTop="@dimen/dimen0130" android:insetBottom="@dimen/dimen0130">
             <shape android:shape="rectangle">
-                <corners android:radius="@dimen/dimen0108"/>
-                <solid android:color="@color/color0db2"/>
+                <corners android:radius="@dimen/dimen0108" />
+                <solid android:color="@color/color0db2" />
             </shape>
         </inset>
     </item>
     <item>
         <inset android:insetLeft="@dimen/dimen012f" android:insetRight="@dimen/dimen012f" android:insetTop="@dimen/dimen0130" android:insetBottom="@dimen/dimen0130">
             <shape android:shape="rectangle">
-                <corners android:radius="@dimen/dimen0108"/>
-                <solid android:color="?attr/attr01a0"/>
+                <corners android:radius="@dimen/dimen0108" />
+                <solid android:color="?attr01a0" />
             </shape>
         </inset>
     </item>

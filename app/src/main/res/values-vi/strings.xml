@@ -23,7 +23,7 @@
     <string name="str25d5">Gửi truy vấn</string>
     <string name="str25d6">Tìm kiếm bằng giọng nói</string>
     <string name="str25d9">Thu gọn</string>
-    <string name="str25db">Là thành viên, bạn có thể xem và tham gia các nhóm trong cộng đồng này và luôn được cập nhật thông báo từ quản trị viên. &lt;a href=\"%s\"&gt;Tìm hiểu thêm&lt;/a&gt;</string>
+    <string name="str25db">Là thành viên, bạn có thể xem và tham gia các nhóm trong cộng đồng này và luôn được cập nhật thông báo từ quản trị viên. &lt;a href=\"%s\">Tìm hiểu thêm&lt;/a></string>
     <string name="str25dc">Chào mừng bạn đến với cộng đồng!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Không chuyển được tài khoản. Vui lòng thử lại sau.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s sẽ không thể nhắn tin hay gọi cho bạn nữa.</string>
     <string name="str262d">Loại hình doanh nghiệp</string>
     <string name="str262e">Chi tiết về Doanh nghiệp</string>
-    <string name="str2636">Để mọi người khó đoán vị trí của bạn hơn, các cuộc gọi trên thiết bị này sẽ được chuyển an toàn qua máy chủ WhatsApp. Điều này sẽ làm giảm chất lượng cuộc gọi. &lt;a href=call_relaying_help&gt;Tìm hiểu thêm&lt;/a&gt;</string>
+    <string name="str2636">Để mọi người khó đoán vị trí của bạn hơn, các cuộc gọi trên thiết bị này sẽ được chuyển an toàn qua máy chủ WhatsApp. Điều này sẽ làm giảm chất lượng cuộc gọi. &lt;a href=call_relaying_help>Tìm hiểu thêm&lt;/a></string>
     <string name="str2637">Bảo vệ địa chỉ IP trong cuộc gọi</string>
     <string name="str2638">Cuộc gọi</string>
     <string name="str2639">Thêm lối tắt cuộc gọi với %s.</string>
     <string name="str263a">Lối tắt cuộc gọi</string>
-    <string name="str263b">Sử dụng các hiệu ứng camera như avatar cho cuộc gọi. &lt;a href=\"%s\"&gt;Tìm hiểu thêm&lt;/a&gt;</string>
+    <string name="str263b">Sử dụng các hiệu ứng camera như avatar cho cuộc gọi. &lt;a href=\"%s\">Tìm hiểu thêm&lt;/a></string>
     <string name="str263c">Hiệu ứng camera</string>
     <string name="str263d">Camera WhatsApp</string>
     <string name="str263e">Hủy</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Bạn đã thử quá nhiều lần. Vui lòng thử lại sau.</string>
     <string name="str26fe">Chưa đăng ký vân tay.</string>
     <string name="str26ff">Người dùng đã hủy thao tác dùng dấu vân tay.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Tìm hiểu thêm&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Tìm hiểu thêm&lt;/a></string>
     <string name="str2701">Lớn</string>
     <string name="str2702">Vừa</string>
     <string name="str2703">Nhỏ</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Chuyển sang chế độ nhập văn bản</string>
     <string name="str27c5">Nhấn để chuyển sang chế độ chọn một năm</string>
     <string name="str27d0">Đã ẩn cập nhật</string>
-    <string name="str27e2">Bạn muốn tạo nhóm mới ư?&lt;font color=#%s&gt;&lt;b&gt;Xem cách làm&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Bạn muốn tạo nhóm mới ư?&lt;font color=#%s>&lt;b>Xem cách làm&lt;/b>&lt;/font></string>
     <string name="str27e5">1 ngày</string>
     <string name="str27e6">Cài đặt mặc định trong ứng dụng (%s)</string>
     <string name="str27e7">1 tháng</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Hồ sơ</string>
     <string name="str288c">Không tìm thấy kết quả nào ở trang cài đặt</string>
     <string name="str288d">Mức sử dụng bộ nhớ và dữ liệu</string>
-    <string name="str2891">Hệ thống sẽ tắt thông báo cuộc gọi từ số điện thoại chưa xác định. Các cuộc gọi đó vẫn xuất hiện trong tab Cuộc gọi và phần thông báo của bạn. &lt;a href=calling_privacy_help&gt;Tìm hiểu thêm&lt;/a&gt;</string>
+    <string name="str2891">Hệ thống sẽ tắt thông báo cuộc gọi từ số điện thoại chưa xác định. Các cuộc gọi đó vẫn xuất hiện trong tab Cuộc gọi và phần thông báo của bạn. &lt;a href=calling_privacy_help>Tìm hiểu thêm&lt;/a></string>
     <string name="str2892">Tắt thông báo từ người gọi không xác định</string>
     <string name="str2893">Bỏ qua</string>
     <string name="str2895">Sắp xếp theo ngày</string>

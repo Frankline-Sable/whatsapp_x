@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
-    <com.google.android.material.navigationrail.NavigationRailView android:theme="@style/style04a1" android:id="@+id/nav_rail" android:layout_width="wrap_content" android:layout_height="match_parent" app:attr047e="@layout/layout0446" app:attr04fb="2" app:attr05f8="17" style="@style/style05f9"/>
-    <View android:background="?attr/attr063c" android:layout_width="1dp" android:layout_height="match_parent"/>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.navigationrail.NavigationRailView android:theme="@style/style04a1" android:id="@id/nav_rail" android:layout_width="wrap_content" android:layout_height="fill_parent" app:attr047e="@layout/layout0446" app:attr04fb="unlabeled" app:attr05f8="center" style="@style/style05f9" />
+    <View android:background="?attr063c" android:layout_width="1.0dip" android:layout_height="fill_parent" />
 </LinearLayout>

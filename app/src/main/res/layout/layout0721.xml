@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.BoundedLinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/panel" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxWidth="350dp" android:maxHeight="350dp" app:attr09a7="?attr/attr0090">
-        <com.gbwhatsapp.WaTextView android:textSize="20sp" android:textStyle="bold" android:textColor="?attr/attr06f9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:text="@string/str1c8c"/>
-        <com.gbwhatsapp.qrcode.QrEducationView android:layout_gravity="center_horizontal" android:id="@+id/education" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
-        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/ok" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginRight="40dp" android:layout_marginBottom="15dp" android:text="@string/str14e5" style="@style/style059e"/>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:whatsapp="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.BoundedLinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/panel" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxWidth="350.0dip" android:maxHeight="350.0dip" whatsapp:attr09a7="?attr0090">
+        <com.gbwhatsapp.WaTextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="?attr06f9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="15.0dip" android:text="@string/str1c8c" />
+        <com.gbwhatsapp.qrcode.QrEducationView android:layout_gravity="center_horizontal" android:id="@id/education" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/ok" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginRight="40.0dip" android:layout_marginBottom="15.0dip" android:text="@string/str14e5" style="@style/style059e" />
     </com.gbwhatsapp.BoundedLinearLayout>
 </FrameLayout>

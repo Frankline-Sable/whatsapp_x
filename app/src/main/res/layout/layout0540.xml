@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen06bb">
-    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/lonely_state_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dimen06b6" android:text="@string/str11dc" app:attr000b="4" app:attr0967="1" app:attr09bd="1"/>
-    <com.whatsapp.calling.views.VoipCallControlRingingDotsIndicator android:layout_gravity="center" android:id="@+id/ringing_dots" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen06bb"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@id/lonely_state_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dimen06b6" android:text="@string/str11dc" app:attr000b="calling" app:attr0967="tonal" app:attr09bd="small" />
+    <com.whatsapp.calling.views.VoipCallControlRingingDotsIndicator android:layout_gravity="center" android:id="@id/ringing_dots" android:layout_width="wrap_content" android:layout_height="wrap_content" />
 </FrameLayout>

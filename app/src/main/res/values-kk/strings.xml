@@ -23,7 +23,7 @@
     <string name="str25d5">Сұрауды жіберу</string>
     <string name="str25d6">Дауыспен іздеу</string>
     <string name="str25d9">Жию</string>
-    <string name="str25db">Мүше ретінде осы қауымдастықтағы топтарды көре және қосыла отырып, администратор хабарландыруларын біліп отыруыңызға болады. &lt;a href=\"%s\"&gt;Толығырақ&lt;/a&gt;</string>
+    <string name="str25db">Мүше ретінде осы қауымдастықтағы топтарды көре және қосыла отырып, администратор хабарландыруларын біліп отыруыңызға болады. &lt;a href=\"%s\">Толығырақ&lt;/a></string>
     <string name="str25dc">Қауымдастыққа қош келдіңіз!</string>
     <string name="str25df">ОК</string>
     <string name="str25e0">Аккаунттарды ауыстыру мүмкін болмады. Әрекетті кейінірек қайталап көріңіз.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s сізге хат жіберіп, қоңырау шала алмайтын болады.</string>
     <string name="str262d">Компания түрі</string>
     <string name="str262e">Бизнес мәліметтер</string>
-    <string name="str2636">Адамдардың орныңызды анықтауы қиын болуы үшін, бұл құрылғыдағы қоңыраулар WhatsApp серверлері арқылы қауіпсіз түрде беріледі. Бұл жағдайдан қоңырау сапасы төмендейді. &lt;a href=call_relaying_help&gt;Толығырақ&lt;/a&gt;</string>
+    <string name="str2636">Адамдардың орныңызды анықтауы қиын болуы үшін, бұл құрылғыдағы қоңыраулар WhatsApp серверлері арқылы қауіпсіз түрде беріледі. Бұл жағдайдан қоңырау сапасы төмендейді. &lt;a href=call_relaying_help>Толығырақ&lt;/a></string>
     <string name="str2637">Қоңыраулардағы IP мекенжайын қорғау</string>
     <string name="str2638">Қоңыраулар</string>
     <string name="str2639">‎%s үшін қоңырау шалу таңбашасын қосу.</string>
     <string name="str263a">Қоңырау шалу таңбашасы</string>
-    <string name="str263b">Қоңырау кезінде аватар сияқты камера әсерлерін пайдаланыңыз. &lt;a href=\"%s\"&gt;Толығырақ&lt;/a&gt;</string>
+    <string name="str263b">Қоңырау кезінде аватар сияқты камера әсерлерін пайдаланыңыз. &lt;a href=\"%s\">Толығырақ&lt;/a></string>
     <string name="str263c">Камера әсерлері</string>
     <string name="str263d">WhatsApp камера</string>
     <string name="str263e">Жоқ</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Тым көп әрекет жасалды. Кейінірек қайталап көріңіз.</string>
     <string name="str26fe">Саусақ іздері тіркелмеген.</string>
     <string name="str26ff">Пайдаланушы саусақ ізі операциясынан бас тартты.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Толығырақ&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Толығырақ&lt;/a></string>
     <string name="str2701">Үлкен</string>
     <string name="str2702">Орташа</string>
     <string name="str2703">Кішкентай</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Мәтін енгізу режиміне ауысу</string>
     <string name="str27c5">Жылды таңдауға ауысу үшін түртіңіз.</string>
     <string name="str27d0">Үнсіз жаңартулар</string>
-    <string name="str27e2">Жаңа топ жасағалы жатырсыз ба? &lt;font color=#%s&gt;&lt;b&gt;Жасау әдісін көріңіз&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Жаңа топ жасағалы жатырсыз ба? &lt;font color=#%s>&lt;b>Жасау әдісін көріңіз&lt;/b>&lt;/font></string>
     <string name="str27e5">1 күн</string>
     <string name="str27e6">Әдепкі қолданба баптауы (%s)</string>
     <string name="str27e7">1 ай</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Профиль</string>
     <string name="str288c">Ешқандай баптаулар нәтижесі табылмады</string>
     <string name="str288d">Жад пен деректерді пайдалану</string>
-    <string name="str2891">Белгісіз нөмірлерден келген қоңыраулар үнсіз етіледі. Дегенмен \"Қоңыраулар\" қойындысында және хабарландыруларда көрсетіледі. &lt;a href=calling_privacy_help&gt;Толығырақ&lt;/a&gt;</string>
+    <string name="str2891">Белгісіз нөмірлерден келген қоңыраулар үнсіз етіледі. Дегенмен \"Қоңыраулар\" қойындысында және хабарландыруларда көрсетіледі. &lt;a href=calling_privacy_help>Толығырақ&lt;/a></string>
     <string name="str2892">Белгісіз нөмір қоңырауларын үнсіз ету</string>
     <string name="str2893">Әрі қарай</string>
     <string name="str2895">Күні бойынша сұрыптау</string>

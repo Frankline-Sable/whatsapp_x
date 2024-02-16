@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/filter_and_locked_chats_container" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <LinearLayout android:orientation="vertical" android:id="@+id/conversations_reveal_header_combo" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <FrameLayout android:id="@+id/conversations_reveal_filter_container" android:layout_width="wrap_content" android:layout_height="@dimen/dimen039b">
-            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@+id/conversations_reveal_filter_recycler_view" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp" app:attr050b="LinearLayoutManager"/>
+<FrameLayout android:id="@id/filter_and_locked_chats_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/conversations_reveal_header_combo" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/conversations_reveal_filter_container" android:layout_width="wrap_content" android:layout_height="@dimen/dimen039b">
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/conversations_reveal_filter_recycler_view" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="16.0dip" android:paddingEnd="16.0dip" app:attr050b="LinearLayoutManager" xmlns:app="http://schemas.android.com/apk/res-auto" />
         </FrameLayout>
-        <LinearLayout android:orientation="horizontal" android:id="@+id/conversations_locked_header" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/conversations_locked_header" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
             <FrameLayout android:layout_width="@dimen/dimen02ca" android:layout_height="wrap_content">
-                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/locked_row_icon" android:layout_width="48dp" android:layout_height="wrap_content" app:attr0593="false" app:attr0595="?attr/attr005f" app:attr059b="false" app:attr059d="@raw/chatlock_lock_unlock_lottie"/>
+                <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/locked_row_icon" android:layout_width="48.0dip" android:layout_height="wrap_content" app:attr0593="false" app:attr0595="?attr005f" app:attr059b="false" app:attr059d="@raw/chatlock_lock_unlock_lottie" />
             </FrameLayout>
-            <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/locked_row" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str11d3" style="@style/style0260"/>
+            <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/locked_row" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str11d3" style="@style/style0260" />
         </LinearLayout>
     </LinearLayout>
 </FrameLayout>

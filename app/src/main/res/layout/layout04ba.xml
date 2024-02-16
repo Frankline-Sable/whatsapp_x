@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <ScrollView style="@style/style024a">
         <LinearLayout style="@style/style024c">
-            <com.caverock.androidsvg.SVGImageView app:attr087c="graphics/stella_wa.svg" style="@style/style0243"/>
-            <com.gbwhatsapp.WaTextView android:id="@+id/instrumentation_auth_perm_title" android:text="@string/str1097" style="@style/style024b"/>
-            <com.gbwhatsapp.WaTextView android:id="@+id/instrumentation_auth_perm_paragraph_one" android:text="@string/str1092" style="@style/style0249"/>
-            <com.gbwhatsapp.WaTextView android:id="@+id/instrumentation_auth_perm_paragraph_two" android:text="@string/str1094" style="@style/style0249"/>
+            <com.caverock.androidsvg.SVGImageView app:attr087c="graphics/stella_wa.svg" style="@style/style0243" />
+            <com.gbwhatsapp.WaTextView android:id="@id/instrumentation_auth_perm_title" android:text="@string/str1097" style="@style/style024b" />
+            <com.gbwhatsapp.WaTextView android:id="@id/instrumentation_auth_perm_paragraph_one" android:text="@string/str1092" style="@style/style0249" />
+            <com.gbwhatsapp.WaTextView android:id="@id/instrumentation_auth_perm_paragraph_two" android:text="@string/str1094" style="@style/style0249" />
         </LinearLayout>
     </ScrollView>
     <LinearLayout style="@style/style0241">
-        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/instrumentation_auth_perm_button" android:text="@string/str1091" style="@style/style0242"/>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/instrumentation_auth_perm_button" android:text="@string/str1091" style="@style/style0242" />
     </LinearLayout>
 </LinearLayout>

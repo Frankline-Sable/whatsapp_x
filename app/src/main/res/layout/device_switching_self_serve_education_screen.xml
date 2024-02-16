@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <androidx.appcompat.widget.Toolbar android:id="@+id/title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr08f1="@style/style0780" app:attr0923="2">
-        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@+id/title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style02fe"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/title_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr08f1="@style/style0780" app:attr0923="marquee">
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@id/title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style02fe" />
     </androidx.appcompat.widget.Toolbar>
-    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
-        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen00e1">
-            <com.gbwhatsapp.WaImageView android:layout_width="88dp" android:layout_height="88dp" android:layout_marginTop="@dimen/dimen0bbd" android:src="@drawable/registration_device_confirmation"/>
-            <com.gbwhatsapp.WaTextView android:textColor="?attr/attr06f9" android:gravity="center_horizontal" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc4" android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str2350" app:attr043c="sans-serif-medium" style="@style/style05e6"/>
-            <com.gbwhatsapp.WaTextView android:textColor="@color/color0a73" android:gravity="center_horizontal" android:id="@+id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str234f" style="@style/style05e1"/>
-            <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
-            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-                <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/continue_button" android:layout_width="match_parent" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="@string/str2353" style="@style/style059e"/>
-                <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/verify_another_way_button" android:layout_width="match_parent" android:text="@string/str2314" style="@style/style05a0"/>
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen00e1">
+            <com.gbwhatsapp.WaImageView android:layout_width="88.0dip" android:layout_height="88.0dip" android:layout_marginTop="@dimen/dimen0bbd" android:src="@drawable/registration_device_confirmation" />
+            <com.gbwhatsapp.WaTextView android:textColor="?attr06f9" android:gravity="center_horizontal" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc4" android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str2350" app:attr043c="sans-serif-medium" style="@style/style05e6" />
+            <com.gbwhatsapp.WaTextView android:textColor="@color/color0a73" android:gravity="center_horizontal" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str234f" style="@style/style05e1" />
+            <Space android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/continue_button" android:layout_width="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="@string/str2353" style="@style/style059e" />
+                <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/verify_another_way_button" android:layout_width="fill_parent" android:text="@string/str2314" style="@style/style05a0" />
             </LinearLayout>
         </LinearLayout>
     </ScrollView>

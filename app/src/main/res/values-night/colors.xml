@@ -937,7 +937,7 @@
     <color name="unread_indicator">@color/palettePrimary</color>
     <color name="color0ddc">@color/color0d05</color>
     <color name="yosettings_background">#ff101d24</color>
-    <color name="conversations_row_date_v2">@color/white_alpha_40</color>
     <color name="yo_toolbar_lock">#ff222d36</color>
     <color name="yo_toolbar_lock_background">#ff101d24</color>
+    <color name="conversations_row_date_v2">@color/white_alpha_40</color>
 </resources>

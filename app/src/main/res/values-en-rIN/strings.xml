@@ -40,7 +40,7 @@
     <string name="str270f">This device does not support PIN, pattern or password.</string>
     <string name="str2710">Authentication cancelled by user.</string>
     <string name="str27f2">Not set</string>
-    <string name="str2831">\'%1$s\' copied to clipboard.</string>
+    <string name="str2831">"'%1$s' copied to clipboard."</string>
     <string name="str289d">999+</string>
     <string name="str28b3">%1$s, %2$s</string>
     <string name="str28d1">OFF</string>

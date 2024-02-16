@@ -27,7 +27,7 @@
     <string name="str25d5">ప్రశ్నని సమర్పిస్తుంది</string>
     <string name="str25d6">వాయిస్ శోధన</string>
     <string name="str25d9">కుదిస్తుంది</string>
-    <string name="str25db">ఒక సభ్యునిగా, ఈ కమ్యూనిటీలోని గ్రూప్‌లను చూడగలరు, చేరగలరు, అలాగే అడ్మిన్ అనౌన్స్‌మెంట్లతో అప్‌డేట్‌గా ఉండగలరు. &lt;a href=\"%s\"&gt;మరింత తెలుసుకోండి&lt;/a&gt;</string>
+    <string name="str25db">ఒక సభ్యునిగా, ఈ కమ్యూనిటీలోని గ్రూప్‌లను చూడగలరు, చేరగలరు, అలాగే అడ్మిన్ అనౌన్స్‌మెంట్లతో అప్‌డేట్‌గా ఉండగలరు. &lt;a href=\"%s\">మరింత తెలుసుకోండి&lt;/a></string>
     <string name="str25dc">కమ్యూనిటీకి స్వాగతం!</string>
     <string name="str25df">సరే</string>
     <string name="str25e0">అకౌంట్‌లను మార్చడం సాధ్యపడలేదు. దయచేసి తర్వాత మళ్ళీ ప్రయత్నించండి.</string>
@@ -67,12 +67,12 @@
     <string name="str262c">ఇకపై %s మీకు మెసేజ్ లేదా కాల్ చేయలేరు.</string>
     <string name="str262d">బిజినెస్ రకం</string>
     <string name="str262e">బిజినెస్ వివరాలు</string>
-    <string name="str2636">మీ లొకేషన్ తెలుసుకోవడం కష్టమయ్యేలా చేసేందుకు, ఈ డివైజ్‌లో కాల్స్ WhatsApp సర్వర్‌ల ద్వారా సురక్షితంగా రిలే చేయబడతాయి. ఇది కాల్ నాణ్యతను తగ్గిస్తుంది. &lt;a href=call_relaying_help&gt;మరింత తెలుసుకోండి&lt;/a&gt;</string>
+    <string name="str2636">మీ లొకేషన్ తెలుసుకోవడం కష్టమయ్యేలా చేసేందుకు, ఈ డివైజ్‌లో కాల్స్ WhatsApp సర్వర్‌ల ద్వారా సురక్షితంగా రిలే చేయబడతాయి. ఇది కాల్ నాణ్యతను తగ్గిస్తుంది. &lt;a href=call_relaying_help>మరింత తెలుసుకోండి&lt;/a></string>
     <string name="str2637">కాల్స్‌లో IP చిరునామాను కాపాడుకోండి</string>
     <string name="str2638">కాల్స్</string>
     <string name="str2639">‎%s కోసం ఒక కాలింగ్ షార్ట్‌కట్ యాడ్ చేయండి.</string>
     <string name="str263a">కాలింగ్ షార్ట్‌కట్</string>
-    <string name="str263b">కాల్‌లలో మీ అవతార్ వంటి కెమెరా ఎఫెక్ట్‌లను ఉపయోగించండి. &lt;a href=\"%s\"&gt;మరింత తెలుసుకోండి&lt;/a&gt;</string>
+    <string name="str263b">కాల్‌లలో మీ అవతార్ వంటి కెమెరా ఎఫెక్ట్‌లను ఉపయోగించండి. &lt;a href=\"%s\">మరింత తెలుసుకోండి&lt;/a></string>
     <string name="str263c">కెమెరా ఎఫెక్ట్‌లు</string>
     <string name="str263d">WhatsApp కెమెరా</string>
     <string name="str263e">రద్దు</string>
@@ -173,7 +173,7 @@
     <string name="str26fd">చాలా ఎక్కువ ప్రయత్నాలు చేసారు. దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి.</string>
     <string name="str26fe">వేలిముద్రలు నమోదు చేయబడలేదు.</string>
     <string name="str26ff">వేలిముద్ర చర్యని వినియోగదారు రద్దు చేసారు.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;మరింత తెలుసుకోండి&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">మరింత తెలుసుకోండి&lt;/a></string>
     <string name="str2701">పెద్ద</string>
     <string name="str2702">మధ్యరకం</string>
     <string name="str2703">చిన్నగా</string>
@@ -232,12 +232,12 @@
     <string name="str27b2">%1$sసంవత్సరానికి నావిగేట్ చేస్తుంది</string>
     <string name="str27b9">సేవ్ చేయి</string>
     <string name="str27c2">క్యాలెండర్ ఇన్‌పుట్ మోడ్‌కు మారుస్తుంది</string>
-    <string name="str27c3">\'రోజును ఎంపిక చేసుకోవడం\'కు మారడానికి నొక్కండి</string>
+    <string name="str27c3">"'రోజును ఎంపిక చేసుకోవడం'కు మారడానికి నొక్కండి"</string>
     <string name="str27c4">వచన ఇన్‌పుట్ మోడ్‌కు మారుస్తుంది</string>
-    <string name="str27c5">\'సంవత్సరాన్ని ఎంపిక చేసుకోవడం\'కు మారడానికి నొక్కండి</string>
+    <string name="str27c5">"'సంవత్సరాన్ని ఎంపిక చేసుకోవడం'కు మారడానికి నొక్కండి"</string>
     <string name="str27d0">మ్యూట్ చేసిన అప్‌డేట్స్</string>
     <string name="str27d1">నా QR కోడ్</string>
-    <string name="str27e2">కొత్త గ్రూప్‌ను సృష్టిస్తున్నారా? &lt;font color=#%s&gt;&lt;b&gt;ఎలాగో చూడండి&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">కొత్త గ్రూప్‌ను సృష్టిస్తున్నారా? &lt;font color=#%s>&lt;b>ఎలాగో చూడండి&lt;/b>&lt;/font></string>
     <string name="str27e5">1 రోజు</string>
     <string name="str27e6">డిఫాల్ట్ యాప్ సెట్టింగ్ (%s)</string>
     <string name="str27e7">1 నెల</string>
@@ -347,7 +347,7 @@
     <string name="str288c">ఎటువంటి సెట్టింగ్స్ ఫలితాలు కనుగొనబడలేదు</string>
     <string name="str288d">స్టోరేజ్, డేటా వినియోగం</string>
     <string name="str288e">సెట్టింగ్‌లకు వెళ్లండి</string>
-    <string name="str2891">తెలియని నంబర్ల నుండి వచ్చే కాల్స్ సైలెన్స్ చేయబడతాయి. అవి ఇప్పటికీ మీ కాల్స్ ట్యాబ్‌లో, మీ నోటిఫికేషన్లలో కనిపిస్తాయి.&lt;a href=calling_privacy_help&gt;మరింత తెలుసుకోండి&lt;/a&gt;</string>
+    <string name="str2891">తెలియని నంబర్ల నుండి వచ్చే కాల్స్ సైలెన్స్ చేయబడతాయి. అవి ఇప్పటికీ మీ కాల్స్ ట్యాబ్‌లో, మీ నోటిఫికేషన్లలో కనిపిస్తాయి.&lt;a href=calling_privacy_help>మరింత తెలుసుకోండి&lt;/a></string>
     <string name="str2892">అపరిచిత కాలర్‌లను సైలెన్స్ చేయండి</string>
     <string name="str2893">స్కిప్ చేయండి</string>
     <string name="str2895">తేది పై అమర్చు</string>

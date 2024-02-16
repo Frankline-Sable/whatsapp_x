@@ -23,7 +23,7 @@
     <string name="str25d5">Dien navraag in</string>
     <string name="str25d6">Stemsoektog</string>
     <string name="str25d9">Vou in</string>
-    <string name="str25db">As lid kan jy groepe in hierdie gemeenskap sien, daarby aansluit en oor adminaankondigings ingelig bly. &lt;a href=\"%s\"&gt;Kom meer te wete&lt;/a&gt;</string>
+    <string name="str25db">As lid kan jy groepe in hierdie gemeenskap sien, daarby aansluit en oor adminaankondigings ingelig bly. &lt;a href=\"%s\">Kom meer te wete&lt;/a></string>
     <string name="str25dc">Welkom by die gemeenskap!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Rekeninge kon nie gewissel word nie. Probeer later weer.</string>
@@ -41,11 +41,11 @@
     <string name="str25f3">Gevorderd</string>
     <string name="str2600">Argiveer alle gesprekke</string>
     <string name="str2603">Hou gesprekke geargiveer</string>
-    <string name="str2604">Geargiveerde gesprekke sal geargiveer bly wanneer jy \'n nuwe boodskap ontvang</string>
+    <string name="str2604">"Geargiveerde gesprekke sal geargiveer bly wanneer jy 'n nuwe boodskap ontvang"</string>
     <string name="str2607">Stoor</string>
     <string name="str261c">Bekyk profielfoto</string>
     <string name="str261d">Bekyk status</string>
-    <string name="str2620">Gesels met \'n AI</string>
+    <string name="str2620">"Gesels met 'n AI"</string>
     <string name="str2622">Gebruik AI van Meta</string>
     <string name="str2624">Vou die onderste blad in</string>
     <string name="str2625">Vou die onderste blad uit</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s sal nie meer boodskappe aan jou kan stuur of jou kan bel nie.</string>
     <string name="str262d">Soort sakeonderneming</string>
     <string name="str262e">Sakeonderneming se besonderhede</string>
-    <string name="str2636">Om dit moeiliker vir mense te maak om jou ligging af te lei, sal oproepe op hierdie toestel veilig deur WhatsApp-bedieners herlei word. Dit sal oproepgehalte verminder. &lt;a href=call_relaying_help&gt;Kom meer te wete&lt;/a&gt;</string>
+    <string name="str2636">Om dit moeiliker vir mense te maak om jou ligging af te lei, sal oproepe op hierdie toestel veilig deur WhatsApp-bedieners herlei word. Dit sal oproepgehalte verminder. &lt;a href=call_relaying_help>Kom meer te wete&lt;/a></string>
     <string name="str2637">Beskerm IP-adres in oproepe</string>
     <string name="str2638">Oproepe</string>
     <string name="str2639">Voeg ’n oproepkortpad by vir %s.</string>
     <string name="str263a">Oproepkortpad</string>
-    <string name="str263b">Gebruik kamera-effekte soos jou avatar in oproepe. &lt;a href=\"%s\"&gt;Kom meer te wete&lt;/a&gt;</string>
+    <string name="str263b">Gebruik kamera-effekte soos jou avatar in oproepe. &lt;a href=\"%s\">Kom meer te wete&lt;/a></string>
     <string name="str263c">Kamera-effekte</string>
     <string name="str263d">WhatsApp-kamera</string>
     <string name="str263e">Kanselleer</string>
@@ -103,7 +103,7 @@
     <string name="str2671">Kontak ons</string>
     <string name="str2672">Gesprekke</string>
     <string name="str2673">Kontakprofielfoto</string>
-    <string name="str2674">Skandeer \'n WhatsApp-QR-kode</string>
+    <string name="str2674">"Skandeer 'n WhatsApp-QR-kode"</string>
     <string name="str2676">Kontakte</string>
     <string name="str2678">WhatsApp Gesprek</string>
     <string name="str267a">Skep kanaal</string>
@@ -133,11 +133,11 @@
     <string name="str26f9">Bekyk WhatsApp se openbaarmaking van privaatheid</string>
     <string name="str26fa">Raak die vingerafdruksensor</string>
     <string name="str26fb">Vingerafdrukhardeware is nie beskikbaar nie.</string>
-    <string name="str26fc">Hierdie toetstel het nie \'n vingerafdruksensor nie</string>
+    <string name="str26fc">"Hierdie toetstel het nie 'n vingerafdruksensor nie"</string>
     <string name="str26fd">Te veel pogings. Probeer later weer.</string>
     <string name="str26fe">Geen vingerafdrukke is geregistreer nie.</string>
     <string name="str26ff">Vingerafdrukhandeling is deur gebruiker gekanselleer.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Kom meer te wete&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Kom meer te wete&lt;/a></string>
     <string name="str2701">Groot</string>
     <string name="str2702">Medium</string>
     <string name="str2703">Klein</string>
@@ -188,11 +188,11 @@
     <string name="str27b2">Gaan na jaar %1$s</string>
     <string name="str27b9">Stoor</string>
     <string name="str27c2">Skakel oor na kalenderinvoermodus</string>
-    <string name="str27c3">Tik om oor te skakel na die kies van \'n dag</string>
+    <string name="str27c3">"Tik om oor te skakel na die kies van 'n dag"</string>
     <string name="str27c4">Skakel oor na teksinvoermodus</string>
-    <string name="str27c5">Tik om oor te skakel na die kies van \'n jaar</string>
+    <string name="str27c5">"Tik om oor te skakel na die kies van 'n jaar"</string>
     <string name="str27d0">Gedempte opdaterings</string>
-    <string name="str27e2">Skep jy ’n nuwe groep? &lt;font color=#%s&gt;&lt;b&gt;Kyk hoe&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Skep jy ’n nuwe groep? &lt;font color=#%s>&lt;b>Kyk hoe&lt;/b>&lt;/font></string>
     <string name="str27e5">1 dag</string>
     <string name="str27e6">Verstektoepassinginstelling (%s)</string>
     <string name="str27e7">1 maand</string>
@@ -254,12 +254,12 @@
     <string name="str2868">WhatsApp-profielfoto</string>
     <string name="str2869">Oudio</string>
     <string name="str286a">Dokumente</string>
-    <string name="str286b">Foto\'s</string>
-    <string name="str286c">Video\'s</string>
+    <string name="str286b">"Foto's"</string>
+    <string name="str286c">"Video's"</string>
     <string name="str286d">Oproepkennisgewings</string>
     <string name="str286e">Luitoon</string>
-    <string name="str286f">Kies \'n luitoon vir inkomende WhatsApp-oproepe</string>
-    <string name="str2870">Vibreer toestel as \'n WhatsApp-oproep inkom.</string>
+    <string name="str286f">"Kies 'n luitoon vir inkomende WhatsApp-oproepe"</string>
+    <string name="str2870">"Vibreer toestel as 'n WhatsApp-oproep inkom."</string>
     <string name="str2871">Voer gesprek uit</string>
     <string name="str2872">Instellings</string>
     <string name="str2873">Hulp</string>
@@ -272,9 +272,9 @@
     <string name="str287a">Lig</string>
     <string name="str287b">Kies ŉ kleur waarmee die kennisgewingsliggie moet flits as ŉ nuwe boodskap ontvang is.</string>
     <string name="str287c">Opwipnota</string>
-    <string name="str287d">Vertoon \'n opwipnota wanneer toepassing in die agtergrond is.</string>
+    <string name="str287d">"Vertoon 'n opwipnota wanneer toepassing in die agtergrond is."</string>
     <string name="str287e">Kennisgewingklank</string>
-    <string name="str287f">Selekteer \'n klank om vir \'n nuwe kennisgewingsboodskap te speel</string>
+    <string name="str287f">"Selekteer 'n klank om vir 'n nuwe kennisgewingsboodskap te speel"</string>
     <string name="str2880">Gebruik eie berigte</string>
     <string name="str2881">Gebruik hoëprioriteit-kennisgewings</string>
     <string name="str2882">Wys voorskoue van kennisgewings boaan die skerm</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profiel</string>
     <string name="str288c">Geen resultate vir instellings gevind nie</string>
     <string name="str288d">Berging- en datagebruik</string>
-    <string name="str2891">Oproepe van onbekende nommers sal gedoof word. Hulle sal steeds in die Oproepe-oortjie en in jou kennisgewings gewys word. &lt;a href=calling_privacy_help&gt;Kom meer te wete&lt;/a&gt;</string>
+    <string name="str2891">Oproepe van onbekende nommers sal gedoof word. Hulle sal steeds in die Oproepe-oortjie en in jou kennisgewings gewys word. &lt;a href=calling_privacy_help>Kom meer te wete&lt;/a></string>
     <string name="str2892">Doof onbekende bellers</string>
     <string name="str2893">Slaan oor</string>
     <string name="str2895">Sorteer volgens datum</string>
@@ -304,7 +304,7 @@
     <string name="str28a3">Battery is byna pap</string>
     <string name="str28a4">Besig</string>
     <string name="str28a5">Kan nie praat nie, slegs WhatsApp</string>
-    <string name="str28a6">In \'n vergadering</string>
+    <string name="str28a6">"In 'n vergadering"</string>
     <string name="str28a7">Slaap tans</string>
     <string name="str28a8">Slegs dringende oproepe</string>
     <string name="str28a9">Statusprivaatheid</string>

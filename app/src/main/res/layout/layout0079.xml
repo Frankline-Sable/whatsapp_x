@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="clip_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <include android:id="@+id/auto_crosspost_setting_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="25dp" android:layout_marginRight="10dp" android:layout_marginBottom="25dp" android:layout_marginStart="24dp" android:layout_marginEnd="10dp" layout="@layout/layout0810"/>
-    <include layout="@layout/layout0811"/>
-    <LinearLayout android:orientation="horizontal" android:id="@+id/share_to_facebook_unlink_container" android:background="?android:attr/selectableItemBackground" android:paddingLeft="24dp" android:paddingTop="20dp" android:paddingRight="24dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="24dp" android:src="@drawable/ic_settings_delete" android:scaleType="fitCenter" android:layout_marginEnd="24dp" app:attr0906="@color/color0d02"/>
-        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0b95" android:textColor="?attr/attr06f9" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1eb3"/>
+<LinearLayout android:gravity="clip_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/auto_crosspost_setting_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="25.0dip" android:layout_marginStart="24.0dip" android:layout_marginEnd="10.0dip" layout="@layout/layout0810" />
+    <include layout="@layout/layout0811" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/share_to_facebook_unlink_container" android:background="?android:selectableItemBackground" android:paddingLeft="24.0dip" android:paddingTop="20.0dip" android:paddingRight="24.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginRight="24.0dip" android:src="@drawable/ic_settings_delete" android:scaleType="fitCenter" android:layout_marginEnd="24.0dip" app:attr0906="@color/color0d02" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0b95" android:textColor="?attr06f9" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str1eb3" />
     </LinearLayout>
 </LinearLayout>

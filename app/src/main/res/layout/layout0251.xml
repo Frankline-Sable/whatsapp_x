@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <LinearLayout android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content">
-            <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-            <include layout="@layout/layout0299"/>
-            <include layout="@layout/layout02c3"/>
-            <include layout="@layout/layout0253"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/main_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include layout="@layout/layout0299" />
+            <include layout="@layout/layout02c3" />
+            <include layout="@layout/layout0253" />
         </LinearLayout>
-        <FrameLayout android:id="@+id/suspicious_link_indicator_holder" android:paddingLeft="@dimen/dimen0bc2" android:paddingRight="@dimen/dimen0bc2" android:paddingBottom="@dimen/dimen0bc6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <com.gbwhatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:layout_width="match_parent" android:layout_height="wrap_content">
-            <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/style05b3" android:layout_gravity="left" android:id="@+id/caption" android:paddingLeft="@dimen/dimen010a" android:paddingRight="@dimen/dimen010a" android:paddingBottom="@dimen/dimen0109" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen02f7"/>
-            <LinearLayout android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
-                <com.gbwhatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style05b1"/>
+        <FrameLayout android:id="@id/suspicious_link_indicator_holder" android:paddingLeft="@dimen/dimen0bc2" android:paddingRight="@dimen/dimen0bc2" android:paddingBottom="@dimen/dimen0bc6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.components.TextAndDateLayout android:id="@id/text_and_date" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/style05b3" android:layout_gravity="left" android:id="@id/caption" android:paddingLeft="@dimen/dimen010a" android:paddingRight="@dimen/dimen010a" android:paddingBottom="@dimen/dimen0109" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen02f7" />
+            <LinearLayout android:layout_gravity="bottom|center|right" android:orientation="horizontal" android:id="@id/date_wrapper" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:id="@id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style05b1" />
             </LinearLayout>
         </com.gbwhatsapp.components.TextAndDateLayout>
     </LinearLayout>

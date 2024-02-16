@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" style="@style/style05ba">
-    <com.gbwhatsapp.WaImageView android:id="@+id/banner_icon" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/vec_ic_banner_default" android:scaleType="fitCenter" android:cropToPadding="true" app:attr0530="0" app:attr0534="0"/>
-    <com.gbwhatsapp.WaImageView android:id="@+id/dismiss_icon" android:src="@drawable/vec_ic_close" android:contentDescription="@string/str268f" app:attr051d="0" app:attr0534="0" app:attr0906="@color/color0d02" style="@style/style05bb"/>
-    <com.gbwhatsapp.WaTextView android:id="@+id/banner_header" app:attr051e="@+id/dismiss_icon" app:attr052f="@+id/banner_icon" app:attr0534="@+id/dismiss_icon" style="@style/style05bc"/>
-    <com.gbwhatsapp.WaTextView android:id="@+id/banner_description" app:attr051d="0" app:attr052f="@+id/banner_icon" app:attr0533="@+id/banner_header" style="@style/style05bd"/>
+<merge style="@style/style05ba"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/banner_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/vec_ic_banner_default" android:scaleType="fitCenter" android:cropToPadding="true" app:attr0530="parent" app:attr0534="parent" />
+    <com.gbwhatsapp.WaImageView android:id="@id/dismiss_icon" android:src="@drawable/vec_ic_close" android:contentDescription="@string/str268f" app:attr051d="parent" app:attr0534="parent" app:attr0906="@color/color0d02" style="@style/style05bb" />
+    <com.gbwhatsapp.WaTextView android:id="@id/banner_header" app:attr051e="@id/dismiss_icon" app:attr052f="@id/banner_icon" app:attr0534="@id/dismiss_icon" style="@style/style05bc" />
+    <com.gbwhatsapp.WaTextView android:id="@id/banner_description" app:attr051d="parent" app:attr052f="@id/banner_icon" app:attr0533="@id/banner_header" style="@style/style05bd" />
 </merge>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="str25db">A matsayin mamba, za ka iya gani da shiga guruf-guruf a cikin wannan al\'ummar kuma ka kasance mai samun sababbin sanarwa daga mai gudanarwa. &lt;a href=\"%s\"&gt;Ƙara sani&lt;/a&gt;</string>
-    <string name="str25dc">Barka da zuwa al\'umma!</string>
+    <string name="str25db">"A matsayin mamba, za ka iya gani da shiga guruf-guruf a cikin wannan al'ummar kuma ka kasance mai samun sababbin sanarwa daga mai gudanarwa. &lt;a href=\"%s\">Ƙara sani&lt;/a>"</string>
+    <string name="str25dc">"Barka da zuwa al'umma!"</string>
     <string name="str25df">To</string>
     <string name="str25e0">Ba za a iya sauya asusu ba. Sake gwadawa an jima.</string>
     <string name="str25e1">An samu tangarɗa</string>
     <string name="str25e2">A fita daga wannan asusun?</string>
     <string name="str25e3">Yarda</string>
-    <string name="str25e9">Bayanan al\'umma</string>
-    <string name="str25ea">Gyara al\'umma</string>
+    <string name="str25e9">"Bayanan al'umma"</string>
+    <string name="str25ea">"Gyara al'umma"</string>
     <string name="str25eb">Sarrafa guruf-guruf</string>
     <string name="str25ec">Duba mambobi</string>
     <string name="str25ed">Ƙara asusu</string>
@@ -27,12 +27,12 @@
     <string name="str262c">‎%s ba zai iya sake aika maka saƙo ko kiran ka ba.</string>
     <string name="str262d">Irin Kasuwanci</string>
     <string name="str262e">Bayanan Kasuwanci</string>
-    <string name="str2636">Don sanya gano wurin da kake ya yi wa mutane wahala, kiran da ake yi kan wannan na\'ura za a shigar da shi ta sabobin WhatsApp. Hakan zai rage ingancin kira. &lt;a href=call_relaying_help&gt;Ƙara sani&lt;/a&gt;</string>
+    <string name="str2636">"Don sanya gano wurin da kake ya yi wa mutane wahala, kiran da ake yi kan wannan na'ura za a shigar da shi ta sabobin WhatsApp. Hakan zai rage ingancin kira. &lt;a href=call_relaying_help>Ƙara sani&lt;/a>"</string>
     <string name="str2637">Ba wa adireshin IP tsaro a kira</string>
     <string name="str2638">Kira</string>
     <string name="str2639">Ƙara gajerar hanya ta kira ga %s.</string>
     <string name="str263a">Gajerar hanya ta kira</string>
-    <string name="str263b">Yi amfani da yanayin kyamara kamar avatar ɗinka a kira. &lt;a href=\"%s\"&gt;Ƙara sani&lt;/a&gt;</string>
+    <string name="str263b">Yi amfani da yanayin kyamara kamar avatar ɗinka a kira. &lt;a href=\"%s\">Ƙara sani&lt;/a></string>
     <string name="str263c">Yanayin kyamara</string>
     <string name="str263d">Kyamarar WhatsApp</string>
     <string name="str263e">Soke</string>
@@ -48,10 +48,10 @@
     <string name="str2651">Share</string>
     <string name="str2652">Share duk hirarraki</string>
     <string name="str2654">Rufe</string>
-    <string name="str2667">Masu gudanar da al\'umma kaɗai</string>
-    <string name="str2668">Masu gudanar da al\'umma ne kaɗai za su iya ƙara guruf-guruf.</string>
+    <string name="str2667">"Masu gudanar da al'umma kaɗai"</string>
+    <string name="str2668">"Masu gudanar da al'umma ne kaɗai za su iya ƙara guruf-guruf."</string>
     <string name="str2669">Kowa</string>
-    <string name="str266a">Kowane mamba na al\'umma zai iya ƙara guruf-guruf.</string>
+    <string name="str266a">"Kowane mamba na al'umma zai iya ƙara guruf-guruf."</string>
     <string name="str2671">Tuntuɓe mu</string>
     <string name="str2672">Hirarraki</string>
     <string name="str2673">Hoton Furofayil na Abokin Hulɗa</string>
@@ -66,15 +66,15 @@
     <string name="str2681">Goge duk hirarraki</string>
     <string name="str2687">WhatsApp zai rufe don aiwatar da wannan canjin. Akwai buƙatar ka sake kunna manhajarka.</string>
     <string name="str2688">Aiwatar da canji</string>
-    <string name="str2693">Sanya ma\'aunin lokaci a hirarraki</string>
-    <string name="str2695">Ma\'aunin daɗewar saƙo na asali</string>
+    <string name="str2693">"Sanya ma'aunin lokaci a hirarraki"</string>
+    <string name="str2695">"Ma'aunin daɗewar saƙo na asali"</string>
     <string name="str2697">Ƙarin bayani</string>
     <string name="str2698">Gyara</string>
     <string name="str26a8">Emoji</string>
     <string name="str26ed">Facebook</string>
     <string name="str26f2">Buɗe a cikin burauza</string>
     <string name="str26f9">Duba Sanarwar Tsare Sirri na WhatsApp</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Ƙara sani&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Ƙara sani&lt;/a></string>
     <string name="str2701">Babba</string>
     <string name="str2702">Matsakaici</string>
     <string name="str2703">Ƙarami</string>
@@ -108,7 +108,7 @@
     <string name="str278c">Sake kira</string>
     <string name="str2791">Ƙari</string>
     <string name="str27d0">Sabuntawar da aka sa shiru</string>
-    <string name="str27e2">Za ka ƙirƙiri sabon guruf? &lt;font color=#%s&gt;&lt;b&gt;Duba yadda ake yi&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Za ka ƙirƙiri sabon guruf? &lt;font color=#%s>&lt;b>Duba yadda ake yi&lt;/b>&lt;/font></string>
     <string name="str27e5">Kwana 1</string>
     <string name="str27e6">Saitin-manhaja na asali (%s)</string>
     <string name="str27e7">Wata 1</string>
@@ -134,9 +134,9 @@
     <string name="str2809">Taƙaitaccen bayani kan buƙatar biyan kuɗi</string>
     <string name="str280a">Taƙaitaccen bayanin caji</string>
     <string name="str2825">Kunna</string>
-    <string name="str2826">Mabiya ba za su iya ganin yaushe ka bi ko ka yi mu\'amala a tasha ba.</string>
+    <string name="str2826">"Mabiya ba za su iya ganin yaushe ka bi ko ka yi mu'amala a tasha ba."</string>
     <string name="str2827">Masu gudanarwa ba za su iya ganin cikakkiyar lambar wayarka ba sai dai idan sun adana ka a matsayin abokin hulɗa.</string>
-    <string name="str2828">Ta yiwu masu gudanarwa su iya ganin hoton furofayil ɗinka ta la\'akari da saitunan tsare sirrinka.</string>
+    <string name="str2828">"Ta yiwu masu gudanarwa su iya ganin hoton furofayil ɗinka ta la'akari da saitunan tsare sirrinka."</string>
     <string name="str2829">Masu gudanarwa za su iya ganin sunan furofayil ɗinka</string>
     <string name="str282a">Za ka iya ganin zaɓe da aka yi ne kawai kafin ka fita.</string>
     <string name="str282b">Koyaushe nuna mai kutsowa</string>
@@ -172,7 +172,7 @@
     <string name="str286d">Sanarwar kira</string>
     <string name="str286e">Sautin kira</string>
     <string name="str286f">Zaɓi sautin kira don kiran WhatsApp masu shigowa.</string>
-    <string name="str2870">Girgiza na\'urar yayin da kiran WhatsApp mai shigowa ya iso.</string>
+    <string name="str2870">"Girgiza na'urar yayin da kiran WhatsApp mai shigowa ya iso."</string>
     <string name="str2871">Fitar da hira</string>
     <string name="str2872">Saituna</string>
     <string name="str2873">Taimako</string>
@@ -192,7 +192,7 @@
     <string name="str2881">A yi amfani da sanarwa mafi fifiko</string>
     <string name="str2882">A nuna duban farko na sanarwa a saman sikirin</string>
     <string name="str2883">Girgiza</string>
-    <string name="str2884">Girgiza na\'urar lokacin da sabon saƙo ya zo yayin da manhaja ke aiki.</string>
+    <string name="str2884">"Girgiza na'urar lokacin da sabon saƙo ya zo yayin da manhaja ke aiki."</string>
     <string name="str2885">Sanarwa</string>
     <string name="str2886">Cikakkun bayanan oda</string>
     <string name="str2887">Bayanan siyarwa</string>
@@ -201,8 +201,8 @@
     <string name="str288a">Tsare-sirri</string>
     <string name="str288b">Furofayil</string>
     <string name="str288c">Ba a samu sakamakon saituna ba</string>
-    <string name="str288d">Ma\'ajiya da amfani da data</string>
-    <string name="str2891">Za a sanya kira daga lambobin da ba a sani ba a shiru. Duk da haka za a nuna su a shafin Kira da kuma sanarwarka. &lt;a href=calling_privacy_help&gt;Ƙara sani&lt;/a&gt;</string>
+    <string name="str288d">"Ma'ajiya da amfani da data"</string>
+    <string name="str2891">Za a sanya kira daga lambobin da ba a sani ba a shiru. Duk da haka za a nuna su a shafin Kira da kuma sanarwarka. &lt;a href=calling_privacy_help>Ƙara sani&lt;/a></string>
     <string name="str2892">Sanya masu kiran da ba a sani ba a shiru</string>
     <string name="str2893">Tsallake</string>
     <string name="str2895">Rarrabe ta kwanan wata</string>

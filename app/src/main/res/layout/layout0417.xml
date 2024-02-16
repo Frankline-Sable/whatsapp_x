@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <include layout="@layout/layout0441"/>
-    <com.gbwhatsapp.wds.components.button.WDSButton android:textColor="@color/color01b5" android:id="@+id/ok_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str14e5" app:attr0518="@+id/learn_more_button" app:attr0533="@+id/privacy_text" app:attr0967="0"/>
-    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/learn_more_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str272f" app:attr0517="0" app:attr0533="@+id/ok_button" app:attr0967="3"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout0441" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:textColor="@color/color01b5" android:id="@id/ok_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str14e5" app:attr0518="@id/learn_more_button" app:attr0533="@id/privacy_text" app:attr0967="filled" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/learn_more_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str272f" app:attr0517="parent" app:attr0533="@id/ok_button" app:attr0967="borderless" />
 </LinearLayout>

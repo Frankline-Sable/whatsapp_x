@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.WaDynamicRoundCornerImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/media_preview" android:layout_width="@dimen/dimen093b" android:layout_height="@dimen/dimen093b" android:scaleType="centerCrop" app:attr072d="@dimen/dimen0201"/>
+<com.gbwhatsapp.WaDynamicRoundCornerImageView android:id="@id/media_preview" android:layout_width="@dimen/dimen093b" android:layout_height="@dimen/dimen093b" android:scaleType="centerCrop" app:attr072d="@dimen/dimen0201"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

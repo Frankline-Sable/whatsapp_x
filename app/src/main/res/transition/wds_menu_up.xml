@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<transitionSet xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:transitionOrdering="together">
-    <slide android:interpolator="@android:interpolator/decelerate_cubic" android:duration="125" android:slideEdge="bottom"/>
-    <fade android:duration="50"/>
+<transitionSet android:transitionOrdering="together"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <slide android:interpolator="@android:interpolator/decelerate_cubic" android:duration="125" android:slideEdge="bottom" />
+    <fade android:duration="50" />
 </transitionSet>

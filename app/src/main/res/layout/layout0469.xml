@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="52dp" android:minHeight="?attr/attr000f">
-    <com.gbwhatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/common_action_bar_header_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back" app:attr0906="@color/color032a" app:attr09ea="true" style="?attr/attr0017"/>
-    <com.gbwhatsapp.WaImageView android:layout_gravity="right" android:layout_margin="16dp" style="@style/style02c4"/>
-    <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/attr057d" android:layout_gravity="center" android:id="@+id/common_action_bar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/str0a29" app:attr043c="sans-serif-medium"/>
+<FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="52.0dip" android:minHeight="?attr000f"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center|left" android:id="@id/common_action_bar_header_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back" app:attr0906="@color/color032a" app:attr09ea="true" style="?attr0017" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="right" android:layout_margin="16.0dip" style="@style/style02c4" />
+    <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="?attr057d" android:layout_gravity="center" android:id="@id/common_action_bar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/str0a29" app:attr043c="sans-serif-medium" />
 </FrameLayout>

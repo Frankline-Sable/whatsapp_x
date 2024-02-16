@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="@dimen/dimen0dfb" android:paddingBottom="@dimen/dimen0dfb" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.WaImageView android:id="@+id/bullet_icon" android:layout_width="@dimen/dimen05db" android:layout_height="@dimen/dimen05db" android:tint="?attr/attr09cc" app:attr0530="0" app:attr0534="@+id/bullet_title"/>
-    <com.gbwhatsapp.TextEmojiLabel android:id="@+id/bullet_title" android:layout_width="0dp" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="@dimen/dimen0dfd" app:attr0517="0" app:attr051d="0" app:attr052f="@+id/bullet_icon" app:attr0534="0" app:attr0536="2" style="@style/style05eb"/>
+<merge android:paddingTop="@dimen/dimen0dfb" android:paddingBottom="@dimen/dimen0dfb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:id="@id/bullet_icon" android:layout_width="@dimen/dimen05db" android:layout_height="@dimen/dimen05db" android:tint="?attr09cc" app:attr0530="parent" app:attr0534="@id/bullet_title" />
+    <com.gbwhatsapp.TextEmojiLabel android:id="@id/bullet_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="@dimen/dimen0dfd" app:attr0517="parent" app:attr051d="parent" app:attr052f="@id/bullet_icon" app:attr0534="parent" app:attr0536="packed" style="@style/style05eb" />
 </merge>

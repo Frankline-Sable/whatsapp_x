@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
-    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dimen0bc4" android:paddingBottom="@dimen/dimen0bc4" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dimen0bc4" android:paddingRight="@dimen/dimen0bc4" android:layout_width="match_parent" android:layout_height="wrap_content">
-            <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0e05" android:textColor="@color/color0c63" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str2749"/>
-            <com.gbwhatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc2" android:text="@string/str2748" style="@style/style001e"/>
-            <com.gbwhatsapp.WaTextView android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str2745" style="@style/style001e"/>
-            <com.gbwhatsapp.TextEmojiLabel android:id="@+id/description_with_learn_more" android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str2747" style="@style/style001e"/>
-            <com.gbwhatsapp.WaTextView android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str2746" style="@style/style001e"/>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dimen0bc4" android:paddingBottom="@dimen/dimen0bc4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dimen0bc4" android:paddingRight="@dimen/dimen0bc4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0e05" android:textColor="@color/color0c63" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str2749" />
+            <com.gbwhatsapp.WaTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc2" android:text="@string/str2748" style="@style/style001e" />
+            <com.gbwhatsapp.WaTextView android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str2745" style="@style/style001e" />
+            <com.gbwhatsapp.TextEmojiLabel android:id="@id/description_with_learn_more" android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str2747" style="@style/style001e" />
+            <com.gbwhatsapp.WaTextView android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str2746" style="@style/style001e" />
         </LinearLayout>
-        <View style="?attr/attr0794"/>
-        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/consent_toggle_layout" android:background="?android:attr/selectableItemBackground" android:paddingLeft="@dimen/dimen0bc4" android:paddingRight="@dimen/dimen0bc4" android:layout_width="match_parent" android:layout_height="wrap_content">
-            <LinearLayout android:gravity="left" android:orientation="horizontal" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
-                <com.gbwhatsapp.WaTextView android:clickable="false" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str274c" android:singleLine="false" android:layout_weight="1" style="?attr/attr07b2"/>
-                <androidx.appcompat.widget.SwitchCompat android:id="@+id/consent_toggle_switch_compat" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <View style="?attr0794" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/consent_toggle_layout" android:background="?android:selectableItemBackground" android:paddingLeft="@dimen/dimen0bc4" android:paddingRight="@dimen/dimen0bc4" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="left" android:orientation="horizontal" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/str274c" android:singleLine="false" android:layout_weight="1.0" style="?attr07b2" />
+                <androidx.appcompat.widget.SwitchCompat android:id="@id/consent_toggle_switch_compat" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
             </LinearLayout>
-            <com.gbwhatsapp.WaTextView android:id="@+id/consent_toggle_info" android:paddingRight="48dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str274a" style="?attr/attr07ae"/>
+            <com.gbwhatsapp.WaTextView android:id="@id/consent_toggle_info" android:paddingRight="48.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str274a" style="?attr07ae" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

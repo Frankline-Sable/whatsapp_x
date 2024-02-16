@@ -23,7 +23,7 @@
     <string name="str25d5">কোয়েরি জমা দিন</string>
     <string name="str25d6">ভয়েস সার্চ করুন</string>
     <string name="str25d9">সঙ্কুচিত করুন</string>
-    <string name="str25db">সদস্য হিসেবে আপনি এই কমিউনিটির মধ্যে গ্রুপ দেখতে এবং তাতে যোগ দিতে পারবেন ও অ্যাডমিনের ঘোষণার আপডেট পাবেন। &lt;a href=\"%s\"&gt;আরও জানুন&lt;/a&gt;</string>
+    <string name="str25db">সদস্য হিসেবে আপনি এই কমিউনিটির মধ্যে গ্রুপ দেখতে এবং তাতে যোগ দিতে পারবেন ও অ্যাডমিনের ঘোষণার আপডেট পাবেন। &lt;a href=\"%s\">আরও জানুন&lt;/a></string>
     <string name="str25dc">কমিউনিটিতে স্বাগত!</string>
     <string name="str25df">ঠিক আছে</string>
     <string name="str25e0">অ্যাকাউন্ট পরিবর্তন করা যায়নি। অনুগ্রহ করে পরে আবার চেষ্টা করুন।</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s আপনাকে আর মেসেজ পাঠাতে বা কল করতে পারবেন না।</string>
     <string name="str262d">বিজনেসের ধরন</string>
     <string name="str262e">বিজনেসের বিবরণ</string>
-    <string name="str2636">আপনার লোকেশন যাতে সহজে কেউ জানতে না পারে, তার জন্য এই ডিভাইস থেকে করা কল নিরাপদে WhatsApp সার্ভারের মধ্য দিয়ে পাঠানো হবে। এই কারণে কলের মান কমে যাবে। &lt;a href=call_relaying_help&gt;আরও জানুন&lt;/a&gt;</string>
+    <string name="str2636">আপনার লোকেশন যাতে সহজে কেউ জানতে না পারে, তার জন্য এই ডিভাইস থেকে করা কল নিরাপদে WhatsApp সার্ভারের মধ্য দিয়ে পাঠানো হবে। এই কারণে কলের মান কমে যাবে। &lt;a href=call_relaying_help>আরও জানুন&lt;/a></string>
     <string name="str2637">কলে আইপি অ্যাড্রেস সুরক্ষিত করুন</string>
     <string name="str2638">কল</string>
     <string name="str2639">‎%s-এর জন্য কল করার শর্টকাট যোগ করুন।</string>
     <string name="str263a">কল করার শর্টকাট</string>
-    <string name="str263b">কলে আপনার অবতারের মতো ক্যামেরা এফেক্ট ব্যবহার করুন৷ &lt;a href=\"%s\"&gt;আরও জানুন&lt;/a&gt;</string>
+    <string name="str263b">কলে আপনার অবতারের মতো ক্যামেরা এফেক্ট ব্যবহার করুন৷ &lt;a href=\"%s\">আরও জানুন&lt;/a></string>
     <string name="str263c">ক্যামেরার এফেক্ট</string>
     <string name="str263d">WhatsApp ক্যামেরা</string>
     <string name="str263e">বাতিল করুন</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">অনেকবার চেষ্টা করেছেন। পরে আবার চেষ্টা করুন।</string>
     <string name="str26fe">কোনও আঙ্গুলের ছাপ নথিভুক্ত নেই।</string>
     <string name="str26ff">ব্যবহারকারী আঙ্গুলের ছাপ নেওয়ার অপারেশনটি বাতিল করেছেন।</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;আরও জানুন&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">আরও জানুন&lt;/a></string>
     <string name="str2701">বড়</string>
     <string name="str2702">মাঝারি</string>
     <string name="str2703">ছোট</string>
@@ -193,7 +193,7 @@
     <string name="str27c5">বছর বেছে নেওয়ার মোডে বদল করতে ট্যাপ করুন</string>
     <string name="str27d0">মিউট করা আপডেট</string>
     <string name="str27d1">আমার QR কোড</string>
-    <string name="str27e2">একটি নতুন গ্রুপ তৈরি করছেন? &lt;font color=#%s&gt;&lt;b&gt;কীভাবে তৈরি করবেন দেখুন&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">একটি নতুন গ্রুপ তৈরি করছেন? &lt;font color=#%s>&lt;b>কীভাবে তৈরি করবেন দেখুন&lt;/b>&lt;/font></string>
     <string name="str27e5">১ দিন</string>
     <string name="str27e6">ডিফল্ট অ্যাপ-সেটিংস (%s)</string>
     <string name="str27e7">১ মাস</string>
@@ -292,7 +292,7 @@
     <string name="str288b">প্রোফাইল</string>
     <string name="str288c">সেটিংস সংক্রান্ত কোনও ফলাফল পাওয়া যায়নি</string>
     <string name="str288d">স্টোরেজ এবং ব্যবহৃত ডেটা</string>
-    <string name="str2891">অচেনা নম্বর থেকে আসা কল সাইলেন্ট করা হবে। তবুও আপনার কল ট্যাবে এবং বিজ্ঞপ্তিতে এগুলি দেখানো হবে। &lt;a href=calling_privacy_help&gt;আরও জানুন&lt;/a&gt;</string>
+    <string name="str2891">অচেনা নম্বর থেকে আসা কল সাইলেন্ট করা হবে। তবুও আপনার কল ট্যাবে এবং বিজ্ঞপ্তিতে এগুলি দেখানো হবে। &lt;a href=calling_privacy_help>আরও জানুন&lt;/a></string>
     <string name="str2892">অচেনা কলারদের সাইলেন্ট করুন</string>
     <string name="str2893">এড়িয়ে যান</string>
     <string name="str2895">তারিখ অনুযায়ী বেছে নিন</string>

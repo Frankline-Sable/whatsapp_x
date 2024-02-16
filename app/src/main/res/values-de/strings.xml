@@ -151,11 +151,13 @@
     <string name="disableHiddenAccessSum">Klicken auf \"WhatsApp\" in der Kopfzeile wird nicht die verborgenen Chats anzeigen</string>
     <string name="disablestatus">Deaktiviere Status unter meinem Namen</string>
     <string name="disablestatusSum">Entfernt deine Statuszeile unter deinem Namen im Hauptbildschirm</string>
-    <string name="donateMe">Du findest die App nützlich?\10Unterstütze den Entwickler mit einer Spende!</string>
+    <string name="donateMe">"Du findest die App nützlich?
+Unterstütze den Entwickler mit einer Spende!"</string>
     <string name="donations__alert_dialog_no_browser">Kein Browser zum öffnen einer Website gefunden!</string>
     <string name="donations__alert_dialog_title">Ein Fehler ist aufgetreten</string>
     <string name="donations__button_close">Schließen</string>
-    <string name="donations__description">Du findest die App nützlich?\10Unterstütze den Entwickler mit einer Spende!</string>
+    <string name="donations__description">"Du findest die App nützlich?
+Unterstütze den Entwickler mit einer Spende!"</string>
     <string name="donations__flattr">Flattr</string>
     <string name="donations__flattr_description">Flattr nimmt eine Gebühr von 10%</string>
     <string name="donations__google_android_market">Google Play Store</string>
@@ -166,7 +168,8 @@
     <string name="donations__google_android_market_text">Wie viel?</string>
     <string name="donations__paypal">PayPal</string>
     <string name="donations__paypal_description">Du kannst entscheiden, wieviel Du spenden möchtest, nachdem Du den Knopf gedrückt hast!</string>
-    <string name="donations__thanks_dialog">Danke für die Spende!\10Ich weiß deine Unterstützung wirklich zu schätzen!</string>
+    <string name="donations__thanks_dialog">"Danke für die Spende!
+Ich weiß deine Unterstützung wirklich zu schätzen!"</string>
     <string name="donations__thanks_dialog_title">Danke!</string>
     <string name="elapsedT">Vergangene Zeit</string>
     <string name="elapsedTS">Verwende vergangene Zeit (zuletzt gesehen vor x Stunden X Minuten ) in WhatsApp, im Start- und Konversationsbildschirm!</string>
@@ -251,7 +254,7 @@
     <string name="quoteNameColor">Farbe des Namens des Zitierten</string>
     <string name="read_log_pref">Öffne Log</string>
     <string name="resetPrivacyonly">Aktuelles Thema behalten?</string>
-    <string name="resetPrivacyonlyS">\'Keep\': Behalte angewendetes Thema \'Reset\': Standart WhatsApp Farben/Thema</string>
+    <string name="resetPrivacyonlyS">"'Keep': Behalte angewendetes Thema 'Reset': Standart WhatsApp Farben/Thema"</string>
     <string name="resetThemes">Verwerfe Voreinstellungen</string>
     <string name="resetThemesSum">Stellt schwarze WhatsApp Standart Einstellungen ein</string>
     <string name="restoreTheme">Stelle Themes wieder her</string>
@@ -261,7 +264,7 @@
     <string name="saveTheme">Sichere Theme</string>
     <string name="saveThemeS">Sichere deine Einstellungen in (/Download/GBThemes)</string>
     <string name="selected_tabPagerTitle">Farbe der angewählten Überschrift</string>
-    <string name="selected_tabPagerTitleS">Ändere die Farbe der angewählten Überschrift in \'CHATS\', \'STATUS\', \'ANRUFE\'</string>
+    <string name="selected_tabPagerTitleS">"Ändere die Farbe der angewählten Überschrift in 'CHATS', 'STATUS', 'ANRUFE'"</string>
     <string name="showAirplaneMode">Flugzeug Modus</string>
     <string name="showAirplaneModeS">Stoppt den Empfang von Nachrichten, bis er ausgeschaltet wird</string>
     <string name="showNightMode">Zeige Tag/Nacht Modus</string>
@@ -283,7 +286,7 @@
     <string name="supportyo">Support</string>
     <string name="tabPagerIndicator">Farbe des Unterstriches des angewählten Tabs</string>
     <string name="tabPagerTitle">Farbe der Überschrift</string>
-    <string name="tabPagerTitleS">Ändere die Farbe von \'CHATS\', \'STATUS\', \'ANRUFE\'</string>
+    <string name="tabPagerTitleS">"Ändere die Farbe von 'CHATS', 'STATUS', 'ANRUFE'"</string>
     <string name="text_counter_color">Zählertext</string>
     <string name="text_counter_color_sum">Ändern Sie den Farbtext des Zählers</string>
     <string name="textcolormain">Ändere eine Farbe im kompletten Hauptbildschirm</string>
@@ -498,10 +501,6 @@
     <string name="yoversion">Basiert auf 2.19.230</string>
     <string name="yowaUpdate">Updates</string>
     <string name="yowa_widget">Widget</string>
-    <string name="donations__bitcoin">Bitcoin</string>
-    <string name="donations__bitcoin_description">Sende dem Entwickler eine beliebige Menge an Bitcoins. Drücke und halte den Knopf, um die Adresse zu kopieren.</string>
-    <string name="donations__bitcoin_send_bitcoin_button">Sende Bitcoins!</string>
-    <string name="donations__bitcoin_toast_copy">Bitcoin Addresse wurde zur Zwischenablage kopiert!</string>
     <string name="alex_CancelButton">Stornieren</string>
     <string name="alex_UpdateButton">Jetzt Aktualisieren</string>
     <string name="alex_UpdateTitle">Neues Update Verfügbar</string>
@@ -536,7 +535,7 @@
     <string name="str25d5">Anfrage senden</string>
     <string name="str25d6">Sprachsuche</string>
     <string name="str25d9">Minimieren</string>
-    <string name="str25db">Als Mitglied kannst du Gruppen innerhalb dieser Community sehen und ihnen beitreten. Außerdem bleibst du über Admin-Ankündigungen auf dem neuesten Stand. &lt;a href=\"%s\"&gt;Mehr erfahren&lt;/a&gt;</string>
+    <string name="str25db">Als Mitglied kannst du Gruppen innerhalb dieser Community sehen und ihnen beitreten. Außerdem bleibst du über Admin-Ankündigungen auf dem neuesten Stand. &lt;a href=\"%s\">Mehr erfahren&lt;/a></string>
     <string name="str25dc">Willkommen in der Community!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Konten konnten nicht gewechselt werden. Bitte versuche es später erneut.</string>
@@ -568,12 +567,12 @@
     <string name="str262c">‎%s kann dir keine Nachrichten mehr senden oder dich anrufen.</string>
     <string name="str262d">Unternehmensform</string>
     <string name="str262e">Unternehmensdetails</string>
-    <string name="str2636">Um deinen Standort besser zu verbergen, werden Anrufe auf diesem Gerät sicher über WhatsApp-Server geleitet. Das reduziert die Anrufqualität. &lt;a href=call_relaying_help&gt;Mehr erfahren&lt;/a&gt;</string>
+    <string name="str2636">Um deinen Standort besser zu verbergen, werden Anrufe auf diesem Gerät sicher über WhatsApp-Server geleitet. Das reduziert die Anrufqualität. &lt;a href=call_relaying_help>Mehr erfahren&lt;/a></string>
     <string name="str2637">IP-Adresse in Anrufen schützen</string>
     <string name="str2638">Anrufe</string>
     <string name="str2639">Füge eine Anruf-Verknüpfung für %s hinzu.</string>
     <string name="str263a">Anruf-Verknüpfung</string>
-    <string name="str263b">Nutze Kamera-Effekte wie deinen Avatar in Anrufen. &lt;a href=\"%s\"&gt;Mehr erfahren&lt;/a&gt;</string>
+    <string name="str263b">Nutze Kamera-Effekte wie deinen Avatar in Anrufen. &lt;a href=\"%s\">Mehr erfahren&lt;/a></string>
     <string name="str263c">Kamera-Effekte</string>
     <string name="str263d">WhatsApp-Kamera</string>
     <string name="str263e">Abbrechen</string>
@@ -650,7 +649,7 @@
     <string name="str26fd">Zu viele Versuche. Versuche es bitte später noch einmal.</string>
     <string name="str26fe">Keine Fingerabdrücke erfasst.</string>
     <string name="str26ff">Vorgang der Fingerabdruckauthentifizierung vom Nutzer abgebrochen.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Mehr erfahren&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Mehr erfahren&lt;/a></string>
     <string name="str2701">Groß</string>
     <string name="str2702">Mittel</string>
     <string name="str2703">Klein</string>
@@ -705,7 +704,7 @@
     <string name="str27c4">In den Texteingabemodus wechseln</string>
     <string name="str27c5">Tippen, um zur Jahresauswahl zu wechseln</string>
     <string name="str27d0">Stumme Meldungen</string>
-    <string name="str27e2">Neue Gruppe erstellen? &lt;font color=#%s&gt;&lt;b&gt;Anleitung&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Neue Gruppe erstellen? &lt;font color=#%s>&lt;b>Anleitung&lt;/b>&lt;/font></string>
     <string name="str27e5">1 Tag</string>
     <string name="str27e6">Standard-App-Einstellung (%s)</string>
     <string name="str27e7">1 Monat</string>
@@ -802,7 +801,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Keine Ergebnisse in Einstellungen gefunden</string>
     <string name="str288d">Speicher- und Datennutzung</string>
-    <string name="str2891">Anrufe von unbekannten Nummern werden stummgeschaltet. In deiner Anrufliste und deinen Benachrichtigungen werden sie trotzdem angezeigt. &lt;a href=calling_privacy_help&gt;Mehr erfahren&lt;/a&gt;</string>
+    <string name="str2891">Anrufe von unbekannten Nummern werden stummgeschaltet. In deiner Anrufliste und deinen Benachrichtigungen werden sie trotzdem angezeigt. &lt;a href=calling_privacy_help>Mehr erfahren&lt;/a></string>
     <string name="str2892">Anrufe von Unbekannt stummschalten</string>
     <string name="str2893">Überspringen</string>
     <string name="str2895">Nach Datum sortieren</string>
@@ -837,4 +836,8 @@
     <string name="str28dc">Ende-zu-Ende-verschlüsselt</string>
     <string name="str28dd">Beitreten</string>
     <string name="str28ec">Diese Webseite wird durch ein branchenübliches HTTPS-Sicherheitsprotokoll geschützt.</string>
+    <string name="donations__bitcoin">Bitcoin</string>
+    <string name="donations__bitcoin_description">Sende dem Entwickler eine beliebige Menge an Bitcoins. Drücke und halte den Knopf, um die Adresse zu kopieren.</string>
+    <string name="donations__bitcoin_send_bitcoin_button">Sende Bitcoins!</string>
+    <string name="donations__bitcoin_toast_copy">Bitcoin Addresse wurde zur Zwischenablage kopiert!</string>
 </resources>

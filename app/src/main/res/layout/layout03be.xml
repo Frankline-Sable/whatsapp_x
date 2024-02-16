@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.KeyboardPopupLayout android:id="@+id/cart" android:layout_width="match_parent" android:layout_height="match_parent">
-        <com.gbwhatsapp.WaImageButton android:id="@+id/cart_close_btn" style="@style/style029c"/>
-        <com.gbwhatsapp.WaTextView android:id="@+id/order_detail_title" android:text="@string/str25b3" android:layout_alignTop="@+id/cart_close_btn" android:layout_alignBottom="@+id/cart_close_btn" style="@style/style029d"/>
-        <View android:id="@+id/cart_title_divider" android:layout_below="@+id/cart_close_btn" style="@style/style031e"/>
-        <include layout="@layout/layout03bf"/>
-        <include layout="@layout/layout03c0"/>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.KeyboardPopupLayout android:id="@id/cart" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.gbwhatsapp.WaImageButton android:id="@id/cart_close_btn" style="@style/style029c" />
+        <com.gbwhatsapp.WaTextView android:id="@id/order_detail_title" android:text="@string/str25b3" android:layout_alignTop="@id/cart_close_btn" android:layout_alignBottom="@id/cart_close_btn" style="@style/style029d" />
+        <View android:id="@id/cart_title_divider" android:layout_below="@id/cart_close_btn" style="@style/style031e" />
+        <include layout="@layout/layout03bf" />
+        <include layout="@layout/layout03c0" />
     </com.gbwhatsapp.KeyboardPopupLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

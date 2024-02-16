@@ -23,7 +23,7 @@
     <string name="str25d5">Trimiteți interogarea</string>
     <string name="str25d6">Căutare vocală</string>
     <string name="str25d9">Restrângeți</string>
-    <string name="str25db">Membrii pot vedea și intra în grupurile care fac parte din comunitate și pot primi anunțurile adminilor. &lt;a href=\"%s\"&gt;Aflați mai multe&lt;/a&gt;</string>
+    <string name="str25db">Membrii pot vedea și intra în grupurile care fac parte din comunitate și pot primi anunțurile adminilor. &lt;a href=\"%s\">Aflați mai multe&lt;/a></string>
     <string name="str25dc">Bun venit în comunitate!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Nu s-a putut trece la alt cont. Reîncercați mai târziu.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s nu vă va mai putea trimite mesaje sau apela.</string>
     <string name="str262d">Tipul întreprinderii</string>
     <string name="str262e">Detalii întreprindere</string>
-    <string name="str2636">Pentru ca locația dvs. să nu poată fi aflată ușor, apelurile de pe acest dispozitiv vor trece în mod securizat prin serverele WhatsApp. Astfel, calitatea lor se va reduce. &lt;a href=call_relaying_help&gt;Aflați mai multe&lt;/a&gt;</string>
+    <string name="str2636">Pentru ca locația dvs. să nu poată fi aflată ușor, apelurile de pe acest dispozitiv vor trece în mod securizat prin serverele WhatsApp. Astfel, calitatea lor se va reduce. &lt;a href=call_relaying_help>Aflați mai multe&lt;/a></string>
     <string name="str2637">Protejați adresa IP în apeluri</string>
     <string name="str2638">Apeluri</string>
     <string name="str2639">Adăugați o scurtătură de apelare pentru %s.</string>
     <string name="str263a">Scurtătură de apelare</string>
-    <string name="str263b">Folosiți în apeluri efecte ale camerei, cum ar fi avatarul. &lt;a href=\"%s\"&gt;Aflați mai multe&lt;/a&gt;</string>
+    <string name="str263b">Folosiți în apeluri efecte ale camerei, cum ar fi avatarul. &lt;a href=\"%s\">Aflați mai multe&lt;/a></string>
     <string name="str263c">Efectele camerei</string>
     <string name="str263d">Cameră WhatsApp</string>
     <string name="str263e">Anulați</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Prea multe încercări. Încercați din nou mai târziu.</string>
     <string name="str26fe">Nu au fost înregistrate amprente digitale.</string>
     <string name="str26ff">Operațiunea privind amprenta a fost anulată de utilizator.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Aflați mai multe&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Aflați mai multe&lt;/a></string>
     <string name="str2701">Mare</string>
     <string name="str2702">Medie</string>
     <string name="str2703">Mică</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Comutați la modul de introducere a textului</string>
     <string name="str27c5">Atingeți pentru a comuta la selectarea unui an</string>
     <string name="str27d0">Actualizări dezactivate</string>
-    <string name="str27e2">Vreți să creați un grup nou? &lt;font color=#%s&gt;&lt;b&gt;Aflați cum&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Vreți să creați un grup nou? &lt;font color=#%s>&lt;b>Aflați cum&lt;/b>&lt;/font></string>
     <string name="str27e5">1 zi</string>
     <string name="str27e6">Perioada implicită (%s)</string>
     <string name="str27e7">1 lună</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Nu s-au găsit rezultate în setări</string>
     <string name="str288d">Utilizare spațiu și date</string>
-    <string name="str2891">Sunetul va fi oprit pentru apelurile de la numere necunoscute. Totuși, acestea vor fi afișate în fila Apeluri și în notificări. &lt;a href=calling_privacy_help&gt;Aflați mai multe&lt;/a&gt;</string>
+    <string name="str2891">Sunetul va fi oprit pentru apelurile de la numere necunoscute. Totuși, acestea vor fi afișate în fila Apeluri și în notificări. &lt;a href=calling_privacy_help>Aflați mai multe&lt;/a></string>
     <string name="str2892">Opriți sunetul pentru apelanții necunoscuți</string>
     <string name="str2893">Omiteți</string>
     <string name="str2895">Sortați după dată</string>

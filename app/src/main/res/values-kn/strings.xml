@@ -27,7 +27,7 @@
     <string name="str25d5">ಪ್ರಶ್ನೆಯನ್ನು ಸಲ್ಲಿಸಿ</string>
     <string name="str25d6">ಧ್ವನಿ ಹುಡುಕಾಟ</string>
     <string name="str25d9">ಕುಗ್ಗಿಸಿ</string>
-    <string name="str25db">ಸದಸ್ಯರಾಗಿ, ನೀವು ಕಮ್ಯೂನಿಟಿಯೊಳಗಿನ ಗ್ರೂಪ್‌ಗಳನ್ನು ನೋಡಬಹುದು ಹಾಗೂ ಸೇರಬಹುದು ಹಾಗೂ ಅಡ್ಮಿನ್‌ಗಳ ಪ್ರಕಟಣೆಗಳೊಂದಿಗೆ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತಿರಬಹುದು. &lt;a href=\"%s\"&gt;ಹೆಚ್ಚು ತಿಳಿಯಿರಿ&lt;/a&gt;</string>
+    <string name="str25db">ಸದಸ್ಯರಾಗಿ, ನೀವು ಕಮ್ಯೂನಿಟಿಯೊಳಗಿನ ಗ್ರೂಪ್‌ಗಳನ್ನು ನೋಡಬಹುದು ಹಾಗೂ ಸೇರಬಹುದು ಹಾಗೂ ಅಡ್ಮಿನ್‌ಗಳ ಪ್ರಕಟಣೆಗಳೊಂದಿಗೆ ಅಪ್‌ಡೇಟ್ ಆಗುತ್ತಿರಬಹುದು. &lt;a href=\"%s\">ಹೆಚ್ಚು ತಿಳಿಯಿರಿ&lt;/a></string>
     <string name="str25dc">ಕಮ್ಯೂನಿಟಿಗೆ ಸ್ವಾಗತ!</string>
     <string name="str25df">ಸರಿ</string>
     <string name="str25e0">ಖಾತೆಗಳನ್ನು ಬದಲಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ನಂತರ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ.</string>
@@ -67,12 +67,12 @@
     <string name="str262c">‎%s ಅವರು ಇನ್ನು ಮುಂದೆ ನಿಮಗೆ ಮೆಸೇಜ್ ಅಥವಾ ಕಾಲ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ.</string>
     <string name="str262d">ಬ್ಯುಸಿನೆಸ್ ವಿಧ</string>
     <string name="str262e">ವ್ಯವಹಾರ ವಿವರಗಳು</string>
-    <string name="str2636">ನಿಮ್ಮ ಲೊಕೇಶನ್‌ ಅನ್ನು ಊಹಿಸಲು ಜನರಿಗೆ ಕಷ್ಟವಾಗಿಸಲು, ಈ ಸಾಧನದಲ್ಲಿನ ಕಾಲ್‌ಗಳನ್ನು WhatsApp ಸರ್ವರ್‌ಗಳ ಮೂಲಕ ಸುರಕ್ಷಿತವಾಗಿ ಪ್ರಸಾರ ಮಾಡಲಾಗುತ್ತದೆ. ಇದು ಕಾಲ್‌ನ ಗುಣಮಟ್ಟವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ. &lt;a href=call_relaying_help&gt;ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ&lt;/a&gt;</string>
+    <string name="str2636">ನಿಮ್ಮ ಲೊಕೇಶನ್‌ ಅನ್ನು ಊಹಿಸಲು ಜನರಿಗೆ ಕಷ್ಟವಾಗಿಸಲು, ಈ ಸಾಧನದಲ್ಲಿನ ಕಾಲ್‌ಗಳನ್ನು WhatsApp ಸರ್ವರ್‌ಗಳ ಮೂಲಕ ಸುರಕ್ಷಿತವಾಗಿ ಪ್ರಸಾರ ಮಾಡಲಾಗುತ್ತದೆ. ಇದು ಕಾಲ್‌ನ ಗುಣಮಟ್ಟವನ್ನು ಕಡಿಮೆ ಮಾಡುತ್ತದೆ. &lt;a href=call_relaying_help>ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ&lt;/a></string>
     <string name="str2637">ಕಾಲ್‌ಗಳಲ್ಲಿನ IP ವಿಳಾಸವನ್ನು ರಕ್ಷಿಸಿ</string>
     <string name="str2638">ಕಾಲ್‌ಗಳು</string>
     <string name="str2639">‎%s ಗೆ ಕಾಲಿಂಗ್ ಶಾರ್ಟ್‌ಕಟ್ ಸೇರಿಸಿ.</string>
     <string name="str263a">ಕಾಲಿಂಗ್ ಶಾರ್ಟ್‌ಕಟ್</string>
-    <string name="str263b">ಕಾಲ್‌ಗಳಲ್ಲಿ ನಿಮ್ಮ ಅವತಾರ್‌ನಂತಹ ಕ್ಯಾಮರಾ ಎಫೆಕ್ಟ್‌ಗಳನ್ನು ಬಳಸಿ. &lt;a href=\"%s\"&gt;ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ&lt;/a&gt;</string>
+    <string name="str263b">ಕಾಲ್‌ಗಳಲ್ಲಿ ನಿಮ್ಮ ಅವತಾರ್‌ನಂತಹ ಕ್ಯಾಮರಾ ಎಫೆಕ್ಟ್‌ಗಳನ್ನು ಬಳಸಿ. &lt;a href=\"%s\">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ&lt;/a></string>
     <string name="str263c">ಕ್ಯಾಮರಾ ಎಫೆಕ್ಟ್‌ಗಳು</string>
     <string name="str263d">WhatsApp ಕ್ಯಾಮರಾ</string>
     <string name="str263e">ರದ್ದುಪಡಿಸಿ</string>
@@ -173,7 +173,7 @@
     <string name="str26fd">ಹಲವು ಬಾರಿ ಪ್ರಯತ್ನಿಸಿರುವಿರಿ ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ.</string>
     <string name="str26fe">ಯಾವುದೇ ಫಿಂಗರ್‌ಪ್ರಿಂಟ್‌ ಅನ್ನು ನೋಂದಣಿ ಮಾಡಿಲ್ಲ.</string>
     <string name="str26ff">ಬಳಕೆದಾರರು ಫಿಂಗರ್‌ಪ್ರಿಂಟ್ ಕಾರ್ಯಾಚರಣೆಯನ್ನು ರದ್ದುಪಡಿಸಿದ್ದಾರೆ.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ&lt;/a></string>
     <string name="str2701">ದೊಡ್ಡ</string>
     <string name="str2702">ಮಧ್ಯಮ</string>
     <string name="str2703">ಚಿಕ್ಕ</string>
@@ -237,7 +237,7 @@
     <string name="str27c5">ವರ್ಷವನ್ನು ಆಯ್ಕೆಗಾಗಿ ಬದಲಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ</string>
     <string name="str27d0">ಮ್ಯೂಟ್ ಮಾಡಿದ ಅಪ್‌ಡೇಟ್‌ಗಳು</string>
     <string name="str27d1">ನನ್ನ QR ಕೋಡ್</string>
-    <string name="str27e2">ಹೊಸ ಗ್ರೂಪ್ ರಚಿಸುತ್ತಿರುವಿರಾ? &lt;font color=#%s&gt;&lt;b&gt;ಹೇಗೆ ಎಂದು ನೋಡಿ&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">ಹೊಸ ಗ್ರೂಪ್ ರಚಿಸುತ್ತಿರುವಿರಾ? &lt;font color=#%s>&lt;b>ಹೇಗೆ ಎಂದು ನೋಡಿ&lt;/b>&lt;/font></string>
     <string name="str27e5">1 ದಿನ</string>
     <string name="str27e6">ಡೀಫಾಲ್ಟ್ ಆ್ಯಪ್-ಸೆಟ್ಟಿಂಗ್ (%s)</string>
     <string name="str27e7">1 ತಿಂಗಳು</string>
@@ -347,7 +347,7 @@
     <string name="str288c">ಸೆಟ್ಟಿಂಗ್ಸ್‌ ಫಲಿತಾಂಶಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
     <string name="str288d">ಸ್ಟೋರೇಜ್ ಮತ್ತು ಡೇಟಾ ಬಳಕೆ</string>
     <string name="str288e">ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಗೆ ಹೋಗಿ</string>
-    <string name="str2891">ಅಪರಿಚಿತ ನಂಬರ್‌ಗಳಿಂದ ಬರುವ ಕಾಲ್‌ಗಳನ್ನು ಮೌನಗೊಳಿಸಲಾಗುತ್ತದೆ. ಆದರೆ ಅವುಗಳನ್ನು ನಿಮ್ಮ ಕಾಲ್‌ಗಳ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಮತ್ತು ನೊಟಿಫಿಕೆಶನ್‌ಗಳಲ್ಲಿ ಇನ್ನೂ ತೋರಿಸಲಾಗುತ್ತದೆ. &lt;a href=calling_privacy_help&gt;ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ&lt;/a&gt;</string>
+    <string name="str2891">ಅಪರಿಚಿತ ನಂಬರ್‌ಗಳಿಂದ ಬರುವ ಕಾಲ್‌ಗಳನ್ನು ಮೌನಗೊಳಿಸಲಾಗುತ್ತದೆ. ಆದರೆ ಅವುಗಳನ್ನು ನಿಮ್ಮ ಕಾಲ್‌ಗಳ ಟ್ಯಾಬ್‌ನಲ್ಲಿ ಮತ್ತು ನೊಟಿಫಿಕೆಶನ್‌ಗಳಲ್ಲಿ ಇನ್ನೂ ತೋರಿಸಲಾಗುತ್ತದೆ. &lt;a href=calling_privacy_help>ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ&lt;/a></string>
     <string name="str2892">ಅಪರಿಚಿತ ಕಾಲರ್‌ಗಳನ್ನು ಮೌನಗೊಳಿಸಿ</string>
     <string name="str2893">ಸ್ಕಿಪ್‌ ಮಾಡಿ</string>
     <string name="str2895">ದಿನಾಂಕದಂತೆ ವಿಂಗಡಿಸಿ</string>

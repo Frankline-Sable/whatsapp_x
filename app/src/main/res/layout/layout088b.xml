@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/create_fun_stickers_container" android:layout_width="match_parent" android:layout_height="@dimen/dimen04f3">
-    <include android:layout_gravity="center" android:layout_width="@dimen/dimen04f2" android:layout_height="@dimen/dimen04f2" layout="@layout/layout02e5"/>
+<FrameLayout android:id="@id/create_fun_stickers_container" android:layout_width="fill_parent" android:layout_height="@dimen/dimen04f3"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center" android:layout_width="@dimen/dimen04f2" android:layout_height="@dimen/dimen04f2" layout="@layout/layout02e5" />
 </FrameLayout>

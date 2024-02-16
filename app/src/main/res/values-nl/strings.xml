@@ -23,7 +23,7 @@
     <string name="str25d5">Zoekopdracht verzenden</string>
     <string name="str25d6">Gesproken zoekopdracht</string>
     <string name="str25d9">Samenvouwen</string>
-    <string name="str25db">Als lid kunt u groepen in deze community zien en eraan deelnemen, en op de hoogte blijven via beheerdersaankondigingen. &lt;a href=\"%s\"&gt;Meer informatie&lt;/a&gt;</string>
+    <string name="str25db">Als lid kunt u groepen in deze community zien en eraan deelnemen, en op de hoogte blijven via beheerdersaankondigingen. &lt;a href=\"%s\">Meer informatie&lt;/a></string>
     <string name="str25dc">Welkom bij de community</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Kan niet van account wisselen. Probeer het later opnieuw.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s kan u geen berichten meer verzenden en niet meer bellen.</string>
     <string name="str262d">Type bedrijf</string>
     <string name="str262e">Bedrijfsgegevens</string>
-    <string name="str2636">Om het moeilijker te maken voor mensen om uw locatie af te leiden, worden oproepen vanaf dit apparaat veilig omgeleid via WhatsApp-servers. Hierdoor zal de oproepkwaliteit afnemen. &lt;a href=call_relaying_help&gt;Meer informatie&lt;/a&gt;</string>
+    <string name="str2636">Om het moeilijker te maken voor mensen om uw locatie af te leiden, worden oproepen vanaf dit apparaat veilig omgeleid via WhatsApp-servers. Hierdoor zal de oproepkwaliteit afnemen. &lt;a href=call_relaying_help>Meer informatie&lt;/a></string>
     <string name="str2637">IP-adressen in oproepen beschermen</string>
     <string name="str2638">Oproepen</string>
     <string name="str2639">Voeg een sneltoets toe om %s te bellen.</string>
     <string name="str263a">Sneltoets voor bellen</string>
-    <string name="str263b">Gebruik camera-effecten zoals uw avatar tijdens oproepen. &lt;a href=\"%s\"&gt;Meer informatie&lt;/a&gt;</string>
+    <string name="str263b">Gebruik camera-effecten zoals uw avatar tijdens oproepen. &lt;a href=\"%s\">Meer informatie&lt;/a></string>
     <string name="str263c">Camera-effecten</string>
     <string name="str263d">WhatsApp-camera</string>
     <string name="str263e">Annuleren</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Te veel pogingen. Probeer het later opnieuw.</string>
     <string name="str26fe">Geen vingerafdrukken geregistreerd.</string>
     <string name="str26ff">Vingerafdrukverificatie geannuleerd door gebruiker.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Meer informatie&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Meer informatie&lt;/a></string>
     <string name="str2701">Groot</string>
     <string name="str2702">Gemiddeld</string>
     <string name="str2703">Klein</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Overschakelen naar tekstinvoermodus</string>
     <string name="str27c5">Tik om naar jaarselectie te schakelen</string>
     <string name="str27d0">Gedempte statusupdates</string>
-    <string name="str27e2">Nieuwe groep maken? &lt;font color=#%s&gt;&lt;b&gt;Bekijk hoe&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Nieuwe groep maken? &lt;font color=#%s>&lt;b>Bekijk hoe&lt;/b>&lt;/font></string>
     <string name="str27e5">1 dag</string>
     <string name="str27e6">Standaard app-instelling (%s)</string>
     <string name="str27e7">1 maand</string>
@@ -227,9 +227,9 @@
     <string name="str282a">U kunt alleen de stemmen zien die zijn uitgebracht voordat u de groep hebt verlaten.</string>
     <string name="str282b">Pop-up altijd weergeven</string>
     <string name="str282c">Geen pop-up</string>
-    <string name="str282d">Alleen wanneer het scherm \'uit\' is</string>
-    <string name="str282e">Alleen wanneer het scherm \'aan\' is</string>
-    <string name="str2831">\'%1$s\' is gekopieerd naar het klembord.</string>
+    <string name="str282d">"Alleen wanneer het scherm 'uit' is"</string>
+    <string name="str282e">"Alleen wanneer het scherm 'aan' is"</string>
+    <string name="str2831">"'%1$s' is gekopieerd naar het klembord."</string>
     <string name="str2834">Meer details bekijken</string>
     <string name="str2836">Profielfoto</string>
     <string name="str2837">Info</string>
@@ -255,7 +255,7 @@
     <string name="str2869">Audio</string>
     <string name="str286a">Documenten</string>
     <string name="str286b">Afbeeldingen</string>
-    <string name="str286c">Video\'s</string>
+    <string name="str286c">"Video's"</string>
     <string name="str286d">Oproepen</string>
     <string name="str286e">Beltoon</string>
     <string name="str286f">Een beltoon kiezen voor inkomende WhatsApp-oproepen.</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profiel</string>
     <string name="str288c">Geen instellingsresultaten gevonden</string>
     <string name="str288d">Opslag- en datagebruik</string>
-    <string name="str2891">Oproepen van onbekende nummers worden stilgehouden. Ze verschijnen nog wel in het tabblad Oproepen en in uw meldingen. &lt;a href=calling_privacy_help&gt;Meer informatie&lt;/a&gt;</string>
+    <string name="str2891">Oproepen van onbekende nummers worden stilgehouden. Ze verschijnen nog wel in het tabblad Oproepen en in uw meldingen. &lt;a href=calling_privacy_help>Meer informatie&lt;/a></string>
     <string name="str2892">Onbekende bellers stilhouden</string>
     <string name="str2893">Overslaan</string>
     <string name="str2895">Op datum sorteren</string>

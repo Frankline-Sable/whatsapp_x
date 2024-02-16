@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.PagerSlidingTabStrip xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/attr01bb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="?attr/attr000f" android:elevation="4dp" app:attr0713="@color/color0b5a" app:attr0714="?attr/attr0493" app:attr0715="4dp" app:attr088d="@color/color0db2"/>
+<com.gbwhatsapp.PagerSlidingTabStrip android:background="?attr01bb" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="?attr000f" android:elevation="4.0dip" app:attr0713="@color/color0b5a" app:attr0714="?attr0493" app:attr0715="4.0dip" app:attr088d="@color/color0db2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

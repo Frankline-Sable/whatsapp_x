@@ -23,7 +23,7 @@
     <string name="str25d5">Odeslat dotaz</string>
     <string name="str25d6">Hlasové vyhledávání</string>
     <string name="str25d9">Sbalit</string>
-    <string name="str25db">Členové komunity si mohou zobrazit skupiny, které komunita obsahuje, a také se k nim připojit. Správci daných skupin s nimi pak mohou sdílet aktuální informace a oznámení. &lt;a href=\"%s\"&gt;Další informace&lt;/a&gt;</string>
+    <string name="str25db">Členové komunity si mohou zobrazit skupiny, které komunita obsahuje, a také se k nim připojit. Správci daných skupin s nimi pak mohou sdílet aktuální informace a oznámení. &lt;a href=\"%s\">Další informace&lt;/a></string>
     <string name="str25dc">Vítejte v komunitě!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Účty se nepodařilo přepnout. Zkuste to znovu později.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s vám už nebude moct volat ani odesílat zprávy.</string>
     <string name="str262d">Typ společnosti</string>
     <string name="str262e">Detaily společnosti</string>
-    <string name="str2636">Hovory z tohoto zařízení budou bezpečně přenášeny přes servery WhatsApp, aby bylo obtížné zjistit vaši polohu. Tím se sníží kvalita hovorů. &lt;a href=call_relaying_help&gt;Další informace&lt;/a&gt;</string>
+    <string name="str2636">Hovory z tohoto zařízení budou bezpečně přenášeny přes servery WhatsApp, aby bylo obtížné zjistit vaši polohu. Tím se sníží kvalita hovorů. &lt;a href=call_relaying_help>Další informace&lt;/a></string>
     <string name="str2637">Chránit IP adresu během hovorů</string>
     <string name="str2638">Hovory</string>
     <string name="str2639">Vytvořte zástupce pro volání uživateli %s.</string>
     <string name="str263a">Zástupce pro volání</string>
-    <string name="str263b">Vyzkoušejte při hovorech vizuální efekty, například svého avatara. &lt;a href=\"%s\"&gt;Další informace&lt;/a&gt;</string>
+    <string name="str263b">Vyzkoušejte při hovorech vizuální efekty, například svého avatara. &lt;a href=\"%s\">Další informace&lt;/a></string>
     <string name="str263c">Vizuální efekty</string>
     <string name="str263d">Fotoaparát aplikace WhatsApp</string>
     <string name="str263e">Zrušit</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Příliš mnoho pokusů. Zkuste to později.</string>
     <string name="str26fe">Nejsou zaregistrovány žádné otisky prstů.</string>
     <string name="str26ff">Uživatel operaci s otiskem prstu zrušil.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Další informace&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Další informace&lt;/a></string>
     <string name="str2701">Velké</string>
     <string name="str2702">Střední</string>
     <string name="str2703">Malé</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Přepnout na režim zadávání textu</string>
     <string name="str27c5">Klepnutím přepnete na výběr roku</string>
     <string name="str27d0">Zastavené aktualizace</string>
-    <string name="str27e2">Chystáte se vytvořit novou skupinu? &lt;font color=#%s&gt;&lt;b&gt;Podívejte se jak.&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Chystáte se vytvořit novou skupinu? &lt;font color=#%s>&lt;b>Podívejte se jak.&lt;/b>&lt;/font></string>
     <string name="str27e5">1 den</string>
     <string name="str27e6">Výchozí nastavení aplikace (%s)</string>
     <string name="str27e7">1 měsíc</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">V nastaveních nebyly nalezeny žádné výsledky.</string>
     <string name="str288d">Úložiště a využití dat</string>
-    <string name="str2891">Hovory z neznámých čísel budou ztišeny. Nadále se však budou zobrazovat na záložce Hovory a v oznámeních. &lt;a href=calling_privacy_help&gt;Další informace&lt;/a&gt;</string>
+    <string name="str2891">Hovory z neznámých čísel budou ztišeny. Nadále se však budou zobrazovat na záložce Hovory a v oznámeních. &lt;a href=calling_privacy_help>Další informace&lt;/a></string>
     <string name="str2892">Ztišit hovory od neznámých volajících</string>
     <string name="str2893">Přeskočit</string>
     <string name="str2895">Seřadit podle data</string>

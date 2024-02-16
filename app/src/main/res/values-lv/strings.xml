@@ -23,7 +23,7 @@
     <string name="str25d5">Iesniegt vaicājumu</string>
     <string name="str25d6">Meklēt ar balsi</string>
     <string name="str25d9">Sakļaut</string>
-    <string name="str25db">Kā dalībnieks jūs varat pievienoties grupām šajā kopienā un uzzināt jaunumus ar administratoru paziņojumiem. &lt;a href=\"%s\"&gt;Uzzināt vairāk&lt;/a&gt;</string>
+    <string name="str25db">Kā dalībnieks jūs varat pievienoties grupām šajā kopienā un uzzināt jaunumus ar administratoru paziņojumiem. &lt;a href=\"%s\">Uzzināt vairāk&lt;/a></string>
     <string name="str25dc">Laipni lūdzam kopienā!</string>
     <string name="str25df">Labi</string>
     <string name="str25e0">Kontus nevarēja pārslēgt. Vēlāk mēģiniet vēlreiz.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s vairs nevarēs jums nosūtīt ziņu vai piezvanīt.</string>
     <string name="str262d">Uzņēmējdarbības veids</string>
     <string name="str262e">Uzņēmuma informācija</string>
-    <string name="str2636">Lai citi nevarētu secināt jūsu atrašanās vietu, zvani šajā ierīcē tiks droši pārraidīti caur WhatsApp serveriem. Tas pazeminās zvanu kvalitāti. &lt;a href=call_relaying_help&gt;Uzzināt vairāk&lt;/a&gt;</string>
+    <string name="str2636">Lai citi nevarētu secināt jūsu atrašanās vietu, zvani šajā ierīcē tiks droši pārraidīti caur WhatsApp serveriem. Tas pazeminās zvanu kvalitāti. &lt;a href=call_relaying_help>Uzzināt vairāk&lt;/a></string>
     <string name="str2637">Aizsargāt IP adresi zvanu laikā</string>
     <string name="str2638">Zvani</string>
     <string name="str2639">Pievienojiet zvanīšanas saīsni lietotājam %s.</string>
     <string name="str263a">Zvanīšanas saīsne</string>
-    <string name="str263b">Zvanu laikā izmantojiet tādus kameras efektus kā avatāru. &lt;a href=\"%s\"&gt;Uzzināt vairāk&lt;/a&gt;</string>
+    <string name="str263b">Zvanu laikā izmantojiet tādus kameras efektus kā avatāru. &lt;a href=\"%s\">Uzzināt vairāk&lt;/a></string>
     <string name="str263c">Kameras efekti</string>
     <string name="str263d">WhatsApp kamera</string>
     <string name="str263e">Atcelt</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Pārāk daudz mēģinājumu. Lūdzu, vēlāk mēģiniet vēlreiz.</string>
     <string name="str26fe">Nav reģistrēts neviens pirksta nospiedums.</string>
     <string name="str26ff">Lietotājs atcēla pirksta nospieduma darbību.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Uzzināt vairāk&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Uzzināt vairāk&lt;/a></string>
     <string name="str2701">Liels</string>
     <string name="str2702">Vidējs</string>
     <string name="str2703">Mazs</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Pārslēgties uz teksta ievades režīmu</string>
     <string name="str27c5">Pieskarties, lai pārslēgtos uz gada atlasīšanu</string>
     <string name="str27d0">Apklusinātie atjauninājumi</string>
-    <string name="str27e2">Vai izveidojat jaunu grupu? &lt;font color=#%s&gt;&lt;b&gt;Skatīt, kā&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Vai izveidojat jaunu grupu? &lt;font color=#%s>&lt;b>Skatīt, kā&lt;/b>&lt;/font></string>
     <string name="str27e5">1 diena</string>
     <string name="str27e6">Noklusējuma lietotnes iestatījums (%s)</string>
     <string name="str27e7">1 mēnesis</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profils</string>
     <string name="str288c">Iestatījumos nav atrasti rezultāti</string>
     <string name="str288d">Krātuve un datu lietojums</string>
-    <string name="str2891">Zvani no nezināmiem numuriem tiks apklusināti. Tie joprojām būs redzami cilnē Zvani, kā arī paziņojumu sadaļā. &lt;a href=calling_privacy_help&gt;Uzzināt vairāk&lt;/a&gt;</string>
+    <string name="str2891">Zvani no nezināmiem numuriem tiks apklusināti. Tie joprojām būs redzami cilnē Zvani, kā arī paziņojumu sadaļā. &lt;a href=calling_privacy_help>Uzzināt vairāk&lt;/a></string>
     <string name="str2892">Apklusināt nezināmus zvanītājus</string>
     <string name="str2893">Izlaist</string>
     <string name="str2895">Kārtot pēc datuma</string>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:icon="@drawable/ic_shopping_cart" android:id="@+id/menu_cart" android:title="@string/str2645" app:attr07ed="1"/>
-    <item android:icon="@drawable/ic_action_forward" android:id="@+id/menu_forward" android:title="@string/str2644"/>
-    <item android:icon="@drawable/ic_invite_link" android:id="@+id/menu_share" android:title="@string/str2649"/>
-    <item android:icon="@drawable/ic_action_forward" android:id="@+id/menu_more_info" android:title="@string/str2697"/>
-    <item android:id="@+id/menu_report" android:title="@string/str2647" app:attr07ed="0"/>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_shopping_cart" android:id="@id/menu_cart" android:title="@string/str2645" app:attr07ed="ifRoom" />
+    <item android:icon="@drawable/ic_action_forward" android:id="@id/menu_forward" android:title="@string/str2644" />
+    <item android:icon="@drawable/ic_invite_link" android:id="@id/menu_share" android:title="@string/str2649" />
+    <item android:icon="@drawable/ic_action_forward" android:id="@id/menu_more_info" android:title="@string/str2697" />
+    <item android:id="@id/menu_report" android:title="@string/str2647" app:attr07ed="never" />
 </menu>

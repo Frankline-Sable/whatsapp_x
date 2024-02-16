@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <padding android:top="@dimen/dimen07fb" android:bottom="@dimen/dimen07fb"/>
-    <size android:width="@dimen/dimen07fc"/>
-    <solid android:color="?attr/attr01bb"/>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <padding android:top="@dimen/dimen07fb" android:bottom="@dimen/dimen07fb" />
+    <size android:width="@dimen/dimen07fc" />
+    <solid android:color="?attr01bb" />
 </shape>

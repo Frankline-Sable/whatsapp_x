@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <LinearLayout android:orientation="vertical" android:id="@+id/newsletter_follower_list_footer_text_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <View android:background="@color/color028a" android:layout_width="match_parent" android:layout_height="0.5dp"/>
-        <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0a73" android:gravity="center" android:id="@+id/newsletter_followers_footer_text" android:background="?attr/attr06f8" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str13c9"/>
-        <View android:id="@+id/list_bottom_shadow" style="@style/style0259"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/newsletter_follower_list_footer_text_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/color028a" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/color0a73" android:gravity="center" android:id="@id/newsletter_followers_footer_text" android:background="?attr06f8" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str13c9" />
+        <View android:id="@id/list_bottom_shadow" style="@style/style0259" />
     </LinearLayout>
-    <com.gbwhatsapp.InfoCard android:id="@+id/unfollow_and_report_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" style="@style/style023c">
-        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@+id/delete_newsletter_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_action_delete" app:attr056a="@color/color0a45" app:attr056c="@string/str0a04" app:attr056d="@color/color0a45"/>
-        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@+id/unfollow_newsletter_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_exit_group" app:attr056a="@color/color0a45" app:attr056c="@string/str21b4" app:attr056d="@color/color0a45"/>
-        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@+id/report_contact_btn" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_spam_report" app:attr056a="@color/color0a45" app:attr056b="false" app:attr056c="@string/str1bd1" app:attr056d="@color/color0a45"/>
+    <com.gbwhatsapp.InfoCard android:id="@id/unfollow_and_report_card" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr049e="?attr06f8" style="@style/style023c">
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/delete_newsletter_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_action_delete" app:attr056a="@color/color0a45" app:attr056c="@string/str0a04" app:attr056d="@color/color0a45" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/unfollow_newsletter_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_exit_group" app:attr056a="@color/color0a45" app:attr056c="@string/str21b4" app:attr056d="@color/color0a45" />
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@id/report_contact_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_spam_report" app:attr056a="@color/color0a45" app:attr056b="false" app:attr056c="@string/str1bd1" app:attr056d="@color/color0a45" />
     </com.gbwhatsapp.InfoCard>
 </LinearLayout>

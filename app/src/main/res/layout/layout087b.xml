@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="@drawable/lonely_state_bg" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/contact_photo" android:layout_width="@dimen/dimen06b8" android:layout_height="@dimen/dimen06b8" android:layout_margin="@dimen/dimen06b7"/>
-    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen06bc" android:textColor="@color/color0db2" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str24c9"/>
-    <include layout="@layout/layout0540"/>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/lonely_state_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@id/contact_photo" android:layout_width="@dimen/dimen06b8" android:layout_height="@dimen/dimen06b8" android:layout_margin="@dimen/dimen06b7" />
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen06bc" android:textColor="@color/color0db2" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str24c9" />
+    <include layout="@layout/layout0540" />
 </LinearLayout>

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:state_pressed="true" android:color="?attr/attr01af" android:alpha="@dimen/dimen08b9"/>
-    <item android:state_focused="true" android:color="?attr/attr01af" android:alpha="@dimen/dimen08b7" android:state_hovered="true"/>
-    <item android:state_focused="true" android:color="?attr/attr01af" android:alpha="@dimen/dimen08b7"/>
-    <item android:color="?attr/attr01af" android:alpha="@dimen/dimen08b8" android:state_hovered="true"/>
-    <item android:color="?attr/attr01af" android:alpha="@dimen/dimen08b6"/>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" android:color="?attr01af" android:alpha="@dimen/dimen08b9" />
+    <item android:state_focused="true" android:color="?attr01af" android:alpha="@dimen/dimen08b7" android:state_hovered="true" />
+    <item android:state_focused="true" android:color="?attr01af" android:alpha="@dimen/dimen08b7" />
+    <item android:color="?attr01af" android:alpha="@dimen/dimen08b8" android:state_hovered="true" />
+    <item android:color="?attr01af" android:alpha="@dimen/dimen08b6" />
 </selector>

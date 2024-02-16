@@ -23,7 +23,7 @@
     <string name="str25d5">So‘rov yaratish</string>
     <string name="str25d6">Ovozli qidiruv</string>
     <string name="str25d9">Yig‘ish</string>
-    <string name="str25db">Siz aʼzo sifatida ushbu hamjamiyatdagi guruhlarni koʻrishingiz va qoʻshilishingiz hamda admin eʼlonlaridan xabardor boʻlishingiz mumkin. &lt;a href=\"%s\"&gt;Batafsil&lt;/a&gt;</string>
+    <string name="str25db">Siz aʼzo sifatida ushbu hamjamiyatdagi guruhlarni koʻrishingiz va qoʻshilishingiz hamda admin eʼlonlaridan xabardor boʻlishingiz mumkin. &lt;a href=\"%s\">Batafsil&lt;/a></string>
     <string name="str25dc">Hamjamiyatga xush kelibsiz!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Hisoblar almashtirilmadi. Keyinroq qayta urining.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s endi sizga xabar yoza olmaydi yoki chaqiruv qila olmaydi.</string>
     <string name="str262d">Biznes turi</string>
     <string name="str262e">Biznes haqida</string>
-    <string name="str2636">Odamlar joylashuvingizni aniqlashi qiyin boʻlishi uchun ushbu qurilmadagi chaqiruvlar WhatsApp serverlari orqali xavfsiz tarzda uzatiladi. Bunda chaqiruv sifati pasayadi. &lt;a href=call_relaying_help&gt;Batafsil&lt;/a&gt;</string>
+    <string name="str2636">Odamlar joylashuvingizni aniqlashi qiyin boʻlishi uchun ushbu qurilmadagi chaqiruvlar WhatsApp serverlari orqali xavfsiz tarzda uzatiladi. Bunda chaqiruv sifati pasayadi. &lt;a href=call_relaying_help>Batafsil&lt;/a></string>
     <string name="str2637">Chaqiruvlarda IP manzilni himoyalash</string>
     <string name="str2638">Chaqiruvlar</string>
     <string name="str2639">‎%s uchun chaqiruv yorligʻi qoʻshish.</string>
     <string name="str263a">Chaqiruv yorligʻi</string>
-    <string name="str263b">Chaqiruvlarda avataringiz kabi kamera effektlaridan foydalaning. &lt;a href=\"%s\"&gt;Batafsil&lt;/a&gt;</string>
+    <string name="str263b">Chaqiruvlarda avataringiz kabi kamera effektlaridan foydalaning. &lt;a href=\"%s\">Batafsil&lt;/a></string>
     <string name="str263c">Kamera effektlari</string>
     <string name="str263d">WhatsApp kamerasi</string>
     <string name="str263e">Bekor qilish</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Juda koʻp urinish amalga oshirildi. Keyinroq qaytadan urining.</string>
     <string name="str26fe">Hech qanday barmoq izi qayd qilinmagan.</string>
     <string name="str26ff">Barmoq izi amali foydalanuvchi tomonidan bekor qilindi</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Batafsil&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Batafsil&lt;/a></string>
     <string name="str2701">Katta</string>
     <string name="str2702">O‘rtacha</string>
     <string name="str2703">Kichkina</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Matn kiritish rejimiga oʻtish</string>
     <string name="str27c5">Yilni tanlash uchun bosing</string>
     <string name="str27d0">Sukut qilingan yangilanishlar</string>
-    <string name="str27e2">Yangi guruh yaratyapsizmi? &lt;font color=#%s&gt;&lt;b&gt;Qanday yaratishni koʻring&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Yangi guruh yaratyapsizmi? &lt;font color=#%s>&lt;b>Qanday yaratishni koʻring&lt;/b>&lt;/font></string>
     <string name="str27e5">1 kun</string>
     <string name="str27e6">Birlamchi ilova sozlamasi (%s)</string>
     <string name="str27e7">1 oy</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Hech qanday sozlamalar natijasi topilmadi</string>
     <string name="str288d">Xotira va maʼlumotlardan foydalanish</string>
-    <string name="str2891">Notanish raqamlardan chaqiruvlar sukut qilinadi. Ular shunda ham Chaqiruvlar sahifasi va bildirishnomalaringizda chiqariladi. &lt;a href=calling_privacy_help&gt;Batafsil&lt;/a&gt;</string>
+    <string name="str2891">Notanish raqamlardan chaqiruvlar sukut qilinadi. Ular shunda ham Chaqiruvlar sahifasi va bildirishnomalaringizda chiqariladi. &lt;a href=calling_privacy_help>Batafsil&lt;/a></string>
     <string name="str2892">Notanish chaqiruvchilarni sukut qilish</string>
     <string name="str2893">O‘tkazib yub-sh</string>
     <string name="str2895">Sana bo‘yicha saralash</string>

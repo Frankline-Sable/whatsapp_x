@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/camera_root_view" android:background="@color/color0a09" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no">
-    <FrameLayout android:id="@+id/camera_and_video_preview_holder" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no">
-        <FrameLayout android:id="@+id/camera_view_holder" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no"/>
-        <com.gbwhatsapp.ptv.SelfieCameraPlaceholder android:id="@+id/camera_protection" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no"/>
-        <FrameLayout android:id="@+id/camera_overlays_holder" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no"/>
-        <FrameLayout android:id="@+id/preview_view_holder" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="yes"/>
+<FrameLayout android:id="@id/camera_root_view" android:background="@color/color0a09" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/camera_and_video_preview_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no">
+        <FrameLayout android:id="@id/camera_view_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        <com.gbwhatsapp.ptv.SelfieCameraPlaceholder android:id="@id/camera_protection" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        <FrameLayout android:id="@id/camera_overlays_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+        <FrameLayout android:id="@id/preview_view_holder" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="yes" />
     </FrameLayout>
-    <ViewStub android:layout_gravity="center" android:id="@+id/play_btn" android:layout="@layout/layout06ba" android:inflatedId="@+id/play_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no"/>
+    <ViewStub android:layout_gravity="center" android:id="@id/play_btn" android:layout="@layout/layout06ba" android:inflatedId="@id/play_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:importantForAccessibility="no" />
 </FrameLayout>

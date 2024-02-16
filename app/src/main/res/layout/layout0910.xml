@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/search_view_toolbar" android:layout_width="match_parent" android:layout_height="@dimen/dimen0df2" app:attr01f5="0dp" app:attr0923="0" style="@style/style05c7">
-    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <EditText android:textAppearance="@style/style05df" android:id="@+id/search_view_edit_text" android:background="@null" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:inputType="textNoSuggestions" android:imeOptions="actionUnspecified|actionNone|actionGo|actionSearch|flagNoExtractUi" android:textDirection="firstStrong"/>
-        <ImageButton android:id="@+id/search_view_clear_button" android:background="?attr/attr000d" android:padding="@dimen/dimen0dfc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vec_ic_search_clear" android:contentDescription="@string/str2856"/>
+<androidx.appcompat.widget.Toolbar android:id="@id/search_view_toolbar" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0df2" app:attr01f5="0.0dip" app:attr0923="androidx" style="@style/style05c7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:textAppearance="@style/style05df" android:id="@id/search_view_edit_text" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" android:inputType="textNoSuggestions" android:imeOptions="actionSearch|flagNoExtractUi" android:textDirection="firstStrong" />
+        <ImageButton android:id="@id/search_view_clear_button" android:background="?attr000d" android:padding="@dimen/dimen0dfc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vec_ic_search_clear" android:contentDescription="@string/str2856" />
     </LinearLayout>
 </androidx.appcompat.widget.Toolbar>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <com.gbwhatsapp.WaTextView android:id="@+id/dialpad_button_number" style="@style/style01cd"/>
-    <com.gbwhatsapp.WaTextView android:id="@+id/dialpad_button_letters" style="@style/style01cc"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:id="@id/dialpad_button_number" style="@style/style01cd" />
+    <com.gbwhatsapp.WaTextView android:id="@id/dialpad_button_letters" style="@style/style01cc" />
 </merge>

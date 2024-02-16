@@ -23,7 +23,7 @@
     <string name="str25d5">Υποβολή ερωτήματος</string>
     <string name="str25d6">Φωνητική αναζήτηση</string>
     <string name="str25d9">Σύμπτυξη</string>
-    <string name="str25db">Ως μέλος, μπορείτε να δείτε και να συμμετέχετε σε ομάδες σε αυτήν την κοινότητα και να ενημερώνεστε από τις ανακοινώσεις διαχειριστών. &lt;a href=\"%s\"&gt;Μάθετε περισσότερα&lt;/a&gt;</string>
+    <string name="str25db">Ως μέλος, μπορείτε να δείτε και να συμμετέχετε σε ομάδες σε αυτήν την κοινότητα και να ενημερώνεστε από τις ανακοινώσεις διαχειριστών. &lt;a href=\"%s\">Μάθετε περισσότερα&lt;/a></string>
     <string name="str25dc">Καλώς ήρθατε στην κοινότητα!</string>
     <string name="str25df">ΟΚ</string>
     <string name="str25e0">Η εναλλαγή λογαριασμών απέτυχε. Δοκιμάστε ξανά αργότερα.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">Ο χρήστης %s δε θα μπορεί πλέον να σας στέλνει μηνύματα ή να σας καλεί.</string>
     <string name="str262d">Τύπος επιχείρησης</string>
     <string name="str262e">Επαγγελματικές Λεπτομέρειες</string>
-    <string name="str2636">Για να δυσκολευτούν άτομα να καταλάβουν την τοποθεσία σας, οι κλήσεις που πραγματοποιούνται από αυτήν τη συσκευή θα μεταφέρονται με ασφάλεια μέσω των διακομιστών του WhatsApp. Αυτό θα μειώσει την ποιότητα της κλήσης. &lt;a href=call_relaying_help&gt;Μάθετε περισσότερα&lt;/a&gt;</string>
+    <string name="str2636">Για να δυσκολευτούν άτομα να καταλάβουν την τοποθεσία σας, οι κλήσεις που πραγματοποιούνται από αυτήν τη συσκευή θα μεταφέρονται με ασφάλεια μέσω των διακομιστών του WhatsApp. Αυτό θα μειώσει την ποιότητα της κλήσης. &lt;a href=call_relaying_help>Μάθετε περισσότερα&lt;/a></string>
     <string name="str2637">Προστασία διεύθυνσης IP σε κλήσεις</string>
     <string name="str2638">Κλήσεις</string>
     <string name="str2639">Προσθέστε συντόμευσης κλήσης για %s.</string>
     <string name="str263a">Συντόμευση κλήσης</string>
-    <string name="str263b">Χρησιμοποιήστε εφέ κάμερας όπως το άβατάρ σας στις κλήσεις. &lt;a href=\"%s\"&gt;Μάθετε περισσότερα&lt;/a&gt;</string>
+    <string name="str263b">Χρησιμοποιήστε εφέ κάμερας όπως το άβατάρ σας στις κλήσεις. &lt;a href=\"%s\">Μάθετε περισσότερα&lt;/a></string>
     <string name="str263c">Εφέ κάμερας</string>
     <string name="str263d">WhatsApp Κάμερα</string>
     <string name="str263e">Ακύρωση</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Υπερβολικά πολλές προσπάθειες. Δοκιμάστε ξανά αργότερα.</string>
     <string name="str26fe">Δεν έχουν καταχωριστεί δακτυλικά αποτυπώματα.</string>
     <string name="str26ff">Η λειτουργία δακτυλικού αποτυπώματος ακυρώθηκε από τον χρήστη.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Μάθετε περισσότερα&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Μάθετε περισσότερα&lt;/a></string>
     <string name="str2701">Μεγάλο</string>
     <string name="str2702">Μεσαίο</string>
     <string name="str2703">Μικρό</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Εναλλαγή στη λειτουργία εισαγωγής κειμένου</string>
     <string name="str27c5">Πατήστε για εναλλαγή για την επιλογή έτους</string>
     <string name="str27d0">Ενημερώσεις σε σίγαση</string>
-    <string name="str27e2">Δημιουργείτε νέα ομάδα; &lt;font color=#%s&gt;&lt;b&gt;Δείτε πως&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Δημιουργείτε νέα ομάδα; &lt;font color=#%s>&lt;b>Δείτε πως&lt;/b>&lt;/font></string>
     <string name="str27e5">1 ημέρα</string>
     <string name="str27e6">Προεπιλεγμένες ρυθμίσεις εφαρμογής (%s)</string>
     <string name="str27e7">1 μήνας</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Προφίλ</string>
     <string name="str288c">Δεν βρέθηκαν αποτελέσματα ρυθμίσεων</string>
     <string name="str288d">Χρήση χώρου αποθήκευσης και δεδομένων</string>
-    <string name="str2891">Κλήσεις από άγνωστους αριθμούς θα τίθενται σε σίγαση. Θα συνεχίσουν να εμφανίζονται στην καρτέλα \"Κλήσεις\" και στις ειδοποιήσεις σας. &lt;a href=calling_privacy_help&gt;Μάθετε περισσότερα&lt;/a&gt;</string>
+    <string name="str2891">Κλήσεις από άγνωστους αριθμούς θα τίθενται σε σίγαση. Θα συνεχίσουν να εμφανίζονται στην καρτέλα \"Κλήσεις\" και στις ειδοποιήσεις σας. &lt;a href=calling_privacy_help>Μάθετε περισσότερα&lt;/a></string>
     <string name="str2892">Να τίθενται σε σίγαση οι άγνωστοι καλούντες</string>
     <string name="str2893">Παράβλεψη</string>
     <string name="str2895">Ταξινόμηση ανά ημ/νία</string>

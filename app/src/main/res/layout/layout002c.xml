@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.WaTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textSize="12sp" android:textColor="@color/color0d97" android:id="@+id/account_switching_tool_tip" android:background="@drawable/tooltip_ptt_reversed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str00c6" android:translationZ="90dp"/>
+<com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/color0d97" android:id="@id/account_switching_tool_tip" android:background="@drawable/tooltip_ptt_reversed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str00c6" android:translationZ="90.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

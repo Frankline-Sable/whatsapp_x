@@ -23,7 +23,7 @@
     <string name="str25d5">ارسال پُرسمان</string>
     <string name="str25d6">جستجوی گفتاری</string>
     <string name="str25d9">کوچک کردن</string>
-    <string name="str25db">‏به‌عنوان عضو، می‌توانید گروه‌های این انجمن را ببینید و به آن‌ها بپیوندید و ازطریق اعلامیه‌های مدیر به‌روز بمانید. &lt;a href=\"%s\"&gt;بیشتر بدانید&lt;/a&gt;</string>
+    <string name="str25db">‏به‌عنوان عضو، می‌توانید گروه‌های این انجمن را ببینید و به آن‌ها بپیوندید و ازطریق اعلامیه‌های مدیر به‌روز بمانید. &lt;a href=\"%s\">بیشتر بدانید&lt;/a></string>
     <string name="str25dc">‏به انجمن خوش آمدید!</string>
     <string name="str25df">‏تأیید</string>
     <string name="str25e0">‏تعویض حساب‌ها امکان‌پذیر نیست. لطفاً بعداً دوباره امتحان کنید.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‏%s دیگر نمی‌تواند به شما پیام ارسال کند یا با شما تماس بگیرد.</string>
     <string name="str262d">‏نوع کسب‌وکار</string>
     <string name="str262e">‏جزئیات کسب‌وکار</string>
-    <string name="str2636">‏برای سخت‌تر کردن امکان شناسایی مکان شما توسط افراد دیگر، تماس‌های این دستگاه به‌طور ایمن ازطریق سرورهای واتساپ منتقل می‌شود. این کار باعث کاهش کیفیت تماس خواهد شد. &lt;a href=call_relaying_help&gt;بیشتر بدانید&lt;/a&gt;</string>
+    <string name="str2636">‏برای سخت‌تر کردن امکان شناسایی مکان شما توسط افراد دیگر، تماس‌های این دستگاه به‌طور ایمن ازطریق سرورهای واتساپ منتقل می‌شود. این کار باعث کاهش کیفیت تماس خواهد شد. &lt;a href=call_relaying_help>بیشتر بدانید&lt;/a></string>
     <string name="str2637">‏محافظت از نشانی IP در تماس‌ها</string>
     <string name="str2638">‏تماس‌ها</string>
     <string name="str2639">‏میانبری برای تماس با %s اضافه کنید.</string>
     <string name="str263a">‏میانبر تماس</string>
-    <string name="str263b">‏از جلوه‌های دوربین مانند چهره‌نمای خودتان در تماس‌ها استفاده کنید. &lt;a href=\"%s\"&gt;بیشتر بدانید&lt;/a&gt;</string>
+    <string name="str263b">‏از جلوه‌های دوربین مانند چهره‌نمای خودتان در تماس‌ها استفاده کنید. &lt;a href=\"%s\">بیشتر بدانید&lt;/a></string>
     <string name="str263c">‏جلوه‌های دوربین</string>
     <string name="str263d">‏دوربین واتساپ</string>
     <string name="str263e">‏لغو</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">تعداد تلاش‌ها بیش از حد مجاز است. لطفاً بعداً دوباره امتحان کنید.</string>
     <string name="str26fe">اثر انگشتی ثبت نشده است.</string>
     <string name="str26ff">کاربر عملیات اثر انگشت را لغو کرد</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;بیشتر بدانید&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">بیشتر بدانید&lt;/a></string>
     <string name="str2701">‏بزرگ</string>
     <string name="str2702">‏متوسط</string>
     <string name="str2703">‏کوچک</string>
@@ -194,7 +194,7 @@
     <string name="str27c4">رفتن به حالت ورودی نوشتاری</string>
     <string name="str27c5">برای رفتن به حالت انتخاب سال ضربه بزنید</string>
     <string name="str27d0">‏به‌روزرسانی‌های بی‌صداشده</string>
-    <string name="str27e2">‏گروه جدید ایجاد شود؟ &lt;font color=#%s&gt;&lt;b&gt;نحوه ایجاد آن را ببینید&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">‏گروه جدید ایجاد شود؟ &lt;font color=#%s>&lt;b>نحوه ایجاد آن را ببینید&lt;/b>&lt;/font></string>
     <string name="str27e5">‏۱ روز</string>
     <string name="str27e6">‏تنظیم پیش‌فرض برنامه (%s)</string>
     <string name="str27e7">‏۱ ماه</string>
@@ -291,7 +291,7 @@
     <string name="str288b">‏نمایه</string>
     <string name="str288c">‏هیچ نتیجه‌ای در تنظیمات پیدا نشد</string>
     <string name="str288d">‏میزان مصرف فضای ذخیره‌سازی و داده</string>
-    <string name="str2891">‏تماس‌های دریافتی از شماره‌های ناشناس بی‌صدا خواهد شد. این تماس‌ها همچنان در برگه «تماس‌ها» و در اعلان‌هایتان نشان داده خواهد شد. &lt;a href=calling_privacy_help&gt;بیشتر بدانید&lt;/a&gt;</string>
+    <string name="str2891">‏تماس‌های دریافتی از شماره‌های ناشناس بی‌صدا خواهد شد. این تماس‌ها همچنان در برگه «تماس‌ها» و در اعلان‌هایتان نشان داده خواهد شد. &lt;a href=calling_privacy_help>بیشتر بدانید&lt;/a></string>
     <string name="str2892">‏بی‌صدا کردن تماس‌گیرندگان ناشناس</string>
     <string name="str2893">‏رد شدن</string>
     <string name="str2895">‏مرتب‌سازی براساس تاریخ</string>

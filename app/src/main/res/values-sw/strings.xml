@@ -23,7 +23,7 @@
     <string name="str25d5">Wasilisha hoja</string>
     <string name="str25d6">Kutafuta kwa kutamka</string>
     <string name="str25d9">Kunja</string>
-    <string name="str25db">Ukiwa mwanajumuiya, unaweza kuona na kujiunga na vikundi vilivyo kwenye jumuiya na ufahamu yanayoendelea kutokana na matangazo ya wasimamizi. &lt;a href=\"%s\"&gt;Pata maelezo zaidi&lt;/a&gt;</string>
+    <string name="str25db">Ukiwa mwanajumuiya, unaweza kuona na kujiunga na vikundi vilivyo kwenye jumuiya na ufahamu yanayoendelea kutokana na matangazo ya wasimamizi. &lt;a href=\"%s\">Pata maelezo zaidi&lt;/a></string>
     <string name="str25dc">Karibu kwenye jumuiya!</string>
     <string name="str25df">Sawa</string>
     <string name="str25e0">Imeshindwa kubadilisha akaunti. Tafadhali jaribu tena baadaye.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s haitaweza kukutumia ujumbe au kukupigia simu tena.</string>
     <string name="str262d">Aina ya Biashara</string>
     <string name="str262e">Maelezo ya Biashara</string>
-    <string name="str2636">Ili kufanya iwe vigumu kwa watu kufahamu mahali ulipo, simu kwenye kifaa hiki zitawasilishwa kupitia seva za WhatsApp kwa usalama. Hali hii itapunguza ubora wa simu. &lt;a href=call_relaying_help&gt;Pata maelezo zaidi&lt;/a&gt;</string>
+    <string name="str2636">Ili kufanya iwe vigumu kwa watu kufahamu mahali ulipo, simu kwenye kifaa hiki zitawasilishwa kupitia seva za WhatsApp kwa usalama. Hali hii itapunguza ubora wa simu. &lt;a href=call_relaying_help>Pata maelezo zaidi&lt;/a></string>
     <string name="str2637">Linda anwani ya IP katika simu</string>
     <string name="str2638">Simu</string>
     <string name="str2639">Weka njia ya mkato ya kupiga simu ya %s.</string>
     <string name="str263a">Njia ya mkato ya kupiga simu</string>
-    <string name="str263b">Tumia madoido ya kamera kama vile taswira yako kwenye simu. &lt;a href=\"%s\"&gt;Pata maelezo zaidi&lt;/a&gt;</string>
+    <string name="str263b">Tumia madoido ya kamera kama vile taswira yako kwenye simu. &lt;a href=\"%s\">Pata maelezo zaidi&lt;/a></string>
     <string name="str263c">Madoido ya kamera</string>
     <string name="str263d">Kamera ya WhatsApp</string>
     <string name="str263e">Ghairi</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Umejaribu mara nyingi mno. Tafadhali jaribu tena baadaye.</string>
     <string name="str26fe">Hakuna alama za vidole zilizojumuishwa.</string>
     <string name="str26ff">Mtumiaji ameghairi uthibitishaji wa alama ya kidole.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Pata maelezo zaidi&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Pata maelezo zaidi&lt;/a></string>
     <string name="str2701">Kubwa</string>
     <string name="str2702">Wastani</string>
     <string name="str2703">Ndogo</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Tumia programu ya kuingiza data ya maandishi</string>
     <string name="str27c5">Gusa ili uende kwenye sehemu ya kuchagua mwaka</string>
     <string name="str27d0">Masasisho yaliyotulizwa</string>
-    <string name="str27e2">Je, unaunda kikundi kipya? &lt;font color=#%s&gt;&lt;b&gt;Angalia jinsi ya kuunda&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Je, unaunda kikundi kipya? &lt;font color=#%s>&lt;b>Angalia jinsi ya kuunda&lt;/b>&lt;/font></string>
     <string name="str27e5">Siku 1</string>
     <string name="str27e6">Mpangilio chaguomsingi ya programu (%s)</string>
     <string name="str27e7">Mwezi 1</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Jalada</string>
     <string name="str288c">Hakuna matokeo ya mipangilio yaliyopatikana</string>
     <string name="str288d">Matumizi ya data na hifadhi</string>
-    <string name="str2891">Simu kutoka kwa namba usizozijua zitazimwa. Namba hizo bado zitaonekana kwenye Kichupo cha simu na arifa zako. &lt;a href=calling_privacy_help&gt;Pata maelezo zaidi&lt;/a&gt;</string>
+    <string name="str2891">Simu kutoka kwa namba usizozijua zitazimwa. Namba hizo bado zitaonekana kwenye Kichupo cha simu na arifa zako. &lt;a href=calling_privacy_help>Pata maelezo zaidi&lt;/a></string>
     <string name="str2892">Zima wapigaji simu usiowajua</string>
     <string name="str2893">ruka</string>
     <string name="str2895">Ainisha kwa tarehe</string>

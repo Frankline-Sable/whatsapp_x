@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:exitFadeDuration="@android:integer/config_shortAnimTime">
-    <item android:state_focused="true" android:color="@color/color0d71"/>
-    <item android:state_pressed="true" android:color="@color/color0d76"/>
-    <item android:state_enabled="false" android:color="@color/color0d00"/>
-    <item android:color="@color/color0d74"/>
+<selector android:exitFadeDuration="@android:integer/config_shortAnimTime"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:color="@color/color0d71" />
+    <item android:state_pressed="true" android:color="@color/color0d76" />
+    <item android:state_enabled="false" android:color="@color/color0d00" />
+    <item android:color="@color/color0d74" />
 </selector>

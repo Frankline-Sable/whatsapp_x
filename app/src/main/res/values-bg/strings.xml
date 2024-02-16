@@ -23,7 +23,7 @@
     <string name="str25d5">Изпращане на заявката</string>
     <string name="str25d6">Гласово търсене</string>
     <string name="str25d9">Свиване</string>
-    <string name="str25db">Като член можете да видите и да се присъедините към групи в тази общност и да получавате актуални обявления от администраторите. &lt;a href=\"%s\"&gt;Научете повече&lt;/a&gt;</string>
+    <string name="str25db">Като член можете да видите и да се присъедините към групи в тази общност и да получавате актуални обявления от администраторите. &lt;a href=\"%s\">Научете повече&lt;/a></string>
     <string name="str25dc">Добре дошли в общността!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Не можете да превключите между акаунтите. Опитайте отново по-късно.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s повече няма да може да ви изпраща съобщения или да ви се обажда.</string>
     <string name="str262d">Тип бизнес</string>
     <string name="str262e">Детайли за бизнеса</string>
-    <string name="str2636">За да не могат хората да определят местоположението ви, обажданията от това устройство ще се предават по сигурен начин през сървърите на WhatsApp. Това ще намали качеството на обажданията. &lt;a href=call_relaying_help&gt;Научете повече&lt;/a&gt;</string>
+    <string name="str2636">За да не могат хората да определят местоположението ви, обажданията от това устройство ще се предават по сигурен начин през сървърите на WhatsApp. Това ще намали качеството на обажданията. &lt;a href=call_relaying_help>Научете повече&lt;/a></string>
     <string name="str2637">Защитете IP адреса в обажданията</string>
     <string name="str2638">Обаждания</string>
     <string name="str2639">Добавете пряк път към обажданията за %s.</string>
     <string name="str263a">Пряк път към обажданията</string>
-    <string name="str263b">Използвайте ефекти на камерата, например аватара ви, по време на обаждания. &lt;a href=\"%s\"&gt;Научете повече&lt;/a&gt;</string>
+    <string name="str263b">Използвайте ефекти на камерата, например аватара ви, по време на обаждания. &lt;a href=\"%s\">Научете повече&lt;/a></string>
     <string name="str263c">Ефекти на камерата</string>
     <string name="str263d">Камера в WhatsApp</string>
     <string name="str263e">Отказ</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Твърде много опити. Моля, опитайте отново по-късно.</string>
     <string name="str26fe">Няма регистрирани отпечатъци.</string>
     <string name="str26ff">Операцията за удостоверяване чрез отпечатък бе анулирана от потребителя.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Научете повече&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Научете повече&lt;/a></string>
     <string name="str2701">Голям</string>
     <string name="str2702">Среден</string>
     <string name="str2703">Малък</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Превключване към режим за въвеждане на текст</string>
     <string name="str27c5">Докоснете, за да превключите към избиране на година</string>
     <string name="str27d0">Заглушени актуализации</string>
-    <string name="str27e2">Създавате нова група? &lt;font color=#%s&gt;&lt;b&gt;Вижте как&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Създавате нова група? &lt;font color=#%s>&lt;b>Вижте как&lt;/b>&lt;/font></string>
     <string name="str27e5">1 ден</string>
     <string name="str27e6">Настройка по подразбиране за приложението (%s)</string>
     <string name="str27e7">1 месец</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Профил</string>
     <string name="str288c">Няма намерени резултати в настройките</string>
     <string name="str288d">Хранилище и потребление на данни</string>
-    <string name="str2891">Обажданията от неизвестни номера ще бъдат заглушавани. Все пак ще се показват в раздел „Обаждания“ и в известията ви. &lt;a href=calling_privacy_help&gt;Научете повече&lt;/a&gt;</string>
+    <string name="str2891">Обажданията от неизвестни номера ще бъдат заглушавани. Все пак ще се показват в раздел „Обаждания“ и в известията ви. &lt;a href=calling_privacy_help>Научете повече&lt;/a></string>
     <string name="str2892">Заглушаване на неизвестните обаждащи се</string>
     <string name="str2893">Пропускане</string>
     <string name="str2895">Сортиране по дата</string>

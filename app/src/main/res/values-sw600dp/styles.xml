@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="style0656">
-        <item name="attr0887">1</item>
-        <item name="attr0894">1</item>
+    <style name="style0656" parent="@style/style010e">
+        <item name="attr0887">center</item>
+        <item name="attr0894">fixed</item>
     </style>
 </resources>

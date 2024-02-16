@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.ActionBarContextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="?attr/attr0029" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="?attr/attr0028"/>
+<androidx.appcompat.widget.ActionBarContextView android:theme="?attr0029" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?attr0028"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

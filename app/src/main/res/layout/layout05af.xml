@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.yo.tf xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="@dimen/dimen0877" android:layout_height="@dimen/dimen0878" style="?attr/attr05b5"/>
+<com.gbwhatsapp.yo.tf android:layout_width="@dimen/dimen0877" android:layout_height="@dimen/dimen0878" style="?attr05b5"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

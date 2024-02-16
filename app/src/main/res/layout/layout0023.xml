@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/account_switcher_button_layout" android:layout_width="wrap_content" android:layout_height="match_parent">
-    <FrameLayout android:id="@+id/account_switcher_button_area" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
-        <com.gbwhatsapp.WaImageView android:id="@+id/account_switcher_button" android:layout_width="@dimen/dimen0055" android:layout_height="@dimen/dimen0055" android:src="@drawable/vec_expand_circle_down" android:tint="?attr/attr06f7" android:contentDescription="@string/str00be" style="@style/style0006"/>
+<RelativeLayout android:id="@id/account_switcher_button_layout" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/account_switcher_button_area" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <com.gbwhatsapp.WaImageView android:id="@id/account_switcher_button" android:layout_width="@dimen/dimen0055" android:layout_height="@dimen/dimen0055" android:src="@drawable/vec_expand_circle_down" android:tint="?attr06f7" android:contentDescription="@string/str00be" style="@style/style0006" />
     </FrameLayout>
-    <ViewStub android:id="@+id/my_profile_badge_viewstub" android:layout="@layout/layout002b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/account_switcher_button_area" android:layout_alignRight="@+id/account_switcher_button_area"/>
+    <ViewStub android:id="@id/my_profile_badge_viewstub" android:layout="@layout/layout002b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/account_switcher_button_area" android:layout_alignRight="@id/account_switcher_button_area" />
 </RelativeLayout>

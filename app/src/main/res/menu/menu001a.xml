@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:id="@+id/menu_item_muted_updates" android:title="@string/str27d0"/>
-    <item android:id="@+id/menu_item_status_privacy" android:title="@string/str28a9"/>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_item_muted_updates" android:title="@string/str27d0" />
+    <item android:id="@id/menu_item_status_privacy" android:title="@string/str28a9" />
 </menu>

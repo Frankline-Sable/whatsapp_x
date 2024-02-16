@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen0e07" android:paddingEnd="@dimen/dimen0e07">
-    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
-        <ViewStub android:id="@+id/content_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen0e07" android:paddingEnd="@dimen/dimen0e07"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ViewStub android:id="@id/content_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
     </androidx.core.widget.NestedScrollView>
-    <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:layout_gravity="end" android:id="@+id/button_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0dfc" android:layout_marginBottom="@dimen/dimen0dfb" app:attr0666="2">
-        <com.gbwhatsapp.WaButtonWithLoader android:id="@+id/primary_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-        <com.gbwhatsapp.WaButtonWithLoader android:id="@+id/secondary_button" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:layout_gravity="end" android:id="@id/button_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0dfc" android:layout_marginBottom="@dimen/dimen0dfb" app:attr0666="vertical">
+        <com.gbwhatsapp.WaButtonWithLoader android:id="@id/primary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.gbwhatsapp.WaButtonWithLoader android:id="@id/secondary_button" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </com.gbwhatsapp.wds.components.button.WDSButtonGroup>
 </LinearLayout>

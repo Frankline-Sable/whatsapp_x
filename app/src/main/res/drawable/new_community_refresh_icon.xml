@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="2dp">
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="2.0dip" android:top="2.0dip" android:right="2.0dip" android:bottom="2.0dip">
         <shape android:shape="oval">
-            <solid android:width="8dp" android:color="?attr/attr0471"/>
-            <stroke android:width="2dp" android:color="?attr/attr06f8"/>
+            <solid android:width="8.0dip" android:color="?attr0471" />
+            <stroke android:width="2.0dip" android:color="?attr06f8" />
         </shape>
     </item>
-    <item android:left="10dp" android:top="10dp" android:right="10dp" android:bottom="10dp">
-        <rotate android:drawable="@drawable/ic_action_refresh" android:fromDegrees="90" android:toDegrees="90" android:pivotX="50%" android:pivotY="50%"/>
+    <item android:left="10.0dip" android:top="10.0dip" android:right="10.0dip" android:bottom="10.0dip">
+        <rotate android:drawable="@drawable/ic_action_refresh" android:fromDegrees="90.0" android:toDegrees="90.0" android:pivotX="50.0%" android:pivotY="50.0%" />
     </item>
 </layer-list>

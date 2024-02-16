@@ -23,7 +23,7 @@
     <string name="str25d5">Испрати барање</string>
     <string name="str25d6">Гласовно пребарување</string>
     <string name="str25d9">Собери</string>
-    <string name="str25db">Како член може да прегледуваш и да се приклучуваш кон групи во оваа заедница и да бидеш во тек со објавите на администраторот. &lt;a href=\"%s\"&gt;Дознај повеќе&lt;/a&gt;</string>
+    <string name="str25db">Како член може да прегледуваш и да се приклучуваш кон групи во оваа заедница и да бидеш во тек со објавите на администраторот. &lt;a href=\"%s\">Дознај повеќе&lt;/a></string>
     <string name="str25dc">Добре дојде во заедницата!</string>
     <string name="str25df">ОК</string>
     <string name="str25e0">Сметките не можеше да се заменат. Обиди се повторно подоцна.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s повеќе нема да може да ти испраќа пораки или да те повикува.</string>
     <string name="str262d">Вид бизнис</string>
     <string name="str262e">Детали за бизнисот</string>
-    <string name="str2636">За да им отежниш на луѓето во утврдувањето на твојата локација, повиците на овој уред ќе бидат безбедно проследувани преку серверите на WhatsApp. Ова ќе го намали квалитетот на повикот. &lt;a href=call_relaying_help&gt;Дознај повеќе&lt;/a&gt;</string>
+    <string name="str2636">За да им отежниш на луѓето во утврдувањето на твојата локација, повиците на овој уред ќе бидат безбедно проследувани преку серверите на WhatsApp. Ова ќе го намали квалитетот на повикот. &lt;a href=call_relaying_help>Дознај повеќе&lt;/a></string>
     <string name="str2637">Заштити ја IP-адресата во повици</string>
     <string name="str2638">Повици</string>
     <string name="str2639">Додај кратенка за воспоставување повик за %s.</string>
     <string name="str263a">Кратенка за воспоставување повици</string>
-    <string name="str263b">Користи ефекти на камера како твој аватар во повици. &lt;a href=\"%s\"&gt;Дознај повеќе&lt;/a&gt;</string>
+    <string name="str263b">Користи ефекти на камера како твој аватар во повици. &lt;a href=\"%s\">Дознај повеќе&lt;/a></string>
     <string name="str263c">Ефекти на камера</string>
     <string name="str263d">WhatsApp Камера</string>
     <string name="str263e">Откажи</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Премногу обиди. Обидете се повторно подоцна.</string>
     <string name="str26fe">Нема запишани отпечатоци.</string>
     <string name="str26ff">Корисникот ја откажа потврдата со отпечаток.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Дознај повеќе&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Дознај повеќе&lt;/a></string>
     <string name="str2701">Голем</string>
     <string name="str2702">Среден</string>
     <string name="str2703">Мал</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Префрли на режим за внесување текст</string>
     <string name="str27c5">Допрете за да се префрлите на избирање година</string>
     <string name="str27d0">Замолкнати статуси</string>
-    <string name="str27e2">Создавање нова група? &lt;font color=#%s&gt;&lt;b&gt;Види како&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Создавање нова група? &lt;font color=#%s>&lt;b>Види како&lt;/b>&lt;/font></string>
     <string name="str27e5">1 ден</string>
     <string name="str27e6">Стандардна поставка на апликацијата (%s)</string>
     <string name="str27e7">1 месец</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Профил</string>
     <string name="str288c">Не се најдени резултати за поставки</string>
     <string name="str288d">Искористеност</string>
-    <string name="str2891">Повиците од непознати броеви ќе бидат замолкнати. Но, тие ќе се прикажат во јазичето „Повици“ и во твоите известувања. &lt;a href=calling_privacy_help&gt;Дознај повеќе&lt;/a&gt;</string>
+    <string name="str2891">Повиците од непознати броеви ќе бидат замолкнати. Но, тие ќе се прикажат во јазичето „Повици“ и во твоите известувања. &lt;a href=calling_privacy_help>Дознај повеќе&lt;/a></string>
     <string name="str2892">Замолкни непознати повикувачи</string>
     <string name="str2893">Прескокни</string>
     <string name="str2895">Подреди по датум</string>

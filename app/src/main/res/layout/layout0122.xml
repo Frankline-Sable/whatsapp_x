@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<View xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/divider" android:layout_width="match_parent" android:layout_marginLeft="@dimen/dimen040f" android:layout_marginRight="@dimen/dimen0a54" android:layout_marginStart="@dimen/dimen040f" android:layout_marginEnd="@dimen/dimen0a54" style="@style/style0138"/>
+<View android:id="@id/divider" android:layout_width="fill_parent" android:layout_marginLeft="@dimen/dimen040f" android:layout_marginRight="@dimen/dimen0a54" android:layout_marginStart="@dimen/dimen040f" android:layout_marginEnd="@dimen/dimen0a54" style="@style/style0138"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

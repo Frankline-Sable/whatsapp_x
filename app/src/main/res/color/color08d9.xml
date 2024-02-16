@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:state_enabled="false" android:state_checked="false" android:color="?attr/attr01b4" android:alpha="@dimen/dimen076c"/>
-    <item android:state_enabled="false" android:state_checked="true" android:color="?attr/attr01c7" android:alpha="@dimen/dimen0769"/>
-    <item android:state_checked="true" android:state_pressed="true" android:color="?attr/attr01bc"/>
-    <item android:state_checked="true" android:color="?attr/attr01af"/>
-    <item android:state_pressed="true" android:color="?attr/attr01b6"/>
-    <item android:color="?attr/attr01b9"/>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:state_checked="false" android:color="?attr01b4" android:alpha="@dimen/dimen076c" />
+    <item android:state_enabled="false" android:state_checked="true" android:color="?attr01c7" android:alpha="@dimen/dimen0769" />
+    <item android:state_checked="true" android:state_pressed="true" android:color="?attr01bc" />
+    <item android:state_checked="true" android:color="?attr01af" />
+    <item android:state_pressed="true" android:color="?attr01b6" />
+    <item android:color="?attr01b9" />
 </selector>

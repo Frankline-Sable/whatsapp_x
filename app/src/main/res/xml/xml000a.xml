@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shortcuts xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <share-target android:targetClass="com.gbwhatsapp.contact.picker.ContactPicker">
-        <data android:mimeType="*/*"/>
-        <category android:name="com.gbwhatsapp.sharing.category.SHARE_TARGET_DEFAULT"/>
+        <data android:mimeType="*/*" />
+        <category android:name="com.gbwhatsapp.sharing.category.SHARE_TARGET_DEFAULT" />
     </share-target>
 </shortcuts>

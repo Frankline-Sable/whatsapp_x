@@ -23,7 +23,7 @@
     <string name="str25d5">提交查询</string>
     <string name="str25d6">语音搜索</string>
     <string name="str25d9">收起</string>
-    <string name="str25db">作为成员，您可以查看并加入该社群中的群组，接收来自管理员的最新公告。&lt;a href=\"%s\"&gt;了解更多&lt;/a&gt;</string>
+    <string name="str25db">作为成员，您可以查看并加入该社群中的群组，接收来自管理员的最新公告。&lt;a href=\"%s\">了解更多&lt;/a></string>
     <string name="str25dc">欢迎加入社群！</string>
     <string name="str25df">确定</string>
     <string name="str25e0">无法切换帐号，请稍后重试。</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s将无法再给您发消息或发起通话。</string>
     <string name="str262d">企业类型</string>
     <string name="str262e">商业详细信息</string>
-    <string name="str2636">为了让他人更难推断出您的位置，此设备上进行的通话将通过 WhatsApp 服务器安全转发。这会降低通话质量。&lt;a href=call_relaying_help&gt;了解更多&lt;/a&gt;</string>
+    <string name="str2636">为了让他人更难推断出您的位置，此设备上进行的通话将通过 WhatsApp 服务器安全转发。这会降低通话质量。&lt;a href=call_relaying_help>了解更多&lt;/a></string>
     <string name="str2637">在通话时保护 IP 地址</string>
     <string name="str2638">通话</string>
     <string name="str2639">为%s添加通话快捷方式</string>
     <string name="str263a">通话快捷方式</string>
-    <string name="str263b">在通话时使用卡通形象等相机特效。&lt;a href=\"%s\"&gt;了解更多&lt;/a&gt;</string>
+    <string name="str263b">在通话时使用卡通形象等相机特效。&lt;a href=\"%s\">了解更多&lt;/a></string>
     <string name="str263c">相机特效</string>
     <string name="str263d">WhatsApp 相机</string>
     <string name="str263e">取消</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">尝试次数过多，请稍后重试。</string>
     <string name="str26fe">未注册任何指纹。</string>
     <string name="str26ff">用户取消了指纹操作。</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;了解更多&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">了解更多&lt;/a></string>
     <string name="str2701">大</string>
     <string name="str2702">中</string>
     <string name="str2703">小</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">切换到文本字段输入模式</string>
     <string name="str27c5">点按即可切换到选择某年</string>
     <string name="str27d0">已静音的动态更新</string>
-    <string name="str27e2">要创建新群组吗？请&lt;font color=#%s&gt;&lt;b&gt;查看具体方法&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">要创建新群组吗？请&lt;font color=#%s>&lt;b>查看具体方法&lt;/b>&lt;/font></string>
     <string name="str27e5">1 天</string>
     <string name="str27e6">默认应用设置（%s）</string>
     <string name="str27e7">1 个月</string>
@@ -289,7 +289,7 @@
     <string name="str288b">个人信息</string>
     <string name="str288c">未找到任何设置结果</string>
     <string name="str288d">存储和数据使用</string>
-    <string name="str2891">未知号码来电将被静音。这些来电仍会显示在“通话”标签页和您的通知中。&lt;a href=calling_privacy_help&gt;了解更多&lt;/a&gt;</string>
+    <string name="str2891">未知号码来电将被静音。这些来电仍会显示在“通话”标签页和您的通知中。&lt;a href=calling_privacy_help>了解更多&lt;/a></string>
     <string name="str2892">静音未知来电</string>
     <string name="str2893">跳过</string>
     <string name="str2895">按日期排序</string>

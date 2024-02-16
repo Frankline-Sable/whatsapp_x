@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <View android:background="?attr/attr026d" android:layout_width="match_parent" android:layout_height="@dimen/dimen09df"/>
-    <View android:background="@drawable/list_separator_top" android:layout_width="match_parent" android:layout_height="@dimen/dimen09df"/>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="?attr026d" android:layout_width="fill_parent" android:layout_height="@dimen/dimen09df" />
+    <View android:background="@drawable/list_separator_top" android:layout_width="fill_parent" android:layout_height="@dimen/dimen09df" />
 </FrameLayout>

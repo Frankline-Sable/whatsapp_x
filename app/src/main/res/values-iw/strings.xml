@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="Bubbles">סגנון בועות</string>
-    <string name="BubblesSum">בחר בסגנון בועות הצ\'אט שלך</string>
+    <string name="BubblesSum">"בחר בסגנון בועות הצ'אט שלך"</string>
     <string name="ChangeP">שנה סיסמא</string>
     <string name="ChangePS">סיסמת ברירת המחדל היא: 0000, שנה אותה לשלך!</string>
     <string name="ChangePt">שנה דפוס</string>
@@ -38,17 +38,17 @@
     <string name="acj_auto_stat">שורת מצב צבע אוטומטית</string>
     <string name="acj_auto_stat_sum">שורת מצב צבע אוטומטית צבע לפי סרגל הפעולה</string>
     <string name="acj_bg">רקע כללי</string>
-    <string name="acj_chat_actionbar_sum">שנה צבע של סרגל הפעולה במסך הצ\'אט</string>
+    <string name="acj_chat_actionbar_sum">"שנה צבע של סרגל הפעולה במסך הצ'אט"</string>
     <string name="acj_chat_dt">נראות סימון שני</string>
     <string name="acj_chat_dt_sum">שנה צבע של הודעה שנקראה. ברירת המחדל הוא ירוק.</string>
     <string name="acj_chat_mic">צבע כפתור מיקרופון</string>
     <string name="acj_chat_mic_sum">שנה כפתור צבע מיקרופון</string>
-    <string name="acj_chat_nav_sum">שנה צבע של סרגל הניווט במסך הצ\'אט</string>
-    <string name="acj_chat_stat_sum">שינוי צבע סרגל המצב במסך הצ\'אט</string>
-    <string name="acj_chat_text">צבע טקסט צבע בועה בצ\'אט</string>
-    <string name="acj_chat_textLeft">צבע טקסט בצבע שמאל בצ\'אט</string>
-    <string name="acj_chat_text_sum">מגדיר צבע טקסט של בועת צ\'אט ימנית</string>
-    <string name="acj_chat_text_sumleft">מגדיר צבע טקסט בצבע צ\'אט שמאלי</string>
+    <string name="acj_chat_nav_sum">"שנה צבע של סרגל הניווט במסך הצ'אט"</string>
+    <string name="acj_chat_stat_sum">"שינוי צבע סרגל המצב במסך הצ'אט"</string>
+    <string name="acj_chat_text">"צבע טקסט צבע בועה בצ'אט"</string>
+    <string name="acj_chat_textLeft">"צבע טקסט בצבע שמאל בצ'אט"</string>
+    <string name="acj_chat_text_sum">"מגדיר צבע טקסט של בועת צ'אט ימנית"</string>
+    <string name="acj_chat_text_sumleft">"מגדיר צבע טקסט בצבע צ'אט שמאלי"</string>
     <string name="acj_cons_actionbar_sum">שנה צבע של סרגל פעולה במסך הראשי</string>
     <string name="acj_cons_nav_sum">שנה צבע של סרגל הניווט במסך הראשי</string>
     <string name="acj_cons_stat_sum">שינוי צבע סרגל המצב במסך הראשי</string>
@@ -67,10 +67,10 @@
     <string name="acj_fab_pressed">FAB לחץ</string>
     <string name="acj_fab_pressed_sum">שנה צבע של Fab לחוץ</string>
     <string name="acj_left_bubble">צבע בועה שמאלי</string>
-    <string name="acj_left_bubble_sum">שנה צבע בועת צ\'אט שמאל - -</string>
+    <string name="acj_left_bubble_sum">"שנה צבע בועת צ'אט שמאל - -"</string>
     <string name="acj_navbar">סרגל ניווט</string>
     <string name="acj_right_bubble">צבע בועה ימין</string>
-    <string name="acj_right_bubble_sum">שינוי צבע בועת צ\'אט ימנית</string>
+    <string name="acj_right_bubble_sum">"שינוי צבע בועת צ'אט ימנית"</string>
     <string name="acj_statbar">שורת מצב</string>
     <string name="acj_statnav">צבע סרגל סטטוס וניווט</string>
     <string name="acj_uni_actionbar_sum">שנה צבע של סרגל פעולה בכל מסך</string>
@@ -110,24 +110,24 @@
     <string name="chatInfoBalloonsText">צבע טקסט בבלוני מידע</string>
     <string name="chatInfoBalloonsTextS">צבע טקסט בבלון מידע של תאריך ושיחה שלא נענו</string>
     <string name="chat_bg_forward">רקע הועבר</string>
-    <string name="chat_contact_pic">צ\'אט צור קשר עם תמונה</string>
+    <string name="chat_contact_pic">"צ'אט צור קשר עם תמונה"</string>
     <string name="chat_contact_pic_summary">הצג תמונה ליצירת קשר בכל הודעה</string>
     <string name="chat_icon_forward">סמל הועבר</string>
-    <string name="chat_my_pic">צ\'אט את התמונות שלי</string>
-    <string name="chat_my_pic_group">צ\'אט בקבוצת התמונות שלי</string>
+    <string name="chat_my_pic">"צ'אט את התמונות שלי"</string>
+    <string name="chat_my_pic_group">"צ'אט בקבוצת התמונות שלי"</string>
     <string name="chat_my_pic_group_summary">הצג את התמונות שלי בכל הודעה קבוצתית</string>
-    <string name="chat_my_pic_summary">הצג את התמונות שלי בכל הודעת צ\'אט</string>
+    <string name="chat_my_pic_summary">"הצג את התמונות שלי בכל הודעת צ'אט"</string>
     <string name="chat_text_size">גודל טקסט הודעה</string>
-    <string name="chat_text_size_summary">הגדר גודל טקסט לצ\'אט</string>
+    <string name="chat_text_size_summary">"הגדר גודל טקסט לצ'אט"</string>
     <string name="chats_date_mod">צבע תאריך</string>
     <string name="chats_date_pending_mod">תאריך המתנה להודעה</string>
     <string name="chats_date_pending_summary">בחר צבע לתאריך ההודעה בהמתנה במסך סיפור</string>
     <string name="chats_date_summary">בחר צבע עבור תאריך במסך הראשי</string>
     <string name="chats_names_mod">צבע שמות</string>
-    <string name="chats_names_summary">בחר צבע עבור שמות אנשי קשר /קבוצה במסך צ\'אטים</string>
-    <string name="chats_row_divider_mod">מחלק צ\'אטים</string>
-    <string name="chats_row_divider_picker_summary">הגדר צבע קו בין צ\'אטים</string>
-    <string name="clearemoji">נקה אמוג\'ים אחרונים</string>
+    <string name="chats_names_summary">"בחר צבע עבור שמות אנשי קשר /קבוצה במסך צ'אטים"</string>
+    <string name="chats_row_divider_mod">"מחלק צ'אטים"</string>
+    <string name="chats_row_divider_picker_summary">"הגדר צבע קו בין צ'אטים"</string>
+    <string name="clearemoji">"נקה אמוג'ים אחרונים"</string>
     <string name="clearlogs">נקה יומני WhatsApp</string>
     <string name="color_hex_invalid">צבע לא חוקי</string>
     <string name="color_new_color">צבע חדש</string>
@@ -142,7 +142,7 @@
     <string name="contactstatusCSB">שנה רקע סטטוס של איש קשר כללי במסך השיחה</string>
     <string name="contactstatusTC">צבע טקסט של מצב איש קשר</string>
     <string name="conversation_chat_pics">תמונות</string>
-    <string name="conversation_chat_pics_summary">הזן כאן כדי לשנות את תצורת התמונות של אנשי קשר במסך הצ\'אט</string>
+    <string name="conversation_chat_pics_summary">"הזן כאן כדי לשנות את תצורת התמונות של אנשי קשר במסך הצ'אט"</string>
     <string name="convo_confirm_before_sendingStkr">אשר לפני שליחת מדבקה</string>
     <string name="copyWA">העתק נתוני WhatsApp</string>
     <string name="copyselectSt">העתקת בחירה</string>
@@ -161,14 +161,14 @@
     <string name="date_divider_mod">צבע טקסט של מחלק התאריך</string>
     <string name="date_divider_summary">בחר צבע עבור הטקסט שמחלק את התאריך במסך השיחה</string>
     <string name="deletethemes">מחק את כל הנושאים השמורים /המותקנים</string>
-    <string name="deletethemessum">נקה את כל העיצובים ב (/Download/GBThemes) אפילו השמורים שלך אל תשתמש אלא אם כן אתה באמת צריך! </string>
+    <string name="deletethemessum">"נקה את כל העיצובים ב (/Download/GBThemes) אפילו השמורים שלך אל תשתמש אלא אם כן אתה באמת צריך! "</string>
     <string name="devweb">פתח את Dev. אתר אינטרנט</string>
     <string name="dialog_call_msg">האם אתה באמת רוצה להתקשר?</string>
     <string name="dialog_call_title">להתקשר</string>
     <string name="disableFingerprintFirst">כדי להשתמש בסוגי נעילה אחרים, אנא השבת תחילה את טביעת האצבע</string>
     <string name="disableHiddenAccess">השבת לחיצה על \"WhatsApp \"</string>
-    <string name="disableHiddenAccessSum">לחיצה על \"WhatsApp \" בכותרת לא תפתח צ\'אטים מוסתרים</string>
-    <string name="disablestatus">הצג את שמי במקום ה- \'סטטוס\'</string>
+    <string name="disableHiddenAccessSum">"לחיצה על \"WhatsApp \" בכותרת לא תפתח צ'אטים מוסתרים"</string>
+    <string name="disablestatus">"הצג את שמי במקום ה- 'סטטוס'"</string>
     <string name="disablestatusSum">מסיר את שורת הסטטוס שלך תחת שמך במסך הראשי</string>
     <string name="donateMe">האם אתה מוצא יישום זה מועיל? תמכו בפיתוחו על ידי שליחת תרומה למפתח!</string>
     <string name="donations__alert_dialog_no_browser">לא נמצא דפדפן שפותח אתר!</string>
@@ -187,13 +187,13 @@
     <string name="donations__thanks_dialog_title">תודה!</string>
     <string name="elapsedT">הזמן שחלף</string>
     <string name="elapsedTS">השתמש בזמן שחלף (נראה לאחרונה לפני שעות וחצי) ב- WhatsApp, במסך הבית והשיחה!</string>
-    <string name="em_set">גרסת אמוג\'י</string>
+    <string name="em_set">"גרסת אמוג'י"</string>
     <string name="em_setS">שנה גרסת Emojis עבור WhatsApp</string>
-    <string name="emojiBackColor">צבע רקע של בורר אמוג\'י</string>
+    <string name="emojiBackColor">"צבע רקע של בורר אמוג'י"</string>
     <string name="emojiBackColorSum">שנה את צבע הרקע הקופץ של Emoji</string>
-    <string name="emojiHeadIconsColor">צבע סמלי כותרת של אמוג\'י</string>
+    <string name="emojiHeadIconsColor">"צבע סמלי כותרת של אמוג'י"</string>
     <string name="emojiHeadIconsColorSum">שינוי צבע סמלי קופץ של Emoji</string>
-    <string name="emojiHeaderColor">צבע כותרת של אמוג\'י</string>
+    <string name="emojiHeaderColor">"צבע כותרת של אמוג'י"</string>
     <string name="emojiHeaderColorSum">שינוי צבע כותרת קופץ של Emoji</string>
     <string name="endDate">תאריך סיום</string>
     <string name="entryText">צבע הזנת טקסט</string>
@@ -202,16 +202,16 @@
     <string name="fab">FAB צבע</string>
     <string name="first_message">הודעה ראשונה</string>
     <string name="frequently_contacted">צור קשר לעתים קרובות</string>
-    <string name="frequently_contacted_sum">הסתר מחיצת צ\'אטים בשימוש נפוץ מחלון ההעברת הודעות</string>
+    <string name="frequently_contacted_sum">"הסתר מחיצת צ'אטים בשימוש נפוץ מחלון ההעברת הודעות"</string>
     <string name="from_mod">צבע שם המשתתפים</string>
-    <string name="from_summary">בחר צבע עבור שמות המשתתפים במסך צ\'אט קבוצתי</string>
-    <string name="ghost_mode">מצב רפאים��</string>
+    <string name="from_summary">"בחר צבע עבור שמות המשתתפים במסך צ'אט קבוצתי"</string>
+    <string name="ghost_mode">מצב רפאים👻</string>
     <string name="go_to_first_msg">עבור להודעה ראשונה</string>
     <string name="group_participant_pic">תמונת משתתף</string>
     <string name="group_participant_pic_summary">הצג תמונה של משתתף קבוצתי בכל הודעה</string>
     <string name="groups_participation">קבוצות</string>
-    <string name="grpSeparate">צ\'אטים /קבוצות נפרדים</string>
-    <string name="grpSeparateSum">עמוד הסטטוס יוחלף בצ\'אטים של קבוצות, \"סיפורים דמויי אינסטגרם \" יופעל אוטומטית.</string>
+    <string name="grpSeparate">"צ'אטים /קבוצות נפרדים"</string>
+    <string name="grpSeparateSum">"עמוד הסטטוס יוחלף בצ'אטים של קבוצות, \"סיפורים דמויי אינסטגרם \" יופעל אוטומטית."</string>
     <string name="grparticpantName_color">צבע שם המשתתף בקבוצה</string>
     <string name="grparticpantName_colorS">שינוי צבע של חבר הקבוצה /שם המשתתף בהודעה</string>
     <string name="hideRStatus">סטטוסים אחרונים</string>
@@ -220,7 +220,7 @@
     <string name="hide_actionb">הסתר FAB LastSeen</string>
     <string name="hide_actionl">הסתר FAB ביומן WhatsApp</string>
     <string name="hide_actionm">הסתר הודעה חדשה FAB</string>
-    <string name="hide_chat">הסתר צ\'אט</string>
+    <string name="hide_chat">"הסתר צ'אט"</string>
     <string name="hide_lastseen">הסתר נראה לאחרונה</string>
     <string name="hide_no">אל תסתיר</string>
     <string name="hide_notifications">הסתר התראות</string>
@@ -244,7 +244,7 @@
     <string name="launchericonsSum">בחר בסמל המשגר האהוב עליך</string>
     <string name="limit">הצג רק את השעות האחרונות</string>
     <string name="listBackground">רקע רשימה (ממשק One UI בלבד)</string>
-    <string name="listBackgroundSum">שנה רקע של צ\'אטים ברשימה בממשק משתמש אחד.</string>
+    <string name="listBackgroundSum">"שנה רקע של צ'אטים ברשימה בממשק משתמש אחד."</string>
     <string name="loadTheme">טען נושא</string>
     <string name="loadThemeSum">טען ערכות נושא המאוחסנות בכרטיס sdcard</string>
     <string name="lock">נעילת שיחה</string>
@@ -302,12 +302,12 @@
     <string name="msg_scheduler_timetosend">הזמן לשליחת ההודעה</string>
     <string name="msg_scheduler_title">מתזמן הודעות</string>
     <string name="msg_scheduler_to">\"ל: \"</string>
-    <string name="multiChat">כרטיסי שיחה (רב צ\'אטים)</string>
-    <string name="multiChatsS">כל צ\'אט שאתה פותח יהפוך לכרטיס, תוכל לעבור מהמשימות האחרונות בקלות (אנדרואיד 5 ומעלה)</string>
+    <string name="multiChat">"כרטיסי שיחה (רב צ'אטים)"</string>
+    <string name="multiChatsS">"כל צ'אט שאתה פותח יהפוך לכרטיס, תוכל לעבור מהמשימות האחרונות בקלות (אנדרואיד 5 ומעלה)"</string>
     <string name="ncall">שיחת טלפון</string>
     <string name="new_convoattachment_design">ממשק משתמש חדש לבוחר קבצים מצורפים</string>
-    <string name="oldEmoji">עיצוב אמוג\'ים ישן</string>
-    <string name="oldEmojiS">השתמש בעיצוב אמוג\'ים ישן של המלאי במקום במלאי החדש</string>
+    <string name="oldEmoji">"עיצוב אמוג'ים ישן"</string>
+    <string name="oldEmojiS">"השתמש בעיצוב אמוג'ים ישן של המלאי במקום במלאי החדש"</string>
     <string name="online_str">באינטרנט</string>
     <string name="other_contacts">אנשי קשר אחרים</string>
     <string name="other_contacts_sum">הסתר מחיצת אנשי קשר אחרים מחלון העברת הודעות</string>
@@ -317,8 +317,8 @@
     <string name="pat_disableVibrationS">השבת את המשוב הפיזי בעת השימוש בתבנית</string>
     <string name="pat_invisible">הפוך את התבנית לבלתי נראית</string>
     <string name="pat_invisibleS">מסתיר את נתיב הדפוסים בעת פתיחת GBWhatsApp</string>
-    <string name="pic_chat_size">גודל תמונה בצ\'אט</string>
-    <string name="pic_chat_size_summary">הגדר גודל תמונה לצ\'אט</string>
+    <string name="pic_chat_size">"גודל תמונה בצ'אט"</string>
+    <string name="pic_chat_size_summary">"הגדר גודל תמונה לצ'אט"</string>
     <string name="pic_location">מיקום תמונה</string>
     <string name="pic_locationS">בחר אם התמונה מופיעה בהודעה הראשונה או האחרונה או הכל</string>
     <string name="preview_failed">התצוגה המקדימה נכשלה</string>
@@ -332,14 +332,14 @@
     <string name="read_moree">הסר קרא עוד ...</string>
     <string name="read_moree_sum">מסיר את כפתור קרא עוד ... ופותח באופן אוטומטי את ההודעה כאשר אתה מקבל הודעה עם תווים רבים</string>
     <string name="recent_chats">שיחות אחרונות</string>
-    <string name="recent_chats_sum">הסתר מחיצת צ\'אטים אחרונים מחלון העברת הודעות</string>
+    <string name="recent_chats_sum">"הסתר מחיצת צ'אטים אחרונים מחלון העברת הודעות"</string>
     <string name="repetition_1">פעם אחת</string>
     <string name="repetition_2">יום יומי</string>
     <string name="repetition_3">שבועי</string>
     <string name="repetition_4">חודשי</string>
     <string name="repetition_5">שנתי</string>
     <string name="resetPrivacyonly">לשמור על הנושא הנוכחי?</string>
-    <string name="resetPrivacyonlyS">\'שמור\': שמור נושא מיושם \'איפוס\': צבעי ברירת מחדל /מלאי WhatsApp</string>
+    <string name="resetPrivacyonlyS">"'שמור': שמור נושא מיושם 'איפוס': צבעי ברירת מחדל /מלאי WhatsApp"</string>
     <string name="resetThemes">אפס העדפות</string>
     <string name="resetThemesSum">מגדיר את הגדרות ברירת המחדל של WhatsApp</string>
     <string name="reset_themes_confirma">האם אתה בטוח שברצונך לאפס את כל העדפות העיצוב?</string>
@@ -351,7 +351,7 @@
     <string name="saveThemeS">שמור את ההגדרות הנוכחיות שלך ב (/Download/GBThemes)</string>
     <string name="schedule_title_activity_edit">ערוך הודעה</string>
     <string name="selected_tabPagerTitle">צבע טקסט של כותרת שנבחרה</string>
-    <string name="selected_tabPagerTitleS">שנה צבע שנבחר של \'שיחות\', \'סטטוס\', \'שיחות קוליות\'</string>
+    <string name="selected_tabPagerTitleS">"שנה צבע שנבחר של 'שיחות', 'סטטוס', 'שיחות קוליות'"</string>
     <string name="showAirplaneMode">הצג מצב טיסה</string>
     <string name="showAirplaneModeS">מאפשר לך להפסיק לקבל הודעות וואטסאפ, עד לכיבוי</string>
     <string name="showNightMode">הצג מצב יום /לילה</string>
@@ -373,7 +373,7 @@
     <string name="supportyo">תמיכה</string>
     <string name="tabPagerIndicator">צבע תחתון של הכרטיסיה שנבחרה</string>
     <string name="tabPagerTitle">צבע טקסט של כותרת העמוד</string>
-    <string name="tabPagerTitleS">שנה צבע של \'שיחות\', \'סטטוס\', \'שיחות קוליות\'</string>
+    <string name="tabPagerTitleS">"שנה צבע של 'שיחות', 'סטטוס', 'שיחות קוליות'"</string>
     <string name="tabindicator">הכרטיסיה שנבחרה צבע תחתון</string>
     <string name="textcolormain">שנה צבע לאורך כל המסך הראשי</string>
     <string name="textcoloruni">צבע טקסט</string>
@@ -385,7 +385,7 @@
     <string name="transparent">שקוף</string>
     <string name="txtName">שם</string>
     <string name="txtText">הקלד את ההודעה שלך</string>
-    <string name="unhide_chat">בטל את הסתר הצ\'אט</string>
+    <string name="unhide_chat">"בטל את הסתר הצ'אט"</string>
     <string name="unlock">בטל את נעילת השיחה</string>
     <string name="unread_counter">צבע מונה הודעות שלא נקראו</string>
     <string name="unread_counterS">שנה את צבע הרקע עבור מונה /מחוון ההודעות שלא נקראו</string>
@@ -396,7 +396,7 @@
     <string name="voicechanger_sound_deep">עמוק</string>
     <string name="voicechanger_sound_drunk">שיכור</string>
     <string name="voicechanger_sound_fast">מהיר</string>
-    <string name="voicechanger_sound_fun1">כיף מס \'1</string>
+    <string name="voicechanger_sound_fun1">"כיף מס '1"</string>
     <string name="voicechanger_sound_reverse">הפוך</string>
     <string name="voicechanger_sound_robot">רובוט</string>
     <string name="voicechanger_sound_slowmotion">הילוך איטי</string>
@@ -410,7 +410,7 @@
     <string name="yoAntiRevokeS">אנשים אחרים לא יכולים למחוק עבורך הודעות</string>
     <string name="yoAntiRevokeStatus">מצב נגד מחיקה</string>
     <string name="yoAntiRevokeStatusS">סטטוסים /סיפורים שנמחקו לא יימחקו עבורך</string>
-    <string name="yoArchvChat">הסתר צ\'אטים בארכיון</string>
+    <string name="yoArchvChat">"הסתר צ'אטים בארכיון"</string>
     <string name="yoArchvChatSum">הסתר את כפתור השיחות בארכיון ממסך השיחות (צריך הפעלה מחדש)</string>
     <string name="yoAttach">הצג כפתור הצמדה</string>
     <string name="yoAttachS">כפתור ההצמדה בשיחה מושבת בברירת מחדל, הפעל אם אתה רוצה אותו בחזרה.</string>
@@ -446,23 +446,23 @@
     <string name="yoDisableChatSwipe">השבת החלק כדי לצאת משיחה</string>
     <string name="yoDisableChatSwipeS">מונע סגירת השיחה על ידי החלקה משמאל לימין (כמו בטלגרם)</string>
     <string name="yoDisableFwd">השבת הועבר</string>
-    <string name="yoDisableFwdS">מאפשר לך לשלוח הודעות מחדש ללא תג \'הועבר\'</string>
+    <string name="yoDisableFwdS">"מאפשר לך לשלוח הודעות מחדש ללא תג 'הועבר'"</string>
     <string name="yoDonate">לתרום!</string>
     <string name="yoDonateSum">שמור על GBWhatsApp בחיים!</string>
-    <string name="yoEmojibtn">צבע כפתור אמוג\'י</string>
-    <string name="yoEmojibtnS">כפתור אימוג\'י בצבע מסך השיחה</string>
+    <string name="yoEmojibtn">"צבע כפתור אמוג'י"</string>
+    <string name="yoEmojibtnS">"כפתור אימוג'י בצבע מסך השיחה"</string>
     <string name="yoFiveMinStatus">סטטוס של 5 דקות</string>
     <string name="yoFiveMinStatusS">מאפשר לך לשים סרטון של חמש דקות במקום 30 שניות כסטטוס. הערה: רק משתמשי GBWhatsApp יכולים לראות את הסטטוס המלא! משתמשים אחרים יראו 30 שניות בלבד.</string>
     <string name="yoFullResBtn">שלח HQ</string>
     <string name="yoFwdLim">הגדל את הגבול להעברת הודעות</string>
-    <string name="yoFwdLimSum">העבר הודעות עד 250 צ\'אטים!</string>
+    <string name="yoFwdLimSum">"העבר הודעות עד 250 צ'אטים!"</string>
     <string name="yoGeneral">כללי</string>
     <string name="yoHeds">השבת את התראה של ראש</string>
     <string name="yoHedsSum">השבת התראות קופצות בראש המסך, במכשירי אנרואיד 5.0 ומעלה</string>
     <string name="yoHideCompose">הסתר הקלדה/הקלטה.…</string>
     <string name="yoHideComposeSum">אל תגיד לשולח שאתה מקליד הודעה.</string>
-    <string name="yoHideDiv">הסתר מחלק צ\'אטים</string>
-    <string name="yoHideDivS">מסיר קו אפור בין צ\'אטים במסך הראשי</string>
+    <string name="yoHideDiv">"הסתר מחלק צ'אטים"</string>
+    <string name="yoHideDivS">"מסיר קו אפור בין צ'אטים במסך הראשי"</string>
     <string name="yoHideInfo">הסתר תאריך ושם</string>
     <string name="yoHideInfoSum">הסתר את התאריך והשם בעת העתקת 2 הודעות ומעלה</string>
     <string name="yoHidePlay">הסתר הפעל הערות קול/וידאו</string>
@@ -487,9 +487,9 @@
     <string name="yoHideStatusViewSum">אל תגיד לאיש קשר שראית את הסטטוס שלהם</string>
     <string name="yoHomeUIStyle">ניווט בסגנון ממשק משתמש</string>
     <string name="yoHow">אמת את המספר שלך באמצעות SMS. או אם ביצעת בעבר גיבוי WhatsApp אתה יכול לשחזר אותו.</string>
-    <string name="yoHowMove">אם ברצונך לשחזר את היסטוריית הצ\'אטים מ- WhatsApp, וודא שביצעת גיבוי מההודעות שלך, ואז תוכל לשחזר אותה על ידי לחיצה על הכפתור למטה, ואז הכנס את המספר שלך ולחץ על (הבא).</string>
+    <string name="yoHowMove">"אם ברצונך לשחזר את היסטוריית הצ'אטים מ- WhatsApp, וודא שביצעת גיבוי מההודעות שלך, ואז תוכל לשחזר אותה על ידי לחיצה על הכפתור למטה, ואז הכנס את המספר שלך ולחץ על (הבא)."</string>
     <string name="yoHyperLinksColor">צבעי היפר-קישורים</string>
-    <string name="yoHyperLinksColorSum">שינוי צבע היפר-קישורים בבועות צ\'אט</string>
+    <string name="yoHyperLinksColorSum">"שינוי צבע היפר-קישורים בבועות צ'אט"</string>
     <string name="yoImg">מצבי תמונה /וידאו</string>
     <string name="yoImgHiBtn">שלח תמונות ברזולוציה מלאה</string>
     <string name="yoImgHiBtnSum">תמונות יישלחו באיכות גבוהה /ברזולוציה גבוהה ביותר</string>
@@ -541,7 +541,7 @@
     <string name="yoSwipeRowS">מאפשר להחליק כל שורת שיחה שמאלה או ימינה כדי לבצע פעולות מהירות</string>
     <string name="yoThemes">ערכות נושא</string>
     <string name="yoTxtSelect">הפוך טקסט לבחירה</string>
-    <string name="yoTxtSelectSum">אפשר בחירת טקסט בועת צ\'אט</string>
+    <string name="yoTxtSelectSum">"אפשר בחירת טקסט בועת צ'אט"</string>
     <string name="yoUIBottomStyle">סגנון בר תחתון</string>
     <string name="yoUpSizeLimit">מגבלת גודל וידאו</string>
     <string name="yoUpSizeLimitSum">הגדל את מגבלת העלאת קובץ הווידאו ל 700MB</string>
@@ -575,7 +575,7 @@
     <string name="yo_misc">מצבים אחרים</string>
     <string name="yo_mods">מצבים</string>
     <string name="yo_online_toast">הודעה קופצת לאיש קשר מחובר</string>
-    <string name="yo_sethidepass">קבע תחילה קוד PIN /תבנית לפני שתסתיר צ\'אטים!</string>
+    <string name="yo_sethidepass">"קבע תחילה קוד PIN /תבנית לפני שתסתיר צ'אטים!"</string>
     <string name="yo_settings_bubblesticks">בועות ואישורי קריאה</string>
     <string name="yo_settings_header">כותרת עליונה</string>
     <string name="yo_settings_privsec">פרטיות ואבטחה</string>
@@ -597,10 +597,6 @@
     <string name="yocustom">התאם אישית פרטיות (אנשי קשר, קבוצות, רשימת תפוצה)</string>
     <string name="yowaUpdate">עדכונים</string>
     <string name="yowa_widget">יישומון</string>
-    <string name="donations__bitcoin">ביטקוין</string>
-    <string name="donations__bitcoin_description">שלח כל מפתח של bitcoin למפתח. לחץ לחיצה ממושכת על מנת להעתיק כתובת.</string>
-    <string name="donations__bitcoin_send_bitcoin_button">שלח ביטקוין!</string>
-    <string name="donations__bitcoin_toast_copy">כתובת הביטקוין הועתקה ללוח!</string>
     <string name="alex_CancelButton">לְבַטֵל</string>
     <string name="alex_UpdateButton">עדכן כעת</string>
     <string name="alex_UpdateTitle">עדכון חדש זמין</string>
@@ -631,7 +627,7 @@
     <string name="str25d5">שליחת שאילתה</string>
     <string name="str25d6">חיפוש קולי</string>
     <string name="str25d9">כיווץ</string>
-    <string name="str25db">‏חברי הקהילה (כמוך) יכולים לראות את הקבוצות של הקהילה, להצטרף אליהן ולקבל עדכונים באמצעות הכרזות מנהלים. &lt;a href=\"%s\"&gt;למידע נוסף&lt;/a&gt;</string>
+    <string name="str25db">‏חברי הקהילה (כמוך) יכולים לראות את הקבוצות של הקהילה, להצטרף אליהן ולקבל עדכונים באמצעות הכרזות מנהלים. &lt;a href=\"%s\">למידע נוסף&lt;/a></string>
     <string name="str25dc">‏שמחים שהצטרפת לקהילה!</string>
     <string name="str25df">‏אישור</string>
     <string name="str25e0">‏החלפת החשבונות נכשלה. יש לנסות שוב מאוחר יותר.</string>
@@ -647,13 +643,13 @@
     <string name="str25f1">‏הוספת סטטוס</string>
     <string name="str25f2">‏הוספת קיצור דרך</string>
     <string name="str25f3">‏מתקדם</string>
-    <string name="str2600">‏העברת כל הצ\'אטים לארכיון</string>
-    <string name="str2603">‏השארת צ\'אטים בארכיון</string>
-    <string name="str2604">‏צ\'אטים המאוחסנים בארכיון ישארו בארכיון בעת קבלת הודעה חדשה</string>
+    <string name="str2600">"‏העברת כל הצ'אטים לארכיון"</string>
+    <string name="str2603">"‏השארת צ'אטים בארכיון"</string>
+    <string name="str2604">"‏צ'אטים המאוחסנים בארכיון ישארו בארכיון בעת קבלת הודעה חדשה"</string>
     <string name="str2607">‏שמירה</string>
     <string name="str261c">‏הצגת תמונת הפרופיל</string>
     <string name="str261d">‏הצגת הסטטוס</string>
-    <string name="str2620">‏שיחה בצ\'אט עם AI</string>
+    <string name="str2620">"‏שיחה בצ'אט עם AI"</string>
     <string name="str2622">‏משתמש ב-AI של Meta</string>
     <string name="str2624">כיווץ הגיליון התחתון</string>
     <string name="str2625">הרחבת הגיליון התחתון</string>
@@ -663,12 +659,12 @@
     <string name="str262c">‏לא יהיה באפשרות %s לשלוח לך הודעות או להתקשר אליך יותר.</string>
     <string name="str262d">‏סוג העסק</string>
     <string name="str262e">‏פרטי עסק</string>
-    <string name="str2636">‏כדי להקשות על אנשים לגלות את המיקום שלך, שיחות במכשיר הזה יועברו בצורה מאובטחת דרך שרתי WhatsApp. תהיה לזה השפעה על איכות השיחה. &lt;a href=call_relaying_help&gt;למידע נוסף&lt;/a&gt;</string>
+    <string name="str2636">‏כדי להקשות על אנשים לגלות את המיקום שלך, שיחות במכשיר הזה יועברו בצורה מאובטחת דרך שרתי WhatsApp. תהיה לזה השפעה על איכות השיחה. &lt;a href=call_relaying_help>למידע נוסף&lt;/a></string>
     <string name="str2637">‏הגנה על כתובת ה-IP במהלך שיחות</string>
     <string name="str2638">‏שיחות</string>
     <string name="str2639">‏הוספת קיצור דרך לביצוע שיחה אל %s.</string>
     <string name="str263a">‏קיצור דרך לביצוע שיחה</string>
-    <string name="str263b">‏במהלך שיחות אפשר להפעיל אפקטים של המצלמה, כמו האווטאר שלך. &lt;a href=\"%s\"&gt;למידע נוסף&lt;/a&gt;</string>
+    <string name="str263b">‏במהלך שיחות אפשר להפעיל אפקטים של המצלמה, כמו האווטאר שלך. &lt;a href=\"%s\">למידע נוסף&lt;/a></string>
     <string name="str263c">‏אפקטים של מצלמה</string>
     <string name="str263d">‏מצלמת WhatsApp</string>
     <string name="str263e">‏ביטול</string>
@@ -679,12 +675,12 @@
     <string name="str2649">‏שיתוף</string>
     <string name="str264a">הוזנו %1$d תווים מתוך %2$d</string>
     <string name="str264b">מגבלת התווים חורגת ב-%1$d מתוך %2$d</string>
-    <string name="str264d">‏הזמנה מס\' %1$s</string>
-    <string name="str264e">‏מכירה מס\' %1$s</string>
-    <string name="str264f">‏בקשת תשלום מס\' %1$s</string>
-    <string name="str2650">‏חיוב מס\' %1$s</string>
+    <string name="str264d">"‏הזמנה מס' %1$s"</string>
+    <string name="str264e">"‏מכירה מס' %1$s"</string>
+    <string name="str264f">"‏בקשת תשלום מס' %1$s"</string>
+    <string name="str2650">"‏חיוב מס' %1$s"</string>
     <string name="str2651">‏ניקוי</string>
-    <string name="str2652">‏הסרת כל הצ\'אטים</string>
+    <string name="str2652">"‏הסרת כל הצ'אטים"</string>
     <string name="str2653">מחיקת הטקסט</string>
     <string name="str2654">‏סגירה</string>
     <string name="str2655">הפעל</string>
@@ -709,25 +705,25 @@
     <string name="str266a">‏כל חברי הקהילה יכולים לצרף קבוצות.</string>
     <string name="str266f">שימוש בסיסמה</string>
     <string name="str2671">‏יצירת קשר</string>
-    <string name="str2672">‏צ\'אטים</string>
+    <string name="str2672">"‏צ'אטים"</string>
     <string name="str2673">‏תמונות פרופיל של איש הקשר</string>
     <string name="str2674">‏סרוק/י קוד QR של WhatsApp</string>
     <string name="str2676">‏אנשי קשר</string>
-    <string name="str2678">‏צ\'אט ב-WhatsApp</string>
+    <string name="str2678">"‏צ'אט ב-WhatsApp"</string>
     <string name="str267a">‏יצירת ערוץ</string>
     <string name="str267c">‏התראות מותאמות אישית</string>
     <string name="str267d">‏מופעל</string>
     <string name="str267e">שגיאה לא ידועה</string>
     <string name="str267f">‏מחיקה</string>
     <string name="str2680">‏מחיקה מתבצעת…</string>
-    <string name="str2681">‏מחיקת כל הצ\'אטים</string>
+    <string name="str2681">"‏מחיקת כל הצ'אטים"</string>
     <string name="str2687">‏כדי להחיל את השינוי, אפליקציית WhatsApp תיסגר ויכול להיות שיהיה צורך להפעיל אותה מחדש.</string>
     <string name="str2688">‏אישור השינוי</string>
-    <string name="str2693">‏הגדרת זמן לצ\'אטים</string>
+    <string name="str2693">"‏הגדרת זמן לצ'אטים"</string>
     <string name="str2695">‏זמן ברירת המחדל להודעות זמניות</string>
     <string name="str2697">‏מידע נוסף</string>
     <string name="str2698">‏עריכה</string>
-    <string name="str26a8">‏אימוג\'י</string>
+    <string name="str26a8">"‏אימוג'י"</string>
     <string name="str26ab">שגיאה</string>
     <string name="str26c0">השהיה</string>
     <string name="str26c1">הפעלה</string>
@@ -745,7 +741,7 @@
     <string name="str26fd">ניסית יותר מדי פעמים. יש לנסות שוב מאוחר יותר.</string>
     <string name="str26fe">לא נרשמו טביעות אצבע.</string>
     <string name="str26ff">פעולת טביעת האצבע בוטלה בידי המשתמש.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;למידע נוסף&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">למידע נוסף&lt;/a></string>
     <string name="str2701">‏גדול</string>
     <string name="str2702">‏בינוני</string>
     <string name="str2703">‏קטן</string>
@@ -800,7 +796,7 @@
     <string name="str27c4">החלפה לשיטת קלט של טקסט</string>
     <string name="str27c5">יש להקיש כדי להחליף לבחירת שנה</string>
     <string name="str27d0">‏עדכוני סטטוס מושתקים</string>
-    <string name="str27e2">‏רוצה ליצור קבוצה חדשה? &lt;font color=#%s&gt;&lt;b&gt;ככה עושים את זה&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">‏רוצה ליצור קבוצה חדשה? &lt;font color=#%s>&lt;b>ככה עושים את זה&lt;/b>&lt;/font></string>
     <string name="str27e5">‏יום אחד</string>
     <string name="str27e6">‏הגדרת ברירת המחדל של האפליקציה (%s)</string>
     <string name="str27e7">‏חודש אחד</string>
@@ -818,10 +814,10 @@
     <string name="str2800">‏פרטי בקשת התשלום</string>
     <string name="str2801">‏פרטי החיוב</string>
     <string name="str2802">‏לדף התשלום</string>
-    <string name="str2803">‏הזמנה מס\' %1$s</string>
-    <string name="str2804">‏מכירה מס\' %1$s</string>
-    <string name="str2805">‏בקשת תשלום מס\' %1$s</string>
-    <string name="str2806">‏חיוב מס\' %1$s</string>
+    <string name="str2803">"‏הזמנה מס' %1$s"</string>
+    <string name="str2804">"‏מכירה מס' %1$s"</string>
+    <string name="str2805">"‏בקשת תשלום מס' %1$s"</string>
+    <string name="str2806">"‏חיוב מס' %1$s"</string>
     <string name="str2807">‏סיכום ההזמנה</string>
     <string name="str2808">‏סיכום המכירה</string>
     <string name="str2809">‏סיכום דרישת התשלום</string>
@@ -846,8 +842,8 @@
     <string name="str283c">‏כיבוי</string>
     <string name="str283d">‏הפעלה</string>
     <string name="str2841">‏אימות מספר הטלפון שלך</string>
-    <string name="str2843">‏אם מדווחים על העסק הזה, 5 ההודעות האחרונות ממנו יועברו אל WhatsApp. נוסף לכך, הצ\'אט שלך עם העסק יימחק.</string>
-    <string name="str2844">‏חסימת איש הקשר ומחיקת הצ\'אט</string>
+    <string name="str2843">"‏אם מדווחים על העסק הזה, 5 ההודעות האחרונות ממנו יועברו אל WhatsApp. נוסף לכך, הצ'אט שלך עם העסק יימחק."</string>
+    <string name="str2844">"‏חסימת איש הקשר ומחיקת הצ'אט"</string>
     <string name="str284b">‏סריקת קוד QR</string>
     <string name="str2850">‏חיפוש</string>
     <string name="str2851">‏מוקדם יותר</string>
@@ -897,7 +893,7 @@
     <string name="str288b">‏פרופיל</string>
     <string name="str288c">‏לא נמצאו תוצאות בהגדרות</string>
     <string name="str288d">‏שימוש באחסון ובנתונים</string>
-    <string name="str2891">‏שיחות ממספרים לא מוכרים יושתקו, אבל עדיין יוצגו בלשונית \'שיחות\' ובהתראות. &lt;a href=calling_privacy_help&gt;למידע נוסף&lt;/a&gt;</string>
+    <string name="str2891">"‏שיחות ממספרים לא מוכרים יושתקו, אבל עדיין יוצגו בלשונית 'שיחות' ובהתראות. &lt;a href=calling_privacy_help>למידע נוסף&lt;/a>"</string>
     <string name="str2892">‏השתקת שיחות ממספרים לא מוכרים</string>
     <string name="str2893">‏דילוג</string>
     <string name="str2895">‏מיון לפי תאריך</string>
@@ -932,4 +928,8 @@
     <string name="str28dc">‏מוצפנת מקצה לקצה</string>
     <string name="str28dd">‏הצטרפות</string>
     <string name="str28ec">‏האתר הזה מוגן באמצעות פרוטוקול אבטחת HTTPS שמשמש כתקן בתעשייה.</string>
+    <string name="donations__bitcoin">ביטקוין</string>
+    <string name="donations__bitcoin_description">שלח כל מפתח של bitcoin למפתח. לחץ לחיצה ממושכת על מנת להעתיק כתובת.</string>
+    <string name="donations__bitcoin_send_bitcoin_button">שלח ביטקוין!</string>
+    <string name="donations__bitcoin_toast_copy">כתובת הביטקוין הועתקה ללוח!</string>
 </resources>

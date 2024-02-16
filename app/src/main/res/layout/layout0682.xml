@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/attr06f8" android:paddingLeft="@dimen/dimen09e0" android:paddingRight="@dimen/dimen09e0" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:layout_gravity="center" android:id="@+id/button_group_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp" app:attr0666="1">
-        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/request_decline_button" android:layout_marginRight="@dimen/dimen09e0" android:text="@string/str170a" style="@style/style05a6"/>
-        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/request_pay_button" android:text="@string/str1770" style="@style/style059e"/>
-        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/request_cancel_button" android:visibility="gone" android:text="@string/str16f6" style="@style/style05a6"/>
-        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/accept_payment_button" android:visibility="gone" android:text="@string/str16cd" style="@style/style05a6"/>
-        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/retry_withdrawal_button" android:visibility="gone" android:text="@string/str17b7" style="@style/style05a6"/>
-        <com.gbwhatsapp.wds.components.button.WDSButton android:enabled="true" android:id="@+id/pause_resume_button" android:visibility="gone" android:text="@string/str176f" style="@style/style059e"/>
+<LinearLayout android:orientation="vertical" android:background="?attr06f8" android:paddingLeft="@dimen/dimen09e0" android:paddingRight="@dimen/dimen09e0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:layout_gravity="center" android:id="@id/button_group_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" app:attr0666="horizontal">
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/request_decline_button" android:layout_marginRight="@dimen/dimen09e0" android:text="@string/str170a" style="@style/style05a6" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/request_pay_button" android:text="@string/str1770" style="@style/style059e" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/request_cancel_button" android:visibility="gone" android:text="@string/str16f6" style="@style/style05a6" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/accept_payment_button" android:visibility="gone" android:text="@string/str16cd" style="@style/style05a6" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/retry_withdrawal_button" android:visibility="gone" android:text="@string/str17b7" style="@style/style05a6" />
+        <com.gbwhatsapp.wds.components.button.WDSButton android:enabled="true" android:id="@id/pause_resume_button" android:visibility="gone" android:text="@string/str176f" style="@style/style059e" />
     </com.gbwhatsapp.wds.components.button.WDSButtonGroup>
 </LinearLayout>

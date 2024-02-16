@@ -1,34 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <include layout="@layout/layout0866"/>
-    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent">
-        <com.google.android.material.appbar.AppBarLayout android:id="@+id/appBarLayout" android:background="?attr/attr06f8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr029e="0dp">
-            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@+id/collapsing_filters_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0549="15">
-                <HorizontalScrollView android:id="@+id/payment_filters" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0510="1">
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/layout0866" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:background="?attr06f8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr029e="0.0dip">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsing_filters_toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0549="enterAlways|scroll|snap">
+                <HorizontalScrollView android:id="@id/payment_filters" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" app:attr0510="pin">
                     <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
-                        <com.gbwhatsapp.payments.ui.widget.MultiExclusionChipGroup android:id="@+id/payment_filter_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen09d3" app:attr080d="true"/>
+                        <com.gbwhatsapp.payments.ui.widget.MultiExclusionChipGroup android:id="@id/payment_filter_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen09d3" app:attr080d="true" />
                     </LinearLayout>
                 </HorizontalScrollView>
             </com.google.android.material.appbar.CollapsingToolbarLayout>
         </com.google.android.material.appbar.AppBarLayout>
-        <FrameLayout android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent" android:transitionGroup="true" app:attr050d="@+id/appBarLayout" app:attr050e="50" app:attr050f="@string/str25ff">
-            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-                <FrameLayout android:id="@+id/transaction_list_header_container" android:background="?attr/attr06f8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-                <View android:id="@+id/transaction_list_header_container_separator" android:background="?attr/attr026d" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen09df"/>
-                <LinearLayout android:orientation="vertical" android:id="@+id/transaction_list_container" android:layout_width="match_parent" android:layout_height="match_parent">
-                    <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
-                        <com.gbwhatsapp.StickyHeadersRecyclerView android:id="@+id/transaction_list" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" app:attr0803="0dp"/>
-                        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/empty_list_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
-                            <com.gbwhatsapp.WaImageView android:id="@+id/empty_container_image" android:layout_width="48dp" android:layout_height="40dp" android:src="@drawable/ic_txn_empty" android:scaleType="fitXY" app:attr0518="@+id/empty_container_text" app:attr052a="0" app:attr052e="0" app:attr0534="0" app:attr0536="2"/>
-                            <com.gbwhatsapp.WaTextView android:id="@+id/empty_container_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:text="@string/str1810" app:attr0517="0" app:attr052a="0" app:attr052e="0" app:attr0533="@+id/empty_container_image" app:attr0536="2" style="@style/style025c"/>
+        <FrameLayout android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent" android:transitionGroup="true" app:attr050d="@id/appBarLayout" app:attr050e="bottom" app:attr050f="@string/str25ff">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:id="@id/transaction_list_header_container" android:background="?attr06f8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+                <View android:id="@id/transaction_list_header_container_separator" android:background="?attr026d" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen09df" />
+                <LinearLayout android:orientation="vertical" android:id="@id/transaction_list_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                        <com.gbwhatsapp.StickyHeadersRecyclerView android:id="@id/transaction_list" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="#00000000" app:attr0803="0.0dip" />
+                        <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/empty_list_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                            <com.gbwhatsapp.WaImageView android:id="@id/empty_container_image" android:layout_width="48.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_txn_empty" android:scaleType="fitXY" app:attr0518="@id/empty_container_text" app:attr052a="parent" app:attr052e="parent" app:attr0534="parent" app:attr0536="packed" />
+                            <com.gbwhatsapp.WaTextView android:id="@id/empty_container_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:text="@string/str1810" app:attr0517="parent" app:attr052a="parent" app:attr052e="parent" app:attr0533="@id/empty_container_image" app:attr0536="packed" style="@style/style025c" />
                         </androidx.constraintlayout.widget.ConstraintLayout>
                     </FrameLayout>
-                    <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0db2" android:gravity="center" android:id="@+id/bottom_button" android:background="?attr/attr093f" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="24dp" android:paddingBottom="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp" android:textAllCaps="true"/>
+                    <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/color0db2" android:gravity="center" android:id="@id/bottom_button" android:background="?attr093f" android:paddingLeft="24.0dip" android:paddingTop="16.0dip" android:paddingRight="24.0dip" android:paddingBottom="16.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="56.0dip" android:textAllCaps="true" />
                 </LinearLayout>
-                <ScrollView android:id="@android:id/empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
-                    <com.gbwhatsapp.WaTextView android:textSize="18sp" android:textColor="?android:attr/textColorPrimary" android:layout_gravity="center" android:paddingBottom="64dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1757"/>
+                <ScrollView android:id="@android:id/empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <com.gbwhatsapp.WaTextView android:textSize="18.0sp" android:textColor="?android:textColorPrimary" android:layout_gravity="center" android:paddingBottom="64.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1757" />
                 </ScrollView>
-                <com.gbwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="64dp" android:layout_height="64dp" android:indeterminateOnly="true" app:attr022f="@android:color/transparent" app:attr0230="?attr/attr06f7"/>
+                <com.gbwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="64.0dip" android:layout_height="64.0dip" android:indeterminateOnly="true" app:attr022f="@android:color/transparent" app:attr0230="?attr06f7" />
             </LinearLayout>
         </FrameLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>

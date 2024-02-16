@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="?attr/attr057f" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.WaTextView android:gravity="start" android:id="@+id/title" android:paddingLeft="@dimen/dimen0696" android:paddingRight="@dimen/dimen0696" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:textDirection="locale" android:textAlignment="gravity" android:paddingHorizontal="@dimen/dimen0696"/>
-    <ViewStub android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/action_layout_stub" android:layout="@layout/layout0153" android:inflatedId="@+id/action_layout" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="horizontal" android:background="?attr057f" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:gravity="start" android:id="@id/title" android:paddingLeft="@dimen/dimen0696" android:paddingRight="@dimen/dimen0696" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:textDirection="locale" android:textAlignment="gravity" android:paddingHorizontal="@dimen/dimen0696" />
+    <ViewStub android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_layout_stub" android:layout="@layout/layout0153" android:inflatedId="@id/action_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
 </LinearLayout>

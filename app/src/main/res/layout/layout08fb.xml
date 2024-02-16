@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="@dimen/dimen0d34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="4dp">
-    <com.gbwhatsapp.WaTextView android:id="@+id/label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str2513" android:paddingEnd="2dp" style="@style/style05b1"/>
-    <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_wabai_stardust_message"/>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="@dimen/dimen0d34" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:id="@id/label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str2513" android:paddingEnd="2.0dip" style="@style/style05b1" />
+    <com.gbwhatsapp.WaImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_wabai_stardust_message" />
 </LinearLayout>

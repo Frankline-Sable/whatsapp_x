@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<View xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/bg_map_entrypoint_shimmer" android:layout_width="match_parent" android:layout_height="146dp" android:layout_marginLeft="@dimen/dimen0a54" android:layout_marginTop="@dimen/dimen0a54" android:layout_marginRight="@dimen/dimen0a54" android:layout_marginBottom="@dimen/dimen0a58" style="BusinessLoadingFilterBarShimmerItem"/>
+<View android:background="@drawable/bg_map_entrypoint_shimmer" android:layout_width="fill_parent" android:layout_height="146.0dip" android:layout_marginLeft="@dimen/dimen0a54" android:layout_marginTop="@dimen/dimen0a54" android:layout_marginRight="@dimen/dimen0a54" android:layout_marginBottom="@dimen/dimen0a58" style="BusinessLoadingFilterBarShimmerItem"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

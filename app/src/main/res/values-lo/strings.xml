@@ -23,7 +23,7 @@
     <string name="str25d5">ສົ່ງຂໍ້ມູນ</string>
     <string name="str25d6">ຊອກຫາດ້ວຍສຽງ</string>
     <string name="str25d9">ຫຍໍ້ລົງ</string>
-    <string name="str25db">ໃນຖານະສະມາຊິກ, ທ່ານຈະສາມາດເບິ່ງ ແລະ ເຂົ້າຮ່ວມກຸ່ມໃນຊຸມຊົນນີ້ ແລະ ຮັບການອັບເດດຈາກການປະກາດຂອງແອັດມິນ. &lt;a href=\"%s\"&gt;ສຶກສາເພີ່ມເຕີມ&lt;/a&gt;</string>
+    <string name="str25db">ໃນຖານະສະມາຊິກ, ທ່ານຈະສາມາດເບິ່ງ ແລະ ເຂົ້າຮ່ວມກຸ່ມໃນຊຸມຊົນນີ້ ແລະ ຮັບການອັບເດດຈາກການປະກາດຂອງແອັດມິນ. &lt;a href=\"%s\">ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
     <string name="str25dc">ຍິນດີຕ້ອນຮັບສູ່ຊຸມຊົນ!</string>
     <string name="str25df">ຕົກລົງ</string>
     <string name="str25e0">ບໍ່ສາມາດສະຫຼັບບັນຊີໄດ້. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s ຈະບໍ່ສາມາດສົ່ງຂໍ້ຄວາມ ຫຼື ໂທຫາທ່ານໄດ້ອີກ.</string>
     <string name="str262d">ປະເພດທຸລະກິດ</string>
     <string name="str262e">ຂໍ້ມູນທຸລະກິດ</string>
-    <string name="str2636">ເພື່ອເຮັດໃຫ້ຜູ້ຄົນຮູ້ຕຳແໜ່ງຂອງທ່ານໄດ້ຍາກຂຶ້ນ, ບັນດາການໂທຢູ່ອຸປະກອນນີ້ຈະຖືກສົ່ງຕໍ່ຜ່ານເຊີບເວີ WhatsApp. ຂັ້ນຕອນນີ້ຈະເຮັດໃຫ້ຄຸນນະພາບການໂທຫຼຸດລົງ. &lt;a href=call_relaying_help&gt;ສຶກສາເພີ່ມເຕີມ&lt;/a&gt;</string>
+    <string name="str2636">ເພື່ອເຮັດໃຫ້ຜູ້ຄົນຮູ້ຕຳແໜ່ງຂອງທ່ານໄດ້ຍາກຂຶ້ນ, ບັນດາການໂທຢູ່ອຸປະກອນນີ້ຈະຖືກສົ່ງຕໍ່ຜ່ານເຊີບເວີ WhatsApp. ຂັ້ນຕອນນີ້ຈະເຮັດໃຫ້ຄຸນນະພາບການໂທຫຼຸດລົງ. &lt;a href=call_relaying_help>ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
     <string name="str2637">ປ້ອງກັນທີ່ຢູ່ IP ໃນການໂທ</string>
     <string name="str2638">ການໂທ</string>
     <string name="str2639">ເພີ່ມທາງລັດການໂທສຳລັບ %s.</string>
     <string name="str263a">ທາງລັດການໂທ</string>
-    <string name="str263b">ໃຊ້ເອັບເຟັກກ້ອງ ເຊັ່ນ ອາວະຕານຂອງທ່ານ ໃນການໂທ. &lt;a href=\"%s\"&gt;ສຶກສາເພີ່ມເຕີມ&lt;/a&gt;</string>
+    <string name="str263b">ໃຊ້ເອັບເຟັກກ້ອງ ເຊັ່ນ ອາວະຕານຂອງທ່ານ ໃນການໂທ. &lt;a href=\"%s\">ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
     <string name="str263c">ເອັບເຟັກກ້ອງ</string>
     <string name="str263d">ກ້ອງຖ່າຍຮູບ WhatsApp</string>
     <string name="str263e">ຍົກເລິກ</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">ມີຄວາມພະຍາຍາມຫຼາຍເທື່ອເກີນໄປ. ກະລຸນາລອງໃໝ່ໃນພາຍຫຼັງ.</string>
     <string name="str26fe">ບໍ່ມີການລົງທະບຽນລາຍນິ້ວມື.</string>
     <string name="str26ff">ຜູ້ໃຊ້ໄດ້ຍົກເລີກຄຳສັ່ງລາຍນິ້ວມືແລ້ວ.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;ສຶກສາເພີ່ມເຕີມ&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
     <string name="str2701">ໃຫຍ່</string>
     <string name="str2702">ປານກາງ</string>
     <string name="str2703">ນ້ອຍ</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">ປ່ຽນເປັນໂໝດປ້ອນຂໍ້ມູນຂໍ້ຄວາມ</string>
     <string name="str27c5">ແຕະເພື່ອປ່ຽນເປັນການເລືອກປີ</string>
     <string name="str27d0">ປິດສຽງການອັບເດດ</string>
-    <string name="str27e2">ກຳລັງສ້າງກຸ່ມໃໝ່ບໍ? &lt;font color=#%s&gt;&lt;b&gt;ເບິ່ງວິທີ&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">ກຳລັງສ້າງກຸ່ມໃໝ່ບໍ? &lt;font color=#%s>&lt;b>ເບິ່ງວິທີ&lt;/b>&lt;/font></string>
     <string name="str27e5">1 ວັນ</string>
     <string name="str27e6">ຄ່າຕັ້ງຕົ້ນຂອງແອັບ (%s)</string>
     <string name="str27e7">1 ເດືອນ</string>
@@ -289,7 +289,7 @@
     <string name="str288b">ໂປຣໄຟລ໌</string>
     <string name="str288c">ບໍ່ພົບຜົນການຄົ້ນຫາການຕັ້ງຄ່າ</string>
     <string name="str288d">ການນຳໃຊ້ບ່ອນເກັບຂໍ້ມູນ ແລະ ຂໍ້ມູນ</string>
-    <string name="str2891">ການໂທຈາກເບີໂທລະສັບທີ່ບໍ່ຮູ້ຈັກຈະຖືກປິດສຽງ. ການໂທດັ່ງກ່າວຈະຍັງສະແດງຢູ່ໃນແທັບການໂທ ແລະ ຢູ່ໃນການແຈ້ງເຕືອນຂອງທ່ານ. &lt;a href=calling_privacy_help&gt;ສຶກສາເພີ່ມເຕີມ&lt;/a&gt;</string>
+    <string name="str2891">ການໂທຈາກເບີໂທລະສັບທີ່ບໍ່ຮູ້ຈັກຈະຖືກປິດສຽງ. ການໂທດັ່ງກ່າວຈະຍັງສະແດງຢູ່ໃນແທັບການໂທ ແລະ ຢູ່ໃນການແຈ້ງເຕືອນຂອງທ່ານ. &lt;a href=calling_privacy_help>ສຶກສາເພີ່ມເຕີມ&lt;/a></string>
     <string name="str2892">ປິດສຽງສາຍໂທເຂົ້າທີ່ບໍ່ຮູ້ຈັກ</string>
     <string name="str2893">ຂ້າມ</string>
     <string name="str2895">ຈັດຮຽງຕາມວັນທີ</string>

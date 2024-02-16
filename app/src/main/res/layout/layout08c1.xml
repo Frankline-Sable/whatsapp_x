@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
-    <com.gbwhatsapp.WaImageButton android:layout_gravity="center" android:id="@+id/bluetooth_btn" android:layout_width="@dimen/dimen0ce4" android:layout_height="@dimen/dimen0ce4" app:attr0831="@drawable/vec_ic_calling_bluetooth" app:attr0906="@color/color0aae" style="@style/style0589"/>
+<FrameLayout android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageButton android:layout_gravity="center" android:id="@id/bluetooth_btn" android:layout_width="@dimen/dimen0ce4" android:layout_height="@dimen/dimen0ce4" app:attr0831="@drawable/vec_ic_calling_bluetooth" app:attr0906="@color/color0aae" style="@style/style0589" />
 </FrameLayout>

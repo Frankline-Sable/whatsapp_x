@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/toolbar_holder" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="?attr/attr0033">
-    <include layout="@layout/layout0864"/>
-    <FrameLayout android:id="@+id/search_holder" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="?attr/attr000f"/>
+<merge android:id="@id/toolbar_holder" android:background="?attr06f8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="?attr0033"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout0864" />
+    <FrameLayout android:id="@id/search_holder" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="?attr000f" />
 </merge>

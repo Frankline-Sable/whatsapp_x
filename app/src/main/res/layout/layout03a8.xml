@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <com.gbwhatsapp.text.ShadowDimsTextView android:textColor="@color/color0db2" android:layout_gravity="center_horizontal" android:id="@+id/filter_swipe_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/ic_caret_up" android:drawablePadding="@dimen/dimen0527" app:attr07c2="@color/color00d2" app:attr07c4="1dp" app:attr07c5="6dp"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.text.ShadowDimsTextView android:textColor="@color/color0db2" android:layout_gravity="center_horizontal" android:id="@id/filter_swipe_text" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableTop="@drawable/ic_caret_up" android:drawablePadding="@dimen/dimen0527" app:attr07c2="@color/color00d2" app:attr07c4="1.0dip" app:attr07c5="6.0dip" />
 </merge>

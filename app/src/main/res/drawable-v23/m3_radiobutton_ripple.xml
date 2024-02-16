@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ripple xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:color="@color/color06e5" android:radius="20dp"/>
+<ripple android:color="@color/color06e5" android:radius="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:id="@+id/menu_item_add_newsletter" android:title="@string/str267a"/>
-    <item android:id="@+id/menu_item_discover_newsletters" android:title="@string/str27ea"/>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/menu_item_add_newsletter" android:title="@string/str267a" />
+    <item android:id="@id/menu_item_discover_newsletters" android:title="@string/str27ea" />
 </menu>

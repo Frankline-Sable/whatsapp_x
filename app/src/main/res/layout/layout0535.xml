@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="@dimen/dimen06b3">
+<FrameLayout android:layout_width="wrap_content" android:layout_height="@dimen/dimen06b3"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
     <FrameLayout android:layout_gravity="left" android:layout_width="@dimen/dimen06b3" android:layout_height="@dimen/dimen06b3">
-        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/location_icon" android:background="@drawable/place_icon_background" android:padding="3dp" android:layout_width="@dimen/dimen06af" android:layout_height="@dimen/dimen06af"/>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/location_icon" android:background="@drawable/place_icon_background" android:padding="3.0dip" android:layout_width="@dimen/dimen06af" android:layout_height="@dimen/dimen06af" />
     </FrameLayout>
-    <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/dimen06b3" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <com.gbwhatsapp.WaTextView android:id="@+id/location_name" android:drawablePadding="4dp" style="@style/style026c"/>
-        <com.gbwhatsapp.WaTextView android:id="@+id/location_description" style="@style/style026b"/>
+    <LinearLayout android:gravity="left" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/dimen06b3" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:id="@id/location_name" android:drawablePadding="4.0dip" style="@style/style026c" />
+        <com.gbwhatsapp.WaTextView android:id="@id/location_description" style="@style/style026b" />
     </LinearLayout>
 </FrameLayout>

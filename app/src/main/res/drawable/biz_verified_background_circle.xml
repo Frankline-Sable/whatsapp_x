@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <solid android:color="@color/color0d03"/>
-    <corners android:radius="28dp"/>
-    <size android:height="56dp" android:width="56dp"/>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color0d03" />
+    <corners android:radius="28.0dip" />
+    <size android:height="56.0dip" android:width="56.0dip" />
 </shape>

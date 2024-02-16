@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/pinnedMessagesBanner" android:background="?attr/attr014b" android:layout_width="match_parent" android:layout_height="wrap_content" android:accessibilityTraversalBefore="@android:id/list">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/dimen0207" android:paddingStart="0dp" style="@style/style05bf">
-        <com.gbwhatsapp.pininchat.banner.PinInChatBannerMultiplePinsIndicator android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/pinnedMessagesBanner_multiple_pins_indicator" android:paddingTop="@dimen/dimen0bc2" android:paddingBottom="@dimen/dimen0bc2" android:visibility="invisible" android:layout_width="@dimen/dimen0a03" android:layout_height="match_parent" android:paddingVertical="@dimen/dimen0bc2"/>
-        <com.gbwhatsapp.WaImageView android:background="@drawable/rounded_square" android:padding="@dimen/dimen0df7" android:src="@drawable/vec_ic_pin_in_chat" android:contentDescription="@string/str021d" app:attr0906="@color/color0cbd" style="@style/style05c1"/>
-        <com.gbwhatsapp.TextEmojiLabel android:ellipsize="end" android:id="@+id/pinnedMessagesBanner_content" android:lines="1" style="@style/style05c2"/>
+<LinearLayout android:orientation="vertical" android:id="@id/pinnedMessagesBanner" android:background="?attr014b" android:layout_width="fill_parent" android:layout_height="wrap_content" android:accessibilityTraversalBefore="@android:id/list"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0207" android:paddingStart="0.0dip" style="@style/style05bf">
+        <com.gbwhatsapp.pininchat.banner.PinInChatBannerMultiplePinsIndicator android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/pinnedMessagesBanner_multiple_pins_indicator" android:paddingTop="@dimen/dimen0bc2" android:paddingBottom="@dimen/dimen0bc2" android:visibility="invisible" android:layout_width="@dimen/dimen0a03" android:layout_height="fill_parent" android:paddingVertical="@dimen/dimen0bc2" />
+        <com.gbwhatsapp.WaImageView android:background="@drawable/rounded_square" android:padding="@dimen/dimen0df7" android:src="@drawable/vec_ic_pin_in_chat" android:contentDescription="@string/str021d" app:attr0906="@color/color0cbd" style="@style/style05c1" />
+        <com.gbwhatsapp.TextEmojiLabel android:ellipsize="end" android:id="@id/pinnedMessagesBanner_content" android:lines="1" style="@style/style05c2" />
     </LinearLayout>
-    <View android:layout_gravity="bottom" style="@style/style031e"/>
+    <View android:layout_gravity="bottom" style="@style/style031e" />
 </LinearLayout>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/conversation_placeholder" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.settings.chat.wallpaper.WallPaperView android:id="@+id/placeholder_background" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:alpha="0.28"/>
-    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <com.gbwhatsapp.WaImageView android:id="@+id/image_placeholder" android:layout_width="@dimen/dimen05cf" android:layout_height="@dimen/dimen05cf" app:attr0831="@drawable/vec_ic_starred_placeholder"/>
-        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen031c" android:textColor="@color/color062e" android:gravity="center" android:id="@+id/txt_placeholder_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen031b" android:text="@string/str08f2"/>
+<FrameLayout android:id="@id/conversation_placeholder" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.settings.chat.wallpaper.WallPaperView android:id="@id/placeholder_background" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:alpha="0.28" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@id/image_placeholder" android:layout_width="@dimen/dimen05cf" android:layout_height="@dimen/dimen05cf" app:attr0831="@drawable/vec_ic_starred_placeholder" />
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen031c" android:textColor="@color/color062e" android:gravity="center" android:id="@id/txt_placeholder_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen031b" android:text="@string/str08f2" />
     </LinearLayout>
-    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0319">
-        <com.gbwhatsapp.WaImageView android:id="@+id/e2ee_description_image" android:layout_width="wrap_content" android:layout_height="14dp" android:layout_marginLeft="@dimen/dimen0bc1" android:src="@drawable/ic_home_placeholder_lock"/>
-        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen031a" android:gravity="center_horizontal" android:id="@+id/txt_home_placeholder_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen046f" android:layout_marginRight="@dimen/dimen0470" android:text="@string/str08f1"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0319">
+        <com.gbwhatsapp.WaImageView android:id="@id/e2ee_description_image" android:layout_width="wrap_content" android:layout_height="14.0dip" android:layout_marginLeft="@dimen/dimen0bc1" android:src="@drawable/ic_home_placeholder_lock" />
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen031a" android:gravity="center_horizontal" android:id="@id/txt_home_placeholder_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen046f" android:layout_marginRight="@dimen/dimen0470" android:text="@string/str08f1" />
     </LinearLayout>
 </FrameLayout>

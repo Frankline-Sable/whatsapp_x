@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dimen0332">
-        <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
-        <include layout="@layout/layout0299"/>
-        <include layout="@layout/layout02c3"/>
-        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout0855"/>
-        <com.gbwhatsapp.conversation.conversationrow.DynamicButtonsRowContentLayout android:id="@+id/dynamic_reply_buttons_message_content" android:layout_width="match_parent" android:layout_height="match_parent"/>
-        <com.gbwhatsapp.conversation.conversationrow.NativeFlowButtonsRowContentLayout android:id="@+id/native_flow_action_button_content" android:layout_width="@dimen/dimen0332" android:layout_height="wrap_content"/>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/dimen0332">
+        <ViewStub android:id="@id/conversation_row_participant_header_view_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/layout0299" />
+        <include layout="@layout/layout02c3" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout0855" />
+        <com.gbwhatsapp.conversation.conversationrow.DynamicButtonsRowContentLayout android:id="@id/dynamic_reply_buttons_message_content" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.gbwhatsapp.conversation.conversationrow.NativeFlowButtonsRowContentLayout android:id="@id/native_flow_action_button_content" android:layout_width="@dimen/dimen0332" android:layout_height="wrap_content" />
     </LinearLayout>
-    <com.gbwhatsapp.conversation.conversationrow.DynamicButtonsLayout android:id="@+id/dynamic_reply_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.gbwhatsapp.conversation.conversationrow.DynamicButtonsLayout android:id="@id/dynamic_reply_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" />
 </merge>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingTop="@dimen/dimen0bc0" android:layout_width="match_parent" android:layout_height="match_parent">
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/dimen0bc0" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <com.gbwhatsapp.WaImageView android:padding="@dimen/dimen0bbf" android:layout_width="@dimen/dimen0ba2" android:layout_height="@dimen/dimen0ba2" android:layout_marginRight="@dimen/dimen0bbf" android:layout_marginEnd="@dimen/dimen0bbf" app:attr0831="@drawable/ic_announcements" app:attr0906="@color/color0637"/>
-        <com.gbwhatsapp.TextEmojiLabel android:id="@+id/disclaimer_body_item_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str077a"/>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/dimen0bc0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/dimen0bc0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:padding="@dimen/dimen0bbf" android:layout_width="@dimen/dimen0ba2" android:layout_height="@dimen/dimen0ba2" android:layout_marginRight="@dimen/dimen0bbf" android:layout_marginEnd="@dimen/dimen0bbf" app:attr0831="@drawable/ic_announcements" app:attr0906="@color/color0637" />
+        <com.gbwhatsapp.TextEmojiLabel android:id="@id/disclaimer_body_item_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str077a" />
     </LinearLayout>
-    <View android:layout_marginLeft="@dimen/dimen0bbf" android:layout_marginRight="@dimen/dimen0bbf" android:layout_marginStart="@dimen/dimen0bbf" android:layout_marginEnd="@dimen/dimen0bbf" style="@style/style031e"/>
-    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/dimen0bc0" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <com.gbwhatsapp.WaImageView android:padding="@dimen/dimen0bbf" android:layout_width="@dimen/dimen0ba2" android:layout_height="@dimen/dimen0ba2" android:layout_marginRight="@dimen/dimen0bbf" android:layout_marginEnd="@dimen/dimen0bbf" app:attr0831="@drawable/ic_community_group" app:attr0906="@color/color0637"/>
-        <com.gbwhatsapp.TextEmojiLabel android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str077b"/>
+    <View android:layout_marginLeft="@dimen/dimen0bbf" android:layout_marginRight="@dimen/dimen0bbf" android:layout_marginStart="@dimen/dimen0bbf" android:layout_marginEnd="@dimen/dimen0bbf" style="@style/style031e" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="@dimen/dimen0bc0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:padding="@dimen/dimen0bbf" android:layout_width="@dimen/dimen0ba2" android:layout_height="@dimen/dimen0ba2" android:layout_marginRight="@dimen/dimen0bbf" android:layout_marginEnd="@dimen/dimen0bbf" app:attr0831="@drawable/ic_community_group" app:attr0906="@color/color0637" />
+        <com.gbwhatsapp.TextEmojiLabel android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str077b" />
     </LinearLayout>
 </LinearLayout>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.WaTextView android:textSize="13sp" android:textColor="?attr/attr069e" android:gravity="center_horizontal" android:id="@+id/payment_amount_header" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0a54" android:singleLine="true"/>
-    <Space android:id="@+id/space" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0a59"/>
-    <com.gbwhatsapp.WaTextView android:textSize="56sp" android:textColor="?attr/attr069e" android:gravity="center_horizontal" android:id="@+id/payment_amount_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:singleLine="true"/>
+<LinearLayout android:orientation="vertical" android:background="?attr06f8" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="13.0sp" android:textColor="?attr069e" android:gravity="center_horizontal" android:id="@id/payment_amount_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0a54" android:singleLine="true" />
+    <Space android:id="@id/space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0a59" />
+    <com.gbwhatsapp.WaTextView android:textSize="56.0sp" android:textColor="?attr069e" android:gravity="center_horizontal" android:id="@id/payment_amount_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:singleLine="true" />
 </LinearLayout>

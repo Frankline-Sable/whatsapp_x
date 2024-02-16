@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="style0656">
-        <item name="attr0887">1</item>
-        <item name="attr0894">1</item>
+    <style name="style0656" parent="@style/style010e">
+        <item name="attr0887">center</item>
+        <item name="attr0894">fixed</item>
     </style>
-    <style name="style073c">
-        <item name="android:textAppearance">?attr/attr08c5</item>
-        <item name="android:textColor">?attr/attr01af</item>
+    <style name="style073c" parent="@style/style0648">
+        <item name="android:textAppearance">?attr08c5</item>
+        <item name="android:textColor">?attr01af</item>
         <item name="android:ellipsize">end</item>
-        <item name="android:layout_gravity">center_horizontal</item>
-        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">start|center|top</item>
+        <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:maxLines">@integer/integer0033</item>
     </style>
-    <style name="style073f">
-        <item name="android:layout_gravity">top|right|center_vertical|center_horizontal|center</item>
+    <style name="style073f" parent="@style/style0126">
+        <item name="android:layout_gravity">start|bottom|center</item>
     </style>
 </resources>

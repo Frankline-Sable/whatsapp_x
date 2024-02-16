@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:id="@+id/padding">
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/padding">
         <shape android:shape="oval">
-            <solid android:color="@color/color0b5a"/>
-            <padding android:left="@dimen/dimen05ae" android:right="@dimen/dimen05ae"/>
+            <solid android:color="@color/color0b5a" />
+            <padding android:left="@dimen/dimen05ae" android:right="@dimen/dimen05ae" />
         </shape>
     </item>
-    <item android:id="@+id/color_selection_ring">
+    <item android:id="@id/color_selection_ring">
         <shape android:shape="oval">
-            <size android:height="41.5dp" android:width="41.5dp"/>
-            <stroke android:width="1.5dp" android:color="@color/color0db2"/>
-            <solid android:color="@color/color0b5a"/>
+            <size android:height="41.5dip" android:width="41.5dip" />
+            <stroke android:width="1.5dip" android:color="@color/color0db2" />
+            <solid android:color="@color/color0b5a" />
         </shape>
     </item>
-    <item android:id="@+id/color_selection_circle" android:left="3.5dp" android:top="3.5dp" android:right="3.5dp" android:bottom="3.5dp">
+    <item android:id="@id/color_selection_circle" android:left="3.5dip" android:top="3.5dip" android:right="3.5dip" android:bottom="3.5dip">
         <shape android:shape="oval">
-            <solid android:color="@color/color0db2"/>
+            <solid android:color="@color/color0db2" />
         </shape>
     </item>
 </layer-list>

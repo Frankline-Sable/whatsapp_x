@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:background="@drawable/pen_mode_view_gradient_background" android:paddingBottom="@dimen/dimen0bbd" android:layout_width="match_parent" android:layout_height="@dimen/dimen0451">
-    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
-    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/pen_mode_thin" android:padding="@dimen/dimen09f2" android:layout_width="@dimen/dimen09f3" android:layout_height="@dimen/dimen09f3" android:src="@drawable/pen_mode_thin" android:contentDescription="@string/str0008"/>
-    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
-    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/pen_mode_medium" android:background="@drawable/pen_mode_selected_background" android:padding="@dimen/dimen09f2" android:layout_width="@dimen/dimen09f3" android:layout_height="@dimen/dimen09f3" android:src="@drawable/pen_mode_medium" android:contentDescription="@string/str0006"/>
-    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
-    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/pen_mode_thick" android:padding="@dimen/dimen09f2" android:layout_width="@dimen/dimen09f3" android:layout_height="@dimen/dimen09f3" android:src="@drawable/pen_mode_thick" android:contentDescription="@string/str0007"/>
-    <Space android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
-    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/pen_mode_blur" android:padding="@dimen/dimen00e0" android:layout_width="@dimen/dimen09f3" android:layout_height="@dimen/dimen09f3" android:src="@drawable/pen_mode_blur" android:contentDescription="@string/str0005"/>
-    <Space android:id="@+id/pen_mode_blur_space" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/pen_mode_view_gradient_background" android:paddingBottom="@dimen/dimen0bbd" android:layout_width="fill_parent" android:layout_height="@dimen/dimen0451"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_thin" android:padding="@dimen/dimen09f2" android:layout_width="@dimen/dimen09f3" android:layout_height="@dimen/dimen09f3" android:src="@drawable/pen_mode_thin" android:contentDescription="@string/str0008" />
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_medium" android:background="@drawable/pen_mode_selected_background" android:padding="@dimen/dimen09f2" android:layout_width="@dimen/dimen09f3" android:layout_height="@dimen/dimen09f3" android:src="@drawable/pen_mode_medium" android:contentDescription="@string/str0006" />
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_thick" android:padding="@dimen/dimen09f2" android:layout_width="@dimen/dimen09f3" android:layout_height="@dimen/dimen09f3" android:src="@drawable/pen_mode_thick" android:contentDescription="@string/str0007" />
+    <Space android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@id/pen_mode_blur" android:padding="@dimen/dimen00e0" android:layout_width="@dimen/dimen09f3" android:layout_height="@dimen/dimen09f3" android:src="@drawable/pen_mode_blur" android:contentDescription="@string/str0005" />
+    <Space android:id="@id/pen_mode_blur_space" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
 </LinearLayout>

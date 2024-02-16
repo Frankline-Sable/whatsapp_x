@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="?attr/attr01bd" android:layout_width="match_parent" android:layout_height="?attr/attr000f" android:minHeight="?attr/attr000f" app:attr091d="2" app:attr0923="1" style="@style/style0570"/>
-    <com.gbwhatsapp.KeyboardPopupLayout android:gravity="bottom" android:id="@+id/conversation_layout" android:layout_width="match_parent" android:layout_height="match_parent">
-        <RelativeLayout android:id="@+id/footer_container" android:layout_width="match_parent" android:layout_height="match_parent">
-            <ScrollView android:id="@+id/message_bubble_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc2" android:layout_above="@+id/edit_composer"/>
-            <LinearLayout android:orientation="vertical" android:id="@+id/edit_composer" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
-                <FrameLayout android:id="@+id/mention_attach" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc2" android:layout_marginBottom="-3.5dp"/>
-                <include layout="@layout/layout0211"/>
-                <com.gbwhatsapp.emoji.search.EmojiSearchContainer android:id="@+id/emoji_search_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?attr01bd" android:layout_width="fill_parent" android:layout_height="?attr000f" android:minHeight="?attr000f" app:attr091d="custom" app:attr0923="bidi" style="@style/style0570" />
+    <com.gbwhatsapp.KeyboardPopupLayout android:gravity="bottom" android:id="@id/conversation_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/footer_container" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:id="@id/message_bubble_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc2" android:layout_above="@id/edit_composer" />
+            <LinearLayout android:orientation="vertical" android:id="@id/edit_composer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <FrameLayout android:id="@id/mention_attach" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc2" android:layout_marginBottom="-3.5dip" />
+                <include layout="@layout/layout0211" />
+                <com.gbwhatsapp.emoji.search.EmojiSearchContainer android:id="@id/emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
             </LinearLayout>
         </RelativeLayout>
     </com.gbwhatsapp.KeyboardPopupLayout>

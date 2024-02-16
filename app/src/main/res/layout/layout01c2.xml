@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:minHeight="?attr/attr000f">
-        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/close_btn" android:visibility="visible" android:layout_width="12dp" android:layout_height="12dp" android:src="@drawable/ic_close" android:scaleType="center" android:contentDescription="@string/str2654"/>
-        <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0a73" android:gravity="center" android:layout_gravity="center" android:id="@+id/confirm_dob_title_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str080c" app:attr043c="sans-serif-medium"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:minHeight="?attr000f">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/close_btn" android:visibility="visible" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_close" android:scaleType="center" android:contentDescription="@string/str2654" />
+        <com.gbwhatsapp.WaTextView android:textSize="16.0sp" android:textColor="@color/color0a73" android:gravity="center" android:layout_gravity="center" android:id="@id/confirm_dob_title_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str080c" app:attr043c="sans-serif-medium" />
     </FrameLayout>
-    <View android:id="@+id/extra_info_education_divider" android:background="@drawable/payments_divider_gray" android:layout_width="match_parent" android:layout_height="0.5dp"/>
-    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginRight="16dp">
-        <ProgressBar android:layout_gravity="center" android:id="@+id/loading_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+    <View android:id="@id/extra_info_education_divider" android:background="@drawable/payments_divider_gray" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="16.0dip">
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
         <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
-            <com.gbwhatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/color0a73" android:id="@+id/confirm_dob_desc_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="5sp"/>
-            <com.gbwhatsapp.WaEditText android:id="@+id/dob_edit_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:hint="@string/str0815"/>
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="16.0sp" android:textColor="@color/color0a73" android:id="@id/confirm_dob_desc_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="5.0sp" />
+            <com.gbwhatsapp.WaEditText android:id="@id/dob_edit_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:hint="@string/str0815" />
         </LinearLayout>
     </FrameLayout>
-    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/continue_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="32dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:text="@string/str03f8" style="@style/style059e"/>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@id/continue_btn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="32.0dip" android:layout_marginRight="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/str03f8" style="@style/style059e" />
 </LinearLayout>

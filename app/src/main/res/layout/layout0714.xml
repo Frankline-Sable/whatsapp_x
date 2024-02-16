@@ -1,24 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.KeyboardPopupLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main" android:layout_width="match_parent" android:layout_height="match_parent">
-    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+<com.gbwhatsapp.KeyboardPopupLayout android:id="@id/main" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
         <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/style019e">
-            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" app:attr051d="0" app:attr0530="0" app:attr0534="0">
-                <RelativeLayout android:orientation="horizontal" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-                    <FrameLayout android:gravity="center" android:id="@+id/image_frame_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
-                        <com.gbwhatsapp.components.button.ThumbnailPickerButton android:id="@+id/change_photo_btn" android:layout_width="@dimen/dimen0ab6" android:layout_height="@dimen/dimen0ab6" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" android:contentDescription="@string/str2836" app:attr08aa="@dimen/dimen0ab4"/>
-                        <ProgressBar android:layout_gravity="center" android:id="@+id/change_photo_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" app:attr051d="parent" app:attr0530="parent" app:attr0534="parent">
+                <RelativeLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:gravity="center" android:id="@id/image_frame_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+                        <com.gbwhatsapp.components.button.ThumbnailPickerButton android:id="@id/change_photo_btn" android:layout_width="@dimen/dimen0ab6" android:layout_height="@dimen/dimen0ab6" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" android:contentDescription="@string/str2836" app:attr08aa="@dimen/dimen0ab4" />
+                        <ProgressBar android:layout_gravity="center" android:id="@id/change_photo_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleInverse" />
                     </FrameLayout>
-                    <com.gbwhatsapp.WaTextView android:gravity="left" android:paddingLeft="16dp" android:layout_width="wrap_content" android:text="@string/str1a86" android:layout_toRightOf="@+id/image_frame_layout" style="@style/style038f"/>
+                    <com.gbwhatsapp.WaTextView android:gravity="left" android:paddingLeft="16.0dip" android:layout_width="wrap_content" android:text="@string/str1a86" android:layout_toRightOf="@id/image_frame_layout" style="@style/style038f" />
                 </RelativeLayout>
-                <RelativeLayout android:paddingLeft="16dp" android:paddingRight="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
-                    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/emoji_btn" android:layout_centerVertical="true">
-                        <com.gbwhatsapp.WaEditText android:textColor="?attr/attr06f9" android:textColorHint="@color/color0621" android:ellipsize="end" android:id="@+id/registration_name" android:paddingRight="@dimen/dimen03a9" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/str1b16" android:maxLines="1" android:lines="1" android:singleLine="true" android:imeOptions="actionDone"/>
-                        <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0298" android:id="@+id/name_counter_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignBaseline="@+id/registration_name" android:layout_alignParentRight="true"/>
+                <RelativeLayout android:paddingLeft="16.0dip" android:paddingRight="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+                    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/emoji_btn" android:layout_centerVertical="true">
+                        <com.gbwhatsapp.WaEditText android:textColor="?attr06f9" android:textColorHint="@color/color0621" android:ellipsize="end" android:id="@id/registration_name" android:paddingRight="@dimen/dimen03a9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/str1b16" android:maxLines="1" android:lines="1" android:singleLine="true" android:imeOptions="actionDone" />
+                        <com.gbwhatsapp.WaTextView android:textSize="14.0sp" android:textColor="@color/color0298" android:id="@id/name_counter_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_alignBaseline="@id/registration_name" android:layout_alignParentRight="true" />
                     </RelativeLayout>
-                    <com.gbwhatsapp.WaImageButton android:id="@+id/emoji_btn" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ib_emoji" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/str26a8" app:attr0906="@color/color0633" style="@style/style0006"/>
+                    <com.gbwhatsapp.WaImageButton android:id="@id/emoji_btn" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ib_emoji" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/str26a8" app:attr0906="@color/color0633" style="@style/style0006" />
                 </RelativeLayout>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
-    <com.gbwhatsapp.emoji.search.EmojiSearchContainer android:id="@+id/emoji_search_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    <com.gbwhatsapp.emoji.search.EmojiSearchContainer android:id="@id/emoji_search_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
 </com.gbwhatsapp.KeyboardPopupLayout>

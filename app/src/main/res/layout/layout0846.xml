@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="@dimen/dimen0bc9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="4dp">
-    <com.gbwhatsapp.WaTextView android:textSize="12sp" android:textColor="@color/color0a73" android:id="@+id/label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str28b5" android:paddingEnd="1dp"/>
-    <com.gbwhatsapp.WaImageView android:layout_width="10dp" android:layout_height="10dp" android:src="@drawable/ic_ai_signal" android:tint="@color/color0a73"/>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingBottom="@dimen/dimen0bc9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaTextView android:textSize="12.0sp" android:textColor="@color/color0a73" android:id="@id/label_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str28b5" android:paddingEnd="1.0dip" />
+    <com.gbwhatsapp.WaImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/ic_ai_signal" android:tint="@color/color0a73" />
 </LinearLayout>

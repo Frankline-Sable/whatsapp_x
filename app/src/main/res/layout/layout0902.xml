@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.google.android.material.appbar.AppBarLayout android:theme="@style/style04fe" android:id="@+id/appbar" android:layout_width="0dp" android:layout_height="wrap_content" app:attr051d="0" app:attr0530="0" app:attr0534="0">
-        <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" app:attr0923="1" style="@style/style0570"/>
-        <View android:id="@+id/separator" style="@style/style031d"/>
+<androidx.constraintlayout.widget.ConstraintLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/style04fe" android:id="@id/appbar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:attr051d="parent" app:attr0530="parent" app:attr0534="parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" app:attr0923="bidi" style="@style/style0570" />
+        <View android:id="@id/separator" style="@style/style031d" />
     </com.google.android.material.appbar.AppBarLayout>
-    <androidx.recyclerview.widget.RecyclerView android:id="@+id/color_grid" android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/appbar" style="@style/style019d"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/color_grid" android:layout_width="0.0dip" android:layout_height="0.0dip" app:attr0517="parent" app:attr051d="parent" app:attr0530="parent" app:attr0533="@id/appbar" style="@style/style019d" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.gbwhatsapp.WaTextView android:textColor="@color/color0b2a" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1256" style="@style/style05e1"/>
-    <com.gbwhatsapp.text.ReadMoreTextView android:textColor="?attr/attr08ed" android:id="@+id/member_suggested_groups_management_description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc2" android:textAlignment="viewStart" app:attr074b="2" app:attr074e="@string/str1adc" style="@style/style05e1"/>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaTextView android:textColor="@color/color0b2a" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/str1256" style="@style/style05e1" />
+    <com.gbwhatsapp.text.ReadMoreTextView android:textColor="?attr08ed" android:id="@id/member_suggested_groups_management_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc2" android:textAlignment="viewStart" app:attr074b="2" app:attr074e="@string/str1adc" style="@style/style05e1" />
 </LinearLayout>

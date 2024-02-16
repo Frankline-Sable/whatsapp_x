@@ -1,2 +1,3 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nine-patch xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:src="@drawable/balloon_incoming_frame" android:tint="?attr/attr00ee"/>
+<nine-patch android:src="@drawable/balloon_incoming_frame" android:tint="?attr00ee"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

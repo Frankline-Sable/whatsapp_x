@@ -23,7 +23,7 @@
     <string name="str25d5">Serah pertanyaan</string>
     <string name="str25d6">Carian suara</string>
     <string name="str25d9">Runtuhkan</string>
-    <string name="str25db">Sebagai ahli, anda boleh melihat dan menyertai kumpulan dalam komuniti ini dan kekal termaklum dengan pengumuman pentadbir. &lt;a href=\"%s\"&gt;Ketahui lebih lanjut&lt;/a&gt;</string>
+    <string name="str25db">Sebagai ahli, anda boleh melihat dan menyertai kumpulan dalam komuniti ini dan kekal termaklum dengan pengumuman pentadbir. &lt;a href=\"%s\">Ketahui lebih lanjut&lt;/a></string>
     <string name="str25dc">Selamat datang ke komuniti!</string>
     <string name="str25df">OK</string>
     <string name="str25e0">Akaun tidak dapat ditukar. Sila cuba sebentar lagi.</string>
@@ -55,12 +55,12 @@
     <string name="str262c">‎%s tidak akan dapat menghantar mesej atau menghubungi anda lagi.</string>
     <string name="str262d">Jenis Perniagaan</string>
     <string name="str262e">Butiran Perniagaan</string>
-    <string name="str2636">Untuk menyukarkan orang menyimpulkan lokasi anda, panggilan pada peranti ini akan disampaikan melalui pelayan WhatsApp secara dijamin. Hal ini akan mengurangkan kualiti panggilan. &lt;a href=call_relaying_help&gt;Ketahui lebih lanjut&lt;/a&gt;</string>
+    <string name="str2636">Untuk menyukarkan orang menyimpulkan lokasi anda, panggilan pada peranti ini akan disampaikan melalui pelayan WhatsApp secara dijamin. Hal ini akan mengurangkan kualiti panggilan. &lt;a href=call_relaying_help>Ketahui lebih lanjut&lt;/a></string>
     <string name="str2637">Lindungi alamat IP dalam panggilan</string>
     <string name="str2638">Panggilan</string>
     <string name="str2639">Masukkan pintasan panggilan untuk %s.</string>
     <string name="str263a">Pintasan panggilan</string>
-    <string name="str263b">Guna efek kamera seperti avatar anda dalam panggilan. &lt;a href=\"%s\"&gt;Ketahui lebih lanjut&lt;/a&gt;</string>
+    <string name="str263b">Guna efek kamera seperti avatar anda dalam panggilan. &lt;a href=\"%s\">Ketahui lebih lanjut&lt;/a></string>
     <string name="str263c">Efek kamera</string>
     <string name="str263d">Kamera WhatsApp</string>
     <string name="str263e">Batal</string>
@@ -137,7 +137,7 @@
     <string name="str26fd">Terlalu banyak percubaan. Sila cuba sebentar lagi.</string>
     <string name="str26fe">Tiada cap jari didaftarkan.</string>
     <string name="str26ff">Pengendalian cap jari dibatalkan oleh pengguna.</string>
-    <string name="str2700">&lt;a href=\"learn-more\"&gt;Ketahui lebih lanjut&lt;/a&gt;</string>
+    <string name="str2700">&lt;a href=\"learn-more\">Ketahui lebih lanjut&lt;/a></string>
     <string name="str2701">Besar</string>
     <string name="str2702">Sederhana</string>
     <string name="str2703">Kecil</string>
@@ -192,7 +192,7 @@
     <string name="str27c4">Beralih kepada mod input teks</string>
     <string name="str27c5">Ketik untuk beralih kepada pemilihan tahun</string>
     <string name="str27d0">Kemaskini yg disenyapkan</string>
-    <string name="str27e2">Mencipta kumpulan baharu? &lt;font color=#%s&gt;&lt;b&gt;Lihat caranya&lt;/b&gt;&lt;/font&gt;</string>
+    <string name="str27e2">Mencipta kumpulan baharu? &lt;font color=#%s>&lt;b>Lihat caranya&lt;/b>&lt;/font></string>
     <string name="str27e5">1 hari</string>
     <string name="str27e6">Tetapan aplikasi lalai (%s)</string>
     <string name="str27e7">1 bulan</string>
@@ -289,7 +289,7 @@
     <string name="str288b">Profil</string>
     <string name="str288c">Tiada hasil tetapan ditemui</string>
     <string name="str288d">Penggunaan data dan storan</string>
-    <string name="str2891">Panggilan daripada nombor yang tidak dikenali akan disenyapkan. Panggilan ini masih akan ditunjukkan dalam tab Panggilan dan dalam pemberitahuan anda. &lt;a href=calling_privacy_help&gt;Ketahui lebih lanjut&lt;/a&gt;</string>
+    <string name="str2891">Panggilan daripada nombor yang tidak dikenali akan disenyapkan. Panggilan ini masih akan ditunjukkan dalam tab Panggilan dan dalam pemberitahuan anda. &lt;a href=calling_privacy_help>Ketahui lebih lanjut&lt;/a></string>
     <string name="str2892">Senyapkan pemanggil tidak dikenali</string>
     <string name="str2893">Langkau</string>
     <string name="str2895">Isih ikut tarikh</string>

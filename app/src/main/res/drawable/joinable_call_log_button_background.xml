@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <shape android:shape="oval">
-            <solid android:color="?attr/attr04ed"/>
-            <corners android:radius="99dp"/>
+            <solid android:color="?attr04ed" />
+            <corners android:radius="99.0dip" />
         </shape>
     </item>
 </layer-list>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="36dp" android:paddingTop="@dimen/dimen0a55" android:paddingRight="36dp" android:paddingBottom="36dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/business_icons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_internet"/>
-    <com.gbwhatsapp.WaTextView android:textColor="@color/color0a73" android:layout_gravity="center" android:id="@+id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0a54" android:text="@string/str1f16" android:textAlignment="center" style="@style/style05df"/>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="36.0dip" android:paddingTop="@dimen/dimen0a55" android:paddingRight="36.0dip" android:paddingBottom="36.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@id/business_icons_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/no_internet" />
+    <com.gbwhatsapp.WaTextView android:textColor="@color/color0a73" android:layout_gravity="center" android:id="@id/error_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0a54" android:text="@string/str1f16" android:textAlignment="center" style="@style/style05df" />
 </LinearLayout>

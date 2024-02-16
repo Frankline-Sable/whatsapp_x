@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:robobunny="http://robobunny.com" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt">
-    <SwitchPreference android:title="@string/grpAdmin_indicator" android:key="grpAdmin_enabled" android:defaultValue="true"/>
-    <SwitchPreference android:title="@string/convo_confirm_before_sendingStkr" android:key="stkr_wantsendconfirmation" android:summary="@string/convo_confirm_before_sendingStkr" android:defaultValue="false"/>
-    <SwitchPreference android:title="@string/new_convoattachment_design" android:key="newAttach_BottomDesign" android:defaultValue="true"/>
-    <SwitchPreference android:title="@string/yoHideInfo" android:key="yo_hideinfo" android:summary="@string/yoHideInfoSum" android:defaultValue="true"/>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:robobunny="http://robobunny.com">
+    <SwitchPreference android:title="@string/grpAdmin_indicator" android:key="grpAdmin_enabled" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/convo_confirm_before_sendingStkr" android:key="stkr_wantsendconfirmation" android:summary="@string/convo_confirm_before_sendingStkr" android:defaultValue="false" />
+    <SwitchPreference android:title="@string/new_convoattachment_design" android:key="newAttach_BottomDesign" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/yoHideInfo" android:key="yo_hideinfo" android:summary="@string/yoHideInfoSum" android:defaultValue="true" />
     <PreferenceCategory android:title="@string/yoAudio">
-        <SwitchPreference android:title="@string/yoAudioSensor" android:key="Audio_sensor" android:summary="@string/yoAudioSensorSum" android:defaultValue="true"/>
-        <SwitchPreference android:title="@string/yoAudioEars" android:key="Audio_ears" android:summary="@string/yoAudioEarsSum" android:dependency="Audio_sensor" android:defaultValue="false"/>
+        <SwitchPreference android:title="@string/yoAudioSensor" android:key="Audio_sensor" android:summary="@string/yoAudioSensorSum" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/yoAudioEars" android:key="Audio_ears" android:summary="@string/yoAudioEarsSum" android:dependency="Audio_sensor" android:defaultValue="false" />
     </PreferenceCategory>
 </PreferenceScreen>

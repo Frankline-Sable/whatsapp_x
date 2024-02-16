@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/privacy_disclosure_bullet_icon" android:layout_width="@dimen/dimen042d" android:layout_height="@dimen/dimen042d" android:layout_marginLeft="@dimen/dimen042b" android:layout_marginRight="@dimen/dimen042c" android:layout_marginStart="@dimen/dimen042b" android:layout_marginEnd="@dimen/dimen042c"/>
-    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
-        <com.gbwhatsapp.TextEmojiLabel android:id="@+id/privacy_disclosure_bullet_text" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style02e9"/>
-        <com.gbwhatsapp.TextEmojiLabel android:id="@+id/privacy_disclosure_bullet_text_secondary" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0430" style="@style/style02ea"/>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@id/privacy_disclosure_bullet_icon" android:layout_width="@dimen/dimen042d" android:layout_height="@dimen/dimen042d" android:layout_marginLeft="@dimen/dimen042b" android:layout_marginRight="@dimen/dimen042c" android:layout_marginStart="@dimen/dimen042b" android:layout_marginEnd="@dimen/dimen042c" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.gbwhatsapp.TextEmojiLabel android:id="@id/privacy_disclosure_bullet_text" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/style02e9" />
+        <com.gbwhatsapp.TextEmojiLabel android:id="@id/privacy_disclosure_bullet_text_secondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0430" style="@style/style02ea" />
     </LinearLayout>
 </merge>

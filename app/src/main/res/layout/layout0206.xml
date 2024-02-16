@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style013d">
-    <ViewStub android:id="@+id/not_in_contacts_text" android:inflatedId="@+id/not_in_contacts_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp"/>
-    <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="13sp" android:textStyle="bold" android:id="@+id/block_btn" android:layout_height="wrap_content" android:text="@string/str02f5" style="@style/style013c"/>
-    <View android:id="@+id/divider" android:background="@drawable/abc_list_divider_mtrl_alpha" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_marginBottom="8dp"/>
-    <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="13sp" android:textStyle="bold" android:id="@+id/add_btn" android:layout_height="wrap_content" android:text="@string/str126b" style="@style/style013c"/>
+<LinearLayout android:gravity="center" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/style013d"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/not_in_contacts_text" android:inflatedId="@id/not_in_contacts_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="13.0sp" android:textStyle="bold" android:id="@id/block_btn" android:layout_height="wrap_content" android:text="@string/str02f5" style="@style/style013c" />
+    <View android:id="@id/divider" android:background="@drawable/abc_list_divider_mtrl_alpha" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" />
+    <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="13.0sp" android:textStyle="bold" android:id="@id/add_btn" android:layout_height="wrap_content" android:text="@string/str126b" style="@style/style013c" />
 </LinearLayout>

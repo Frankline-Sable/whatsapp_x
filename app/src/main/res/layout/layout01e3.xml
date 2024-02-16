@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.gbwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/status_card" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style023c">
-    <LinearLayout android:orientation="vertical" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="wrap_content">
+<com.gbwhatsapp.InfoCard android:orientation="vertical" android:id="@id/status_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/style023c"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="?attr06f8" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <FrameLayout style="@style/style021f">
-            <com.gbwhatsapp.WaTextView android:id="@+id/status_and_phone_title" android:paddingLeft="@dimen/dimen05f8" android:text="@string/str0860" style="@style/style0222"/>
+            <com.gbwhatsapp.WaTextView android:id="@id/status_and_phone_title" android:paddingLeft="@dimen/dimen05f8" android:text="@string/str0860" style="@style/style0222" />
         </FrameLayout>
-        <include layout="@layout/layout01e2"/>
-        <View android:id="@+id/status_separator" style="@style/style0221"/>
-        <include layout="@layout/layout01de"/>
+        <include layout="@layout/layout01e2" />
+        <View android:id="@id/status_separator" style="@style/style0221" />
+        <include layout="@layout/layout01de" />
     </LinearLayout>
 </com.gbwhatsapp.InfoCard>
