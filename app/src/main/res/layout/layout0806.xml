@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/status_container" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/title_protection" android:background="@drawable/status_playback_header" android:layout_width="match_parent" android:layout_height="150dp"/>
+    <FrameLayout android:id="@+id/header" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.status.playback.widget.StatusPlaybackProgressView android:id="@+id/playback_progress" android:padding="@dimen/dimen0bdc" android:layout_width="match_parent" android:layout_height="9dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/title_bar" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="?attr/attr000f">
+            <com.gbwhatsapp.WaImageView android:id="@+id/back" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_cam_back" android:contentDescription="@string/str25c0" style="@style/style0006"/>
+            <com.gbwhatsapp.WaImageView android:id="@+id/profile_picture" android:background="@drawable/white_circle" android:padding="1.25dp" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="centerCrop" style="@style/style0006"/>
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@+id/status_header" android:background="?attr/attr078a" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/color0db2" android:ellipsize="end" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" style="@style/style0431"/>
+                <com.gbwhatsapp.WaTextView android:ellipsize="end" android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:singleLine="true" style="@style/style042e"/>
+            </LinearLayout>
+            <com.gbwhatsapp.status.playback.widget.AudioVolumeView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/volume" android:paddingRight="8dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24dp"/>
+            <com.gbwhatsapp.WaImageView android:id="@+id/menu" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0831="@drawable/vec_ic_more" app:attr0906="@color/color0db2" style="@style/style060a"/>
+        </LinearLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+    </FrameLayout>
+    <ViewStub android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/action_link_button_view_stub" android:layout="@layout/layout0812" android:layout_width="wrap_content" android:layout_height="@dimen/dimen0063" android:layout_marginLeft="@dimen/dimen0064" android:layout_marginRight="@dimen/dimen0064"/>
+</FrameLayout>

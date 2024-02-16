@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/stub_toolbar_search" android:layout="@layout/layout0866" android:inflatedId="@+id/stub_toolbar_search" android:layout_width="0dp" android:layout_height="wrap_content" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+    <com.google.android.material.tabs.TabLayout android:layout_gravity="center" android:id="@+id/tabs" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen021e" android:layout_marginBottom="@dimen/dimen021e" app:attr0518="@+id/divider" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/stub_toolbar_search" app:attr0536="2" style="@style/style0174"/>
+    <View android:id="@+id/divider" android:layout_width="0dp" app:attr0518="@+id/view_pager" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/tabs" style="@style/style0266"/>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/view_pager" android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/divider" style="@style/style019d"/>
+    <FrameLayout android:id="@+id/catalog_search_host" android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/stub_toolbar_search"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

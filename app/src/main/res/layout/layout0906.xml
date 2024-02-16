@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:padding="@dimen/dimen0bc4" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0db4" android:textStyle="normal" android:textColor="@color/color0c24" android:id="@+id/titleTextView" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str256d" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0e05" android:textColor="@color/color0c23" android:id="@+id/messageTextView" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc0" android:text="@string/str256d" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/titleTextView" app:attr0552="24sp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/deactivate_community_main_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/layout0864"/>
+    <ScrollView android:orientation="vertical" android:id="@+id/deactivate_community_disclaimer_scrollview" android:layout_width="0dp" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" app:attr0518="@+id/community_deactivate_disclaimer_continue_button_container" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/style019e">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+                <FrameLayout android:layout_width="140dp" android:layout_height="120dp" android:layout_marginTop="@dimen/dimen0bc7">
+                    <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/deactivate_community_disclaimer_photo_view" android:layout_width="@dimen/dimen03b5" android:layout_height="@dimen/dimen03b5"/>
+                    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center|end" android:layout_width="@dimen/dimen0bc8" android:layout_height="@dimen/dimen0bc8" app:attr0831="@drawable/vec_ic_deactivate_with_fill"/>
+                </FrameLayout>
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="24sp" android:textColor="?attr/attr06f9" android:gravity="center_horizontal" android:id="@+id/deactivate_community_disclaimer_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc4" style="@style/style0045"/>
+                <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/attr06f9" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc4" android:layout_marginBottom="@dimen/dimen0bc4" android:text="@string/str0985"/>
+                <com.gbwhatsapp.community.deactivate.DeactivateInfoRow android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc0" app:attr0252="@string/str098a" app:attr0253="@drawable/vec_ic_disconnected" app:attr0254="@color/color063d" app:attr0255="@string/str098b"/>
+                <com.gbwhatsapp.community.deactivate.DeactivateInfoRow android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc0" app:attr0252="@string/str0986" app:attr0253="@drawable/vec_ic_announcement_group_closed" app:attr0254="@color/color063d" app:attr0255="@string/str0987"/>
+                <com.gbwhatsapp.community.deactivate.DeactivateInfoRow android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc7" app:attr0252="@string/str0988" app:attr0253="@drawable/vec_ic_info_deleted" app:attr0254="@color/color063d" app:attr0255="@string/str0989"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <FrameLayout android:id="@+id/community_deactivate_disclaimer_continue_button_container" android:background="?attr/attr06f8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/deactivate_community_disclaimer_scrollview" style="@style/style019d">
+        <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/community_deactivate_disclaimer_continue_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginTop="@dimen/dimen0bc4" android:layout_marginRight="@dimen/dimen0bc0" android:layout_marginBottom="@dimen/dimen0bc4" android:text="@string/str0984" style="@style/style05a3"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

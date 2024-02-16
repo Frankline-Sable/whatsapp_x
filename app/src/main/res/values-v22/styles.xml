@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style0061">
+    </style>
+    <style name="style0068">
+    </style>
+    <style name="style00bf">
+        <item name="attr0026">?android:attr/actionModeShareDrawable</item>
+        <item name="attr0294">?android:attr/editTextBackground</item>
+    </style>
+    <style name="style00c0">
+        <item name="attr0026">?android:attr/actionModeShareDrawable</item>
+        <item name="attr0294">?android:attr/editTextBackground</item>
+    </style>
+</resources>

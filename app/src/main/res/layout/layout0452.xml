@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/ig_posts_toolbar" android:layout_height="56dp" app:attr0530="0" app:attr0534="0" app:attr0923="1" style="@style/style0570"/>
+    <View android:id="@+id/separator" android:layout_width="match_parent" app:attr0533="@+id/ig_posts_toolbar" style="@style/style016d"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0533="@+id/separator">
+        <LinearLayout android:orientation="vertical" android:id="@+id/footer" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.ui.media.MediaCardGrid android:id="@+id/media_card_grid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="0dp" app:attr049e="?attr/attr06f8" style="@style/style023c"/>
+            <View android:layout_width="match_parent" android:layout_height="42dp"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

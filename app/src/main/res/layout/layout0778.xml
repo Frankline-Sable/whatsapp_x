@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.Chip xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textColor="@color/color0db2" android:id="@+id/search_context_category_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="27dp" app:attr0161="?attr/attr0772" app:attr0168="@color/color0d24" app:attr0188="true" app:attr018c="@color/color0db2"/>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/name_group_banner" android:background="?attr/attr014b" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="4dp">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/content" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/content_icon" android:paddingLeft="@dimen/dimen0bc1" android:paddingRight="@dimen/dimen0bbe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_edit" app:attr0906="@color/color063d"/>
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0204" android:textStyle="bold" android:textColor="?attr/attr0032" android:id="@+id/content_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen0209" android:text="@string/str135e" android:fontFamily="Roboto" android:textAlignment="viewStart" android:layout_marginEnd="@dimen/dimen0209"/>
+        </LinearLayout>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/close_btn" android:paddingLeft="@dimen/dimen0205" android:paddingTop="@dimen/dimen0205" android:paddingRight="@dimen/dimen0206" android:paddingBottom="@dimen/dimen0205" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/str2654" app:attr0906="@color/color063d"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" style="@style/style031f"/>
+</LinearLayout>

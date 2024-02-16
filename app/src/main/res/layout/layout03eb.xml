@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main_gallery_tab_host" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.appcompat.widget.Toolbar android:textColorPrimary="?attr/attr045f" android:id="@+id/toolbar" android:background="?attr/attr045d" android:layout_width="match_parent" android:layout_height="?attr/attr000f" android:minHeight="?attr/attr000f" android:layout_alignParentTop="true" app:attr05f6="@menu/menu001d" app:attr06dd="@style/style0573" app:attr08f1="@style/style056f" app:attr091d="0" app:attr0923="1"/>
+        <com.google.android.material.tabs.TabLayout android:id="@+id/gallery_tab_layout" android:background="@color/color05b8" android:layout_width="match_parent" android:layout_height="46dp" android:layout_below="@+id/toolbar" app:attr0887="0" app:attr0892="0dp" app:attr0894="1" app:attr089d="?attr/attr06f9" app:attr089f="@style/style0387" app:attr08a0="@color/color0a73"/>
+        <androidx.viewpager.widget.ViewPager android:id="@+id/gallery_view_pager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/gallery_tab_layout"/>
+        <include android:layout_width="match_parent" android:layout_height="64dp" android:layout_alignParentBottom="true" layout="@layout/layout03e0"/>
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

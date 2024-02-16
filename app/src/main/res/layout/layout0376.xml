@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/dimen0bc0">
+        <com.gbwhatsapp.WaImageView android:gravity="center_vertical" android:id="@+id/event_creation_close_button" android:layout_width="@dimen/dimen0bc4" android:layout_height="@dimen/dimen0bc4" android:src="@drawable/ic_close" android:contentDescription="@string/str2654"/>
+        <com.gbwhatsapp.WaTextView android:textStyle="bold" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/event_creation_bottom_sheet_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0c70" android:fontFamily="Roboto" style="@style/style0149"/>
+    </FrameLayout>
+    <View style="@style/style031d"/>
+    <FrameLayout android:id="@+id/container_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

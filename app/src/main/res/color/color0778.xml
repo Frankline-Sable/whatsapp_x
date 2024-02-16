@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:state_pressed="true" android:color="?attr/attr01b4" android:alpha="@dimen/dimen079e"/>
+    <item android:state_selected="true" android:state_pressed="false" android:color="?attr/attr01b4" android:alpha="@dimen/dimen07af"/>
+    <item android:state_pressed="false" android:color="?attr/attr01b4" android:alpha="@dimen/dimen07ae" android:state_hovered="true"/>
+</selector>

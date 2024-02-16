@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.payments.ui.widget.MultiExclusionChip xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:textColor="@color/color0aa0" android:id="@+id/payment_filter_chip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0158="@drawable/filter_checkmark_18" app:attr0161="@color/color0a9f" app:attr0171="@color/color032e" app:attr0172="@dimen/dimen09d4" style="@style/style071f"/>

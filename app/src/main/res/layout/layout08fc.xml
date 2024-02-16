@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/dimen0d37">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/status_privacy_crossposting_fb_setting" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_width="@dimen/dimen0d36" android:layout_height="@dimen/dimen0d36" android:src="@drawable/ic_crosspost_facebook_color" android:layout_marginEnd="@dimen/dimen0d38"/>
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0095" android:textColor="@color/color09f7" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str289b" android:layout_weight="1"/>
+        <com.gbwhatsapp.checkbox.RtlCheckBox android:id="@+id/auto_crosspost_setting_fb_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0d38" android:minWidth="@dimen/dimen0d35" android:minHeight="@dimen/dimen0d35"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/status_privacy_crossposting_ig_setting" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_width="@dimen/dimen0d36" android:layout_height="@dimen/dimen0d36" android:src="@drawable/ic_crosspost_instagram_color" android:layout_marginEnd="@dimen/dimen0d38"/>
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0095" android:textColor="@color/color09f7" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str289c" android:layout_weight="1"/>
+        <com.gbwhatsapp.checkbox.RtlCheckBox android:id="@+id/auto_crosspost_setting_ig_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0d38" android:minWidth="@dimen/dimen0d35" android:minHeight="@dimen/dimen0d35"/>
+    </LinearLayout>
+</LinearLayout>

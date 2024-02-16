@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/newsletter_media_cache_section" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View style="@style/style032a"/>
+    <com.gbwhatsapp.WaTextView android:id="@+id/newsletters_media_cache_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0b59" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/dimen0b59" android:text="@string/str13db" style="?attr/attr07ad"/>
+    <com.gbwhatsapp.WaTextView android:textSize="13sp" android:textColor="?attr/attr07af" android:id="@+id/newsletters_media_cache_settings_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0b59" android:layout_marginTop="6dp" android:layout_marginRight="@dimen/dimen0b59" android:layout_marginBottom="12dp" android:text="@string/str13da"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/settings_newsletters_media_cache_row" android:paddingLeft="@dimen/dimen0b59" android:paddingTop="@dimen/dimen0b5f" android:paddingRight="@dimen/dimen0b59" android:paddingBottom="@dimen/dimen0b5f" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style032e">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/ic_setting_storage_usage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen0b59" android:src="@drawable/vec_ic_newsletter" android:scaleType="fitCenter"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/newsletters_media_cache_settings" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str13d9" android:maxLines="1" android:singleLine="true" style="?attr/attr07b2"/>
+            <com.gbwhatsapp.WaTextView android:id="@+id/settings_newsletters_media_cache" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" style="?attr/attr07ae"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

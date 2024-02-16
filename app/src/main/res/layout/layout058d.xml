@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="@dimen/dimen0830">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:id="@+id/contact_photo" style="@style/style0193"/>
+        <ViewStub android:id="@+id/subgroup_photo" android:visibility="gone" android:layout="@layout/layout08be" android:inflatedId="@+id/subgroup_photo" android:layout_width="@dimen/dimen0270" android:layout_height="@dimen/dimen026e" android:layout_marginRight="@dimen/dimen026f" style="@style/style0193"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingRight="@dimen/dimen069b" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.gbwhatsapp.TextEmojiLabel android:textColor="@color/screen_title_text" android:id="@+id/primary_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/style025c"/>
+            <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/style03d0" android:textColor="@color/screen_title_text" android:ellipsize="end" android:id="@+id/secondary_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" android:id="@+id/separator" style="@style/style031d"/>
+</FrameLayout>

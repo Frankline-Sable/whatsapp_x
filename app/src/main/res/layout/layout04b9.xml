@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView style="@style/style024a">
+        <LinearLayout style="@style/style024c">
+            <com.caverock.androidsvg.SVGImageView app:attr087c="graphics/stella_e2e.svg" style="@style/style0243"/>
+            <com.gbwhatsapp.WaTextView android:text="@string/str1090" style="@style/style024b"/>
+            <LinearLayout android:paddingTop="@dimen/dimen0bc0" style="@style/style0244">
+                <com.gbwhatsapp.WaImageView android:paddingRight="@dimen/dimen0bc0" android:src="@drawable/ic_settings_phone" style="@style/style0245"/>
+                <LinearLayout style="@style/style0247">
+                    <com.gbwhatsapp.WaTextView android:textStyle="bold" android:id="@+id/instrumentation_auth_complete_bullet_one" android:text="@string/str1084" style="@style/style0246"/>
+                    <com.gbwhatsapp.WaTextView android:id="@+id/instrumentation_auth_complete_bullet_one_body" android:text="@string/str1085" style="@style/style0246"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:paddingTop="@dimen/dimen0bc4" style="@style/style0244">
+                <com.gbwhatsapp.WaImageView android:paddingRight="@dimen/dimen0bc1" android:src="@drawable/ic_chat_outline" style="@style/style0245"/>
+                <LinearLayout style="@style/style0247">
+                    <com.gbwhatsapp.WaTextView android:textStyle="bold" android:id="@+id/instrumentation_auth_complete_bullet_two" android:text="@string/str1089" style="@style/style0246"/>
+                    <com.gbwhatsapp.WaTextView android:id="@+id/instrumentation_auth_complete_bullet_two_body" android:text="@string/str108a" style="@style/style0246"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:paddingTop="@dimen/dimen0bc4" style="@style/style0244">
+                <com.gbwhatsapp.WaImageView android:paddingRight="@dimen/dimen0bc0" android:src="@drawable/ic_settings_name" style="@style/style0245"/>
+                <LinearLayout style="@style/style0247">
+                    <com.gbwhatsapp.WaTextView android:textStyle="bold" android:id="@+id/instrumentation_auth_complete_bullet_three" android:text="@string/str1086" style="@style/style0246"/>
+                    <com.gbwhatsapp.WaTextView android:id="@+id/instrumentation_auth_complete_bullet_three_body" android:text="@string/str1087" style="@style/style0246"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout style="@style/style0241">
+        <com.gbwhatsapp.WaTextView android:id="@+id/instrumentation_auth_complete_link" android:text="@string/str108e" style="@style/style0249"/>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/instrumentation_auth_complete_button" android:text="@string/str108c" style="@style/style0242"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen038c" android:textColor="?attr/attr0219" android:id="@+id/top_message" android:paddingLeft="@dimen/dimen033f" android:paddingRight="@dimen/dimen033f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0353"/>
+    <com.gbwhatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr003c="true">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen038d" android:textColor="@color/color0229" android:layout_gravity="left" android:id="@+id/bottom_message" android:paddingLeft="@dimen/dimen033f" android:paddingRight="@dimen/dimen033f" android:paddingBottom="@dimen/dimen0388" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingLeft="6dp" android:paddingRight="6dp" android:paddingBottom="@dimen/dimen0303" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style05b1"/>
+        </LinearLayout>
+    </com.gbwhatsapp.components.TextAndDateLayout>
+    <View android:id="@+id/button_divider" style="@style/style031d"/>
+    <com.gbwhatsapp.TextEmojiLabel android:id="@+id/action_btn_1" android:visibility="gone" style="@style/style0388"/>
+    <com.gbwhatsapp.TextEmojiLabel android:id="@+id/action_btn_2" android:visibility="gone" style="@style/style0388"/>
+    <com.gbwhatsapp.TextEmojiLabel android:id="@+id/action_btn_3" android:visibility="gone" style="@style/style0388"/>
+    <com.gbwhatsapp.conversation.conversationrow.TemplateButtonListLayout android:id="@+id/template_button_list" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</merge>

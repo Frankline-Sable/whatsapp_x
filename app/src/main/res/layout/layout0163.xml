@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaImageButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_camera_entry_outline" android:contentDescription="@string/str0584" app:attr0906="@color/color0624" style="@style/style0001"/>

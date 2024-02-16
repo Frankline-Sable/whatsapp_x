@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/catalog_list_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/stub_toolbar_search" android:layout="@layout/layout0866" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/style019d">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <View android:id="@+id/transition_clipper_top" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/str28c7"/>
+                    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/business_catalog_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <View android:id="@+id/transition_clipper_bottom" android:layout_width="match_parent" android:layout_height="0dp" android:transitionName="@string/str28c6"/>
+                </LinearLayout>
+                <View android:layout_gravity="bottom" android:id="@+id/shadow_bottom" android:background="@drawable/list_upward_shadow" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8dp"/>
+            </FrameLayout>
+            <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/view_cart" android:visibility="gone" android:layout_width="match_parent" android:layout_marginLeft="@dimen/dimen0a59" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/dimen0a59" android:layout_marginBottom="10dp" style="@style/style059e"/>
+        </LinearLayout>
+        <FrameLayout android:id="@+id/business_catalog_host" android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+        <com.gbwhatsapp.WaTextView android:textColor="@color/color0db2" android:id="@+id/update_postcode_tip" android:background="@drawable/tooltip_postcode" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0c91" android:layout_marginRight="@dimen/dimen0c91" android:text="@string/str21ef" app:attr0512="true" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0" app:attr0535="0"/>
+        <FrameLayout android:id="@+id/catalog_search_host" android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

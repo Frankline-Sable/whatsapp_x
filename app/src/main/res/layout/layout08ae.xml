@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@color/color0ba1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" app:attr0517="0" app:attr0534="0">
+        <FrameLayout android:id="@+id/view_once_fragment_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.appcompat.widget.Toolbar android:theme="@style/style01c2" android:id="@+id/toolbar" android:background="@color/color0b5b" android:layout_width="match_parent" android:layout_height="@dimen/dimen0066" app:attr0534="0" app:attr06dd="@style/style0573" app:attr091d="2" app:attr0923="1"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

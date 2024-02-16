@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="24dp" android:paddingEnd="24dp">
+    <com.gbwhatsapp.WaTextView android:textColor="?attr/attr06f9" android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str17ee" app:attr051d="0" app:attr0530="0" app:attr0534="0" style="@style/style0045"/>
+    <RadioGroup android:gravity="left" android:orientation="vertical" android:id="@+id/radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" app:attr0530="0" app:attr0533="@+id/title"/>
+    <com.gbwhatsapp.WaTextView android:id="@+id/notes" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="@string/str17ed" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/radio_group"/>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/cancel_button" android:text="@string/str263e" app:attr043c="sans-serif-medium" app:attr051e="@+id/confirm_button" app:attr0533="@+id/notes" style="@style/style05a0"/>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/confirm_button" android:text="@string/str0817" app:attr051d="0" app:attr0533="@+id/notes" style="@style/style05a0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

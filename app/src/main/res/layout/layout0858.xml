@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/location_template_message_link_frame" android:background="@drawable/location_template_gray_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="4dp">
+    <FrameLayout android:id="@+id/map_frame" android:layout_width="match_parent" android:layout_height="@dimen/dimen034a">
+        <com.gbwhatsapp.WaImageView android:id="@+id/thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <com.gbwhatsapp.location.WaMapView android:id="@+id/map_holder" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.gbwhatsapp.WaTextView android:id="@+id/thumb_button" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/str11c9"/>
+        <com.gbwhatsapp.WaFrameLayout android:background="@drawable/balloon_incoming_frame" android:layout_width="match_parent" android:layout_height="match_parent" app:attr09a4="?attr/attr00ee"/>
+        <ProgressBar android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="@dimen/dimen034b" android:layout_height="@dimen/dimen034b" android:layout_margin="8dp"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/message_info_holder" android:paddingLeft="@dimen/dimen0679" android:paddingTop="@dimen/dimen067a" android:paddingRight="@dimen/dimen0679" android:paddingBottom="@dimen/dimen0679" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen067b" android:textColor="@color/color00c1" android:ellipsize="end" android:id="@+id/place_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:fontFamily="sans-serif-medium"/>
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0676" android:textColor="@color/color0670" android:ellipsize="end" android:id="@+id/place_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="sans-serif"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/add_participant_button" style="@style/style0591">
+    <com.gbwhatsapp.WaImageView android:id="@+id/add_participant_icon" android:layout_width="@dimen/dimen0ba2" android:layout_height="@dimen/dimen0ba2" android:layout_marginLeft="@dimen/dimen0ba1" android:layout_marginRight="@dimen/dimen0ba1" android:src="@drawable/ic_voip_add_person" android:scaleType="center" app:attr0906="@color/color0db2"/>
+    <com.gbwhatsapp.WaTextView android:textColor="@color/color0db2" android:id="@+id/add_participant_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str2483" style="@style/style0260"/>
+</LinearLayout>

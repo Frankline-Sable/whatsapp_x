@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="17.5sp" android:textColor="@android:color/white" android:background="@drawable/panel_popup_top" android:paddingLeft="20dp" android:paddingTop="32dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str056f" android:fontFamily="sans-serif" app:attr008e="?attr/attr068f"/>
+        <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:background="@drawable/panel_popup_bot" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr09a7="?attr/attr068e">
+            <com.gbwhatsapp.WaTextView android:textSize="15sp" android:gravity="left" android:id="@+id/header" android:paddingTop="17dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0576" android:fontFamily="sans-serif"/>
+            <LinearLayout android:id="@+id/call_spam_report" android:paddingLeft="2dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style0610">
+                <com.gbwhatsapp.WaTextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1bd1" android:drawableLeft="@drawable/ic_spam_report" android:drawablePadding="12dp" android:fontFamily="sans-serif"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/call_spam_block" android:paddingLeft="2dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style0610">
+                <com.gbwhatsapp.WaTextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str02f5" android:drawableLeft="@drawable/ic_spam_block" android:drawablePadding="12dp" android:fontFamily="sans-serif"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/call_spam_not_spam" android:paddingLeft="2dp" android:paddingTop="12dp" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15dp" style="@style/style0610">
+                <com.gbwhatsapp.WaTextView android:textSize="16sp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str145d" android:drawableLeft="@drawable/ic_close" android:drawablePadding="12dp" android:fontFamily="sans-serif"/>
+            </LinearLayout>
+        </com.gbwhatsapp.WaLinearLayout>
+    </LinearLayout>
+</FrameLayout>

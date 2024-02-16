@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/pinnedMessagesBanner" android:background="?attr/attr014b" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/dimen0207" android:elevation="4dp">
+        <com.gbwhatsapp.pininchat.banner.PinInChatBannerMultiplePinsIndicator android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/pinnedMessagesBanner_multiple_pins_indicator" android:paddingTop="@dimen/dimen0bc2" android:paddingBottom="@dimen/dimen0bc2" android:visibility="invisible" android:layout_width="@dimen/dimen0a03" android:layout_height="match_parent"/>
+        <com.gbwhatsapp.WaImageView android:gravity="center" android:background="@drawable/rounded_square" android:padding="@dimen/dimen0df7" android:layout_width="@dimen/dimen020a" android:layout_height="@dimen/dimen0208" android:src="@drawable/vec_ic_pin_in_chat" android:contentDescription="@string/str021d" android:layout_marginEnd="@dimen/dimen0209" app:attr0906="@color/color019c"/>
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen0204" android:textColor="?attr/attr014c" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/pinnedMessagesBanner_content" android:layout_width="match_parent" android:layout_height="match_parent" android:lines="1" android:fontFamily="Roboto" android:layout_marginEnd="@dimen/dimen0203"/>
+    </LinearLayout>
+    <View android:layout_gravity="bottom" style="@style/style031e"/>
+</LinearLayout>

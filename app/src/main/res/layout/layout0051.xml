@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.google.android.material.appbar.AppBarLayout android:id="@+id/community_navigation_app_bar" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="?attr/attr000f" android:backgroundTint="?attr/attr026e">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0549="3">
+                <androidx.appcompat.widget.Toolbar android:id="@+id/community_navigation_toolbar" android:layout_width="match_parent" android:layout_height="?attr/attr000f" app:attr01f2="0dp" app:attr01f4="0dp" app:attr01f5="0dp" app:attr0510="1" app:attr091d="2" app:attr0923="1" style="@style/style056d"/>
+                <RelativeLayout android:paddingLeft="@dimen/dimen0262" android:paddingRight="@dimen/dimen0262" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaImageView android:id="@+id/community_navigation_communityPhoto" android:layout_width="@dimen/dimen0263" android:layout_height="@dimen/dimen0263" android:layout_marginTop="?attr/attr000f" android:layout_marginBottom="@dimen/dimen0262" android:scaleType="fitCenter" android:layout_marginEnd="@dimen/dimen0262"/>
+                    <com.gbwhatsapp.TextEmojiLabel android:textSize="20sp" android:ellipsize="end" android:id="@+id/community_navigation_communityName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="?attr/attr000f" android:layout_marginBottom="@dimen/dimen0bc2" android:maxLines="1" android:layout_toEndOf="@+id/community_navigation_communityPhoto" style="@style/style03e9"/>
+                    <com.gbwhatsapp.WaTextView android:id="@+id/community_navigation_communityStatus" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_below="@+id/community_navigation_communityName" android:layout_alignStart="@+id/community_navigation_communityName"/>
+                </RelativeLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/community_navigation_subgroup_recycler_view" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginStart="@dimen/dimen00e3" android:layout_marginEnd="@dimen/dimen00e3" app:attr050f="@string/str25ff"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/community_navigation_add_group_button_container" android:background="?attr/attr0497" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen00e3" android:paddingEnd="@dimen/dimen00e3">
+        <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/community_navigation_add_group_button" android:layout_margin="8dp" android:text="@string/str07a7" style="@style/style05a5"/>
+    </FrameLayout>
+</LinearLayout>

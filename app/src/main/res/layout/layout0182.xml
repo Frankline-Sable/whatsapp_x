@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fadeScrollbars="false">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@+id/helper_flow_lottie_animation" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" android:scaleType="fitCenter" android:minHeight="160dp" app:attr0593="true" app:attr059b="true" app:attr059d="@raw/chatlock_helper_dialog_lottie"/>
+        <com.gbwhatsapp.WaTextView android:textSize="20sp" android:textStyle="bold" android:textColor="?attr/attr06f9" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0694"/>
+        <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0a73" android:id="@+id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/str0693"/>
+    </LinearLayout>
+</ScrollView>

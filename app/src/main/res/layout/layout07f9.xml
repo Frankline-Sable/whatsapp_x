@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/toolbar_layout" layout="@layout/layout0866"/>
+    <View android:id="@+id/dummy_constrained_view" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/toolbar_layout" style="@style/style019c"/>
+    <ListView android:id="@android:id/list" android:layout_width="0dp" android:layout_height="0dp" android:cacheColorHint="@color/color0b5a" android:divider="@drawable/status_contact_picker_divider" android:dividerHeight="0.5dp" android:headerDividersEnabled="false" android:footerDividersEnabled="true" app:attr0518="@android:id/empty" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/toolbar_layout" style="@style/style019d"/>
+    <ScrollView android:id="@android:id/empty" android:layout_width="0dp" android:layout_height="0dp" android:fillViewport="true" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@android:id/list">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/style019e">
+            <FrameLayout android:layout_gravity="center" android:layout_width="0dp" android:layout_height="match_parent" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+                <ProgressBar android:layout_gravity="center" android:id="@+id/init_contacts_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+                <com.gbwhatsapp.WaTextView android:textSize="18sp" android:textColor="?android:attr/textColorSecondary" android:gravity="center" android:layout_gravity="center" android:id="@+id/search_no_matches" android:paddingLeft="12dp" android:paddingRight="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </FrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.gbwhatsapp.components.FloatingActionButton android:id="@+id/done" android:src="@drawable/ic_done" android:contentDescription="@string/str0aae" app:attr0517="@+id/dummy_constrained_view" app:attr051d="@+id/dummy_constrained_view" style="@style/style05a8"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

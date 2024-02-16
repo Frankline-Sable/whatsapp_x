@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <FrameLayout android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@+id/container" android:paddingLeft="@dimen/dimen05d6" android:paddingTop="?attr/attr000f" android:paddingRight="@dimen/dimen05d6" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:textSize="24sp" android:gravity="center" android:paddingTop="20dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str10c1" style="@style/style038d"/>
+            <com.gbwhatsapp.WaTextView android:textSize="14sp" android:gravity="center" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str2593" style="@style/style038d"/>
+            <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/invite_button_tell_a_friend" android:layout_width="match_parent" android:layout_marginBottom="20dp" android:text="@string/str20a7" style="@style/style059e"/>
+            <com.gbwhatsapp.WaTextView android:textSize="14sp" android:gravity="center" android:id="@+id/subtitle_tell_a_friend" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style0390"/>
+        </LinearLayout>
+    </FrameLayout>
+</merge>

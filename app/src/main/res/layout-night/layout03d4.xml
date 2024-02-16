@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View style="@style/style031d"/>
+    <include android:id="@+id/variants_container1" layout="@layout/layout0893"/>
+    <View style="@style/style031d"/>
+    <include android:id="@+id/variants_container2" layout="@layout/layout0893"/>
+    <View style="@style/style031d"/>
+</LinearLayout>

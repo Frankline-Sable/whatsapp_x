@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/attr029b" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:paddingTop="20dp" android:paddingBottom="8dp" android:layout_width="112dp" android:layout_height="112dp" android:src="@drawable/ill_status"/>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_cancel" android:contentDescription="@string/str2654" app:attr0906="?attr/attr06f7" style="@style/style0006"/>
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="16dp" android:textColor="@color/color0a73" android:gravity="center" android:id="@+id/text" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/privacy_settings" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1a70" style="@style/style05a0"/>
+</LinearLayout>

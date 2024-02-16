@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include app:attr051d="0" app:attr0530="0" app:attr0534="0" layout="@layout/layout0864"/>
+    <ScrollView android:id="@+id/scroll_view" android:scrollbars="none" android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="18dp" android:layout_marginRight="16dp">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/mapper_link_image_section" android:layout_width="140dp" android:layout_height="140dp" android:contentDescription="@string/str167c" app:attr051d="0" app:attr0530="0" app:attr0534="0" app:attr0831="@drawable/vec_upi_mapper_creation_illustration"/>
+            <com.gbwhatsapp.WaTextView android:textAppearance="@style/style0298" android:gravity="center" android:id="@+id/mapper_link_title" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="@string/str1200" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:lineSpacingExtra="1sp" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/mapper_link_image_section"/>
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/profile_avatar" android:layout_width="37dp" android:layout_height="37dp" android:layout_marginLeft="16dp" android:src="@drawable/ic_shimmer_profile" android:contentDescription="@string/str167c" android:layout_marginStart="16dp" app:attr0517="@+id/payment_method_name_shimmer2" app:attr0530="0" app:attr0534="@+id/payment_method_name_shimmer"/>
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/payment_method_name_shimmer" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_marginTop="40dp" android:layout_weight="1" android:layout_marginStart="17dp" app:attr052f="@+id/profile_avatar" app:attr0533="@+id/mapper_link_title" app:attr07d3="true" app:attr07d4="0.5" app:attr07d5="?attr/attr057d">
+                <View android:background="@drawable/shimmer_loading_bg" android:layout_width="200dp" android:layout_height="16dp"/>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+            <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/payment_method_name_shimmer2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_marginTop="10dp" android:layout_marginStart="17dp" app:attr052f="@+id/profile_avatar" app:attr0533="@+id/payment_method_name_shimmer" app:attr07d3="true" app:attr07d4="0.5" app:attr07d5="?attr/attr057d">
+                <View android:background="@drawable/shimmer_loading_bg" android:layout_width="156dp" android:layout_height="16dp"/>
+            </com.facebook.shimmer.ShimmerFrameLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

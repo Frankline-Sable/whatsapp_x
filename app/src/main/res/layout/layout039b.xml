@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <FrameLayout android:id="@+id/loading_error_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="240dp" android:layout_alignParentTop="true">
+            <com.gbwhatsapp.CircularProgressBar android:layout_gravity="center" android:id="@+id/loading" android:layout_width="@dimen/dimen0bcc" android:layout_height="@dimen/dimen0bcc" android:indeterminate="true" android:indeterminateOnly="false" android:indeterminateTint="?attr/attr06f7" android:indeterminateTintMode="src_atop" app:attr022f="?attr/attr02a3" app:attr0230="?attr/attr06f7" app:attr0234="4"/>
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen04c5" android:textColor="@color/color0a73" android:gravity="center" android:layout_gravity="center" android:id="@+id/error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dimen04c3" android:layout_marginRight="@dimen/dimen04c3" app:attr043c="Roboto" app:attr0552="@dimen/dimen04c4"/>
+        </FrameLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ext_footer_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/divider_bottom" style="@style/style031d"/>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout03b3"/>
+    </LinearLayout>
+</merge>

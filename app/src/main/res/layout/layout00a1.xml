@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dimen0bc0" android:paddingRight="@dimen/dimen0bc0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="20sp" android:textStyle="bold" android:textColor="@color/color0c63" android:gravity="center_horizontal" android:id="@+id/non_admin_subgroup_creation_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc0" android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str07cb" android:textAlignment="center" app:attr0534="0"/>
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/color0c63" android:id="@+id/non_admin_subgroup_creation_subtext" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginRight="@dimen/dimen0bc0" android:layout_marginBottom="@dimen/dimen0bc0"/>
+        <RadioGroup android:layout_gravity="center" android:orientation="vertical" android:id="@+id/radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0533="@+id/non_admin_subgroup_creation_title">
+            <com.gbwhatsapp.radio.RadioButtonWithSubtitle android:id="@+id/non_admin_subgroup_creation_everyone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc0" app:attr0534="0" app:attr072a="@string/str266a" app:attr072b="@string/str2669"/>
+            <com.gbwhatsapp.radio.RadioButtonWithSubtitle android:id="@+id/non_admin_subgroup_creation_admin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc0" android:layout_marginBottom="@dimen/dimen0bc0" app:attr0533="@+id/non_admin_subgroup_creation_everyone" app:attr072a="@string/str2668" app:attr072b="@string/str2667"/>
+        </RadioGroup>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

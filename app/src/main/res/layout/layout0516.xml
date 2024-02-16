@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/list_item_with_left_icon" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/dimen05f8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/list_item_icon" android:layout_width="@dimen/dimen0697" android:layout_height="@dimen/dimen0697" android:layout_marginLeft="@dimen/dimen0bbd" android:layout_marginRight="@dimen/dimen0bc4" android:scaleType="center" android:layout_marginStart="@dimen/dimen0bbd" android:layout_marginEnd="@dimen/dimen0bc4" app:attr0906="@color/color063d" app:attr0907="5"/>
+    <LinearLayout android:gravity="left" android:layout_gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/list_item_text_container" android:paddingRight="@dimen/dimen0699" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.gbwhatsapp.TextEmojiLabel android:gravity="left" android:id="@+id/list_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0263"/>
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen069a" android:textColor="@color/color0a73" android:gravity="left" android:id="@+id/list_item_description" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/right_view_container" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/header_placeholder" android:layout_width="match_parent" android:layout_height="@dimen/dimen05f5"/>
+    <View android:id="@+id/header_bottom_shadow" android:visibility="gone" style="@style/style0259"/>
+    <ViewStub android:id="@+id/newsletter_details_card_stub" android:inflatedId="@+id/newsletter_details_card" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/layout05ee"/>
+    <include layout="@layout/layout05ec"/>
+    <include layout="@layout/layout05ea"/>
+    <include layout="@layout/layout0601"/>
+    <include layout="@layout/layout05fa"/>
+</LinearLayout>

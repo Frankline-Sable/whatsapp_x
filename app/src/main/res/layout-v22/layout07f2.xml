@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:orientation="vertical" android:id="@+id/sort_bottom_sheet_layout" android:paddingLeft="@dimen/dimen0bc4" android:paddingRight="@dimen/dimen0bc4" android:paddingBottom="@dimen/dimen0bc4" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dimen0bc4">
+    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0bb8" android:textStyle="bold" android:gravity="center" android:id="@+id/sort_bottom_sheet_title" android:layout_width="match_parent" android:layout_height="@dimen/dimen0bb7" android:text="@string/str1f1d" style="@style/style0260"/>
+    <RadioGroup android:layout_gravity="center" android:orientation="vertical" android:id="@+id/sort_options" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkedButton="@+id/recent">
+        <RadioButton android:id="@+id/popularity" android:layout_width="match_parent" android:layout_height="@dimen/dimen0bb6" android:paddingStart="@dimen/dimen0bb5" style="@style/style0261"/>
+        <RadioButton android:id="@+id/recent" android:layout_width="match_parent" android:layout_height="@dimen/dimen0bb6" android:paddingStart="@dimen/dimen0bb5" style="@style/style0261"/>
+    </RadioGroup>
+</LinearLayout>

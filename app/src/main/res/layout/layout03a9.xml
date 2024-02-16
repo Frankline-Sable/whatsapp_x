@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="@dimen/dimen052b" android:layout_height="@dimen/dimen052a" android:layout_marginLeft="@dimen/dimen0533" android:layout_marginRight="@dimen/dimen0533">
+    <FrameLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/filter_thumb" android:layout_width="@dimen/dimen0537" android:layout_height="@dimen/dimen0532">
+        <com.gbwhatsapp.WaImageView android:id="@+id/filter_thumb_image" android:layout_width="@dimen/dimen0537" android:layout_height="@dimen/dimen0532" android:scaleType="centerCrop"/>
+        <com.gbwhatsapp.WaTextView android:textSize="12sp" android:textColor="@color/color0db2" android:ellipsize="end" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/filter_name" android:background="@color/color059f" android:paddingLeft="@dimen/dimen0535" android:paddingTop="@dimen/dimen0536" android:paddingRight="@dimen/dimen0535" android:paddingBottom="@dimen/dimen0534" android:layout_width="@dimen/dimen0537" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:fontFamily="sans-serif-medium"/>
+        <com.gbwhatsapp.components.SelectionCheckView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/selection_check" android:layout_width="@dimen/dimen0b28" android:layout_height="@dimen/dimen0b28" android:layout_marginTop="@dimen/dimen0531" android:layout_marginRight="@dimen/dimen0531"/>
+    </FrameLayout>
+</FrameLayout>

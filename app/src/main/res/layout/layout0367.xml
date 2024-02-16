@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dimen049c" android:layout_marginRight="@dimen/dimen049c">
+            <com.gbwhatsapp.WaImageView android:layout_width="match_parent" android:layout_height="@dimen/dimen049b" android:layout_marginTop="@dimen/dimen04a0" android:layout_marginBottom="@dimen/dimen049f" android:src="@drawable/illust_welcome_cloud_lock"/>
+            <com.gbwhatsapp.WaTextView android:id="@+id/enable_info_title" android:text="@string/str0b8d" style="@style/style01e5"/>
+            <com.gbwhatsapp.WaTextView android:id="@+id/enable_info_enc_backup_info" android:text="@string/str0b8c" style="@style/style01dc"/>
+            <include android:id="@+id/enc_backup_enable_list_no_image" android:visibility="gone" layout="@layout/layout0369"/>
+            <com.gbwhatsapp.WaTextView android:id="@+id/enable_info_backup_size_message" android:visibility="gone" style="@style/style01dc"/>
+        </com.gbwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/enable_info_turn_on_button" android:text="@string/str0b8e" style="@style/style01e1"/>
+</LinearLayout>

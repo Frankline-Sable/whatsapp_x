@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="style0304">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">?attr/attr054f</item>
+        <item name="?0x101056c">true</item>
+    </style>
+    <style name="style0433">
+        <item name="android:navigationBarColor">?attr/attr054f</item>
+        <item name="?0x101056c">true</item>
+    </style>
+    <style name="style0436">
+        <item name="android:windowBackground">@color/color00c1</item>
+        <item name="android:navigationBarColor">@color/color0c65</item>
+        <item name="?0x101056c">false</item>
+        <item name="attr0011">@style/style077b</item>
+        <item name="attr01bb">@color/color00c1</item>
+        <item name="attr01bd">@color/color0b5a</item>
+        <item name="attr0495">@drawable/ic_back</item>
+        <item name="attr091c">@color/color00c1</item>
+    </style>
+    <style name="style0457">
+        <item name="android:navigationBarColor">@color/color0c65</item>
+        <item name="?0x101056c">false</item>
+    </style>
+    <style name="style045f">
+        <item name="android:windowBackground">@color/color00c1</item>
+        <item name="android:navigationBarColor">@color/color0c65</item>
+        <item name="?0x101056c">false</item>
+    </style>
+    <style name="style046a">
+        <item name="android:navigationBarColor">@color/color0c65</item>
+        <item name="?0x101056c">false</item>
+        <item name="attr01a3">@android:color/white</item>
+    </style>
+    <style name="style0491">
+        <item name="android:windowBackground">@android:color/black</item>
+        <item name="android:navigationBarColor">@color/color0c65</item>
+        <item name="?0x101056c">false</item>
+        <item name="attr019e">?attr/attr06f7</item>
+        <item name="attr01bb">?attr/attr06ef</item>
+        <item name="attr01bd">?attr/attr06f6</item>
+        <item name="attr091c">?attr/attr0920</item>
+    </style>
+    <style name="style04f9">
+        <item name="android:navigationBarColor">@color/color0c65</item>
+        <item name="?0x101056c">false</item>
+        <item name="attr01bd">@color/color0c65</item>
+    </style>
+    <style name="style05da">
+        <item name="android:navigationBarColor">@color/color0c62</item>
+        <item name="?0x101056c">@bool/notification_action_text_size</item>
+    </style>
+</resources>

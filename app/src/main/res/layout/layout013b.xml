@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.gbwhatsapp.WaImageView android:id="@+id/illustration" android:layout_width="wrap_content" android:layout_height="@dimen/dimen0136" android:layout_marginTop="@dimen/dimen0df5" android:src="@drawable/img_avatars_hero"/>
+    <com.gbwhatsapp.WaTextView android:id="@+id/title" android:text="@string/str04b3" style="@style/style0162"/>
+    <com.whatsapp.calling.avatar.view.FLMConsentBulletRow android:id="@+id/bullet_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0dfb" app:attr04aa="@drawable/vec_ic_avatars"/>
+    <com.whatsapp.calling.avatar.view.FLMConsentBulletRow android:id="@+id/bullet_2" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr04aa="@drawable/vec_ic_info_white_24dp"/>
+    <com.whatsapp.calling.avatar.view.FLMConsentBulletRow android:id="@+id/bullet_3" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr04aa="@drawable/vec_ic_settings_privacy_lock" app:attr0915="@string/str04ae"/>
+    <com.whatsapp.calling.avatar.view.FLMConsentBulletRow android:id="@+id/bullet_4" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr04aa="@drawable/vec_ic_action_videocall" app:attr0915="@string/str04af"/>
+</LinearLayout>

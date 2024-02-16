@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.gbwhatsapp.conversation.conversationrow.components.richsystemmessage.GroupPhotoHeader android:id="@+id/groupPhoto" android:layout_width="@dimen/dimen0ac4" android:layout_height="@dimen/dimen0ac4" android:layout_marginRight="@dimen/dimen0bbd" android:src="@drawable/avatar_group" android:scaleType="fitEnd" android:layout_weight="1"/>
+    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/arrow" android:layout_width="@dimen/dimen0ac3" android:layout_height="@dimen/dimen0ac3" android:src="@drawable/ic_arrow" android:scaleType="fitXY"/>
+    <com.gbwhatsapp.conversation.conversationrow.components.richsystemmessage.CommunityPhotoHeader android:id="@+id/communityPhoto" android:layout_width="@dimen/dimen0ac4" android:layout_height="@dimen/dimen0ac4" android:layout_marginLeft="@dimen/dimen0bbd" android:scaleType="fitStart" android:layout_weight="1"/>
+</merge>

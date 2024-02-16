@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/media_quality_bottom_sheet" android:paddingLeft="@dimen/dimen0bc4" android:paddingTop="@dimen/dimen0bc5" android:paddingRight="@dimen/dimen0bc4" android:paddingBottom="@dimen/dimen0bc4" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="20sp" android:id="@+id/media_quality_bottom_sheet_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bbd" android:singleLine="false" android:fontFamily="sans-serif-medium" style="@style/style0260"/>
+        <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0a73" android:id="@+id/media_bottom_sheet_description" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc5" app:attr0552="20sp"/>
+        <RadioGroup android:layout_gravity="center" android:orientation="vertical" android:id="@+id/media_quality" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/done_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0aae" style="@style/style059e"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

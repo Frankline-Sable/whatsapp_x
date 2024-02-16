@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen00e2" android:layout_marginBottom="@dimen/dimen00e2">
+        <LinearLayout android:orientation="vertical" android:id="@+id/secret_code_setting" android:paddingLeft="@dimen/dimen0b59" android:paddingTop="@dimen/dimen0b5e" android:paddingRight="@dimen/dimen0a54" android:paddingBottom="@dimen/dimen0b5e" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/dimen0b5e" style="@style/style032e">
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0b64" android:textColor="?attr/attr07be" android:id="@+id/secret_code_setting_title" android:paddingBottom="@dimen/dimen0a58" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1cf9"/>
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0b62" android:textColor="@color/color0ac9" android:id="@+id/secret_code_setting_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1cfa"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

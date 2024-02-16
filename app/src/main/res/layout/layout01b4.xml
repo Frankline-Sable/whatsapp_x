@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.ListItemWithLeftIcon xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/community_settings_button" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0569="@drawable/ic_settings_settings" app:attr056a="@color/color063d" app:attr056c="@string/str07c5" app:attr056d="?attr/attr06f9" app:attr056e="17sp"/>

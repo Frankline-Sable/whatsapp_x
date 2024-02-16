@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@android:id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:layout_gravity="top" android:id="@+id/selected_contacts_list_stub" android:visibility="gone" android:layout="@layout/layout01ef" android:inflatedId="@+id/selected_contacts_list" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.gbwhatsapp.collections.observablelistview.ObservableListView android:id="@android:id/list" android:background="@null" android:paddingLeft="@dimen/dimen02a9" android:paddingRight="@dimen/dimen02aa" android:paddingBottom="@dimen/dimen0827" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="@android:color/transparent" android:divider="@null"/>
+    <FrameLayout android:gravity="center" android:id="@android:id/empty" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/contacts_empty" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <FrameLayout android:id="@+id/contacts_empty_permission_denied" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/init_contacts_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyle"/>
+        <com.gbwhatsapp.WaTextView android:textSize="18sp" android:textColor="?android:attr/textColorSecondary" android:gravity="center" android:id="@+id/search_no_matches" android:paddingLeft="12dp" android:paddingTop="96dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:id="@+id/error_container" android:paddingLeft="12dp" android:paddingTop="40dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@+id/error_contact_search_line1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style0195"/>
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@+id/error_contact_search_line2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style0195"/>
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/retry_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str2150" style="@style/style05a1"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaTextView android:textSize="20sp" android:id="@+id/status_privacy_bottom_sheet_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a33" android:layout_marginRight="@dimen/dimen0a33" android:layout_marginBottom="@dimen/dimen0bbd" android:text="@string/str1d21" android:singleLine="false" style="@style/style0260"/>
+        <RadioGroup android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="@dimen/dimen0a33">
+            <FrameLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:theme="@style/style0379" android:id="@+id/my_contacts_button" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/str285d"/>
+            </FrameLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:theme="@style/style0379" android:id="@+id/my_contacts_except_button" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/str285c" android:layout_weight="1"/>
+                <com.gbwhatsapp.WaTextView android:id="@+id/excluded" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/style0378"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton android:theme="@style/style0379" android:id="@+id/only_share_with_button" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/str285b" android:layout_weight="1"/>
+                <com.gbwhatsapp.WaTextView android:id="@+id/included" android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/style0378"/>
+            </LinearLayout>
+        </RadioGroup>
+        <ViewStub android:id="@+id/status_privacy_stub" android:visibility="gone" android:layout="@layout/layout0706" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/waffle_privacy_stub" android:visibility="gone" android:layout="@layout/layout0707" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/done_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginTop="12dp" android:layout_marginRight="@dimen/dimen0bc0" android:text="@string/str0aae" style="@style/style059e"/>
+    </LinearLayout>
+</merge>

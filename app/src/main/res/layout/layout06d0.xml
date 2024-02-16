@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/postcode_item" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="?attr/attr06f8" android:paddingTop="@dimen/dimen0a4d" android:paddingBottom="@dimen/dimen0a4d" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@+id/postcode_item_location" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a4e" android:src="@drawable/ic_business_location" android:tint="?attr/attr04b1" android:layout_centerVertical="true" android:layout_marginStart="@dimen/dimen0a4e"/>
+        <RelativeLayout android:paddingLeft="@dimen/dimen0a4f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/postcode_item_location" android:layout_centerVertical="true" android:paddingStart="@dimen/dimen0a4f" android:layout_toEndOf="@+id/postcode_item_location">
+            <com.gbwhatsapp.WaTextView android:id="@+id/postcode_item_text" android:text="@string/str05ea" android:letterSpacing="0.02" style="@style/style02f3"/>
+            <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0aa7" android:id="@+id/postcode_item_location_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/postcode_item_text" android:letterSpacing="0.02" style="@style/style02f2"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <View android:background="@color/color00c6" android:layout_width="match_parent" android:layout_height="1dp"/>
+</LinearLayout>

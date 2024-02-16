@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator android:interpolator="?attr/attr0622" android:duration="?attr/attr0618" android:startOffset="0" android:propertyName="width"/>
+    <objectAnimator android:interpolator="?attr/attr0622" android:duration="?attr/attr0618" android:startOffset="0" android:propertyName="height"/>
+    <objectAnimator android:interpolator="?attr/attr0622" android:duration="?attr/attr0618" android:startOffset="0" android:propertyName="paddingStart"/>
+    <objectAnimator android:interpolator="?attr/attr0622" android:duration="?attr/attr0618" android:startOffset="0" android:propertyName="paddingEnd"/>
+    <objectAnimator android:interpolator="?attr/attr0622" android:duration="?attr/attr061c" android:startOffset="?attr/attr061a" android:propertyName="labelOpacity"/>
+</set>

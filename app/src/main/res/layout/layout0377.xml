@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.KeyboardPopupLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaEditText android:textStyle="bold" android:id="@+id/event_title" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginTop="@dimen/dimen0bc0" android:layout_marginRight="@dimen/dimen0bc0" android:layout_marginBottom="@dimen/dimen0bc3" android:hint="@string/str0c76" android:singleLine="true" android:inputType="textCapSentences" style="@style/style05e5"/>
+            <com.gbwhatsapp.WaEditText android:textColorHint="@color/color0a73" android:id="@+id/event_description" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginTop="@dimen/dimen0bc3" android:layout_marginRight="@dimen/dimen0bc0" android:layout_marginBottom="@dimen/dimen0bc0" android:hint="@string/str0c71" android:inputType="none|text|textCapSentences|textMultiLine" style="@style/style05df"/>
+            <View style="@style/style0323"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginTop="@dimen/dimen0bc4" android:layout_marginRight="@dimen/dimen0bc0" android:layout_marginBottom="@dimen/dimen0bc0">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="@dimen/dimen0dc0" android:layout_height="@dimen/dimen0dc0" android:layout_marginEnd="@dimen/dimen0bc0" app:attr0831="@drawable/vec_ic_calendar" app:attr0906="@color/color063d"/>
+                <com.gbwhatsapp.WaEditText android:gravity="start" android:id="@+id/event_date" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" android:layout_marginEnd="@dimen/dimen0bc0" style="@style/style03df"/>
+                <com.gbwhatsapp.WaEditText android:gravity="end" android:id="@+id/event_time" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="2" style="@style/style03df"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginTop="@dimen/dimen0bc0" android:layout_marginRight="@dimen/dimen0bc0" android:layout_marginBottom="@dimen/dimen0bc0" android:minHeight="@dimen/dimen0dbe">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="top" android:layout_width="@dimen/dimen0dc0" android:layout_height="@dimen/dimen0dc0" android:layout_marginTop="@dimen/dimen0bc6" android:layout_marginEnd="@dimen/dimen0bc0" app:attr0831="@drawable/ic_attachment_location" app:attr0906="@color/color01e8"/>
+                <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.gbwhatsapp.WaTextView android:layout_gravity="center_vertical" android:id="@+id/event_location_text" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style03df"/>
+                    <ViewStub android:id="@+id/event_location_description" android:layout="@layout/layout037a" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <ViewStub android:id="@+id/event_location_remove" android:layout="@layout/layout037e" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginTop="@dimen/dimen0bc0" android:layout_marginRight="@dimen/dimen0bc0" android:layout_marginBottom="@dimen/dimen0bc0" android:minHeight="@dimen/dimen0dbe">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/event_call_icon" android:layout_width="@dimen/dimen0dc0" android:layout_height="@dimen/dimen0dc0" android:layout_marginEnd="@dimen/dimen0bc0" app:attr0831="@drawable/vec_action_video_call" app:attr0906="@color/color01e8"/>
+                <com.gbwhatsapp.WaTextView android:layout_gravity="center_vertical" android:id="@+id/event_call_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style03df"/>
+                <ViewStub android:id="@+id/event_call_remove" android:visibility="gone" android:layout="@layout/layout037e" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_marginBottom="0dp" style="@style/style019d">
+        <com.gbwhatsapp.components.FloatingActionButton android:id="@+id/event_create_button" android:src="@drawable/input_send" android:contentDescription="@string/str1d3a" app:attr0517="0" app:attr051d="0" style="@style/style05a8"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gbwhatsapp.KeyboardPopupLayout>

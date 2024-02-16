@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style0137">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@+id/icon" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginLeft="@dimen/dimen0400" android:src="@drawable/ic_location_nearby_disabled" android:scaleType="center" android:layout_marginStart="@dimen/dimen0400" app:attr0517="0" app:attr0530="0" app:attr0534="0" app:attr0906="@color/color0638"/>
+        <com.gbwhatsapp.WaTextView android:id="@+id/default_location" android:paddingTop="@dimen/dimen0a55" android:paddingBottom="@dimen/dimen0a55" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0400" android:layout_marginRight="@dimen/dimen0a54" android:text="@string/str02eb" android:layout_marginStart="@dimen/dimen0400" android:layout_marginEnd="@dimen/dimen0a54" app:attr0517="0" app:attr052f="@+id/icon" app:attr0534="0" style="@style/style0261"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gbwhatsapp.InfoCard>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen0c4a" android:textColorLink="?attr/attr055a" android:id="@+id/enter_code_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc4" android:layout_marginTop="@dimen/dimen0bc0" android:layout_marginRight="@dimen/dimen0bc4" android:layout_marginBottom="@dimen/dimen0bc0" android:text="@string/str1157" android:layout_marginStart="@dimen/dimen0bc4" android:layout_marginEnd="@dimen/dimen0bc4" style="@style/style038f"/>
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/enter_code_boxes" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc1" android:layout_marginTop="@dimen/dimen0bca" android:layout_marginRight="@dimen/dimen0bc1" android:layout_marginBottom="@dimen/dimen0bc1" android:layout_marginStart="@dimen/dimen0bc1" android:layout_marginEnd="@dimen/dimen0bc1" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0" app:attr0539="376dp"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0479" android:textStyle="bold" android:gravity="center_horizontal" android:id="@+id/enter_code_hint" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc4" android:layout_marginRight="@dimen/dimen0bc4" android:text="@string/str1158" android:layout_marginStart="@dimen/dimen0bc4" android:layout_marginEnd="@dimen/dimen0bc4"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+</ScrollView>

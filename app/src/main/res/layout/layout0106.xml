@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/business_compliance_error_empty" android:layout_marginLeft="@dimen/dimen0a54" android:layout_marginRight="@dimen/dimen0a54" android:layout_marginBottom="@dimen/dimen0a59" android:text="@string/str0439" app:attr0552="@dimen/dimen0a41" style="@style/style0186"/>

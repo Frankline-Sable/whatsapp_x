@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen049c" android:layout_marginRight="@dimen/dimen049c">
+            <com.gbwhatsapp.WaTextView android:id="@+id/enc_backup_password_input_title" android:text="@string/str0b81" style="@style/style01e5"/>
+            <com.gbwhatsapp.WaTextView android:id="@+id/enc_backup_password_input_instruction" android:text="@string/str0b7f" style="@style/style01e3"/>
+            <com.gbwhatsapp.WaTextView android:id="@+id/enc_backup_password_input_forgot_password" android:text="@string/str0ba6" style="@style/style01e4"/>
+            <com.gbwhatsapp.CodeInputField android:id="@+id/enc_backup_password_input" android:hint="@string/str0ba7" style="@style/style01e0"/>
+            <com.gbwhatsapp.WaTextView android:id="@+id/enc_backup_password_input_requirement" style="@style/style01e3"/>
+        </com.gbwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/enc_backup_password_input_button" android:text="@string/str0b7e" style="@style/style059e"/>
+    <com.gbwhatsapp.WaTextView android:id="@+id/enc_backup_password_input_use_encryption_key_button" android:visibility="gone" style="@style/style01e4"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" app:attr0923="1" style="@style/style0570"/>
+    <ScrollView android:id="@+id/community_settings_scroll_view" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/style019e">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+                <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/dimen0bc0" android:text="@string/str07d6" style="?attr/attr07ad"/>
+                <ViewStub android:id="@+id/community_settings_permissions_add_members" android:layout="@layout/layout01b5" android:inflatedId="@+id/community_settings_permissions_add_members" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.gbwhatsapp.settings.SettingsRowIconText android:id="@+id/community_settings_permissions_add_groups" android:paddingLeft="@dimen/dimen0bc0" android:paddingTop="@dimen/dimen0bc0" android:paddingRight="@dimen/dimen0bc0" android:paddingBottom="@dimen/dimen0bc0" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr07a5="@string/str2667" app:attr07a6="@string/str07cb" style="?attr/attr07a1"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

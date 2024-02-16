@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.gbwhatsapp.components.button.ThumbnailButton android:id="@+id/thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.gbwhatsapp.WaImageView android:layout_gravity="top" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/conversation_link_carousel_reel_gradient_top" android:importantForAccessibility="no"/>
+    <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="40dp" android:src="@drawable/conversation_link_carousel_reel_gradient_bottom" android:importantForAccessibility="no"/>
+    <RelativeLayout android:id="@+id/content" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0368" android:textColor="@color/color021e" android:ellipsize="end" android:id="@+id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bbd" android:layout_marginTop="@dimen/dimen0bbd" android:layout_marginRight="@dimen/dimen0bbd" android:maxLines="1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:fontFamily="sans-serif-medium" app:attr0552="@dimen/dimen0364"/>
+        <com.gbwhatsapp.WaImageView android:id="@+id/reel_icon" android:layout_width="@dimen/dimen0363" android:layout_height="@dimen/dimen0363" android:layout_marginLeft="@dimen/dimen0bb9" android:layout_marginBottom="@dimen/dimen0bb9" android:src="@drawable/conversation_link_carousel_reel_icon" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@+id/shimmer_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/selection_view" android:layout="@layout/layout07b0" android:inflatedId="@+id/selection_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

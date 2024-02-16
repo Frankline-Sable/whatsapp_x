@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/avatar_not_available_image_set" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@+id/avatar_not_available_image" android:layout_width="@dimen/dimen00b1" android:layout_height="@dimen/dimen00b1" android:src="@drawable/ic_avatar_empty_first"/>
+        <com.gbwhatsapp.WaImageView android:id="@+id/avatar_not_available_image2" android:layout_width="@dimen/dimen00b1" android:layout_height="@dimen/dimen00b1" android:layout_marginLeft="12dp" android:src="@drawable/ic_avatar_empty_second"/>
+        <com.whatsapp.stickers.StickerView android:id="@+id/avatar_not_available_image2_animated" android:layout_width="@dimen/dimen00b1" android:layout_height="@dimen/dimen00b1" android:layout_marginLeft="12dp"/>
+        <com.gbwhatsapp.WaImageView android:id="@+id/avatar_not_available_image3" android:layout_width="@dimen/dimen00b1" android:layout_height="@dimen/dimen00b1" android:layout_marginLeft="12dp" android:src="@drawable/ic_avatar_empty_third"/>
+    </LinearLayout>
+    <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0a73" android:gravity="center" android:layout_gravity="center" android:id="@+id/no_avatar_available_text_view" android:paddingTop="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str01cb"/>
+    <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textStyle="bold" android:textColor="?attr/attr0032" android:layout_gravity="center" android:id="@+id/no_avatar_available_create_button" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1f63"/>
+</LinearLayout>

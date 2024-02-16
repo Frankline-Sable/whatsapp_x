@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/header_placeholder" android:layout_width="match_parent" android:layout_height="@dimen/dimen05f5"/>
+    <include layout="@layout/layout07ed"/>
+    <View android:id="@+id/header_bottom_shadow" android:visibility="gone" style="@style/style0259"/>
+    <ViewStub android:id="@+id/business_details_card_stub" android:inflatedId="@+id/business_details_card" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ViewStub android:id="@+id/contact_details_card_stub" android:inflatedId="@+id/contact_details_card" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/layout01e3"/>
+    <include layout="@layout/privacy_card_v2"/>
+    <com.gbwhatsapp.info.views.ChatInfoMediaCardV2 android:id="@+id/media_card_view" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" app:attr05e5="@string/str238a" style="@style/style023c"/>
+    <include layout="@layout/layout051f"/>
+    <include layout="@layout/layout003a"/>
+    <include layout="@layout/layout01e0"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/groups_card" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View style="@style/style0269"/>
+        <FrameLayout android:background="?attr/attr06f8" android:paddingLeft="@dimen/dimen05f8" style="@style/style021f">
+            <com.gbwhatsapp.WaTextView android:ellipsize="end" android:id="@+id/groups_in_common" android:singleLine="true" style="@style/style0223"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/layout02e9"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

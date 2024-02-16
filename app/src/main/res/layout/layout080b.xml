@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.gbwhatsapp.status.playback.content.BlurFrameLayout android:layout_gravity="center" android:id="@+id/blur_container" android:paddingTop="@dimen/dimen0c05" android:paddingBottom="@dimen/dimen0c05" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.status.playback.widget.VoiceStatusContentView android:id="@+id/message_voice" android:layout_width="match_parent" android:layout_height="@dimen/dimen0c06" android:layout_marginLeft="@dimen/dimen0c07" android:layout_marginRight="@dimen/dimen0c07"/>
+    </com.gbwhatsapp.status.playback.content.BlurFrameLayout>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.gbwhatsapp.status.playback.widget.VoiceStatusProfileAvatarView android:id="@+id/voice_status_profile_avatar" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0517="0" app:attr052a="0" app:attr0534="0"/>
+    <com.gbwhatsapp.conversation.waveforms.VoiceVisualizer android:id="@+id/voice_status_visualizer" android:paddingLeft="@dimen/dimen0c0b" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bbd" android:layout_marginRight="@dimen/dimen0bbd" android:layout_weight="1" app:attr0517="0" app:attr052b="@+id/voice_status_profile_avatar" app:attr052d="@+id/voice_duration" app:attr0534="0" app:attr070a="@color/color0d97" app:attr0786="@color/color0d97" app:attr0787="@dimen/dimen0c11" app:attr0788="@dimen/dimen0c12"/>
+    <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="@color/color0d97" android:id="@+id/voice_duration" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen0bbd" app:attr0517="0" app:attr052e="0" app:attr0534="0"/>
+</merge>

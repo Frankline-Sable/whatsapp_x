@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="@dimen/dimen01b9" android:paddingRight="@dimen/dimen01b9" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@+id/section_header" android:background="@drawable/panel_top" android:layout_marginTop="@dimen/dimen01bb" android:backgroundTint="?attr/attr05fa" style="@style/style016b">
+            <com.gbwhatsapp.WaTextView android:id="@+id/section_title" style="@style/style016e"/>
+            <com.gbwhatsapp.WaTextView android:id="@+id/section_icon" style="@style/style016c"/>
+            <View style="@style/style016d"/>
+        </FrameLayout>
+        <RelativeLayout android:id="@+id/content" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:backgroundTint="?attr/attr05fa">
+            <com.gbwhatsapp.WaTextView android:textColor="@color/color0679" android:gravity="left" android:id="@+id/remaining" android:paddingLeft="12dp" android:paddingTop="4dp" android:paddingRight="12dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style025c"/>
+            <com.gbwhatsapp.WaImageView android:id="@+id/contact_photo" android:layout_width="@dimen/dimen0ba2" android:layout_height="@dimen/dimen0ba2" android:layout_marginLeft="@dimen/dimen0ba1" android:layout_marginTop="@dimen/dimen0ba1" android:layout_marginRight="@dimen/dimen0ba1" android:layout_marginBottom="@dimen/dimen0ba1" android:scaleType="fitCenter" android:layout_alignParentLeft="true"/>
+            <com.gbwhatsapp.WaImageView android:id="@+id/status" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            <LinearLayout android:gravity="left" android:orientation="vertical" android:id="@+id/timestamps" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/status" android:layout_toRightOf="@+id/contact_photo" android:layout_centerVertical="true">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                        <com.gbwhatsapp.TextEmojiLabel android:ellipsize="end" android:id="@+id/primary_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style0260"/>
+                    </LinearLayout>
+                    <com.gbwhatsapp.TextEmojiLabel android:id="@+id/secondary_name" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style025d"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/date_time_played_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaTextView android:gravity="left" android:id="@+id/date_time_played_label" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str12b8" android:layout_weight="1" style="@style/style025c"/>
+                    <com.gbwhatsapp.WaTextView android:id="@+id/date_time_played" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style025c"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/date_time_read_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaTextView android:gravity="left" android:id="@+id/date_time_read_label" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str12c6" android:layout_weight="1" style="@style/style025c"/>
+                    <com.gbwhatsapp.WaTextView android:id="@+id/date_time_read" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style025c"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/date_time_delivered_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaTextView android:gravity="left" android:id="@+id/date_time_delivered_label" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str12a9" android:layout_weight="1" style="@style/style025c"/>
+                    <com.gbwhatsapp.WaTextView android:id="@+id/date_time_delivered" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style025c"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/date_time_kept_group" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaTextView android:ellipsize="end" android:gravity="left" android:id="@+id/date_time_kept_label" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str1111" android:layout_weight="1" style="@style/style025c"/>
+                    <com.gbwhatsapp.WaTextView android:id="@+id/date_time_kept" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style025c"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@+id/divider" android:layout_marginLeft="72dp" android:layout_alignParentBottom="true" style="@style/style031d"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

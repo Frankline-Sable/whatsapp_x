@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/data_disclosure_card" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style023c">
+    <LinearLayout android:orientation="vertical" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <com.gbwhatsapp.ListItemWithLeftIcon android:id="@+id/data_disclosure_card_list" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0569="@drawable/vec_ic_datasharing" app:attr056b="false" app:attr056c="@string/str12f6"/>
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

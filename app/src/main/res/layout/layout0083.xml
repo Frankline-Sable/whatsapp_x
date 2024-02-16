@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/wallpaper_categories_toolbar" android:background="?attr/attr0920" android:layout_width="0dp" android:layout_height="@dimen/dimen0066" app:attr0518="@+id/categories" app:attr051d="0" app:attr0530="0" app:attr0534="0" app:attr08f1="@style/style01c2" app:attr0923="1"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/categories" android:padding="@dimen/dimen00e1" android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/wallpaper_categories_toolbar" style="@style/style019d"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

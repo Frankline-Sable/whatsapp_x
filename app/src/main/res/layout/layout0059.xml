@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/dimen0bc4" android:paddingEnd="@dimen/dimen0bc4">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:fadeScrollbars="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:layout_width="112dp" android:layout_height="112dp" android:layout_marginTop="@dimen/dimen00e1" android:src="@drawable/security_fail"/>
+            <com.gbwhatsapp.WaTextView android:textSize="24sp" android:textColor="?attr/attr08ed" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc4" android:lineSpacingExtra="1sp" app:attr043c="sans-serif-medium"/>
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="@color/color0a73" android:textColorLink="?attr/attr055a" android:gravity="center_horizontal" android:id="@+id/body" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="@dimen/dimen0bc4" android:layout_marginBottom="72dp" android:layout_weight="1" android:lineSpacingExtra="5sp"/>
+        </LinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/primary_button" android:text="@string/str08af" style="@style/style05a5"/>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/secondary_button" android:layout_width="match_parent" android:text="@string/str0ac4" style="@style/style05a0"/>
+    </com.gbwhatsapp.wds.components.button.WDSButtonGroup>
+</LinearLayout>

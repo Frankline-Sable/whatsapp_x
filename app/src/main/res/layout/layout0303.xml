@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/description_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style023c">
+    <LinearLayout android:orientation="vertical" android:background="?attr/attr06f8" android:padding="@dimen/dimen05f8" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/has_description_view" android:paddingTop="4dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.text.ReadMoreTextView android:textSize="@dimen/dimen01aa" android:textColor="@color/color0b68" android:id="@+id/group_description" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr074b="3" app:attr074d="?attr/attr06f7" app:attr074e="@string/str1adc"/>
+            <ProgressBar android:id="@+id/change_description_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleSmallInverse"/>
+        </LinearLayout>
+        <com.gbwhatsapp.WaTextView android:textColor="?attr/attr06f7" android:id="@+id/no_description_view" android:paddingTop="4dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str010b" style="@style/style0261"/>
+        <com.gbwhatsapp.WaTextView android:id="@+id/creation_info_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bbd"/>
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.gbwhatsapp.WaImageView android:id="@+id/me_tab_account_switcher_chevron" android:background="@color/color0b5a" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vec_ic_chevron_down" android:scaleType="fitCenter" android:layout_centerVertical="true" app:attr0906="?attr/attr07af"/>
+    <ViewStub android:id="@+id/me_tab_account_switcher_chevron_soft_badge_view_stub" android:layout="@layout/layout002b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@+id/me_tab_account_switcher_chevron" android:layout_centerVertical="true"/>
+</RelativeLayout>

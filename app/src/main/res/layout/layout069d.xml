@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.components.MainChildCoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" app:attr05e6="@+id/send_payment_keyboard_popup_layout">
+    <com.gbwhatsapp.KeyboardPopupLayout android:id="@+id/send_payment_keyboard_popup_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/toolbar_holder" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout0867"/>
+        <com.google.android.material.tabs.TabLayout android:id="@+id/payment_tabs" android:background="?attr/attr06ef" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/toolbar_holder" android:elevation="?attr/attr0033" app:attr0885="?attr/attr06f8" app:attr088d="@color/color0d24" app:attr089d="@color/color0980" app:attr08a0="@color/color0981"/>
+        <include layout="@layout/layout069e"/>
+    </com.gbwhatsapp.KeyboardPopupLayout>
+</com.gbwhatsapp.components.MainChildCoordinatorLayout>

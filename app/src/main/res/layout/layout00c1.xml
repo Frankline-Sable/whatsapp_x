@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="horizontal" android:id="@+id/backup_banner_view" android:background="?attr/attr00a0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/dimen03a4">
+    <FrameLayout android:id="@+id/banner_icon_container" android:layout_width="@dimen/dimen0694" android:layout_height="match_parent">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/banner_icon" android:background="@drawable/sky_blue_200_circle" android:padding="@dimen/dimen00c5" android:layout_width="@dimen/dimen00c4" android:layout_height="@dimen/dimen00c4" android:src="@drawable/ic_backup_small" app:attr0906="@color/color00a5"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen00c5" android:layout_marginBottom="@dimen/dimen00c5" android:layout_weight="1">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen00c6" android:textColor="@color/color09f7" android:id="@+id/banner_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0396" app:attr043c="sans-serif-medium"/>
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen00c0" android:textColor="?attr/attr06f9" android:id="@+id/banner_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0396" app:attr043c="sans-serif"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="@dimen/dimen00c4" android:layout_height="match_parent">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/close" android:layout_width="@dimen/dimen00c3" android:layout_height="@dimen/dimen00c3" android:src="@drawable/ic_close" android:contentDescription="@string/str2654" app:attr0906="@color/color019e"/>
+    </FrameLayout>
+</LinearLayout>

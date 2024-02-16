@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/attr078a" android:layout_width="match_parent" android:layout_height="32dp">
+    <androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="@dimen/dimen0b00" android:paddingRight="@dimen/dimen0b00" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="@color/color0a73" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/str0d20" android:includeFontPadding="false" android:textAllCaps="true" android:letterSpacing="0.1" app:attr043c="sans-serif-medium" app:attr0517="0" app:attr052a="0" app:attr0534="0"/>
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="12sp" android:textColor="?attr/attr01b0" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/see_more" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/str1d09" android:includeFontPadding="false" android:textAllCaps="true" android:letterSpacing="0.1" app:attr043c="sans-serif-medium" app:attr0517="0" app:attr052e="0" app:attr0534="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

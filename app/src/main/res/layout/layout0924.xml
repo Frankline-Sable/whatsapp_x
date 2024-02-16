@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/xfamily_crosspost_contextual_linking_bottom_sheet" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/drag_handle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="16dp" android:layout_marginRight="12dp" android:layout_marginBottom="16dp" app:attr0831="@drawable/vec_bottomsheet_drag_handle"/>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp" app:attr0831="@drawable/vec_xfamily_xp_nux_illustration"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:layout_marginBottom="32dp">
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32dp" android:text="@string/str0950" style="@style/style0376"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_forward" app:attr0906="?attr/attr04b1"/>
+                <com.gbwhatsapp.WaTextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str094d" android:layout_weight="1" android:layout_marginStart="24dp" style="@style/style0375"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_new_status_tip" app:attr0906="?attr/attr04b1"/>
+                <com.gbwhatsapp.WaTextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str094e" android:layout_weight="1" android:layout_marginStart="24dp" style="@style/style0375"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_contacts_storage_usage" app:attr0906="?attr/attr04b1"/>
+                <com.gbwhatsapp.WaTextView android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str094f" android:layout_weight="1" android:layout_marginStart="24dp" style="@style/style0375"/>
+            </LinearLayout>
+            <com.gbwhatsapp.wds.components.button.WDSButton android:ellipsize="end" android:gravity="center" android:id="@+id/continue_to_setup_btn" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/str094c" android:maxLines="1" style="@style/style05a5"/>
+            <com.gbwhatsapp.wds.components.button.WDSButton android:gravity="center" android:id="@+id/not_now_btn" android:background="@color/color0b5a" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str094b" android:maxLines="1" style="@style/style05a1"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

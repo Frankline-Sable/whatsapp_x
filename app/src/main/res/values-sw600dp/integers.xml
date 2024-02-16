@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="integer000c">1</integer>
+    <integer name="integer0044">60</integer>
+    <integer name="integer0045">40</integer>
+    <integer name="integer0048">50</integer>
+    <integer name="integer0049">50</integer>
+    <integer name="integer004c">4</integer>
+</resources>

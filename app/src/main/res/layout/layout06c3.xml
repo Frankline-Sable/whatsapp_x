@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.KeyboardPopupLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/main" android:background="?attr/attr026d" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/out_of_chat_playback_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include android:id="@+id/toolbar_holder" android:background="?attr/attr0920" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/out_of_chat_playback_holder" layout="@layout/layout0866"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_below="@+id/toolbar_holder" android:layout_centerInParent="true" style="@style/style019d">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/poll_results_users_recycler_view" android:layout_width="0dp" android:layout_height="wrap_content" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.gbwhatsapp.KeyboardPopupLayout>

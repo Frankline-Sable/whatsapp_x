@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.components.button.ThumbnailButton xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/stacked_contact_icon" android:visibility="visible" android:layout_width="@dimen/dimen051e" android:layout_height="@dimen/dimen051e" android:scaleType="fitCenter" app:attr08a6="?attr/attr06f8" app:attr08a7="@dimen/dimen051a" app:attr08a8="false" app:attr08aa="@dimen/dimen051d"/>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="compat_button_inset_horizontal_material">true</bool>
+    <bool name="compat_button_inset_vertical_material">true</bool>
+    <bool name="compat_button_padding_horizontal_material">true</bool>
+    <bool name="compat_button_padding_vertical_material">false</bool>
+    <bool name="compat_control_corner_material">true</bool>
+    <bool name="compat_notification_large_icon_max_height">true</bool>
+    <bool name="compat_notification_large_icon_max_width">true</bool>
+    <bool name="notification_action_icon_size">false</bool>
+    <bool name="notification_action_text_size">true</bool>
+    <bool name="notification_big_circle_margin">true</bool>
+    <bool name="notification_content_margin_start">false</bool>
+    <bool name="abc_action_bar_embed_tabs">true</bool>
+    <bool name="abc_config_actionMenuItemAllCaps">true</bool>
+    <bool name="notification_main_column_padding_top">true</bool>
+    <bool name="notification_media_narrow_margin">false</bool>
+    <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
+    <bool name="disableJit">true</bool>
+    <bool name="enable_system_alarm_service_default">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">false</bool>
+    <bool name="is_at_least_api_16">true</bool>
+    <bool name="is_tablet">false</bool>
+    <bool name="is_tablet_landscape">false</bool>
+    <bool name="mtrl_btn_textappearance_all_caps">true</bool>
+    <bool name="portrait_only">true</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+</resources>

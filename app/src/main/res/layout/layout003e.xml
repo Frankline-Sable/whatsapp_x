@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr08f1="@style/style0780" app:attr0923="2">
+        <com.gbwhatsapp.WaImageButton android:id="@+id/close_button" android:background="@android:color/transparent" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_close" android:contentDescription="@string/str2654"/>
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@+id/title_toolbar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0098" style="@style/style02fe"/>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:fadeScrollbars="false">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/dimen0bc4" android:paddingTop="@dimen/dimen0bc7" android:paddingRight="@dimen/dimen0bc4" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:id="@+id/change_device_refused_image" android:layout_width="112dp" android:layout_height="112dp" android:src="@drawable/change_device_refused"/>
+            <com.gbwhatsapp.WaTextView android:textSize="20sp" android:textColor="?attr/attr08ed" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc4" android:text="@string/str0097" android:lineSpacingExtra="1sp" app:attr043c="sans-serif-medium"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc4">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/linked_account_icon" android:paddingRight="@dimen/dimen0bc4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_settings_linkedaccount"/>
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="?attr/attr06f9" android:textColorLink="?attr/attr055a" android:gravity="left" android:id="@+id/description_move_alert" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4sp"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc5" android:layout_marginBottom="72dp">
+                <com.gbwhatsapp.WaImageView android:layout_gravity="center_vertical" android:id="@+id/verification_code_icon" android:paddingRight="@dimen/dimen0bc4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_verification_code_red"/>
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="16sp" android:textColor="?attr/attr06f9" android:textColorLink="?attr/attr055a" android:gravity="left" android:id="@+id/description_sms_code" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="4sp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="16dp">
+                <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/add_security_btn" android:text="@string/str0093" app:attr0967="2" style="@style/style05a7"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.gbwhatsapp.WaImageView android:enabled="false" android:id="@+id/back" android:background="?attr/attr000d" android:paddingRight="0dp" android:layout_width="@dimen/dimen02eb" android:layout_height="@dimen/dimen02eb" android:scaleType="center" android:tint="?attr/attr0202" android:minWidth="0dp" android:minHeight="0dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/str25c0" android:paddingEnd="0dp" app:attr0831="?attr/attr0495"/>
+    <FrameLayout android:id="@+id/icon_layout_anchor" android:background="?attr/attr000d" android:layout_width="wrap_content" android:layout_height="@dimen/dimen031d" android:layout_marginRight="0dp" android:layout_toRightOf="@+id/back" android:layout_centerVertical="true" android:importantForAccessibility="yes">
+        <com.gbwhatsapp.WaImageView android:id="@+id/conversation_contact_photo" android:scaleType="fitCenter" style="@style/style01b9"/>
+        <ViewStub android:layout_gravity="center" android:id="@+id/subgroup_facepile_toolbar_photo" android:layout="@layout/layout02c8" android:inflatedId="@+id/subgroup_facepile_toolbar_photo" android:layout_width="@dimen/dimen02ff" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/change_photo_progress_stub" android:layout="@layout/layout01fb" style="@style/style01b9"/>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/ephemeral_status" android:background="@drawable/primary_color_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ephemeral" app:attr008e="?attr/attr06ef" app:attr0906="?attr/attr0755"/>
+    </FrameLayout>
+</merge>

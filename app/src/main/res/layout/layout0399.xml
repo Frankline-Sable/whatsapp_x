@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp">
+    <View android:id="@+id/payment_background_selection" android:background="@drawable/expressive_theme_selected_background" android:visibility="invisible" android:layout_width="116dp" android:layout_height="74dp" app:attr0517="0" app:attr052a="0" app:attr052e="0" app:attr0534="0"/>
+    <androidx.cardview.widget.CardView android:id="@+id/payment_background_card_container" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0123="@color/color0316" app:attr0124="4dp" app:attr0125="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+        <com.gbwhatsapp.WaImageView android:id="@+id/background_theme" android:layout_width="112dp" android:layout_height="70dp" android:scaleType="fitXY"/>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/retry_download_icon" android:background="@drawable/download_background" android:visibility="gone" android:layout_width="@dimen/dimen04fb" android:layout_height="@dimen/dimen04fa" android:src="@drawable/btn_download" android:scaleType="center"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/asset_download_progress" android:visibility="gone" android:layout_width="@dimen/dimen04fd" android:layout_height="@dimen/dimen04fc" android:indeterminate="true"/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

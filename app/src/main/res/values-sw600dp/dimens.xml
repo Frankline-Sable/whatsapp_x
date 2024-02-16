@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cancel_button_image_alpha">24dp</dimen>
+    <dimen name="status_bar_notification_info_maxnum">80dp</dimen>
+    <dimen name="dimen0002">64dp</dimen>
+    <dimen name="dimen0003">8dp</dimen>
+    <dimen name="dimen0004">8dp</dimen>
+    <dimen name="dimen0017">580dp</dimen>
+    <dimen name="dimen00e1">0dp</dimen>
+    <dimen name="dimen00e2">0dp</dimen>
+    <dimen name="dimen00e3">32dp</dimen>
+    <dimen name="dimen00e4">16dp</dimen>
+    <dimen name="dimen01a7">96dp</dimen>
+    <dimen name="dimen027d">40dp</dimen>
+    <dimen name="dimen029b">64dp</dimen>
+    <dimen name="dimen029e">92dp</dimen>
+    <dimen name="dimen03d8">320dp</dimen>
+    <dimen name="dimen03db">0dp</dimen>
+    <dimen name="dimen03dd">2dp</dimen>
+    <dimen name="dimen03df">24dp</dimen>
+    <dimen name="dimen03e0">576dp</dimen>
+    <dimen name="dimen03e1">320dp</dimen>
+    <dimen name="dimen03e4">@dimen/dimen03e3</dimen>
+    <dimen name="dimen03e7">160dp</dimen>
+    <dimen name="dimen0469">14dp</dimen>
+    <dimen name="dimen046a">28dp</dimen>
+    <dimen name="dimen0493">54dp</dimen>
+    <dimen name="dimen066c">15sp</dimen>
+    <dimen name="dimen0854">64dp</dimen>
+    <dimen name="dimen08fe">64dp</dimen>
+    <dimen name="dimen0911">40dp</dimen>
+    <dimen name="dimen0cee">200dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0831="@drawable/ic_announcements" app:attr0906="@color/color063d" style="@style/style0006"/>
+        <LinearLayout android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:elevation="4dp">
+            <com.gbwhatsapp.text.ReadMoreTextView android:textColor="@color/color0213" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str0495"/>
+        </LinearLayout>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/comment_promotion_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/str2654" app:attr0906="@color/color063d" style="@style/style0006"/>
+    </LinearLayout>
+    <View style="@style/style031f"/>
+</LinearLayout>

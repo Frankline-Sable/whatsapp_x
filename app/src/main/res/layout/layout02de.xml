@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/title_toolbar" android:layout_width="0dp" app:attr051d="0" app:attr0530="0" app:attr0534="0" app:attr0923="2" style="@style/style0571"/>
+    <com.gbwhatsapp.WaFrameLayout android:id="@+id/search_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:elevation="?attr/attr0033" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/title_toolbar"/>
+    <View android:id="@+id/divider" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/search_holder" style="@style/style0321"/>
+    <ListView android:id="@android:id/list" android:paddingLeft="@dimen/dimen02a9" android:layout_width="0dp" android:layout_height="0dp" android:cacheColorHint="@android:color/transparent" android:divider="@drawable/divider_gray" android:dividerHeight="0.5dp" android:choiceMode="singleChoice" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/divider" style="@style/style019d"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

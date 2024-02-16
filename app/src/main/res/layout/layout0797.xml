@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <com.gbwhatsapp.WaImageView android:id="@+id/search_map_preview_map_thumb" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/map_loading" android:scaleType="centerCrop"/>
+    <com.gbwhatsapp.location.WaMapView android:id="@+id/search_map_preview_map" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/search_map_preview_avatar_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:layout_gravity="center" android:background="@drawable/ic_live_location_places" android:visibility="visible" android:layout_width="@dimen/dimen0b0f" android:layout_height="@dimen/dimen0b0f"/>
+        <com.gbwhatsapp.components.button.ThumbnailButton android:layout_gravity="center" android:id="@+id/search_map_preview_contact_thumbnail" android:visibility="visible" android:layout_width="@dimen/dimen0b10" android:layout_height="@dimen/dimen0b10" android:src="@drawable/avatar_contact" android:scaleType="fitCenter" app:attr08a6="?attr/attr0588" app:attr08a7="1dp" app:attr08a8="false" app:attr08aa="@dimen/dimen0b9e"/>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/search_map_preview_contact_thumbnail_overlay" android:visibility="visible" android:layout_width="@dimen/dimen0b10" android:layout_height="@dimen/dimen0b10" android:src="@drawable/live_location_expired_contact_mask"/>
+    </FrameLayout>
+    <com.gbwhatsapp.WaTextView android:id="@+id/search_map_preview_thumb_button" android:background="@drawable/selector_orange_gradient" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

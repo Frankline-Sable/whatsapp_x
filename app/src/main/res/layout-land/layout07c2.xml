@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/me_tab_profile_info_view" android:paddingLeft="@dimen/dimen0a1d" android:paddingTop="@dimen/dimen0a1d" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/layout07c3"/>
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="4dp">
+        <RelativeLayout android:id="@+id/me_tab_profile_info_name_area" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.gbwhatsapp.TextEmojiLabel android:id="@+id/me_tab_profile_info_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:singleLine="false" style="@style/style028b"/>
+            <com.gbwhatsapp.TextEmojiLabel android:id="@+id/me_tab_profile_info_name_second_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/me_tab_profile_info_name" style="@style/style028b"/>
+            <ViewStub android:id="@+id/me_tab_account_switcher_chevron_stub" android:layout="@layout/layout055d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@+id/me_tab_profile_info_name" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="16sp" android:textStyle="normal" android:textColor="?attr/attr07af" android:gravity="center" android:id="@+id/me_tab_profile_info_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="2" android:singleLine="false" app:attr043c="Roboto" style="@style/style025c"/>
+    </LinearLayout>
+</LinearLayout>

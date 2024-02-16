@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="0dp" android:layout_height="0dp" android:fillViewport="true" app:attr0518="@+id/bottom_button_container" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/style019e">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="@dimen/dimen00e1" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+                <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/attr06f9" android:gravity="left" android:id="@+id/delete_reason_prompt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="16dp" android:text="@string/str09ce" android:lineSpacingExtra="3dp"/>
+                <com.gbwhatsapp.WaTextView android:textSize="16sp" android:textColor="?attr/attr07be" android:textColorHint="@color/color0ac9" android:gravity="start" android:id="@+id/select_delete_reason" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4dp" android:layout_marginBottom="16dp" android:hint="@string/str09d2" android:singleLine="true" android:inputType="none" android:layout_marginStart="-4dp" app:attr008e="@color/color0ac0" style="@style/style0109"/>
+                <com.gbwhatsapp.WaEditText android:textSize="16sp" android:textColor="?attr/attr07be" android:textColorHint="@color/color0ac9" android:gravity="top" android:id="@+id/delete_reason_additional_comments_edittext" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="-4dp" android:layout_marginBottom="16dp" android:hint="@string/str09b8" android:maxLines="4" android:maxLength="500" android:layout_marginStart="-4dp"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <FrameLayout android:id="@+id/bottom_button_container" android:background="?attr/attr06f8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="0dp" android:layout_marginBottom="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/scroll_view" style="@style/style019d">
+        <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/delete_account_submit" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:text="@string/str1dc2" style="@style/style05a3"/>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

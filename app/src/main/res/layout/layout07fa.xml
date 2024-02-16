@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+    <FrameLayout android:id="@+id/contact_selector" android:layout_width="72dp" android:layout_height="56dp" android:layout_alignParentLeft="true">
+        <com.gbwhatsapp.components.button.ThumbnailButton android:enabled="false" android:layout_gravity="center" android:id="@+id/contactpicker_row_photo" android:layout_width="@dimen/dimen0ba2" android:layout_height="@dimen/dimen0ba2" android:scaleType="fitCenter" app:attr08a8="true" app:attr08aa="@dimen/dimen0b9e"/>
+    </FrameLayout>
+    <FrameLayout android:paddingRight="@dimen/dimen069b" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/selection" android:layout_toRightOf="@+id/contact_selector" android:layout_centerVertical="true" android:layout_alignWithParentIfMissing="true">
+        <com.gbwhatsapp.TextEmojiLabel android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/contactpicker_row_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" style="@style/style0260"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/selection" android:background="@drawable/selection_check_circle" android:layout_width="@dimen/dimen0b28" android:layout_height="@dimen/dimen0b28" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.gbwhatsapp.components.SelectionCheckView android:id="@+id/selection_check" android:layout_width="@dimen/dimen0b28" android:layout_height="@dimen/dimen0b28" app:attr0760="0dp"/>
+    </FrameLayout>
+</RelativeLayout>

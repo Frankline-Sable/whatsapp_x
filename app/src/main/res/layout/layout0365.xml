@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.gbwhatsapp.WaLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dimen049c" android:layout_marginRight="@dimen/dimen049c">
+            <com.gbwhatsapp.WaImageView android:layout_width="match_parent" android:layout_height="@dimen/dimen049d" android:layout_marginTop="@dimen/dimen04a0" android:layout_marginBottom="@dimen/dimen049f" android:src="@drawable/illust_cloud_lock_on"/>
+            <com.gbwhatsapp.WaTextView android:text="@string/str0b89" style="@style/style01e5"/>
+            <com.gbwhatsapp.WaTextView android:text="@string/str0b88" style="@style/style01dc"/>
+            <com.gbwhatsapp.WaTextView android:text="@string/str0bc7" style="@style/style01dc"/>
+        </com.gbwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/enable_done_create_button" android:layout_width="match_parent" android:text="@string/str0b87" style="@style/style059e"/>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/enable_done_cancel_button" android:text="@string/str263e" style="@style/style01e2"/>
+</LinearLayout>

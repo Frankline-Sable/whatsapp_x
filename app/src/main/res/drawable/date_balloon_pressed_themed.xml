@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <nine-patch android:src="@drawable/system_balloon_normal_shadow"/>
+    </item>
+    <item>
+        <nine-patch android:src="@drawable/date_balloon_pressed" android:tint="?attr/attr01d1"/>
+    </item>
+</layer-list>

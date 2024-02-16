@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" app:attr0518="@+id/content" app:attr052a="0" app:attr052e="0" app:attr0534="0" app:attr0535="0" app:attr0536="2" app:attr0923="1" style="@style/style0570"/>
+    <include android:id="@+id/content" android:layout_width="0dp" android:layout_height="wrap_content" app:attr0512="true" app:attr0518="@+id/switch_layout" app:attr052a="0" app:attr052e="0" app:attr0533="@+id/toolbar" layout="@layout/layout0441"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/switch_layout" android:background="@drawable/rounded_rect_background_12dp_wds_dimmed" android:padding="@dimen/dimen0bc0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginRight="@dimen/dimen0bc0" app:attr0517="0" app:attr052a="0" app:attr052e="0" app:attr0533="@+id/content" app:attr0535="0">
+        <com.gbwhatsapp.WaTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/str1ae7" android:layout_weight="1" style="@style/style05df"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

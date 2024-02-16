@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/call_grid_top_right_icon_container_background" android:layout_width="@dimen/dimen016a" android:layout_height="@dimen/dimen016a">
+    <ProgressBar android:theme="@style/style04fb" android:layout_width="@dimen/dimen03a8" android:layout_height="@dimen/dimen03a8" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

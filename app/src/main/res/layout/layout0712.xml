@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/attr0793" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/style019e">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+            <RelativeLayout android:gravity="center" android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:gravity="center" android:paddingLeft="0.5dp" android:paddingTop="@dimen/dimen0a23" android:paddingRight="0.5dp" android:paddingBottom="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <com.gbwhatsapp.components.button.ThumbnailButton android:id="@+id/photo_btn" android:layout_width="@dimen/dimen0a22" android:layout_height="@dimen/dimen0a22" android:layout_marginBottom="2dp" android:src="@drawable/ic_settings_profile" android:scaleType="fitCenter" android:adjustViewBounds="true" android:contentDescription="@string/str2836" android:transitionName="@string/str28cb" app:attr08a6="@color/color0882" app:attr08a7="1dp" app:attr08aa="-1dp"/>
+                    <ProgressBar android:layout_gravity="center" android:id="@+id/change_photo_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+                    <com.gbwhatsapp.WaImageButton android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/change_photo_btn" android:background="@drawable/input_circle" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginBottom="2dp" android:src="@drawable/ic_camera" android:contentDescription="@string/str0b07" android:transitionName="@string/str28cc" android:elevation="2dp" app:attr0906="@color/color0cc7" style="@style/style0006"/>
+                </FrameLayout>
+            </RelativeLayout>
+            <com.gbwhatsapp.profile.ProfileSettingsRowIconText android:id="@+id/profile_info_name_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr070c="@string/str1e41" app:attr070d="@drawable/ic_settings_name" app:attr070e="?attr/attr0797" app:attr070f="@drawable/ic_settings_edit" app:attr0710="?attr/attr0796" app:attr0712="@string/str2838" style="?attr/attr07a1"/>
+            <View android:layout_marginLeft="72dp" style="@style/style031d"/>
+            <com.gbwhatsapp.profile.ProfileSettingsRowIconText android:id="@+id/profile_info_username_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr070e="?attr/attr0797" app:attr070f="@drawable/ic_settings_edit" app:attr0710="?attr/attr0796" style="?attr/attr07a1"/>
+            <View android:id="@+id/profile_info_username_card_divider" android:visibility="gone" android:layout_marginLeft="72dp" style="@style/style031d"/>
+            <com.gbwhatsapp.profile.ProfileSettingsRowIconText android:id="@+id/profile_info_status_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr070d="@drawable/ic_settings_info" app:attr070e="?attr/attr0797" app:attr070f="@drawable/ic_settings_edit" app:attr0710="?attr/attr0796" app:attr0712="@string/str2837" style="?attr/attr07a1"/>
+            <View android:layout_marginLeft="72dp" style="@style/style031d"/>
+            <com.gbwhatsapp.profile.ProfileSettingsRowIconText android:id="@+id/profile_phone_info" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr070d="@drawable/ic_settings_phone" app:attr070e="?attr/attr0797" app:attr0712="@string/str1a8a" style="?attr/attr07a1"/>
+            <ViewStub android:id="@+id/banner_stub" android:layout="@layout/layout0708" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

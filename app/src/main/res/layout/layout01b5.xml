@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.settings.SettingsRowIconText xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:paddingLeft="@dimen/dimen0bc0" android:paddingTop="@dimen/dimen0bc0" android:paddingRight="@dimen/dimen0bc0" android:paddingBottom="@dimen/dimen0bc0" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr07a5="@string/str07ce" app:attr07a6="@string/str07d0" style="?attr/attr07a1"/>

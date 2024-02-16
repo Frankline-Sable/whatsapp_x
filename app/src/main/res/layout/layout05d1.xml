@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gbwhatsapp.WaTextView android:textColor="@color/color0b3d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc4" android:layout_marginTop="@dimen/dimen0bc0" android:layout_marginRight="@dimen/dimen0bc4" android:text="@string/str134a" style="@style/style038f"/>
+    <RadioGroup android:id="@+id/mute_options_radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc5" android:layout_marginTop="@dimen/dimen0bc0" android:layout_marginRight="@dimen/dimen0bc0"/>
+</LinearLayout>

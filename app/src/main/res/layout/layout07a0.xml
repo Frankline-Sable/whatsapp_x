@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/attr01d8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/row" android:background="@drawable/selector_orange_gradient" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="@dimen/dimen0247">
+        <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/chevron" android:layout_width="@dimen/dimen0ba2" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0248" android:layout_marginRight="@dimen/dimen0248" android:src="@drawable/chevron"/>
+        <com.gbwhatsapp.WaTextView android:textColor="@color/color067e" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/view_more" android:paddingRight="@dimen/dimen0246" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/str1d04" android:textAlignment="viewStart" android:paddingEnd="@dimen/dimen0246" style="@style/style0260"/>
+    </LinearLayout>
+    <View android:id="@+id/divider" android:background="@drawable/subgroup_divider" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="@dimen/dimen026a" android:layout_below="@+id/row"/>
+</RelativeLayout>

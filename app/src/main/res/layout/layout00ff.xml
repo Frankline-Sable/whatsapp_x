@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.gbwhatsapp.WaImageView android:id="@+id/bullet_icon" android:layout_width="@dimen/dimen05db" android:layout_height="@dimen/dimen05db" app:attr0517="@+id/bullet_subtitle" app:attr0534="@+id/bullet_title"/>
+    <com.gbwhatsapp.WaTextView android:textAppearance="@style/style05df" android:textColor="@color/color0c63" android:id="@+id/bullet_title" android:layout_width="0dp" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_marginStart="@dimen/dimen0dfd" app:attr0518="@+id/bullet_subtitle" app:attr051d="0" app:attr052f="@+id/bullet_icon" app:attr0534="0" app:attr0536="2"/>
+    <com.gbwhatsapp.WaTextView android:textAppearance="@style/style05e1" android:textColor="@color/color0c64" android:id="@+id/bullet_subtitle" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0df7" app:attr0517="0" app:attr051d="0" app:attr0530="@+id/bullet_title" app:attr0533="@+id/bullet_title"/>
+</merge>

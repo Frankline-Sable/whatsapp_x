@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/date_balloon" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/layout0240"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:gravity="left" android:layout_gravity="center" android:id="@+id/account_created_date" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/style05ec"/>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="12dp">
+                <com.gbwhatsapp.conversation.conversationrow.ConversationRowContactInfoLinkedAccount android:id="@+id/linked_account_fb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0008="0"/>
+                <com.gbwhatsapp.WaTextView android:gravity="left" android:layout_gravity="center" android:id="@+id/linked_account_separator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="•" style="@style/style05ec"/>
+                <com.gbwhatsapp.conversation.conversationrow.ConversationRowContactInfoLinkedAccount android:id="@+id/linked_account_ig" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" app:attr0008="1"/>
+            </LinearLayout>
+            <com.gbwhatsapp.conversation.conversationrow.ConversationRowViewInstagramPosts android:id="@+id/view_instagram_posts_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</merge>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/call_notification_holder" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="?attr/attr091c" android:layout_width="match_parent" android:layout_height="?attr/attr000f" android:minHeight="?attr/attr000f" app:attr06dd="@style/style0573" app:attr08f1="@style/style056f" app:attr0923="1"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/style019e">
+            <LinearLayout android:orientation="vertical" android:id="@+id/share_link_root" android:layout_width="0dp" android:layout_height="match_parent" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+                <com.gbwhatsapp.TextEmojiLabel android:textSize="15sp" android:textColor="?attr/attr057d" android:id="@+id/share_link_description" android:paddingLeft="16dp" android:paddingTop="24dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/layout04c7"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</LinearLayout>

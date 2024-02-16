@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:enabled="false" android:orientation="horizontal" android:id="@+id/back" android:paddingLeft="@dimen/dimen0315" android:paddingRight="0dp" android:layout_width="@dimen/dimen02ea" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/str25c0" android:paddingStart="@dimen/dimen0315" android:paddingEnd="0dp" style="@style/style0001">
+    <com.gbwhatsapp.WaImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/whatsapp_toolbar_home" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" app:attr0831="?attr/attr0495" app:attr0906="?attr/attr0202"/>
+    <FrameLayout android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/icon_layout_anchor" android:layout_width="@dimen/dimen0391" android:layout_height="@dimen/dimen0390" android:layout_marginRight="0dp">
+        <com.gbwhatsapp.WaImageView android:id="@+id/conversation_contact_photo" android:scaleType="fitCenter" style="@style/style01b9"/>
+        <ViewStub android:id="@+id/conversation_interop_profile_photo" android:layout="@layout/layout021f" android:inflatedId="@+id/conversation_interop_profile_photo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ViewStub android:layout_gravity="center" android:id="@+id/subgroup_facepile_toolbar_photo" android:visibility="gone" android:layout="@layout/layout08bd" android:inflatedId="@+id/subgroup_facepile_toolbar_photo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <View android:id="@+id/transition_start" style="@style/style01b9"/>
+        <ViewStub android:id="@+id/change_photo_progress_stub" android:layout="@layout/layout01fb" style="@style/style01b9"/>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/ephemeral_status" android:background="@drawable/primary_color_circle" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_ephemeral" app:attr008e="?attr/attr0920" app:attr0906="?attr/attr0755"/>
+        <ViewStub android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/data_disclosure_status" android:layout="@layout/layout08ba" android:layout_width="16dp" android:layout_height="16dp"/>
+    </FrameLayout>
+</LinearLayout>

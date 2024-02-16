@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:layout_height="wrap_content" android:minHeight="?attr/attr000f" app:attr0923="1" style="@style/style0570"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.gbwhatsapp.qrcode.WaQrScannerView android:layout_gravity="center" android:id="@+id/qr_scanner_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <com.gbwhatsapp.qrcode.QrScannerOverlay android:layout_gravity="center" android:id="@+id/overlay" android:paddingBottom="@dimen/dimen0066" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:attr071b="0"/>
+        <com.gbwhatsapp.WaTextView android:textColor="?attr/attr09ac" android:gravity="center" android:id="@+id/error_indicator" android:background="@color/color0c20" android:padding="8dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ScrollView android:id="@+id/main_layout" android:paddingBottom="@dimen/dimen0066" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0a73" android:id="@+id/qr_code_description" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1ab1" style="@style/style0390"/>
+                <View android:id="@+id/scan_qr_code_divider_1" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" style="@style/style031d"/>
+                <com.gbwhatsapp.WaTextView android:textColor="@color/color0a73" android:gravity="center" android:id="@+id/qr_code_header" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1ab6" android:fontFamily="sans-serif-medium" style="?attr/attr07ad"/>
+                <FrameLayout android:layout_gravity="center_horizontal" android:id="@+id/qr_code_container" android:background="@drawable/qr_code_scan_card" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+                    <com.gbwhatsapp.QrImageView android:layout_gravity="center_horizontal" android:id="@+id/qr_code" android:padding="4dp" android:layout_width="150dp" android:layout_height="150dp" app:attr07eb="false"/>
+                    <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:layout_width="38dp" android:layout_height="38dp" android:src="@drawable/ic_qr_walogo" android:scaleType="fitCenter"/>
+                </FrameLayout>
+                <View android:id="@+id/scan_qr_code_divider_2" android:layout_marginTop="28dp" android:layout_marginBottom="24dp" style="@style/style031d"/>
+                <com.gbwhatsapp.WaTextView android:textStyle="bold" android:textColor="?attr/attr0032" android:layout_gravity="center_horizontal" android:id="@+id/scan_code_button" android:background="?android:attr/selectableItemBackground" android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1c8b" android:drawablePadding="10dp" android:drawableStart="@drawable/ic_scan_qr" app:attr0288="?attr/attr0032"/>
+            </LinearLayout>
+        </ScrollView>
+        <FrameLayout android:layout_gravity="bottom" android:id="@+id/footer" android:background="?attr/attr04b3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0066">
+            <com.gbwhatsapp.WaTextView android:textSize="16sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/verify_identity_qr_tip" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str2326" style="@style/style0390"/>
+        </FrameLayout>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleLargeInverse"/>
+    </FrameLayout>
+</LinearLayout>

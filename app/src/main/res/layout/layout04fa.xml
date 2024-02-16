@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.InfoCard xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/link_to_community_home_card" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr049e="?attr/attr06f8" style="@style/style023c">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/selector_orange_gradient" android:padding="@dimen/dimen05f8" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.gbwhatsapp.WaImageView android:id="@+id/link_to_community_icon" android:layout_width="@dimen/dimen067e" android:layout_height="@dimen/dimen067e" android:scaleType="fitCenter"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen05f8" android:layout_weight="1">
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen05a6" android:textColor="?attr/attr06f9" android:id="@+id/link_to_community_parent_name" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <com.gbwhatsapp.WaTextView android:textColor="@color/color0a73" android:id="@+id/link_to_community_parent_description" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <com.gbwhatsapp.WaImageView android:id="@+id/link_to_community_home_arrow" android:paddingLeft="@dimen/dimen0bbd" android:layout_width="wrap_content" android:layout_height="@dimen/dimen0bc0" android:src="@drawable/chevron_right" android:scaleType="centerCrop"/>
+    </LinearLayout>
+</com.gbwhatsapp.InfoCard>

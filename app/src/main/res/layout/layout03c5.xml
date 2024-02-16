@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:id="@+id/community_subgroups_bottom_sheet" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+    <FrameLayout android:id="@+id/header" android:layout_width="match_parent" android:layout_height="@dimen/dimen0066">
+        <com.gbwhatsapp.WaImageButton android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/switch_subgroup_bottom_sheet_close_button" android:background="?attr/attr078b" android:padding="@dimen/dimen0bc1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/str2654" app:attr0906="@color/color063d"/>
+        <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/style0149" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/community_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen024f" android:layout_marginRight="@dimen/dimen024f" android:maxLines="1"/>
+    </FrameLayout>
+    <View android:id="@+id/spacer" android:background="@color/color01e0" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

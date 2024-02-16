@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/business_compliance_frame_layout" android:background="?attr/attr00f4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/business_compliance_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/business_compliance_network_error_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0117" android:layout_marginRight="@dimen/dimen0117">
+        <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@+id/business_compliance_network_error_text" android:layout_marginLeft="@dimen/dimen0a54" android:text="@string/str042e" app:attr0552="@dimen/dimen0a41" style="@style/style0186"/>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="14sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/business_compliance_network_error_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0a54" android:text="@string/str043f" app:attr0552="@dimen/dimen0a41" style="@style/style0158"/>
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:id="@+id/business_compliance_wrapper_card" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0125="@dimen/dimen0a56">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/business_compliance_recyclerview" android:background="?attr/attr06f8" android:paddingBottom="@dimen/dimen0a59" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="no"/>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

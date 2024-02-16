@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include app:attr051d="0" app:attr0530="0" app:attr0534="0" layout="@layout/layout0864"/>
+    <ScrollView android:id="@+id/payments_value_props_title_and_description_section" android:scrollbars="none" android:layout_width="0dp" android:layout_height="0dp" app:attr0518="@+id/payments_value_props_continue" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+            <com.gbwhatsapp.WaImageView android:id="@+id/payments_value_props_image_section" android:layout_width="match_parent" android:layout_height="156dp" android:layout_marginTop="30dp" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@+id/payments_value_props_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/str1889" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/payments_value_props_image_section" style="@style/style0298"/>
+            <com.gbwhatsapp.WaImageView android:id="@+id/value_props_contact_img" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/ic_payments_value_props_contacts" app:attr051e="@+id/payments_value_props_desc" app:attr0527="2" app:attr0530="0" app:attr0534="@+id/payments_value_props_desc"/>
+            <TextSwitcher android:id="@+id/payments_value_props_desc" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="20dp" android:layout_marginBottom="10dp" app:attr0517="0" app:attr051d="0" app:attr052f="@+id/value_props_contact_img" app:attr0533="@+id/payments_value_props_title" app:attr0539="@dimen/dimen09f0">
+                <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/attr057d" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1883"/>
+                <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="?attr/attr057d" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="44dp"/>
+            </TextSwitcher>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:gravity="center" android:id="@+id/payments_value_props_continue" android:visibility="visible" android:layout_marginLeft="8dp" android:layout_marginTop="16dp" android:layout_marginRight="8dp" android:layout_marginBottom="16dp" android:text="@string/str03f8" android:maxLines="1" app:attr0518="@+id/bhim_upi_logo" app:attr051d="0" app:attr0530="0" style="@style/style05a5"/>
+    <com.gbwhatsapp.WaImageView android:id="@+id/bhim_upi_logo" android:layout_marginTop="20dp" android:layout_marginBottom="16dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" style="@style/style0134"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

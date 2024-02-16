@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gbwhatsapp.WaLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/title_toolbar" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr08f1="@style/style0780" app:attr0923="2">
+        <com.gbwhatsapp.WaTextView android:layout_gravity="center" android:id="@+id/title" android:padding="@dimen/dimen0ab2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1c38" style="@style/style02fe"/>
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView android:padding="@dimen/dimen0ab2" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaTextView android:gravity="center" android:id="@+id/chat_transfer_subtitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1c37" style="@style/style03e3"/>
+            <com.gbwhatsapp.ListItemWithLeftIcon android:id="@+id/restore_option" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" app:attr0569="@drawable/ic_settings_backup" app:attr056c="@string/str1c2d"/>
+            <com.gbwhatsapp.ListItemWithLeftIcon android:id="@+id/transfer_option" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" app:attr0569="@drawable/ic_settings_change_number" app:attr056c="@string/str214e"/>
+            <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/continue_button" android:layout_width="match_parent" android:text="@string/str03f8" style="@style/style059e"/>
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/skip_button" android:layout_width="match_parent" android:text="@string/str2893" style="@style/style05a6"/>
+        </LinearLayout>
+    </ScrollView>
+</com.gbwhatsapp.WaLinearLayout>

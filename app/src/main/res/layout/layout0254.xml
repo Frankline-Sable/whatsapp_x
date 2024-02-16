@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/main_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/content" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@+id/conversation_row_participant_header_view_stub" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <include layout="@layout/layout0299"/>
+            <include layout="@layout/layout02c3"/>
+            <include layout="@layout/layout0253"/>
+        </LinearLayout>
+        <com.gbwhatsapp.components.TextAndDateLayout android:id="@+id/text_and_date" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.TextEmojiLabel android:textAppearance="@style/style05b3" android:layout_gravity="left" android:id="@+id/caption" android:paddingLeft="@dimen/dimen010a" android:paddingRight="@dimen/dimen010a" android:paddingBottom="@dimen/dimen0109" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen02f7"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/date_wrapper" android:paddingLeft="@dimen/dimen033f" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:id="@+id/date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style05b2"/>
+                <com.gbwhatsapp.WaImageView android:id="@+id/status" android:paddingLeft="@dimen/dimen036b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center"/>
+            </LinearLayout>
+        </com.gbwhatsapp.components.TextAndDateLayout>
+    </LinearLayout>
+</merge>

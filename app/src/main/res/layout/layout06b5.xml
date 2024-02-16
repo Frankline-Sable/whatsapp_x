@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gbwhatsapp.WaTextView android:textColor="@color/color0a73" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc4" android:layout_marginTop="@dimen/dimen0bc0" android:layout_marginRight="@dimen/dimen0bc4" android:text="@string/str19c3" style="@style/style038f"/>
+    <ScrollView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <RadioGroup android:id="@+id/expiration_options_radio_group" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc5" android:layout_marginTop="@dimen/dimen0bc0" android:layout_marginRight="@dimen/dimen0bc0"/>
+    </ScrollView>
+</LinearLayout>

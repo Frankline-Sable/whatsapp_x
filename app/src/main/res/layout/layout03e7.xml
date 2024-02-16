@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/partial_permission_banner_view_stub" android:visibility="gone" android:layout="@layout/layout03e2" android:inflatedId="@+id/partial_permission_banner_view_stub" android:layout_width="0dp" android:layout_height="wrap_content" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+    <com.gbwhatsapp.AutoFitGridRecyclerView android:id="@+id/albums" android:background="?attr/attr06f8" android:layout_width="0dp" android:layout_height="0dp" android:cacheColorHint="@color/color0b5a" app:attr003f="@dimen/dimen057c" app:attr0040="@dimen/dimen057b" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@+id/partial_permission_banner_view_stub"/>
+    <ViewStub android:id="@+id/noMediaViewStub" android:visibility="gone" android:layout="@layout/layout0613" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

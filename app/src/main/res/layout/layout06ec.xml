@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="?attr/attr0793" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/style019e">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/dimen00e2" android:layout_marginBottom="@dimen/dimen00e2" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+            <com.gbwhatsapp.WaTextView android:id="@+id/display_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0b59" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/dimen0b59" android:text="@string/str0a89" style="?attr/attr07ad"/>
+            <com.gbwhatsapp.settings.SettingsRowIconText android:id="@+id/settings_theme" android:layout_width="0dp" android:layout_height="0dp" app:attr07a0="@color/color0ac8" app:attr07a3="@drawable/ic_brightness" app:attr07a6="@string/str1e5c" style="?attr/attr07a1"/>
+            <com.gbwhatsapp.settings.SettingsRowIconText android:id="@+id/wallpaper_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr07a0="@color/color0ac8" app:attr07a3="@drawable/ic_settings_wallpaper" app:attr07a6="@string/str2533" style="?attr/attr07a1"/>
+            <View style="?attr/attr0794"/>
+            <com.gbwhatsapp.WaTextView android:id="@+id/chat_settings_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0b59" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/dimen0b59" android:text="@string/str0699" style="?attr/attr07ad"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/enter_key_preference" android:background="?android:attr/selectableItemBackground" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1e06" style="?attr/attr07b2"/>
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1e08" style="?attr/attr07ae"/>
+                </LinearLayout>
+                <androidx.appcompat.widget.SwitchCompat android:id="@+id/enter_key_preference_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/media_visibility_preference" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style032e">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1e10" style="?attr/attr07b2"/>
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1e52" style="?attr/attr07ae"/>
+                </LinearLayout>
+                <androidx.appcompat.widget.SwitchCompat android:id="@+id/media_visibility_preference_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <ViewStub android:id="@+id/instant_video_messages_preference_stub" android:layout="@layout/layout06f4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/split_mode_preference" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style032e">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1e56" style="?attr/attr07b2"/>
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1e57" style="?attr/attr07ae"/>
+                </LinearLayout>
+                <androidx.appcompat.widget.SwitchCompat android:id="@+id/split_mode_preference_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/font_size_preference" android:paddingLeft="72dp" android:paddingTop="15dp" android:paddingRight="16dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style032e">
+                <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1dc7" style="?attr/attr07b2"/>
+                <com.gbwhatsapp.WaTextView android:id="@+id/font_size_preference_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?attr/attr07ae"/>
+            </LinearLayout>
+            <View style="?attr/attr0794"/>
+            <com.gbwhatsapp.WaTextView android:id="@+id/archived_chats_main_setting_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0b59" android:layout_marginTop="14dp" android:layout_marginRight="@dimen/dimen0b59" android:text="@string/str017e" style="?attr/attr07ad"/>
+            <com.gbwhatsapp.components.WaSwitchView android:id="@+id/chat_settings_notify_new_message_switch_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr0997="@string/str2604" app:attr0998="?attr/attr07ae" app:attr0999="@string/str2603" app:attr099a="?attr/attr07b2" style="@style/style078e"/>
+            <View android:id="@+id/read_later_setting_divider" android:visibility="gone" style="?attr/attr0794"/>
+            <com.gbwhatsapp.settings.SettingsRowIconText android:id="@+id/chat_backup_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr07a0="@color/color0ac8" app:attr07a3="@drawable/ic_settings_backup" app:attr07a6="@string/str1da8" style="?attr/attr07a1"/>
+            <com.gbwhatsapp.settings.SettingsRowIconText android:id="@+id/chat_transfer_preference" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr07a0="@color/color0ac8" app:attr07a3="@drawable/ic_settings_change_number" app:attr07a6="@string/str1db5" style="?attr/attr07a1"/>
+            <com.gbwhatsapp.settings.SettingsRowIconText android:id="@+id/chat_history_preference" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr07a0="@color/color0ac8" app:attr07a3="@drawable/ic_settings_chathistory" app:attr07a6="@string/str1db2" style="?attr/attr07a1"/>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

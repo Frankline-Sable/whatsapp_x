@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gbwhatsapp.WaImageView android:id="@+id/image" android:layout_width="112dp" android:layout_height="112dp" android:layout_marginTop="@dimen/dimen0bc4" android:layout_marginBottom="@dimen/dimen0bbd" android:src="@drawable/vec_bonsai_pictogram"/>
+    <com.gbwhatsapp.WaTextView android:textSize="24sp" android:textStyle="bold" android:textColor="@color/color0b3c" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginTop="@dimen/dimen0bc4" android:layout_marginRight="@dimen/dimen0bc0" android:minHeight="32sp" app:attr0552="32sp"/>
+    <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0b3d" android:gravity="center" android:id="@+id/description" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc4" android:layout_marginTop="@dimen/dimen0bc0" android:layout_marginRight="@dimen/dimen0bc4" android:minHeight="20sp" app:attr0552="20sp"/>
+    <com.gbwhatsapp.wds.components.button.WDSButtonGroup android:id="@+id/buttons" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginTop="@dimen/dimen0bc4" android:layout_marginRight="@dimen/dimen0bc0" android:layout_marginBottom="@dimen/dimen0bbe" app:attr0666="2">
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/positive_button" style="@style/style059e"/>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/negative_button" style="@style/style05a6"/>
+    </com.gbwhatsapp.wds.components.button.WDSButtonGroup>
+</LinearLayout>

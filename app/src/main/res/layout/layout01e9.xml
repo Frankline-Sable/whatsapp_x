@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/style019e">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_margin="@dimen/dimen00e1" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+            <com.gbwhatsapp.WaTextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str08bc" android:lineSpacingMultiplier="1" style="@style/style038f"/>
+            <LinearLayout android:orientation="vertical" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaTextView android:textStyle="bold" android:paddingRight="8dp" android:layout_width="wrap_content" android:text="@string/str2677" style="@style/style0393"/>
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:text="@string/str08bd" style="@style/style0393"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <com.gbwhatsapp.WaTextView android:textStyle="bold" android:paddingRight="8dp" android:layout_width="wrap_content" android:text="@string/str2677" style="@style/style0393"/>
+                    <com.gbwhatsapp.WaTextView android:layout_width="wrap_content" android:text="@string/str08be" style="@style/style0393"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

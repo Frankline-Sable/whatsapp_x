@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/picture_in_picture_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gbwhatsapp.components.button.ThumbnailButton android:id="@+id/picture_in_picture_photo" android:focusable="false" android:layout_width="0dp" android:layout_height="0dp" android:src="@drawable/avatar_contact_voip" android:importantForAccessibility="no" app:attr0517="0" app:attr051c="w,h,1:1" app:attr051d="0" app:attr0525="0.6" app:attr0530="0" app:attr0534="0" app:attr0536="2" app:attr053b="0.6"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

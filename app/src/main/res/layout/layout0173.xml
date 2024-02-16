@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen01dd" android:textColor="?attr/attr057d" android:ellipsize="end" android:gravity="left" android:id="@+id/textview_category_title" android:paddingLeft="@dimen/dimen01de" android:paddingTop="@dimen/dimen01df" android:paddingRight="@dimen/dimen01de" android:paddingBottom="@dimen/dimen01df" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str05e4" android:singleLine="true" app:attr043c="sans-serif-medium"/>
+    </FrameLayout>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:textSize="@dimen/dimen01dc" android:id="@+id/button_category_see_all" android:text="@string/str05e3" android:textAllCaps="false" style="@style/style05a0"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/root_view" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar android:id="@+id/toolbar" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/dimen0066" app:attr06dd="@style/style0573" app:attr08f1="@style/style01c2" app:attr091d="2" app:attr0923="1"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/content" android:paddingTop="@dimen/dimen0066" style="@style/style019d">
+        <com.gbwhatsapp.WaImageView android:id="@+id/picture_animation" android:layout_width="0dp" android:layout_height="wrap_content" android:scaleType="fitCenter" android:adjustViewBounds="true" app:attr0512="true" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+        <com.gbwhatsapp.mediaview.PhotoView android:id="@+id/picture" android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+        <ProgressBar android:id="@+id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+        <com.gbwhatsapp.WaTextView android:id="@+id/message" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

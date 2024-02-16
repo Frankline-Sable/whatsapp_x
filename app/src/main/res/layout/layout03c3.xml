@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/container_catalog_search" android:background="?attr/attr06f8" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/search_call_to_action" android:paddingLeft="@dimen/dimen0bbe" android:paddingTop="@dimen/dimen0bc0" android:paddingRight="@dimen/dimen0bbe" android:paddingBottom="@dimen/dimen0bc0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc2">
+        <com.gbwhatsapp.WaImageView android:id="@+id/search_call_to_action_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/str2850" app:attr0831="@drawable/vec_ic_search_24dp"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc0" android:layout_marginStart="@dimen/dimen0bc0">
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen01d6" android:textColor="@color/color0a73" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str0600" android:includeFontPadding="false"/>
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen01d6" android:textColor="?attr/attr06f9" android:ellipsize="end" android:id="@+id/search_call_to_action_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc2" android:maxLines="1" android:includeFontPadding="false" android:layout_marginStart="@dimen/dimen0bc2"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/search_results_error_view_holder" android:paddingLeft="@dimen/dimen0bbe" android:paddingTop="@dimen/dimen0bbe" android:paddingRight="@dimen/dimen0bbe" android:paddingBottom="@dimen/dimen0bbe" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc7">
+        <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen01d9" android:gravity="center" android:id="@+id/search_results_error_view_text" android:layout_width="@dimen/dimen01d7" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/dimen01d8"/>
+        <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/search_results_error_view_retry_btn" android:text="@string/str1c3d" android:contentDescription="@string/str1c3d" style="@style/style05a0"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/search_child_categories_fragment_holder" android:background="?attr/attr06f8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/search_child_products_fragment_holder" android:background="?attr/attr06f8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

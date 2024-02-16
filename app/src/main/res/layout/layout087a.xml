@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/dimen0bc4" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ViewStub android:id="@+id/update_email_shimmer_view_stub" android:layout="@layout/layout034b" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/update_email_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.gbwhatsapp.WaTextView android:textColor="?attr/attr06f9" android:gravity="center_horizontal" android:id="@+id/update_email_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:attr043c="sans-serif-medium" style="@style/style05e6"/>
+                <ViewStub android:id="@+id/update_email_description_view_stub" android:layout="@layout/layout0879" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bbd"/>
+                <com.gbwhatsapp.WaEditText android:textColor="?attr/attr06f9" android:textColorHint="@color/color0621" android:ellipsize="end" android:id="@+id/update_email_text_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc4" android:hint="@string/str0b30" android:maxLines="1" android:lines="1" android:singleLine="true" android:imeOptions="actionDone"/>
+                <ViewStub android:id="@+id/invalid_email_sub_text_view_stub" android:layout="@layout/layout04c5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.gbwhatsapp.WaTextView android:textColor="@color/color0a73" android:id="@+id/update_email_sub_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bbd" android:text="@string/str0108" style="@style/style05e1"/>
+                <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+                <com.gbwhatsapp.wds.components.button.WDSButton android:enabled="false" android:id="@+id/update_email_submit" android:layout_width="match_parent" android:layout_marginTop="@dimen/dimen0bbd" android:layout_marginBottom="@dimen/dimen0bbe" android:text="@string/str13f7" style="@style/style059e"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

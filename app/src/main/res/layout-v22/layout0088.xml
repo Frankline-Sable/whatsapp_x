@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/dimen0bc4" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.gbwhatsapp.WaImageView android:id="@+id/logo" android:background="@drawable/email_circle_background" android:padding="@dimen/dimen0bc4" android:layout_width="@dimen/dimen0b34" android:layout_height="@dimen/dimen0b34" android:src="@drawable/ic_business_email" app:attr0906="@color/color02a0"/>
+            <com.gbwhatsapp.WaTextView android:textColor="@color/color09f7" android:gravity="center_horizontal" android:id="@+id/add_email_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="8dp" app:attr043c="sans-serif-medium" style="@style/style05e6"/>
+            <com.gbwhatsapp.WaTextView android:textColor="@color/color0a73" android:gravity="center_horizontal" android:id="@+id/add_email_description_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/style05e1"/>
+            <Space android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/add_email_button" android:layout_width="match_parent" android:layout_marginTop="@dimen/dimen0bbd" android:layout_marginBottom="@dimen/dimen0bbd" android:layout_marginVertical="@dimen/dimen0bbd" style="@style/style059e"/>
+            <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/skip_email_button" android:layout_width="match_parent" android:text="@string/str2893" style="@style/style05a6"/>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

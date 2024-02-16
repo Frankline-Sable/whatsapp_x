@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:id="@+id/search_holder" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/dimen0002" android:elevation="?attr/attr0033">
+        <include layout="@layout/layout0447"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/title_holder" android:layout_width="match_parent" android:layout_height="@dimen/dimen0002">
+        <com.gbwhatsapp.WaTextView android:textSize="18sp" android:textColor="@color/color0c63" android:id="@+id/changed_participants_title_id" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <com.gbwhatsapp.WaImageView android:id="@+id/search_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_search_teal" android:contentDescription="@string/str2850" style="@style/style0006"/>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/changed_participants_list_bottom_sheet_recyclerview" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr050b="androidx.recyclerview.widget.LinearLayoutManager"/>
+    <ViewStub android:id="@+id/search_no_matches" android:layout="@layout/layout0793" android:inflatedId="@+id/search_no_matches" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

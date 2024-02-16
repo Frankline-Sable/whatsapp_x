@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/divider" android:background="@color/color028a" android:layout_width="match_parent" android:layout_height="@dimen/dimen0c9b"/>
+    <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/dimen0c95" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dimen0c97">
+        <com.gbwhatsapp.WaTextView android:gravity="left" android:id="@+id/update_title" android:paddingTop="@dimen/dimen0bc4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/style057c"/>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/add_update_button" android:paddingLeft="@dimen/dimen0c97" android:paddingTop="@dimen/dimen0bc4" android:paddingRight="@dimen/dimen0c97" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_action_add" android:minHeight="@dimen/dimen006f" android:paddingStart="@dimen/dimen0c97" android:paddingEnd="@dimen/dimen0c97" app:attr0906="@color/color0d02"/>
+        <com.gbwhatsapp.WaImageView android:layout_gravity="bottom" android:id="@+id/more_button" android:paddingLeft="@dimen/dimen0c97" android:paddingTop="@dimen/dimen0bc4" android:paddingRight="@dimen/dimen0c97" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/dimen006f" android:alpha="0.8" android:paddingStart="@dimen/dimen0c97" android:paddingEnd="@dimen/dimen0c97" app:attr0831="@drawable/vec_ic_more" app:attr0906="@color/color0d02"/>
+    </LinearLayout>
+</LinearLayout>

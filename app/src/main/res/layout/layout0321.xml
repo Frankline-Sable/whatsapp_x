@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a54" android:layout_marginRight="@dimen/dimen0a54" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+        <com.gbwhatsapp.WaFrameLayout android:background="@drawable/panel_popup_top" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr09a4="@color/color0c4e">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="center" android:id="@+id/secure_verification_image" android:layout_width="45dp" android:layout_height="45dp" android:layout_marginTop="@dimen/dimen0a54" android:layout_marginBottom="@dimen/dimen0a54" android:src="@drawable/ic_warning" app:attr0906="@color/color0db2"/>
+        </com.gbwhatsapp.WaFrameLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/panel_popup_bot" android:layout_width="match_parent" android:layout_height="wrap_content" app:attr09a7="?attr/attr068e">
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen01aa" android:textColor="@color/color0c64" android:gravity="left" android:id="@+id/dialog_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0a52" android:layout_marginTop="@dimen/dimen0a54" android:layout_marginRight="@dimen/dimen0a52" android:text="@string/str2571"/>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.wds.components.button.WDSButton android:textColor="?attr/attr09cc" android:id="@+id/cancel_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str263e" android:textAllCaps="false" style="@style/style05a1"/>
+                <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/open_button" android:text="@string/str14f1" app:attr000b="1" app:attr0967="3" style="@style/style05a4"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

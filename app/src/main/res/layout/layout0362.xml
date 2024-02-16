@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.gbwhatsapp.WaLinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/dimen049c" android:layout_marginRight="@dimen/dimen049c">
+            <com.gbwhatsapp.WaImageView android:layout_width="match_parent" android:layout_height="@dimen/dimen049d" android:layout_marginBottom="@dimen/dimen049f" android:src="@drawable/illust_cloud_lock_on"/>
+            <com.gbwhatsapp.WaTextView android:id="@+id/change_password_done_title" android:text="@string/str0b72" style="@style/style01e5"/>
+        </com.gbwhatsapp.WaLinearLayout>
+    </ScrollView>
+    <com.gbwhatsapp.wds.components.button.WDSButton android:id="@+id/change_password_done_done_button" android:text="@string/str0b86" style="@style/style01e1"/>
+</LinearLayout>

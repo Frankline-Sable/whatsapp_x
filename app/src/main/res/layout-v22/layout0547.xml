@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:fab="http://schemas.android.com/apk/com.getbase" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gbwhatsapp.WaImageButton android:layout_gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/close_button" android:background="?attr/attr078b" android:layout_width="@dimen/dimen0bc5" android:layout_height="@dimen/dimen0bc8" android:layout_marginTop="@dimen/dimen0bbd" android:src="@drawable/ic_close" android:contentDescription="@string/str2654" android:layout_marginStart="@dimen/dimen0bbf" app:attr0906="@color/color063d"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bc5" android:layout_marginRight="@dimen/dimen0bc5">
+            <com.gbwhatsapp.WaImageView android:layout_gravity="start" android:layout_width="120dp" android:layout_height="60dp" android:src="@drawable/whatsapp_text_logo" android:tint="?attr/attr09dd"/>
+            <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0c4b" android:textStyle="bold" android:textColor="?attr/attr06f9" android:gravity="start" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc4" android:text="@string/str11e4"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:layout_marginBottom="@dimen/dimen0bc1" android:text="@string/str11e5" style="@style/style0270"/>
+                <LinearLayout style="@style/style026f">
+                    <com.gbwhatsapp.WaImageView android:src="@drawable/ic_settings_privacy" style="@style/style01c7"/>
+                    <LinearLayout style="@style/style01c8">
+                        <com.gbwhatsapp.TextEmojiLabel android:textColorLink="?attr/attr055a" android:id="@+id/description_with_learn_more" android:text="@string/str11e7" style="@style/style0270"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout style="@style/style026f">
+                    <com.gbwhatsapp.WaImageView android:src="@drawable/vec_ic_settings_profile" style="@style/style01c7"/>
+                    <LinearLayout style="@style/style01c8">
+                        <com.gbwhatsapp.WaTextView android:text="@string/str11e6" style="@style/style0270"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen0c67" android:textColor="@color/color0a73" android:paddingLeft="11dp" android:paddingRight="11dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dimen0bc1" android:layout_marginBottom="@dimen/dimen0bbf" android:text="@string/str11e3" android:paddingHorizontal="11dp" android:lineHeight="@dimen/dimen0bc1"/>
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@+id/bottom_button_container" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dimen0bc4">
+                <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/give_consent_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str014e" style="@style/style059e"/>
+                <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center_horizontal" android:id="@+id/do_not_give_consent_button" android:layout_width="match_parent" android:text="@string/str145c" style="@style/style05a6"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

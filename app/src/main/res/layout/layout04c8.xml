@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="?attr/attr06f8" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gbwhatsapp.search.ToolbarWithSearchLayout android:id="@+id/toolbar_holder" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <androidx.constraintlayout.widget.ConstraintLayout style="@style/style019d">
+        <com.gbwhatsapp.contact.picker.BidiContactListView android:id="@android:id/list" android:background="@android:color/transparent" android:paddingLeft="@dimen/dimen02a9" android:paddingRight="@dimen/dimen02aa" android:layout_width="0dp" android:layout_height="wrap_content" android:divider="@null" android:choiceMode="singleChoice" android:headerDividersEnabled="false" android:footerDividersEnabled="true" app:attr051d="0" app:attr0530="0" app:attr0534="0"/>
+        <FrameLayout android:id="@android:id/empty" android:layout_width="0dp" android:layout_height="0dp" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0533="@android:id/list">
+            <ProgressBar android:layout_gravity="center" android:id="@+id/init_contacts_progress" android:padding="@dimen/dimen0bc0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:attr/progressBarStyleInverse"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/empty_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@+id/share_link_header" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <FrameLayout android:id="@+id/contacts_section" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.gbwhatsapp.WaTextView android:textSize="14sp" android:textColor="@color/color0a73" android:gravity="center" android:id="@+id/invite_empty_description" android:paddingLeft="@dimen/dimen05d6" android:paddingTop="@dimen/dimen0bca" android:paddingRight="@dimen/dimen05d6" android:paddingBottom="@dimen/dimen0bc7" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/style038d"/>
+                <com.gbwhatsapp.wds.components.button.WDSButton android:layout_gravity="center" android:id="@+id/button_open_permission_settings" android:layout_marginBottom="@dimen/dimen0bc1" android:text="@string/str190c" style="@style/style059e"/>
+            </LinearLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

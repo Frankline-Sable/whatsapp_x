@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent" app:attr0530="0">
+        <com.gbwhatsapp.TextEmojiLabel android:textSize="@dimen/dimen038c" android:textStyle="bold" android:textColor="?attr/attr06f9" android:gravity="center" android:layout_gravity="center" android:id="@+id/nfm_button_bottom_sheet_title" android:paddingBottom="@dimen/dimen0c47" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str20ad"/>
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="false">
+            <LinearLayout android:orientation="vertical" android:id="@+id/nfm_button_bottom_sheet_container" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+    <com.gbwhatsapp.WaImageButton android:id="@+id/button_bottom_sheet_close_button" android:background="?attr/attr078b" android:paddingLeft="16dp" android:paddingTop="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_close" android:contentDescription="@string/str2654" app:attr0530="0" app:attr0534="0" app:attr0906="@color/color019e"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

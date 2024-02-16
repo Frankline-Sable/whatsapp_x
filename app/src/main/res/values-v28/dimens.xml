@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen07e0">0.16</dimen>
+    <dimen name="dimen07e1">0.2</dimen>
+    <dimen name="dimen07e2">0.4</dimen>
+    <dimen name="dimen07e3">0.12</dimen>
+    <dimen name="dimen08b6">0.24</dimen>
+    <dimen name="dimen08b7">0.4</dimen>
+    <dimen name="dimen08b8">0.4</dimen>
+    <dimen name="dimen08b9">0.24</dimen>
+    <dimen name="dimen08ba">0.12</dimen>
+    <dimen name="dimen08bb">0.2</dimen>
+    <dimen name="dimen08bc">0.2</dimen>
+    <dimen name="dimen08bd">0.12</dimen>
+</resources>

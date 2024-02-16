@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.gbwhatsapp.WaTextView android:textAppearance="@style/style0149" android:textStyle="bold" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0bca" android:layout_marginTop="@dimen/dimen0bbe" android:layout_marginRight="@dimen/dimen0bca" android:layout_marginBottom="@dimen/dimen0bbe" android:text="@string/str0773"/>
+    <View android:layout_marginBottom="@dimen/dimen0bbe" style="@style/style0323"/>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@+id/comments_recycler_view" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <ViewStub android:id="@+id/comments_bottom_sheet_disabled_input_disclaimer" android:layout="@layout/layout019f" android:inflatedId="@+id/comments_bottom_sheet_disabled_input_disclaimer" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/layout0211"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_height="wrap_content" style="@style/style019e">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/dimen00e2" android:layout_marginBottom="@dimen/dimen00e2" app:attr0517="0" app:attr051d="0" app:attr0530="0" app:attr0534="0">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/app_auth_settings_preference" android:background="?android:attr/selectableItemBackground" android:paddingLeft="@dimen/dimen0b59" android:paddingTop="@dimen/dimen0b5e" android:paddingRight="@dimen/dimen0b59" android:paddingBottom="@dimen/dimen0b5e" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0b64" android:textColor="?attr/attr07b3" android:id="@+id/security_settings_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1e31" android:maxLines="1"/>
+                    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0b62" android:textColor="?attr/attr07af" android:id="@+id/security_settings_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1e32"/>
+                </LinearLayout>
+                <androidx.appcompat.widget.SwitchCompat android:id="@+id/app_auth_settings_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <View android:background="?attr/attr0795" android:layout_width="match_parent" android:layout_height="@dimen/dimen0b48"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/timeout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0b62" android:textColor="?attr/attr07b1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dimen0b59" android:layout_marginTop="@dimen/dimen0b5e" android:layout_marginRight="@dimen/dimen0b59" android:layout_marginBottom="8dp" android:text="@string/str1e2d" app:attr043c="sans-serif-medium"/>
+                <RadioGroup android:paddingLeft="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dimen0b59">
+                    <RadioButton android:theme="?attr/attr0799" android:id="@+id/timeout_immediately" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <RadioButton android:theme="?attr/attr0799" android:id="@+id/timeout_one_min" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <RadioButton android:theme="?attr/attr0799" android:id="@+id/timeout_thirty_min" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/notification_preference" android:background="?android:attr/selectableItemBackground" android:paddingLeft="@dimen/dimen0b59" android:paddingTop="@dimen/dimen0b5e" android:paddingRight="@dimen/dimen0b59" android:paddingBottom="@dimen/dimen0b5e" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0b64" android:textColor="?attr/attr07b3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/str1e2c" android:maxLines="1"/>
+                    <com.gbwhatsapp.WaTextView android:textSize="@dimen/dimen0b62" android:textColor="?attr/attr07af" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/str1e2b"/>
+                </LinearLayout>
+                <androidx.appcompat.widget.SwitchCompat android:id="@+id/notification_content_switch" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
