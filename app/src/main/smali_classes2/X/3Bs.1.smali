@@ -1,0 +1,92 @@
+.class public LX/3Bs;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Landroid/os/Parcelable;
+
+
+# static fields
+.field public static final CREATOR:Landroid/os/Parcelable$Creator;
+
+
+# instance fields
+.field public final A00:Ljava/lang/String;
+
+.field public final A01:Ljava/util/List;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    const/16 v0, 0x43
+
+    invoke-static {v0}, LX/4Bg;->A00(I)LX/4Bg;
+
+    move-result-object v0
+
+    sput-object v0, LX/3Bs;->CREATOR:Landroid/os/Parcelable$Creator;
+
+    return-void
+.end method
+
+.method public constructor <init>(Landroid/os/Parcel;)V
+    .locals 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    invoke-virtual {p1}, Landroid/os/Parcel;->readString()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/3Bs;->A00:Ljava/lang/String;
+
+    invoke-static {}, LX/001;->A0p()Ljava/util/ArrayList;
+
+    move-result-object v1
+
+    iput-object v1, p0, LX/3Bs;->A01:Ljava/util/List;
+
+    const-class v0, LX/3Bm;
+
+    invoke-static {p1, v0, v1}, LX/0yL;->A18(Landroid/os/Parcel;Ljava/lang/Class;Ljava/util/List;)V
+
+    return-void
+.end method
+
+.method public constructor <init>(Ljava/lang/String;Ljava/util/List;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, LX/3Bs;->A00:Ljava/lang/String;
+
+    iput-object p2, p0, LX/3Bs;->A01:Ljava/util/List;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public describeContents()I
+    .locals 1
+
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
+.method public writeToParcel(Landroid/os/Parcel;I)V
+    .locals 1
+
+    iget-object v0, p0, LX/3Bs;->A00:Ljava/lang/String;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeString(Ljava/lang/String;)V
+
+    iget-object v0, p0, LX/3Bs;->A01:Ljava/util/List;
+
+    invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeList(Ljava/util/List;)V
+
+    return-void
+.end method

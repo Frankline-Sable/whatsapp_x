@@ -1,0 +1,129 @@
+.class public abstract LX/4JQ;
+.super Landroid/widget/FrameLayout;
+.source ""
+
+# interfaces
+.implements LX/4A7;
+
+
+# instance fields
+.field public A00:LX/3cT;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 0
+
+    invoke-direct {p0, p1}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;)V
+
+    invoke-virtual {p0}, LX/4JQ;->A00()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public A00()V
+    .locals 3
+
+    instance-of v0, p0, LX/4sC;
+
+    if-eqz v0, :cond_1
+
+    move-object v1, p0
+
+    check-cast v1, LX/4sC;
+
+    iget-boolean v0, v1, LX/4sC;->A00:Z
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, v1, LX/4sC;->A00:Z
+
+    invoke-virtual {v1}, LX/4JQ;->generatedComponent()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/5mk;
+
+    check-cast v0, LX/4aD;
+
+    iget-object v0, v0, LX/4aD;->A0I:LX/3H7;
+
+    invoke-static {v0}, LX/4Dw;->A0N(LX/3H7;)LX/49d;
+
+    move-result-object v0
+
+    iput-object v0, v1, LX/4sE;->A00:LX/49d;
+
+    :cond_0
+    return-void
+
+    :cond_1
+    move-object v2, p0
+
+    check-cast v2, LX/4sD;
+
+    iget-boolean v0, v2, LX/4sD;->A00:Z
+
+    if-nez v0, :cond_0
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, v2, LX/4sD;->A00:Z
+
+    invoke-virtual {v2}, LX/4JQ;->generatedComponent()Ljava/lang/Object;
+
+    move-result-object v0
+
+    check-cast v0, LX/5mk;
+
+    check-cast v2, LX/4sA;
+
+    check-cast v0, LX/4aD;
+
+    iget-object v1, v0, LX/4aD;->A0I:LX/3H7;
+
+    invoke-static {v1}, LX/4Dw;->A0N(LX/3H7;)LX/49d;
+
+    move-result-object v0
+
+    iput-object v0, v2, LX/4sE;->A00:LX/49d;
+
+    invoke-static {v1}, LX/3H7;->A3i(LX/3H7;)LX/1QX;
+
+    move-result-object v0
+
+    iput-object v0, v2, LX/4sA;->A00:LX/1QX;
+
+    invoke-static {v1}, LX/4Dz;->A0l(LX/3H7;)LX/5cD;
+
+    move-result-object v0
+
+    iput-object v0, v2, LX/4sA;->A01:LX/5cD;
+
+    return-void
+.end method
+
+.method public final generatedComponent()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, LX/4JQ;->A00:LX/3cT;
+
+    if-nez v0, :cond_0
+
+    invoke-static {p0}, LX/4E3;->A1A(Landroid/view/View;)LX/3cT;
+
+    move-result-object v0
+
+    iput-object v0, p0, LX/4JQ;->A00:LX/3cT;
+
+    :cond_0
+    invoke-virtual {v0}, LX/3cT;->generatedComponent()Ljava/lang/Object;
+
+    move-result-object v0
+
+    return-object v0
+.end method

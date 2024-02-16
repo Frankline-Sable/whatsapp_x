@@ -1,0 +1,15 @@
+.class public LX/6pY;
+.super LX/7CU;
+.source ""
+
+
+# direct methods
+.method public constructor <init>(Ljava/io/File;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, v0}, LX/7CU;-><init>(Ljava/lang/Object;I)V
+
+    return-void
+.end method

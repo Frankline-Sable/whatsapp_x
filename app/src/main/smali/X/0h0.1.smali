@@ -1,0 +1,70 @@
+.class public LX/0h0;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/0tu;
+
+
+# instance fields
+.field public final A00:F
+
+.field public final A01:LX/0Bk;
+
+.field public final A02:LX/0Bp;
+
+.field public final A03:LX/0Bp;
+
+.field public final A04:LX/0Bq;
+
+.field public final A05:LX/0Fb;
+
+.field public final A06:LX/0Fc;
+
+.field public final A07:Ljava/lang/String;
+
+.field public final A08:Ljava/util/List;
+
+.field public final A09:Z
+
+
+# direct methods
+.method public constructor <init>(LX/0Bk;LX/0Bp;LX/0Bp;LX/0Bq;LX/0Fb;LX/0Fc;Ljava/lang/String;Ljava/util/List;FZ)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p7, p0, LX/0h0;->A07:Ljava/lang/String;
+
+    iput-object p2, p0, LX/0h0;->A02:LX/0Bp;
+
+    iput-object p8, p0, LX/0h0;->A08:Ljava/util/List;
+
+    iput-object p1, p0, LX/0h0;->A01:LX/0Bk;
+
+    iput-object p4, p0, LX/0h0;->A04:LX/0Bq;
+
+    iput-object p3, p0, LX/0h0;->A03:LX/0Bp;
+
+    iput-object p5, p0, LX/0h0;->A05:LX/0Fb;
+
+    iput-object p6, p0, LX/0h0;->A06:LX/0Fc;
+
+    iput p9, p0, LX/0h0;->A00:F
+
+    iput-boolean p10, p0, LX/0h0;->A09:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public Bip(LX/01M;LX/0gp;)LX/0v9;
+    .locals 1
+
+    new-instance v0, LX/0BW;
+
+    invoke-direct {v0, p1, p0, p2}, LX/0BW;-><init>(LX/01M;LX/0h0;LX/0gp;)V
+
+    return-object v0
+.end method

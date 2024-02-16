@@ -1,0 +1,461 @@
+.class public LX/6K4;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Landroid/widget/SeekBar$OnSeekBarChangeListener;
+
+
+# instance fields
+.field public A00:Ljava/lang/Object;
+
+.field public final A01:I
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/Object;I)V
+    .locals 0
+
+    iput p2, p0, LX/6K4;->A01:I
+
+    iput-object p1, p0, LX/6K4;->A00:Ljava/lang/Object;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public onProgressChanged(Landroid/widget/SeekBar;IZ)V
+    .locals 3
+
+    iget v0, p0, LX/6K4;->A01:I
+
+    packed-switch v0, :pswitch_data_0
+
+    iget-object v0, p0, LX/6K4;->A00:Ljava/lang/Object;
+
+    check-cast v0, LX/5bg;
+
+    invoke-static {v0, p2, p3}, LX/5bg;->A01(LX/5bg;IZ)V
+
+    :cond_0
+    return-void
+
+    :pswitch_0
+    if-eqz p1, :cond_0
+
+    if-eqz p3, :cond_0
+
+    iget-object v2, p0, LX/6K4;->A00:Ljava/lang/Object;
+
+    check-cast v2, Lcom/gbwhatsapp/settings/chat/wallpaper/WallpaperCurrentPreviewActivity;
+
+    iget-object v0, v2, Lcom/gbwhatsapp/settings/chat/wallpaper/WallpaperCurrentPreviewActivity;->A0N:LX/2iC;
+
+    if-eqz v0, :cond_0
+
+    iget-object v1, v0, LX/2iC;->A00:Landroid/graphics/drawable/Drawable;
+
+    if-eqz v1, :cond_0
+
+    invoke-virtual {p1}, Landroid/widget/ProgressBar;->getProgress()I
+
+    move-result v0
+
+    invoke-static {v2, v1, v0}, LX/5d1;->A04(Landroid/content/Context;Landroid/graphics/drawable/Drawable;I)V
+
+    iget-object v0, v2, Lcom/gbwhatsapp/settings/chat/wallpaper/WallpaperCurrentPreviewActivity;->A0O:Lcom/gbwhatsapp/settings/chat/wallpaper/WallpaperImagePreview;
+
+    invoke-virtual {v0, v1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
+
+    return-void
+
+    :pswitch_1
+    iget-object v0, p0, LX/6K4;->A00:Ljava/lang/Object;
+
+    check-cast v0, Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;
+
+    iget-object v1, v0, Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;->A0D:LX/8Px;
+
+    if-eqz v1, :cond_0
+
+    iget-object v0, v0, Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;->A0F:Lcom/gbwhatsapp/voicerecorder/VoiceNoteSeekBar;
+
+    invoke-virtual {v0}, Landroid/widget/ProgressBar;->getProgress()I
+
+    move-result v0
+
+    check-cast v1, LX/5sb;
+
+    invoke-virtual {v1, v0, p3}, LX/5sb;->A02(IZ)V
+
+    return-void
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+        :pswitch_1
+    .end packed-switch
+.end method
+
+.method public onStartTrackingTouch(Landroid/widget/SeekBar;)V
+    .locals 6
+
+    iget v0, p0, LX/6K4;->A01:I
+
+    packed-switch v0, :pswitch_data_0
+
+    iget-object v5, p0, LX/6K4;->A00:Ljava/lang/Object;
+
+    check-cast v5, LX/5bg;
+
+    iget-object v4, v5, LX/5bg;->A1E:LX/5Ur;
+
+    iget-wide v2, v4, LX/5Ur;->A02:J
+
+    const-wide/16 v0, 0x1
+
+    add-long/2addr v2, v0
+
+    iput-wide v2, v4, LX/5Ur;->A02:J
+
+    iget-object v0, v5, LX/5bg;->A0J:LX/5bf;
+
+    if-eqz v0, :cond_0
+
+    iget-object v1, v5, LX/5bg;->A0R:Landroid/os/Handler;
+
+    iget-object v0, v5, LX/5bg;->A1N:Ljava/lang/Runnable;
+
+    invoke-virtual {v1, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+
+    const/4 v0, -0x1
+
+    iput v0, v5, LX/5bg;->A04:I
+
+    :cond_0
+    :pswitch_0
+    return-void
+
+    :pswitch_1
+    iget-object v4, p0, LX/6K4;->A00:Ljava/lang/Object;
+
+    check-cast v4, Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;
+
+    iget-object v3, v4, Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;->A0D:LX/8Px;
+
+    if-eqz v3, :cond_2
+
+    iget-object v0, v4, Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;->A0F:Lcom/gbwhatsapp/voicerecorder/VoiceNoteSeekBar;
+
+    invoke-virtual {v0}, Landroid/widget/ProgressBar;->getProgress()I
+
+    move-result v2
+
+    check-cast v3, LX/5sb;
+
+    iget-object v1, v3, LX/5sb;->A08:LX/08R;
+
+    invoke-virtual {v1}, LX/0Xk;->A07()Ljava/lang/Object;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_3
+
+    check-cast v0, LX/7I9;
+
+    iput-object v0, v3, LX/5sb;->A01:LX/7I9;
+
+    new-instance v0, LX/6pp;
+
+    invoke-direct {v0, v3}, LX/6pp;-><init>(LX/5sb;)V
+
+    invoke-virtual {v1, v0}, LX/0Xk;->A0H(Ljava/lang/Object;)V
+
+    iget-object v0, v3, LX/5sb;->A02:LX/5bf;
+
+    if-eqz v0, :cond_1
+
+    invoke-virtual {v0}, LX/5bf;->A04()V
+
+    :cond_1
+    iget-object v1, v3, LX/5sb;->A04:Landroid/os/Handler;
+
+    iget-object v0, v3, LX/5sb;->A03:Ljava/lang/Runnable;
+
+    invoke-virtual {v1, v0}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
+
+    const/4 v0, 0x0
+
+    invoke-virtual {v3, v2, v0}, LX/5sb;->A02(IZ)V
+
+    :cond_2
+    const/4 v0, 0x1
+
+    invoke-static {v4, v0}, Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;->A01(Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;Z)V
+
+    return-void
+
+    :cond_3
+    invoke-static {}, LX/0yM;->A0Y()Ljava/lang/IllegalArgumentException;
+
+    move-result-object v0
+
+    throw v0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+        :pswitch_1
+    .end packed-switch
+.end method
+
+.method public onStopTrackingTouch(Landroid/widget/SeekBar;)V
+    .locals 5
+
+    iget v0, p0, LX/6K4;->A01:I
+
+    packed-switch v0, :pswitch_data_0
+
+    iget-object v0, p0, LX/6K4;->A00:Ljava/lang/Object;
+
+    check-cast v0, LX/5bg;
+
+    invoke-static {v0}, LX/5bg;->A00(LX/5bg;)V
+
+    :cond_0
+    return-void
+
+    :pswitch_0
+    if-eqz p1, :cond_0
+
+    invoke-virtual {p1}, Landroid/widget/ProgressBar;->getProgress()I
+
+    move-result v3
+
+    iget-object v2, p0, LX/6K4;->A00:Ljava/lang/Object;
+
+    check-cast v2, Lcom/gbwhatsapp/settings/chat/wallpaper/WallpaperCurrentPreviewActivity;
+
+    invoke-virtual {v2}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
+
+    move-result-object v1
+
+    const-string v0, "chat_jid"
+
+    invoke-static {v1, v0}, LX/4Dy;->A0b(Landroid/content/Intent;Ljava/lang/String;)LX/1af;
+
+    move-result-object v1
+
+    iget-object v0, v2, Lcom/gbwhatsapp/settings/chat/wallpaper/WallpaperCurrentPreviewActivity;->A0M:LX/37e;
+
+    invoke-virtual {v0, v2, v1, v3}, LX/37e;->A0D(Landroid/content/Context;LX/1af;I)V
+
+    return-void
+
+    :pswitch_1
+    iget-object v3, p0, LX/6K4;->A00:Ljava/lang/Object;
+
+    check-cast v3, Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;
+
+    iget-object v2, v3, Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;->A0D:LX/8Px;
+
+    if-eqz v2, :cond_0
+
+    iget-object v0, v3, Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;->A0F:Lcom/gbwhatsapp/voicerecorder/VoiceNoteSeekBar;
+
+    invoke-virtual {v0}, Landroid/widget/ProgressBar;->getProgress()I
+
+    move-result v1
+
+    check-cast v2, LX/5sb;
+
+    const/4 v0, 0x1
+
+    invoke-virtual {v2, v1, v0}, LX/5sb;->A02(IZ)V
+
+    iget-object v1, v2, LX/5sb;->A01:LX/7I9;
+
+    if-eqz v1, :cond_d
+
+    instance-of v0, v1, LX/6pp;
+
+    if-eqz v0, :cond_8
+
+    const-string v0, "VoiceRecordingPreviewController: previous state before dragging is dragging"
+
+    invoke-static {v0}, Lcom/whatsapp/util/Log;->w(Ljava/lang/String;)V
+
+    :cond_1
+    new-instance v4, LX/56x;
+
+    invoke-direct {v4, v2}, LX/56x;-><init>(LX/5sb;)V
+
+    :goto_0
+    instance-of v0, v4, LX/6pp;
+
+    if-eqz v0, :cond_3
+
+    const-string v0, "VoiceRecordingPreviewController: nextState is Dragging. This should never happen."
+
+    invoke-static {v0}, Lcom/whatsapp/util/Log;->e(Ljava/lang/String;)V
+
+    :cond_2
+    :goto_1
+    iget-object v0, v2, LX/5sb;->A08:LX/08R;
+
+    invoke-virtual {v0, v4}, LX/0Xk;->A0H(Ljava/lang/Object;)V
+
+    const/4 v0, 0x0
+
+    invoke-static {v3, v0}, Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;->A01(Lcom/gbwhatsapp/textstatuscomposer/voice/VoiceRecordingView;Z)V
+
+    return-void
+
+    :cond_3
+    instance-of v0, v4, LX/56w;
+
+    if-nez v0, :cond_2
+
+    instance-of v0, v4, LX/56x;
+
+    if-eqz v0, :cond_5
+
+    iget-object v1, v2, LX/5sb;->A02:LX/5bf;
+
+    if-eqz v1, :cond_4
+
+    iget-object v0, v2, LX/5sb;->A07:LX/08R;
+
+    invoke-virtual {v0}, LX/0Xk;->A07()Ljava/lang/Object;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_a
+
+    invoke-static {v0}, LX/001;->A0N(Ljava/lang/Object;)I
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, LX/5bf;->A0A(I)V
+
+    :cond_4
+    iget-object v1, v2, LX/5sb;->A04:Landroid/os/Handler;
+
+    iget-object v0, v2, LX/5sb;->A03:Ljava/lang/Runnable;
+
+    invoke-virtual {v1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    goto :goto_1
+
+    :cond_5
+    instance-of v0, v4, LX/6pq;
+
+    if-eqz v0, :cond_2
+
+    iget-object v1, v2, LX/5sb;->A04:Landroid/os/Handler;
+
+    iget-object v0, v2, LX/5sb;->A03:Ljava/lang/Runnable;
+
+    invoke-virtual {v1, v0}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
+
+    iget-object v1, v2, LX/5sb;->A02:LX/5bf;
+
+    if-eqz v1, :cond_6
+
+    iget-object v0, v2, LX/5sb;->A07:LX/08R;
+
+    invoke-virtual {v0}, LX/0Xk;->A07()Ljava/lang/Object;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_b
+
+    invoke-static {v0}, LX/001;->A0N(Ljava/lang/Object;)I
+
+    move-result v0
+
+    invoke-virtual {v1, v0}, LX/5bf;->A0A(I)V
+
+    :cond_6
+    iget-object v0, v2, LX/5sb;->A02:LX/5bf;
+
+    if-eqz v0, :cond_7
+
+    invoke-virtual {v0}, LX/5bf;->A07()V
+
+    :cond_7
+    iget-object v1, v2, LX/5sb;->A0I:LX/5VM;
+
+    const v0, 0x7f1219e3
+
+    invoke-virtual {v1, v0}, LX/5VM;->A02(I)Z
+
+    goto :goto_1
+
+    :cond_8
+    instance-of v0, v1, LX/56w;
+
+    if-eqz v0, :cond_9
+
+    new-instance v4, LX/56w;
+
+    invoke-direct {v4, v2}, LX/56w;-><init>(LX/5sb;)V
+
+    goto :goto_0
+
+    :cond_9
+    instance-of v0, v1, LX/56x;
+
+    if-nez v0, :cond_1
+
+    instance-of v0, v1, LX/6pq;
+
+    if-eqz v0, :cond_c
+
+    new-instance v4, LX/6pq;
+
+    invoke-direct {v4, v2}, LX/6pq;-><init>(LX/5sb;)V
+
+    goto :goto_0
+
+    :cond_a
+    invoke-static {}, LX/0yM;->A0Y()Ljava/lang/IllegalArgumentException;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_b
+    invoke-static {}, LX/0yM;->A0Y()Ljava/lang/IllegalArgumentException;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_c
+    invoke-static {}, LX/3iV;->A00()LX/3iV;
+
+    move-result-object v0
+
+    throw v0
+
+    :cond_d
+    invoke-static {}, LX/0yM;->A0Y()Ljava/lang/IllegalArgumentException;
+
+    move-result-object v0
+
+    throw v0
+
+    nop
+
+    :pswitch_data_0
+    .packed-switch 0x0
+        :pswitch_0
+        :pswitch_1
+    .end packed-switch
+.end method

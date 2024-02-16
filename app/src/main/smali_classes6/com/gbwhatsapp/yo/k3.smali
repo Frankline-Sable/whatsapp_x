@@ -1,0 +1,41 @@
+.class public final synthetic Lcom/gbwhatsapp/yo/k3;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Lcom/gbwhatsapp/youbasha/colorPicker/ColorSelectorDialog$OnColorChangedListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/gbwhatsapp/yo/TextStatusCustomizer;
+
+.field public final synthetic b:I
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const/16 v0, 0x1e6
+
+    invoke-static {v0}, Lcom/fmmods/haha;->classes6Init0(I)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Lcom/gbwhatsapp/yo/TextStatusCustomizer;I)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/gbwhatsapp/yo/k3;->a:Lcom/gbwhatsapp/yo/TextStatusCustomizer;
+
+    iput p2, p0, Lcom/gbwhatsapp/yo/k3;->b:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final native colorChanged(I)V
+.end method

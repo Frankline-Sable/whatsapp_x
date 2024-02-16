@@ -1,0 +1,41 @@
+.class public final synthetic Lcom/gbwhatsapp/yo/y0;
+.super Ljava/lang/Object;
+
+# interfaces
+.implements Landroid/view/MenuItem$OnMenuItemClickListener;
+
+
+# instance fields
+.field public final synthetic a:Landroid/app/Activity;
+
+.field public final synthetic b:Lcom/whatsapp/jid/UserJid;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    const/16 v0, 0xf7
+
+    invoke-static {v0}, Lcom/fmmods/haha;->classes6Init0(I)V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Landroid/app/Activity;Lcom/whatsapp/jid/UserJid;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/gbwhatsapp/yo/y0;->a:Landroid/app/Activity;
+
+    iput-object p2, p0, Lcom/gbwhatsapp/yo/y0;->b:Lcom/whatsapp/jid/UserJid;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final native onMenuItemClick(Landroid/view/MenuItem;)Z
+.end method

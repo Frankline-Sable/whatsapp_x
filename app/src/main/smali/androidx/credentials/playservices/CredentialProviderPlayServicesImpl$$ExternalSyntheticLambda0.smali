@@ -1,0 +1,34 @@
+.class public final synthetic Landroidx/credentials/playservices/CredentialProviderPlayServicesImpl$$ExternalSyntheticLambda0;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lcom/google/android/gms/tasks/OnSuccessListener;
+
+
+# instance fields
+.field public final synthetic f$0:LX/8cV;
+
+
+# direct methods
+.method public synthetic constructor <init>(LX/8cV;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Landroidx/credentials/playservices/CredentialProviderPlayServicesImpl$$ExternalSyntheticLambda0;->f$0:LX/8cV;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onSuccess(Ljava/lang/Object;)V
+    .locals 1
+
+    iget-object v0, p0, Landroidx/credentials/playservices/CredentialProviderPlayServicesImpl$$ExternalSyntheticLambda0;->f$0:LX/8cV;
+
+    invoke-static {v0, p1}, Landroidx/credentials/playservices/CredentialProviderPlayServicesImpl;->$r8$lambda$QP_bkjbuO_L1dWc5QbUCpZdvOMc(LX/8cV;Ljava/lang/Object;)V
+
+    return-void
+.end method

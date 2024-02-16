@@ -1,0 +1,109 @@
+.class public LX/0HB;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Ljava/util/concurrent/ThreadFactory;
+
+
+# instance fields
+.field public A00:Ljava/lang/Object;
+
+.field public final A01:I
+
+
+# direct methods
+.method public constructor <init>(I)V
+    .locals 2
+
+    iput p1, p0, LX/0HB;->A01:I
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 v1, 0x1
+
+    new-instance v0, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicInteger;-><init>(I)V
+
+    iput-object v0, p0, LX/0HB;->A00:Ljava/lang/Object;
+
+    return-void
+.end method
+
+.method public static A00(LX/0HB;Ljava/lang/Runnable;)Ljava/lang/Thread;
+    .locals 3
+
+    new-instance v2, LX/0ko;
+
+    invoke-direct {v2, p1}, LX/0ko;-><init>(Ljava/lang/Runnable;)V
+
+    invoke-static {}, LX/001;->A0m()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "Google Drive Checksum Calculation Worker #"
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0HB;->A00:Ljava/lang/Object;
+
+    check-cast v0, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
+
+    move-result v0
+
+    invoke-static {v1, v0}, LX/000;->A0g(Ljava/lang/StringBuilder;I)Ljava/lang/String;
+
+    move-result-object v1
+
+    new-instance v0, LX/3ia;
+
+    invoke-direct {v0, v2, v1}, LX/3ia;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
+
+    return-object v0
+.end method
+
+
+# virtual methods
+.method public newThread(Ljava/lang/Runnable;)Ljava/lang/Thread;
+    .locals 2
+
+    iget v0, p0, LX/0HB;->A01:I
+
+    if-eqz v0, :cond_0
+
+    invoke-static {p0, p1}, LX/0HB;->A00(LX/0HB;Ljava/lang/Runnable;)Ljava/lang/Thread;
+
+    move-result-object v1
+
+    return-object v1
+
+    :cond_0
+    invoke-static {}, LX/001;->A0m()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "ModernAsyncTask #"
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/0HB;->A00:Ljava/lang/Object;
+
+    check-cast v0, Ljava/util/concurrent/atomic/AtomicInteger;
+
+    invoke-virtual {v0}, Ljava/util/concurrent/atomic/AtomicInteger;->getAndIncrement()I
+
+    move-result v0
+
+    invoke-static {v1, v0}, LX/000;->A0g(Ljava/lang/StringBuilder;I)Ljava/lang/String;
+
+    move-result-object v0
+
+    new-instance v1, Ljava/lang/Thread;
+
+    invoke-direct {v1, p1, v0}, Ljava/lang/Thread;-><init>(Ljava/lang/Runnable;Ljava/lang/String;)V
+
+    return-object v1
+.end method

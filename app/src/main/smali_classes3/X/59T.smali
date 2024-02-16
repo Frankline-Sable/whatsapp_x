@@ -1,0 +1,378 @@
+.class public LX/59T;
+.super LX/5ba;
+.source ""
+
+
+# instance fields
+.field public A00:LX/4fS;
+
+.field public A01:LX/6D8;
+
+.field public final A02:I
+
+.field public final A03:I
+
+.field public final A04:Landroid/net/Uri;
+
+.field public final A05:LX/2ss;
+
+.field public final A06:LX/35r;
+
+.field public final A07:LX/35t;
+
+.field public final A08:LX/3dS;
+
+.field public final A09:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Landroid/net/Uri;LX/4fS;LX/6D8;LX/2ss;LX/35r;LX/35t;LX/3dS;Ljava/lang/String;II)V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, p2, v0}, LX/5ba;-><init>(LX/0tN;Z)V
+
+    iput-object p3, p0, LX/59T;->A01:LX/6D8;
+
+    iput-object p5, p0, LX/59T;->A06:LX/35r;
+
+    iput-object p6, p0, LX/59T;->A07:LX/35t;
+
+    iput-object p1, p0, LX/59T;->A04:Landroid/net/Uri;
+
+    iput-object p7, p0, LX/59T;->A08:LX/3dS;
+
+    iput-object p2, p0, LX/59T;->A00:LX/4fS;
+
+    iput-object p4, p0, LX/59T;->A05:LX/2ss;
+
+    iput-object p8, p0, LX/59T;->A09:Ljava/lang/String;
+
+    iput p9, p0, LX/59T;->A03:I
+
+    iput p10, p0, LX/59T;->A02:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic A06([Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 6
+
+    iget-object v1, p0, LX/59T;->A05:LX/2ss;
+
+    iget-object v0, p0, LX/59T;->A08:LX/3dS;
+
+    invoke-virtual {v1, v0}, LX/2ss;->A02(LX/3dS;)Ljava/io/File;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/io/File;->delete()Z
+
+    iget-object v0, p0, LX/59T;->A06:LX/35r;
+
+    invoke-virtual {v0}, LX/35r;->A0Q()LX/2sU;
+
+    move-result-object v0
+
+    if-nez v0, :cond_0
+
+    const-string v0, "profileinfo/cropphoto contentResolver=null"
+
+    invoke-static {v0}, Lcom/whatsapp/util/Log;->w(Ljava/lang/String;)V
+
+    const v0, 0x7f120c2f
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v5
+
+    return-object v5
+
+    :cond_0
+    :try_start_0
+    iget-object v4, p0, LX/59T;->A04:Landroid/net/Uri;
+
+    invoke-virtual {v0, v4}, LX/2sU;->A05(Landroid/net/Uri;)Ljava/io/InputStream;
+
+    move-result-object v3
+
+    if-nez v3, :cond_1
+    :try_end_0
+    .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
+
+    :try_start_1
+    invoke-static {}, LX/001;->A0m()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "profileinfo/cropphoto/no-input-stream "
+
+    invoke-static {v1, v0, v4}, LX/0yE;->A1M(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/Object;)V
+
+    const v0, 0x7f120c2f
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v5
+
+    return-object v5
+
+    :cond_1
+    new-instance v1, Landroid/graphics/BitmapFactory$Options;
+
+    invoke-direct {v1}, Landroid/graphics/BitmapFactory$Options;-><init>()V
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, v1, Landroid/graphics/BitmapFactory$Options;->inJustDecodeBounds:Z
+
+    const/4 v5, 0x0
+
+    invoke-static {v3, v5, v1}, Landroid/graphics/BitmapFactory;->decodeStream(Ljava/io/InputStream;Landroid/graphics/Rect;Landroid/graphics/BitmapFactory$Options;)Landroid/graphics/Bitmap;
+
+    iget v2, v1, Landroid/graphics/BitmapFactory$Options;->outWidth:I
+
+    if-lez v2, :cond_3
+
+    iget v1, v1, Landroid/graphics/BitmapFactory$Options;->outHeight:I
+
+    if-lez v1, :cond_3
+
+    const/16 v0, 0xc0
+
+    if-lt v2, v0, :cond_2
+
+    if-ge v1, v0, :cond_4
+
+    :cond_2
+    const v0, 0x7f10005d
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v5
+
+    goto :goto_0
+
+    :cond_3
+    invoke-static {}, LX/001;->A0m()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "profileinfo/cropphoto/not-an-image "
+
+    invoke-static {v1, v0, v4}, LX/0yE;->A1M(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/Object;)V
+
+    const v0, 0x7f120c24
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v5
+    :try_end_1
+    .catchall {:try_start_1 .. :try_end_1} :catchall_0
+
+    :cond_4
+    :goto_0
+    :try_start_2
+    invoke-virtual {v3}, Ljava/io/InputStream;->close()V
+
+    return-object v5
+    :try_end_2
+    .catch Ljava/io/IOException; {:try_start_2 .. :try_end_2} :catch_0
+
+    :catchall_0
+    move-exception v1
+
+    if-eqz v3, :cond_5
+
+    :try_start_3
+    invoke-virtual {v3}, Ljava/io/InputStream;->close()V
+
+    goto :goto_1
+    :try_end_3
+    .catchall {:try_start_3 .. :try_end_3} :catchall_1
+
+    :catchall_1
+    move-exception v0
+
+    :try_start_4
+    invoke-virtual {v1, v0}, Ljava/lang/Throwable;->addSuppressed(Ljava/lang/Throwable;)V
+
+    :cond_5
+    :goto_1
+    throw v1
+    :try_end_4
+    .catch Ljava/io/IOException; {:try_start_4 .. :try_end_4} :catch_0
+
+    :catch_0
+    move-exception v2
+
+    invoke-static {}, LX/001;->A0m()Ljava/lang/StringBuilder;
+
+    move-result-object v1
+
+    const-string v0, "profileinfo/cropphoto/ "
+
+    invoke-virtual {v1, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    iget-object v0, p0, LX/59T;->A04:Landroid/net/Uri;
+
+    invoke-static {v0, v1}, LX/000;->A0P(Ljava/lang/Object;Ljava/lang/StringBuilder;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-static {v0, v2}, Lcom/whatsapp/util/Log;->e(Ljava/lang/String;Ljava/lang/Throwable;)V
+
+    const v0, 0x7f120c2f
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v5
+
+    return-object v5
+.end method
+
+.method public bridge synthetic A0A(Ljava/lang/Object;)V
+    .locals 7
+
+    check-cast p1, Ljava/lang/Number;
+
+    iget-object v6, p0, LX/59T;->A00:LX/4fS;
+
+    if-eqz v6, :cond_0
+
+    iget-object v0, p0, LX/59T;->A01:LX/6D8;
+
+    if-eqz v0, :cond_0
+
+    const/16 v5, 0xc0
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    if-eqz p1, :cond_2
+
+    invoke-virtual {p1}, Ljava/lang/Number;->intValue()I
+
+    move-result v0
+
+    const v4, 0x7f10005d
+
+    if-ne v0, v4, :cond_1
+
+    iget-object v3, p0, LX/59T;->A07:LX/35t;
+
+    new-array v2, v2, [Ljava/lang/Object;
+
+    invoke-static {v2, v5, v1}, LX/000;->A1P([Ljava/lang/Object;II)V
+
+    const-wide/16 v0, 0xc0
+
+    invoke-virtual {v3, v2, v4, v0, v1}, LX/35t;->A0O([Ljava/lang/Object;IJ)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {v6, v0}, LX/4fS;->Bh1(Ljava/lang/String;)V
+
+    :cond_0
+    return-void
+
+    :cond_1
+    invoke-virtual {v6, v0}, LX/4fS;->Bh0(I)V
+
+    return-void
+
+    :cond_2
+    new-instance v3, LX/5Qa;
+
+    invoke-direct {v3, v6}, LX/5Qa;-><init>(Landroid/content/Context;)V
+
+    iget-object v0, p0, LX/59T;->A04:Landroid/net/Uri;
+
+    iput-object v0, v3, LX/5Qa;->A09:Landroid/net/Uri;
+
+    iput v5, v3, LX/5Qa;->A04:I
+
+    iput-boolean v1, v3, LX/5Qa;->A0I:Z
+
+    iput-boolean v1, v3, LX/5Qa;->A0E:Z
+
+    iget-object v1, p0, LX/59T;->A05:LX/2ss;
+
+    iget-object v0, p0, LX/59T;->A08:LX/3dS;
+
+    invoke-virtual {v1, v0}, LX/2ss;->A02(LX/3dS;)Ljava/io/File;
+
+    move-result-object v0
+
+    invoke-static {v0}, Landroid/net/Uri;->fromFile(Ljava/io/File;)Landroid/net/Uri;
+
+    move-result-object v0
+
+    iput-object v0, v3, LX/5Qa;->A0A:Landroid/net/Uri;
+
+    sget-object v0, Landroid/graphics/Bitmap$CompressFormat;->JPEG:Landroid/graphics/Bitmap$CompressFormat;
+
+    invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    iput-object v0, v3, LX/5Qa;->A0C:Ljava/lang/String;
+
+    iget-object v0, p0, LX/59T;->A09:Ljava/lang/String;
+
+    iput-object v0, v3, LX/5Qa;->A0D:Ljava/lang/String;
+
+    iget v0, p0, LX/59T;->A02:I
+
+    if-ne v0, v2, :cond_3
+
+    iput-boolean v2, v3, LX/5Qa;->A0E:Z
+
+    const/16 v1, 0x10
+
+    const/16 v0, 0x9
+
+    iput v1, v3, LX/5Qa;->A00:I
+
+    iput v0, v3, LX/5Qa;->A01:I
+
+    iput-boolean v2, v3, LX/5Qa;->A0H:Z
+
+    iput-boolean v2, v3, LX/5Qa;->A0F:Z
+
+    const/16 v1, 0x472
+
+    const/16 v0, 0x280
+
+    iput v1, v3, LX/5Qa;->A06:I
+
+    :goto_0
+    iput v0, v3, LX/5Qa;->A07:I
+
+    iget-object v2, p0, LX/59T;->A01:LX/6D8;
+
+    invoke-virtual {v3}, LX/5Qa;->A00()Landroid/content/Intent;
+
+    move-result-object v1
+
+    iget v0, p0, LX/59T;->A03:I
+
+    invoke-interface {v2, v1, v0}, LX/6D8;->startActivityForResult(Landroid/content/Intent;I)V
+
+    return-void
+
+    :cond_3
+    iput v2, v3, LX/5Qa;->A00:I
+
+    iput v2, v3, LX/5Qa;->A01:I
+
+    const/16 v0, 0x280
+
+    iput v0, v3, LX/5Qa;->A06:I
+
+    goto :goto_0
+.end method

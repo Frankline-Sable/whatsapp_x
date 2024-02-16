@@ -1,0 +1,91 @@
+version: 2.9.3
+apkFileName: gb.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+  tag: null
+sdkInfo:
+  minSdkVersion: 21
+  targetSdkVersion: 33
+packageInfo:
+  forcedPackageId: 127
+  renameManifestPackage: null
+versionInfo:
+  versionCode: 2147483647
+  versionName: 2.23.23.78
+resourcesAreCompressed: false
+sharedLibrary: false
+sparseResources: false
+doNotCompress:
+- resources.arsc
+- png
+- webp
+- ogg
+- m4a
+- mp4
+- assets/cl-app.properties
+- assets/compressed/arm64-v8a/libs.spk.zst
+- assets/compressed/emojis/emojis.oba
+- assets/compressed/strings/strings_af.spk.br
+- assets/compressed/strings/strings_am.spk.br
+- assets/compressed/strings/strings_ar.spk.br
+- assets/compressed/strings/strings_az.spk.br
+- assets/compressed/strings/strings_bg.spk.br
+- assets/compressed/strings/strings_bn.spk.br
+- assets/compressed/strings/strings_ca.spk.br
+- assets/compressed/strings/strings_cs.spk.br
+- assets/compressed/strings/strings_da.spk.br
+- assets/compressed/strings/strings_de.spk.br
+- assets/compressed/strings/strings_el.spk.br
+- assets/compressed/strings/strings_en.spk.br
+- assets/compressed/strings/strings_es.spk.br
+- assets/compressed/strings/strings_et.spk.br
+- assets/compressed/strings/strings_fa.spk.br
+- assets/compressed/strings/strings_fi.spk.br
+- assets/compressed/strings/strings_fr.spk.br
+- assets/compressed/strings/strings_ga.spk.br
+- assets/compressed/strings/strings_gu.spk.br
+- assets/compressed/strings/strings_ha.spk.br
+- assets/compressed/strings/strings_hi.spk.br
+- assets/compressed/strings/strings_hr.spk.br
+- assets/compressed/strings/strings_hu.spk.br
+- assets/compressed/strings/strings_in.spk.br
+- assets/compressed/strings/strings_it.spk.br
+- assets/compressed/strings/strings_iw.spk.br
+- assets/compressed/strings/strings_ja.spk.br
+- assets/compressed/strings/strings_kk.spk.br
+- assets/compressed/strings/strings_kn.spk.br
+- assets/compressed/strings/strings_ko.spk.br
+- assets/compressed/strings/strings_lo.spk.br
+- assets/compressed/strings/strings_lt.spk.br
+- assets/compressed/strings/strings_lv.spk.br
+- assets/compressed/strings/strings_mk.spk.br
+- assets/compressed/strings/strings_ml.spk.br
+- assets/compressed/strings/strings_mr.spk.br
+- assets/compressed/strings/strings_ms.spk.br
+- assets/compressed/strings/strings_nb.spk.br
+- assets/compressed/strings/strings_nl.spk.br
+- assets/compressed/strings/strings_om.spk.br
+- assets/compressed/strings/strings_pa.spk.br
+- assets/compressed/strings/strings_pl.spk.br
+- assets/compressed/strings/strings_pt.spk.br
+- assets/compressed/strings/strings_ro.spk.br
+- assets/compressed/strings/strings_ru.spk.br
+- assets/compressed/strings/strings_sl.spk.br
+- assets/compressed/strings/strings_sq.spk.br
+- assets/compressed/strings/strings_sr.spk.br
+- assets/compressed/strings/strings_sv.spk.br
+- assets/compressed/strings/strings_sw.spk.br
+- assets/compressed/strings/strings_ta.spk.br
+- assets/compressed/strings/strings_te.spk.br
+- assets/compressed/strings/strings_th.spk.br
+- assets/compressed/strings/strings_tl.spk.br
+- assets/compressed/strings/strings_tr.spk.br
+- assets/compressed/strings/strings_uk.spk.br
+- assets/compressed/strings/strings_ur.spk.br
+- assets/compressed/strings/strings_uz.spk.br
+- assets/compressed/strings/strings_vi.spk.br
+- assets/compressed/strings/strings_zh-rCN.spk.br
+- assets/compressed/strings/strings_zh-rHK.spk.br
+- assets/compressed/strings/strings_zh-rTW.spk.br

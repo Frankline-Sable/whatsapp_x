@@ -1,0 +1,68 @@
+.class public final LX/3wd;
+.super LX/83K;
+.source ""
+
+# interfaces
+.implements LX/8cV;
+
+
+# static fields
+.field public static final A00:LX/3wd;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/3wd;
+
+    invoke-direct {v0}, LX/3wd;-><init>()V
+
+    sput-object v0, LX/3wd;->A00:LX/3wd;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 1
+
+    const/4 v0, 0x1
+
+    invoke-direct {p0, v0}, LX/83K;-><init>(I)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public bridge synthetic invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 2
+
+    check-cast p1, LX/1XW;
+
+    const/4 v1, 0x0
+
+    invoke-static {p1, v1}, LX/7cX;->A0I(Ljava/lang/Object;I)V
+
+    const-class v0, LX/2ZI;
+
+    invoke-static {v0}, LX/0yO;->A08(Ljava/lang/Class;)LX/83N;
+
+    move-result-object v0
+
+    iput-object v0, p1, LX/1XW;->A04:LX/8cl;
+
+    sget-object v0, LX/1vT;->A02:LX/1vT;
+
+    invoke-static {v0, v1}, LX/7cX;->A0I(Ljava/lang/Object;I)V
+
+    iput-object v0, p1, LX/1XW;->A00:LX/1vT;
+
+    sget-object v0, LX/3wc;->A00:LX/3wc;
+
+    invoke-virtual {p1, v0}, LX/1XW;->A0B(LX/8cV;)V
+
+    sget-object v0, LX/2xy;->A00:LX/2xy;
+
+    return-object v0
+.end method

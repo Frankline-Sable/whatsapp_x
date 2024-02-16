@@ -1,0 +1,3 @@
+.class public interface abstract LX/8P1;
+.super Ljava/lang/Object;
+.source ""

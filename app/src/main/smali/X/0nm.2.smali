@@ -1,0 +1,58 @@
+.class public final synthetic LX/0nm;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic A00:LX/0vD;
+
+.field public final synthetic A01:LX/0X9;
+
+.field public final synthetic A02:Ljava/lang/String;
+
+.field public final synthetic A03:Z
+
+.field public final synthetic A04:[B
+
+
+# direct methods
+.method public synthetic constructor <init>(LX/0vD;LX/0X9;Ljava/lang/String;[BZ)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p2, p0, LX/0nm;->A01:LX/0X9;
+
+    iput-object p4, p0, LX/0nm;->A04:[B
+
+    iput-boolean p5, p0, LX/0nm;->A03:Z
+
+    iput-object p3, p0, LX/0nm;->A02:Ljava/lang/String;
+
+    iput-object p1, p0, LX/0nm;->A00:LX/0vD;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 5
+
+    iget-object v4, p0, LX/0nm;->A01:LX/0X9;
+
+    iget-object v3, p0, LX/0nm;->A04:[B
+
+    iget-boolean v2, p0, LX/0nm;->A03:Z
+
+    iget-object v1, p0, LX/0nm;->A02:Ljava/lang/String;
+
+    iget-object v0, p0, LX/0nm;->A00:LX/0vD;
+
+    invoke-static {v0, v4, v1, v3, v2}, LX/0X9;->A00(LX/0vD;LX/0X9;Ljava/lang/String;[BZ)V
+
+    return-void
+.end method

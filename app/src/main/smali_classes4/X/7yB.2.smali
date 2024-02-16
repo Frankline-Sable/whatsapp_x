@@ -1,0 +1,38 @@
+.class public final LX/7yB;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/8Wm;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public Aql(LX/7HW;LX/41u;)LX/7Gu;
+    .locals 1
+
+    invoke-static {p2, p1}, LX/0yE;->A0U(Ljava/lang/Object;Ljava/lang/Object;)V
+
+    invoke-static {}, LX/7XX;->A01()LX/7Gu;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public BkR()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "client_ttl"
+
+    return-object v0
+.end method

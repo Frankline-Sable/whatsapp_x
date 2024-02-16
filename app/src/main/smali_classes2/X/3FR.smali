@@ -1,0 +1,64 @@
+.class public final LX/3FR;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements LX/8Sv;
+
+
+# static fields
+.field public static final A00:LX/8Sv;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, LX/3FR;
+
+    invoke-direct {v0}, LX/3FR;-><init>()V
+
+    sput-object v0, LX/3FR;->A00:LX/8Sv;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public BB2(I)Z
+    .locals 2
+
+    if-eqz p1, :cond_0
+
+    const/4 v0, 0x1
+
+    if-eq p1, v0, :cond_0
+
+    const/4 v0, 0x2
+
+    if-eq p1, v0, :cond_0
+
+    const/4 v0, 0x3
+
+    if-eq p1, v0, :cond_0
+
+    const/4 v1, 0x4
+
+    const/4 v0, 0x0
+
+    if-ne p1, v1, :cond_1
+
+    :cond_0
+    const/4 v0, 0x1
+
+    :cond_1
+    return v0
+.end method

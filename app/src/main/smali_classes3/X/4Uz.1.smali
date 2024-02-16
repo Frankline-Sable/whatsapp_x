@@ -1,0 +1,27 @@
+.class public final LX/4Uz;
+.super LX/0VI;
+.source ""
+
+
+# instance fields
+.field public final A00:Landroid/content/Context;
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;)V
+    .locals 1
+
+    new-instance v0, LX/4M1;
+
+    invoke-direct {v0, p1}, LX/4M1;-><init>(Landroid/content/Context;)V
+
+    invoke-direct {p0, v0}, LX/0VI;-><init>(Landroid/view/View;)V
+
+    iput-object p1, p0, LX/4Uz;->A00:Landroid/content/Context;
+
+    iget-object v0, p0, LX/0VI;->A0H:Landroid/view/View;
+
+    invoke-static {v0}, LX/4Dw;->A0w(Landroid/view/View;)V
+
+    return-void
+.end method
